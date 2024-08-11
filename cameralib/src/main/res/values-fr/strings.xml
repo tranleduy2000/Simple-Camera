@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Appareil photo simple</string>
     <string name="app_launcher_name">Appareil photo</string>
     <string name="capture_mode">Mode capture</string>
     <string name="maximize_quality">Maximiser la qualité</string>
@@ -8,13 +7,9 @@
     <!-- Errors -->
     <string name="camera_unavailable">Objectif photo-vidéo indisponible</string>
     <string name="camera_open_error">Une erreur s\'est produite lors de l\'accès à l\'objectif photo-vidéo</string>
-    <string name="video_creating_error">Une erreur s\'est produite lors de la création du fichier vidéo</string>
-    <string name="video_mode_error">Le passage en mode vidéo a échoué</string>
     <string name="save_error_internal_storage">Une erreur s\'est produite car le dossier de sauvegarde a été remplacé par le stockage interne</string>
     <string name="camera_switch_error">Échec du basculement de l\'objectif photo-vidéo</string>
-    <string name="click_to_resume_preview">Cliquez sur l\'image pour reprendre l\'aperçu</string>
     <string name="photo_not_saved">La photo n\'a pas pu être enregistrée</string>
-    <string name="setting_resolution_failed">La définition de la résolution appropriée a échoué</string>
     <string name="video_recording_failed">L\'enregistrement vidéo a échoué. Essayez d\'utiliser une résolution différente</string>
     <string name="camera_in_use_error">L\'objectif photo-vidéo est utilisé par une autre application. Veuillez fermer l\'application et réessayer</string>
     <string name="camera_configure_error">Une erreur s\'est produite lors de la configuration photo-vidéo</string>
@@ -23,31 +18,18 @@
     <string name="photo_capture_failed">La capture photo a échoué</string>
     <string name="video_capture_insufficient_storage_error">L\'enregistrement vidéo a échoué en raison d\'un espace de stockage insuffisant</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="toggle_photo_video">Basculer vers le mode photo/vidéo</string>
-    <string name="change_resolution">Changer la résolution</string>
     <string name="view_last_media">Afficher les derniers médias capturés</string>
     <string name="toggle_camera">Basculer vers l’objectif photo-vidéo avant/arrière</string>
     <string name="toggle_flash">Activer/désactiver le mode lampe de poche</string>
     <string name="toggle_timer">Basculer le mode de minuterie</string>
     <!-- FAQ -->
-    <string name="faq_1_title">Quelle qualité de compression photo devrais-je définir \?</string>
-    <string name="faq_1_text">Tout dépend de votre objectif. Dans le cadre d\'un usage classique, il est recommandé d\'utiliser une compression photo comprise entre 75 et 80 %. Ce qui reste une qualité d\'image tout à fait acceptable, tout en générant une taille de fichier considérablement réduite.</string>
     <!-- Settings -->
-    <string name="save_photos">Enregistrer les photos et vidéos vers</string>
-    <string name="show_preview">Afficher un aperçu de la photo après la capture</string>
     <string name="shutter_sound">Son de l\'obturateur</string>
-    <string name="back_camera">Résolutions de l\'objectif photo-vidéo arrière</string>
-    <string name="front_camera">Résolutions de l\'objectif photo-vidéo avant</string>
     <string name="photo">Photo</string>
     <string name="video">Vidéo</string>
-    <string name="focus_before_capture">Mise au point avant la capture</string>
     <string name="volume_buttons_as_shutter">Utiliser les boutons de volume comme obturateur</string>
-    <string name="turn_flash_off_at_startup">Désactiver le flash au démarrage</string>
     <string name="flip_front_camera_photos_horizontally">Inverser horizontalement les images de l\'objectif photo-vidéo avant</string>
-    <string name="keep_settings_visible">Maintenir les boutons de réglage visibles</string>
-    <string name="always_open_back_camera">Toujours ouvrir l\'application avec l\'objectif photo-vidéo arrière</string>
     <string name="save_photo_metadata">Enregistrer les métadonnées Exif dans les photos</string>
-    <string name="save_photo_video_location">Enregistrer l\'emplacement des photos et des vidéos</string>
     <string name="photo_compression_quality">Qualité de compression des photos</string>
     <string name="shutter">Obturateur</string>
     <!--
