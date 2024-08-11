@@ -28,7 +28,7 @@ class ImageQualityManager(private val activity: AppCompatActivity) {
                     val lensFacing = characteristics.get(CameraCharacteristics.LENS_FACING) ?: continue
                     if (lensFacing in CAMERA_LENS) {
                         val configMap = characteristics.get(CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP) ?: continue
-                        val imageSizes = configMap.getOutputSizes(ImageFormat.JPEG).map { MySize(it.width, it.height) }
+                        val imageSizes = configMap.getOutputSizes(ImageFormat.JPEG)?.map { MySize(it.width, it.height) } ?: listOf()
                         val cameraSelector = lensFacing.toCameraSelector()
                         imageQualities.add(CameraSelectorImageQualities(cameraSelector, imageSizes))
                     }
