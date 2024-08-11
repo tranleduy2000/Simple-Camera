@@ -1,44 +1,21 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-import org.jetbrains.kotlin.konan.properties.Properties
-import java.io.FileInputStream
-
 plugins {
     alias(libs.plugins.android)
     alias(libs.plugins.kotlinAndroid)
-    base
 }
 
-base {
-    archivesName.set("camera")
-}
-
-val keystorePropertiesFile: File = rootProject.file("keystore.properties")
-val keystoreProperties = Properties()
-if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
-}
 
 android {
-    compileSdk = project.libs.versions.app.build.compileSDKVersion.get().toInt()
+    compileSdk = 34
+
+    namespace = "cameralib.demo"
 
     defaultConfig {
         applicationId = libs.versions.app.version.appId.get()
-        minSdk = project.libs.versions.app.build.minimumSDK.get().toInt()
-        targetSdk = project.libs.versions.app.build.targetSDK.get().toInt()
-        versionName = project.libs.versions.app.version.versionName.get()
-        versionCode = project.libs.versions.app.version.versionCode.get().toInt()
+        minSdk = 24
+        targetSdk = 34
+        versionName = "1.0"
+        versionCode = 1
         vectorDrawables.useSupportLibrary = true
-    }
-
-    signingConfigs {
-        if (keystorePropertiesFile.exists()) {
-            register("release") {
-                keyAlias = keystoreProperties.getProperty("keyAlias")
-                keyPassword = keystoreProperties.getProperty("keyPassword")
-                storeFile = file(keystoreProperties.getProperty("storeFile"))
-                storePassword = keystoreProperties.getProperty("storePassword")
-            }
-        }
     }
 
     buildFeatures {
@@ -53,20 +30,9 @@ android {
         release {
             isMinifyEnabled = true
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
             )
-            if (keystorePropertiesFile.exists()) {
-                signingConfig = signingConfigs.getByName("release")
-            }
         }
-    }
-
-    flavorDimensions.add("variants")
-    productFlavors {
-        register("core")
-        register("fdroid")
-        register("prepaid")
     }
 
     sourceSets {
@@ -74,16 +40,13 @@ android {
     }
 
     compileOptions {
-        val currentJavaVersionFromLibs = JavaVersion.valueOf(libs.versions.app.build.javaVersion.get().toString())
-        sourceCompatibility = currentJavaVersionFromLibs
-        targetCompatibility = currentJavaVersionFromLibs
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 
-    tasks.withType<KotlinCompile> {
-        kotlinOptions.jvmTarget = project.libs.versions.app.build.kotlinJVMTarget.get()
+    kotlinOptions {
+        jvmTarget = "1.8"
     }
-
-    namespace = "com.simplemobiletools.camera"
 
     lint {
         checkReleaseBuilds = false
@@ -92,7 +55,5 @@ android {
 }
 
 dependencies {
-    androidTestImplementation(libs.simple.tools.commons)
-
     implementation(project(":cameralib"))
 }
