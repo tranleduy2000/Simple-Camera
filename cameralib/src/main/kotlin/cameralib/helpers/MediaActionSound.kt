@@ -110,7 +110,9 @@ class MediaActionSound(private val context: Context) {
                     val soundPath = soundDir + sound.mediaSound.fileName
                     sound.mediaSound.path = soundPath
                     id = soundPool!!.load(soundPath, 1)
-                    break
+                    if (id != 0) {
+                        break
+                    }
                 }
             }
 
