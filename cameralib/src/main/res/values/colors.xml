@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="overlay_color">#2e000000</color>
+
+    <color name="md_grey_400_dark">#A9A9A9</color>
+    <color name="md_grey_200_dark">#DADADA</color>
+    <color name="md_grey_white">#FFFFFF</color>
+    <color name="md_grey_600_dark">#606060</color>
+    <color name="md_red">#F44336</color>
+    <color name="md_orange_700">#F57C00</color>
+
+    <color name="color_accent">@color/color_primary</color>
+    <color name="color_primary">#FFF57C00</color>
+    <color name="color_primary_dark">#FFD76D00</color>
+
+    <color name="radiobutton_disabled">#FF757575</color>
+
+</resources>

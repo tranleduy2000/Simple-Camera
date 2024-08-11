@@ -84,7 +84,7 @@ android {
     }
 
     namespace = "com.simplemobiletools.camera"
-    
+
     lint {
         checkReleaseBuilds = false
         abortOnError = false
@@ -92,10 +92,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.simple.tools.commons)
-    implementation(libs.bundles.androidx.camera)
-    implementation(libs.androidx.documentfile)
-    implementation(libs.androidx.exifinterface)
-    implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation(libs.androidx.window)
+    androidTestImplementation(libs.simple.tools.commons)
+
+    implementation(project(":cameralib"))
 }
