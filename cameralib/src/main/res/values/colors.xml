@@ -11,7 +11,6 @@
 
     <color name="color_accent">@color/color_primary</color>
     <color name="color_primary">#FFF57C00</color>
-    <color name="color_primary_dark">#FFD76D00</color>
 
     <color name="radiobutton_disabled">#FF757575</color>
 

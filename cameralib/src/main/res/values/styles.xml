@@ -35,14 +35,6 @@
         <item name="android:layout_marginStart">@dimen/settings_label_start_margin</item>
     </style>
 
-    <style name="SettingsHolderTextViewOneLinerStyle" parent="@style/SettingsHolderTextViewStyle">
-        <item name="android:paddingTop">@dimen/bigger_margin</item>
-        <item name="android:paddingBottom">@dimen/bigger_margin</item>
-        <item name="android:paddingEnd">@dimen/settings_label_start_margin</item>
-        <item name="android:paddingStart">@dimen/settings_label_start_margin</item>
-        <item name="android:background">?selectableItemBackground</item>
-    </style>
-
     <style name="SettingsHolderTextViewStyle">
         <item name="android:paddingStart">@dimen/settings_label_start_margin</item>
         <item name="android:paddingTop">@dimen/activity_margin</item>

@@ -22,6 +22,10 @@ android {
         }
     }
 
+    sourceSets {
+        getByName("main").res.srcDirs("src/main/res-common")
+    }
+
     buildFeatures {
         viewBinding = true
         buildConfig = true
