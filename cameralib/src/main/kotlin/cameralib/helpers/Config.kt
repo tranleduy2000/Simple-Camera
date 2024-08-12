@@ -16,7 +16,7 @@ class Config(context: Context) : BaseConfig(context) {
     var fileProviderAuthority: String = prefs.getString(FILE_PROVIDER_AUTHORITY, defaultFileProviderAuthority) ?: defaultFileProviderAuthority;
 
     var isSoundEnabled: Boolean
-        get() = prefs.getBoolean(SOUND, true)
+        get() = prefs.getBoolean(SOUND, false)
         set(enabled) = prefs.edit().putBoolean(SOUND, enabled).apply()
 
     var volumeButtonsAsShutter: Boolean
