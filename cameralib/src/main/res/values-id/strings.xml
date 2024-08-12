@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">Mode penangkapan</string>
+    <string name="camlib_maximize_quality">Memaksimalkan kualitas</string>
+    <string name="camlib_minimize_latency">Minimalkan latensi</string>
+    <string name="camlib_camera_unavailable">Kamera tidak tersedia</string>
+    <string name="camlib_camera_open_error">Terjadi kesalahan saat mengakses kamera</string>
+    <string name="camlib_save_error_internal_storage">Terjadi kesalahan, folder penyimpanan diubah ke penyimpanan internal</string>
+    <string name="camlib_camera_switch_error">Pengalihan kamera gagal</string>
+    <string name="camlib_photo_not_saved">Foto tidak dapat disimpan</string>
+    <string name="camlib_video_recording_failed">Rekaman video gagal, coba gunakan resolusi yang berbeda</string>
+    <string name="camlib_camera_in_use_error">Kamera sedang digunakan oleh aplikasi lain, silakan tutup aplikasi dan coba lagi</string>
+    <string name="camlib_camera_configure_error">Terjadi kesalahan saat mengonfigurasi kamera</string>
+    <string name="camlib_camera_disabled_by_admin_error">Kamera dinonaktifkan oleh admin</string>
+    <string name="camlib_camera_dnd_error">Mode "Jangan Ganggu" diaktifkan. Harap nonaktifkan dan coba lagi</string>
+    <string name="camlib_photo_capture_failed">Pengambilan foto gagal</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Rekaman video gagal karena penyimpanan tidak mencukupi</string>
+    <string name="camlib_view_last_media">Lihat media yang terakhir diambil</string>
+    <string name="camlib_toggle_camera">Alihkan kamera depan/belakang</string>
+    <string name="camlib_toggle_flash">Alihkan mode senter</string>
+    <string name="camlib_toggle_timer">Alihkan mode pengatur waktu</string>
+    <string name="camlib_shutter_sound">Suara rana</string>
+    <string name="camlib_photo">Foto</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Gunakan tombol volume sebagai rana</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Balikkan foto kamera depan secara horizontal</string>
+    <string name="camlib_save_photo_metadata">Simpan metadata exif foto</string>
+    <string name="camlib_photo_compression_quality">Kualitas kompresi foto</string>
+    <string name="camlib_shutter">rana</string>
+
+</resources>

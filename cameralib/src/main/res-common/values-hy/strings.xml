@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">Լավ</string>
+    <string name="camlib_close">Փակել</string>
+    <string name="camlib_back">Ետ</string>
+    <string name="camlib_out_of_memory_error">Հիշողության սխալ</string>
+    <string name="camlib_error">Սխալ՝ %s</string>
+    <string name="camlib_open_with">Բացել հետ</string>
+    <string name="camlib_no_app_found">Վավեր հավելված չի գտնվել</string>
+    <string name="camlib_no_camera_permissions">Պահանջվում է տեսախցիկի թույլտվություն</string>
+    <string name="camlib_no_audio_permissions">Պահանջվում է ձայնային թույլտվություն</string>
+    <string name="camlib_could_not_create_file">Չհաջողվեց ստեղծել %s ֆայլ</string>
+    <string name="camlib_unknown_error_occurred">Անհայտ սխալ է տեղի ունեցել</string>
+    <string name="camlib_resolution">Բանաձեւ</string>
+    <string name="camlib_settings">Կարգավորումներ</string>
+    <string name="camlib_language">Լեզու</string>
+    <string name="camlib_other">Այլ</string>
+
+</resources>

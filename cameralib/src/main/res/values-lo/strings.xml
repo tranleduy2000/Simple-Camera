@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">ໂໝດຖ່າຍຮູບ</string>
+    <string name="camlib_maximize_quality">ຄຸນນະພາບສູງສຸດ</string>
+    <string name="camlib_minimize_latency">ຫຼຸດການຕອບສະໜອງໃຫ້ໜ້ອຍທີ່ສຸດ</string>
+    <string name="camlib_camera_unavailable">ກ້ອງຖ່າຍຮູບບໍ່ສາມາດໃຊ້ໄດ້</string>
+    <string name="camlib_camera_open_error">ເກີດຄວາມຜິດພາດໃນການເຂົ້າເຖິງກ້ອງຖ່າຍຮູບ</string>
+    <string name="camlib_save_error_internal_storage">ເກີດຄວາມຜິດພາດຂຶ້ນ, ບັນທຶກໂຟນເດີຖືກປ່ຽນເປັນບ່ອນເກັບຂໍ້ມູນພາຍໃນ</string>
+    <string name="camlib_camera_switch_error">ການປ່ຽນກ້ອງຖ່າຍຮູບລົ້ມເຫລວ</string>
+    <string name="camlib_photo_not_saved">ບໍ່ສາມາດບັນທຶກຮູບໄດ້</string>
+    <string name="camlib_video_recording_failed">ການບັນທຶກວິດີໂອລົ້ມເຫລວ, ລອງໃຊ້ຄວາມລະອຽດອື່ນແທນ</string>
+    <string name="camlib_camera_in_use_error">ແອັບອື່ນໃຊ້ກ້ອງຖ່າຍຮູບຢູ່, ກະລຸນາປິດແອັບແລ້ວລອງໃໝ່ອີກຄັ້ງ</string>
+    <string name="camlib_camera_configure_error">ເກີດຄວາມຜິດພາດຂຶ້ນໃນຂະນະທີ່ຕັ້ງຄ່າກ້ອງຖ່າຍຮູບ</string>
+    <string name="camlib_camera_disabled_by_admin_error">ກ້ອງປິດໃຊ້ງານໂດຍຜູ້ເບິ່ງແຍງລະບົບ</string>
+    <string name="camlib_camera_dnd_error">ໂໝດ "ຫ້າມລົບກວນ" ຖືກເປີດໃຊ້ແລ້ວ. ກະລຸນາປິດໃຊ້ງານແລ້ວລອງໃໝ່</string>
+    <string name="camlib_photo_capture_failed">ຖ່າຍຮູບບໍ່ສຳເລັດ</string>
+    <string name="camlib_video_capture_insufficient_storage_error">ການບັນທຶກວິດີໂອລົ້ມເຫລວເນື່ອງຈາກບ່ອນຈັດເກັບຂໍ້ມູນບໍ່ພຽງພໍ</string>
+    <string name="camlib_view_last_media">ເບິ່ງສື່ທີ່ຖ່າຍຫຼ້າສຸດ</string>
+    <string name="camlib_toggle_camera">ສະຫຼັບກ້ອງໜ້າ/ຫຼັງ</string>
+    <string name="camlib_toggle_flash">ສະຫຼັບໂໝດໄຟສາຍ</string>
+    <string name="camlib_toggle_timer">ສະຫຼັບໂໝດຈັບເວລາ</string>
+    <string name="camlib_shutter_sound">ສຽງ shutter</string>
+    <string name="camlib_photo">ຮູບ</string>
+    <string name="camlib_video">ວິດີໂອ</string>
+    <string name="camlib_volume_buttons_as_shutter">ໃຊ້ປຸ່ມລະດັບສຽງເປັນ shutter</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">ປີ້ນຮູບກ້ອງໜ້າຕາມລວງນອນ</string>
+    <string name="camlib_save_photo_metadata">ບັນທຶກ metadata ຮູບ exif</string>
+    <string name="camlib_photo_compression_quality">ຄຸນນະພາບການບີບອັດຮູບ</string>
+    <string name="camlib_shutter">ຊັດເຕີ</string>
+
+</resources>

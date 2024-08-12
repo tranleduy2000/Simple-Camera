@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Rögzítési mód</string>
     <string name="camlib_maximize_quality">Minőség maximalizálása</string>
     <string name="camlib_minimize_latency">Késleltetés minimalizálása</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Kamera nem elérhető</string>
     <string name="camlib_camera_open_error">Hiba történt a kamera elérésében</string>
     <string name="camlib_save_error_internal_storage">Hiba történt, a mentési mappa belső tárhelyre változott</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">A Ne zavarjanak üzemmód engedélyezve van. Kérjük, kapcsolja ki és próbálja újra</string>
     <string name="camlib_photo_capture_failed">A fényképfelvétel sikertelen</string>
     <string name="camlib_video_capture_insufficient_storage_error">A videofelvétel nem sikerült az elégtelen tárhely miatt</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Utoljára rögzített média megtekintése</string>
     <string name="camlib_toggle_camera">Elülső/hátsó kamera átkapcsolása</string>
     <string name="camlib_toggle_flash">A zseblámpa üzemmód váltása</string>
     <string name="camlib_toggle_timer">Időzítési mód be/ki</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Záróhang</string>
     <string name="camlib_photo">Kép</string>
     <string name="camlib_video">Video</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Fotó adatok mentése</string>
     <string name="camlib_photo_compression_quality">Fotó tömörítés minősége</string>
     <string name="camlib_shutter">Záró</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

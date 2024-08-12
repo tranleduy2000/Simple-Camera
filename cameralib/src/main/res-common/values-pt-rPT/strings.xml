@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">OK</string>
+    <string name="camlib_close">Fechar</string>
+    <string name="camlib_back">Voltar</string>
+    <string name="camlib_out_of_memory_error">Erro de falta de memória</string>
+    <string name="camlib_error">Erro: %s</string>
+    <string name="camlib_open_with">Abrir com</string>
+    <string name="camlib_no_app_found">Nenhum aplicativo válido encontrado</string>
+    <string name="camlib_no_camera_permissions">É necessária permissão para câmera</string>
+    <string name="camlib_no_audio_permissions">É necessária permissão de áudio</string>
+    <string name="camlib_could_not_create_file">Não foi possível criar o arquivo %s</string>
+    <string name="camlib_unknown_error_occurred">Ocorreu um erro desconhecido</string>
+    <string name="camlib_resolution">Resolução</string>
+    <string name="camlib_settings">Configurações</string>
+    <string name="camlib_language">Linguagem</string>
+    <string name="camlib_other">Outro</string>
+
+</resources>

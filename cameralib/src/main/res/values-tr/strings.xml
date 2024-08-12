@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Çekim modu</string>
     <string name="camlib_maximize_quality">Kaliteyi en üst düzeye çıkar</string>
     <string name="camlib_minimize_latency">Gecikmeyi en aza indir</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Kamera kullanılamıyor</string>
     <string name="camlib_camera_open_error">Kameraya erişilemedi</string>
     <string name="camlib_save_error_internal_storage">Depolama klasörü dahili depolama olarak değiştiği için bir hata oluştu</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">Rahatsız Etmeyin modu etkinleştirildi. Lütfen devre dışı bırakın ve tekrar deneyin</string>
     <string name="camlib_photo_capture_failed">Fotoğraf çekimi başarısız oldu</string>
     <string name="camlib_video_capture_insufficient_storage_error">Yetersiz depolama alanı nedeniyle video kaydı başarısız oldu</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Son çekilen medyayı görüntüle</string>
     <string name="camlib_toggle_camera">Ön/arka kamerayı değiştir</string>
     <string name="camlib_toggle_flash">El feneri modunu değiştir</string>
     <string name="camlib_toggle_timer">Zamanlayıcı modunu değiştir</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Deklanşör sesi</string>
     <string name="camlib_photo">Fotoğraf</string>
     <string name="camlib_video">Video</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Fotoğraflara Exif meta verilerini kaydet</string>
     <string name="camlib_photo_compression_quality">Fotoğraf sıkıştırma kalitesi</string>
     <string name="camlib_shutter">Deklanşör</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

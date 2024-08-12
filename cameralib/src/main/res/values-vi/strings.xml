@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">Chế độ chụp</string>
+    <string name="camlib_maximize_quality">Tối đa hóa chất lượng</string>
+    <string name="camlib_minimize_latency">Giảm thiểu độ trễ</string>
+    <string name="camlib_camera_unavailable">Máy ảnh không khả dụng</string>
+    <string name="camlib_camera_open_error">Đã xảy ra lỗi khi truy cập vào camera</string>
+    <string name="camlib_save_error_internal_storage">Đã xảy ra lỗi, thư mục lưu đã được thay đổi thành bộ nhớ trong</string>
+    <string name="camlib_camera_switch_error">Không chuyển được camera</string>
+    <string name="camlib_photo_not_saved">Không thể lưu ảnh</string>
+    <string name="camlib_video_recording_failed">Quay video không thành công, hãy thử sử dụng độ phân giải khác</string>
+    <string name="camlib_camera_in_use_error">Camera đang được ứng dụng khác sử dụng, vui lòng đóng ứng dụng và thử lại</string>
+    <string name="camlib_camera_configure_error">Đã xảy ra lỗi khi cấu hình máy ảnh</string>
+    <string name="camlib_camera_disabled_by_admin_error">Máy ảnh đã bị vô hiệu hóa bởi người quản trị</string>
+    <string name="camlib_camera_dnd_error">Chế độ "Không làm phiền" đã được bật. Vui lòng tắt và thử lại</string>
+    <string name="camlib_photo_capture_failed">Chụp ảnh không thành công</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Quay video không thành công do không đủ dung lượng lưu trữ</string>
+    <string name="camlib_view_last_media">Xem phương tiện đã chụp gần đây nhất</string>
+    <string name="camlib_toggle_camera">Chuyển đổi camera trước/sau</string>
+    <string name="camlib_toggle_flash">Chuyển đổi chế độ đèn pin</string>
+    <string name="camlib_toggle_timer">Chuyển đổi chế độ hẹn giờ</string>
+    <string name="camlib_shutter_sound">Âm thanh màn trập</string>
+    <string name="camlib_photo">Ảnh</string>
+    <string name="camlib_video">Băng hình</string>
+    <string name="camlib_volume_buttons_as_shutter">Sử dụng nút âm lượng như nút chụp</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Lật ảnh camera trước theo chiều ngang</string>
+    <string name="camlib_save_photo_metadata">Lưu siêu dữ liệu exif của ảnh</string>
+    <string name="camlib_photo_compression_quality">Chất lượng nén ảnh</string>
+    <string name="camlib_shutter">Màn trập</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">ক্যাপচার মোড</string>
+    <string name="camlib_maximize_quality">গুণমান সর্বাধিক করুন</string>
+    <string name="camlib_minimize_latency">বিলম্ব কম করুন</string>
+    <string name="camlib_camera_unavailable">ক্যামেরা অনুপলব্ধ৷</string>
+    <string name="camlib_camera_open_error">ক্যামেরা অ্যাক্সেস করার সময় একটি ত্রুটি ঘটেছে৷</string>
+    <string name="camlib_save_error_internal_storage">একটি ত্রুটি ঘটেছে, সংরক্ষণ ফোল্ডার অভ্যন্তরীণ সঞ্চয়স্থানে পরিবর্তিত হয়েছে৷</string>
+    <string name="camlib_camera_switch_error">ক্যামেরা পাল্টানো ব্যর্থ হয়েছে৷</string>
+    <string name="camlib_photo_not_saved">ছবি সংরক্ষণ করা যায়নি</string>
+    <string name="camlib_video_recording_failed">ভিডিও রেকর্ডিং ব্যর্থ হয়েছে, একটি ভিন্ন রেজোলিউশন ব্যবহার করার চেষ্টা করুন</string>
+    <string name="camlib_camera_in_use_error">ক্যামেরা অন্য অ্যাপ ব্যবহার করছে, অনুগ্রহ করে অ্যাপটি বন্ধ করে আবার চেষ্টা করুন</string>
+    <string name="camlib_camera_configure_error">ক্যামেরা কনফিগার করার সময় একটি ত্রুটি ঘটেছে৷</string>
+    <string name="camlib_camera_disabled_by_admin_error">ক্যামেরা অ্যাডমিন দ্বারা নিষ্ক্রিয় করা হয়েছে</string>
+    <string name="camlib_camera_dnd_error">"বিরক্ত করবেন না" মোড সক্ষম করা আছে। অক্ষম করুন এবং আবার চেষ্টা করুন</string>
+    <string name="camlib_photo_capture_failed">ফটো ক্যাপচার ব্যর্থ হয়েছে</string>
+    <string name="camlib_video_capture_insufficient_storage_error">অপর্যাপ্ত সঞ্চয়স্থানের কারণে ভিডিও রেকর্ডিং ব্যর্থ হয়েছে৷</string>
+    <string name="camlib_view_last_media">সর্বশেষ ক্যাপচার করা মিডিয়া দেখুন</string>
+    <string name="camlib_toggle_camera">সামনে/ব্যাক ক্যামেরা টগল করুন</string>
+    <string name="camlib_toggle_flash">ফ্ল্যাশলাইট মোড টগল করুন</string>
+    <string name="camlib_toggle_timer">টাইমার মোড টগল করুন</string>
+    <string name="camlib_shutter_sound">শাটার শব্দ</string>
+    <string name="camlib_photo">ছবি</string>
+    <string name="camlib_video">ভিডিও</string>
+    <string name="camlib_volume_buttons_as_shutter">শাটার হিসাবে ভলিউম বোতাম ব্যবহার করুন</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">সামনের ক্যামেরার ছবি অনুভূমিকভাবে ফ্লিপ করুন</string>
+    <string name="camlib_save_photo_metadata">ফটো এক্সিফ মেটাডেটা সংরক্ষণ করুন</string>
+    <string name="camlib_photo_compression_quality">ছবির কম্প্রেশন গুণমান</string>
+    <string name="camlib_shutter">শাটার</string>
+
+</resources>

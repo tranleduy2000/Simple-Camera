@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Modalità di cattura</string>
     <string name="camlib_maximize_quality">Massimizza la qualità</string>
     <string name="camlib_minimize_latency">Minimizza la latenza</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Fotocamera non disponibile</string>
     <string name="camlib_camera_open_error">Impossibile accedere alla telecamera</string>
     <string name="camlib_save_error_internal_storage">Si è verificato un errore perché la cartella di archiviazione è passata all\'archiviazione interna</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">La modalità non disturbare è abilitata. Disabilitare e riprovare</string>
     <string name="camlib_photo_capture_failed">Acquisizione di foto non riuscita</string>
     <string name="camlib_video_capture_insufficient_storage_error">Registrazione video non riuscita a causa dello spazio d\'archiviazione insufficiente</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Visualizza gli ultimi media acquisiti</string>
     <string name="camlib_toggle_camera">Alterna fotocamera anteriore/posteriore</string>
     <string name="camlib_toggle_flash">Attiva la modalità torcia</string>
     <string name="camlib_toggle_timer">(Dis)attiva la modalità contaminuti</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Suono dell\'otturatore</string>
     <string name="camlib_photo">Foto</string>
     <string name="camlib_video">Video</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Salva i metadati Exif nelle foto</string>
     <string name="camlib_photo_compression_quality">Qualità della compressione delle foto</string>
     <string name="camlib_shutter">Otturatore</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

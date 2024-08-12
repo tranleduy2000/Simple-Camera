@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Opnamemodus</string>
     <string name="camlib_maximize_quality">Kwaliteit maximaliseren</string>
     <string name="camlib_minimize_latency">Vertraging minimaliseren</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Camera niet beschikbaar</string>
     <string name="camlib_camera_open_error">Fout opgetreden bij toegang verkrijgen tot de camera</string>
     <string name="camlib_save_error_internal_storage">Er is een fout opgetreden, de doelmap is gewijzigd naar interne opslag</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">De modus \"Niet storen\" is ingeschakeld. Schakel deze uit en probeer het nog eens.</string>
     <string name="camlib_photo_capture_failed">Foto-opname mislukt</string>
     <string name="camlib_video_capture_insufficient_storage_error">Video-opname mislukt door onvoldoende opslag</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Laatste opname bekijken</string>
     <string name="camlib_toggle_camera">Camera voor/achter</string>
     <string name="camlib_toggle_flash">Zaklampmodus wisselen</string>
     <string name="camlib_toggle_timer">Timermodus wijzigen</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Sluitergeluid</string>
     <string name="camlib_photo">Foto</string>
     <string name="camlib_video">Video</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">EXIF-metadata in foto\'s opslaan</string>
     <string name="camlib_photo_compression_quality">Kwaliteit foto\'s</string>
     <string name="camlib_shutter">Sluiter</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

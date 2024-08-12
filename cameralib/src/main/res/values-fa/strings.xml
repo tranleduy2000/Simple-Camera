@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">حالت عکسبرداری</string>
+    <string name="camlib_maximize_quality">کیفیت را به حداکثر برسانید</string>
+    <string name="camlib_minimize_latency">تأخیر را به حداقل برسانید</string>
+    <string name="camlib_camera_unavailable">دوربین در دسترس نیست</string>
+    <string name="camlib_camera_open_error">هنگام دسترسی به دوربین خطایی روی داد</string>
+    <string name="camlib_save_error_internal_storage">خطایی روی داد، پوشه ذخیره به حافظه داخلی تغییر کرد</string>
+    <string name="camlib_camera_switch_error">تعویض دوربین انجام نشد</string>
+    <string name="camlib_photo_not_saved">عکس ذخیره نشد</string>
+    <string name="camlib_video_recording_failed">ضبط ویدیو انجام نشد، سعی کنید از وضوح دیگری استفاده کنید</string>
+    <string name="camlib_camera_in_use_error">دوربین توسط برنامه دیگری استفاده می‌شود، لطفاً برنامه را ببندید و دوباره امتحان کنید</string>
+    <string name="camlib_camera_configure_error">هنگام پیکربندی دوربین خطایی روی داد</string>
+    <string name="camlib_camera_disabled_by_admin_error">دوربین توسط ادمین غیرفعال شده است</string>
+    <string name="camlib_camera_dnd_error">حالت "مزاحم نشوید" فعال است. لطفاً غیرفعال کنید و دوباره امتحان کنید</string>
+    <string name="camlib_photo_capture_failed">عکس گرفتن ناموفق بود</string>
+    <string name="camlib_video_capture_insufficient_storage_error">ضبط ویدیو به دلیل حافظه ناکافی انجام نشد</string>
+    <string name="camlib_view_last_media">آخرین رسانه ضبط شده را مشاهده کنید</string>
+    <string name="camlib_toggle_camera">دوربین جلو/پشت را تغییر دهید</string>
+    <string name="camlib_toggle_flash">حالت چراغ قوه را تغییر دهید</string>
+    <string name="camlib_toggle_timer">حالت تایمر را تغییر دهید</string>
+    <string name="camlib_shutter_sound">صدای شاتر</string>
+    <string name="camlib_photo">عکس</string>
+    <string name="camlib_video">ویدئو</string>
+    <string name="camlib_volume_buttons_as_shutter">از دکمه های تنظیم صدا به عنوان شاتر استفاده کنید</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">عکس های دوربین جلو را به صورت افقی برگردانید</string>
+    <string name="camlib_save_photo_metadata">ذخیره ابرداده exif عکس</string>
+    <string name="camlib_photo_compression_quality">کیفیت فشرده سازی عکس</string>
+    <string name="camlib_shutter">شاتر</string>
+
+</resources>

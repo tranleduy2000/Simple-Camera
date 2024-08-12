@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">Во ред</string>
+    <string name="camlib_close">Затвори</string>
+    <string name="camlib_back">Назад</string>
+    <string name="camlib_out_of_memory_error">Грешка без меморија</string>
+    <string name="camlib_error">Грешка: %s</string>
+    <string name="camlib_open_with">Отвори со</string>
+    <string name="camlib_no_app_found">Не е пронајдена валидна апликација</string>
+    <string name="camlib_no_camera_permissions">Потребна е дозвола за камерата</string>
+    <string name="camlib_no_audio_permissions">Потребна е дозвола за аудио</string>
+    <string name="camlib_could_not_create_file">Не може да се создаде датотека %s</string>
+    <string name="camlib_unknown_error_occurred">Настана непозната грешка</string>
+    <string name="camlib_resolution">Резолуција</string>
+    <string name="camlib_settings">Поставки</string>
+    <string name="camlib_language">Јазик</string>
+    <string name="camlib_other">Друго</string>
+
+</resources>

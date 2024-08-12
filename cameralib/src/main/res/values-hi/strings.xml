@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">कैप्चर मोड</string>
+    <string name="camlib_maximize_quality">गुणवत्ता को अधिकतम करें</string>
+    <string name="camlib_minimize_latency">विलंबता न्यूनतम करें</string>
+    <string name="camlib_camera_unavailable">कैमरा उपलब्ध नहीं है</string>
+    <string name="camlib_camera_open_error">कैमरा एक्सेस करते समय एक त्रुटि हुई</string>
+    <string name="camlib_save_error_internal_storage">एक त्रुटि हुई, सहेजे गए फ़ोल्डर को आंतरिक संग्रहण में बदल दिया गया</string>
+    <string name="camlib_camera_switch_error">कैमरा स्विच करना विफल रहा</string>
+    <string name="camlib_photo_not_saved">फ़ोटो सहेजा नहीं जा सका</string>
+    <string name="camlib_video_recording_failed">वीडियो रिकॉर्डिंग विफल रही, किसी भिन्न रिज़ॉल्यूशन का उपयोग करके देखें</string>
+    <string name="camlib_camera_in_use_error">कैमरा किसी अन्य ऐप द्वारा उपयोग में है, कृपया ऐप बंद करें और पुनः प्रयास करें</string>
+    <string name="camlib_camera_configure_error">कैमरा कॉन्फ़िगर करते समय एक त्रुटि हुई</string>
+    <string name="camlib_camera_disabled_by_admin_error">कैमरा व्यवस्थापक द्वारा अक्षम कर दिया गया है</string>
+    <string name="camlib_camera_dnd_error">"परेशान न करें" मोड सक्षम है। कृपया अक्षम करें और पुनः प्रयास करें</string>
+    <string name="camlib_photo_capture_failed">फ़ोटो कैप्चर करना विफल</string>
+    <string name="camlib_video_capture_insufficient_storage_error">अपर्याप्त संग्रहण के कारण वीडियो रिकॉर्डिंग विफल हुई</string>
+    <string name="camlib_view_last_media">अंतिम कैप्चर किया गया मीडिया देखें</string>
+    <string name="camlib_toggle_camera">आगे/पीछे का कैमरा टॉगल करें</string>
+    <string name="camlib_toggle_flash">फ्लैशलाइट मोड टॉगल करें</string>
+    <string name="camlib_toggle_timer">टाइमर मोड टॉगल करें</string>
+    <string name="camlib_shutter_sound">शटर की धवनी</string>
+    <string name="camlib_photo">तस्वीर</string>
+    <string name="camlib_video">वीडियो</string>
+    <string name="camlib_volume_buttons_as_shutter">वॉल्यूम बटन को शटर के रूप में उपयोग करें</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">फ्रंट कैमरे से ली गई तस्वीरों को क्षैतिज रूप से पलटें</string>
+    <string name="camlib_save_photo_metadata">फोटो एक्सआईएफ मेटाडेटा सहेजें</string>
+    <string name="camlib_photo_compression_quality">फोटो संपीड़न गुणवत्ता</string>
+    <string name="camlib_shutter">शटर</string>
+
+</resources>

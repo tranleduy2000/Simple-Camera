@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Mode capture</string>
     <string name="camlib_maximize_quality">Maximiser la qualité</string>
     <string name="camlib_minimize_latency">Minimiser la latence</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Objectif photo-vidéo indisponible</string>
     <string name="camlib_camera_open_error">Une erreur s\'est produite lors de l\'accès à l\'objectif photo-vidéo</string>
     <string name="camlib_save_error_internal_storage">Une erreur s\'est produite car le dossier de sauvegarde a été remplacé par le stockage interne</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">Le mode « Ne pas déranger » est activé. Veuillez le désactiver et réessayer</string>
     <string name="camlib_photo_capture_failed">La capture photo a échoué</string>
     <string name="camlib_video_capture_insufficient_storage_error">L\'enregistrement vidéo a échoué en raison d\'un espace de stockage insuffisant</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Afficher les derniers médias capturés</string>
     <string name="camlib_toggle_camera">Basculer vers l’objectif photo-vidéo avant/arrière</string>
     <string name="camlib_toggle_flash">Activer/désactiver le mode lampe de poche</string>
     <string name="camlib_toggle_timer">Basculer le mode de minuterie</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Son de l\'obturateur</string>
     <string name="camlib_photo">Photo</string>
     <string name="camlib_video">Vidéo</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Enregistrer les métadonnées Exif dans les photos</string>
     <string name="camlib_photo_compression_quality">Qualité de compression des photos</string>
     <string name="camlib_shutter">Obturateur</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

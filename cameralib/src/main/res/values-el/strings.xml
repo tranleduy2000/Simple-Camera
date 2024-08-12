@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Λειτουργία καταγραφής</string>
     <string name="camlib_maximize_quality">Μέγιστη ποιότητα</string>
     <string name="camlib_minimize_latency">Ελαχιστοποίηση καθυστέρησης</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Μη διαθέσιμη κάμερα</string>
     <string name="camlib_camera_open_error">Παρουσιάστηκε σφάλμα κατά την πρόσβαση στην κάμερα</string>
     <string name="camlib_save_error_internal_storage">Παρουσιάστηκε σφάλμα, η αποθήκευση του φακέλου άλλαξε σε εσωτερικό χώρο αποθήκευσης</string>
@@ -17,16 +15,10 @@
     <string name="camlib_camera_dnd_error">"Η λειτουργία \"Μην ενοχλείτε\" είναι ενεργοποιημένη. Παρακαλώ απενεργοποιήστε και δοκιμάστε ξανά</string>
     <string name="camlib_photo_capture_failed">Αποτυχία λήψης φωτογραφιών</string>
     <string name="camlib_video_capture_insufficient_storage_error">Η εγγραφή βίντεο απέτυχε λόγω ανεπαρκούς αποθηκευτικού χώρου</string>
-
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Προβολή των τελευταίων αποθηκευμένων πολυμέσων</string>
     <string name="camlib_toggle_camera">Εναλλαγή εμπρός/πίσω κάμερας</string>
     <string name="camlib_toggle_flash">Εναλλαγή λειτουργίας φακού</string>
     <string name="camlib_toggle_timer">Εναλλαγή λειτουργίας χρονοδιακόπτη</string>
-
-    <!-- FAQ -->
-
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Ήχος κλείστρου</string>
     <string name="camlib_photo">Φωτογραφία</string>
     <string name="camlib_video">Βίντεο</string>
@@ -35,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Αποθήκευση μεταδεδομένων exif φωτογραφίας</string>
     <string name="camlib_photo_compression_quality">Ποιότητα συμπίεσης φωτογραφιών</string>
     <string name="camlib_shutter">Κλείστρο</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">Način snimanja</string>
+    <string name="camlib_maximize_quality">Maksimizirajte kvalitet</string>
+    <string name="camlib_minimize_latency">Minimizirajte kašnjenje</string>
+    <string name="camlib_camera_unavailable">Kamera nije dostupna</string>
+    <string name="camlib_camera_open_error">Došlo je do greške pri pristupu kameri</string>
+    <string name="camlib_save_error_internal_storage">Došlo je do greške, folder za spremanje je promijenjen u internu memoriju</string>
+    <string name="camlib_camera_switch_error">Promjena kamere nije uspjela</string>
+    <string name="camlib_photo_not_saved">Fotografija se ne može sačuvati</string>
+    <string name="camlib_video_recording_failed">Snimanje videa nije uspjelo, pokušajte koristiti drugu rezoluciju</string>
+    <string name="camlib_camera_in_use_error">Kamera koristi druga aplikacija, zatvorite aplikaciju i pokušajte ponovo</string>
+    <string name="camlib_camera_configure_error">Došlo je do greške prilikom konfigurisanja kamere</string>
+    <string name="camlib_camera_disabled_by_admin_error">Kamera je onemogućena od strane administratora</string>
+    <string name="camlib_camera_dnd_error">Način rada "Ne uznemiravaj" je omogućen. Molimo onemogućite i pokušajte ponovo</string>
+    <string name="camlib_photo_capture_failed">Snimanje fotografije nije uspjelo</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Snimanje videa nije uspjelo zbog nedovoljne memorije</string>
+    <string name="camlib_view_last_media">Pogledajte posljednje snimljene medije</string>
+    <string name="camlib_toggle_camera">Prebacite prednju/zadnju kameru</string>
+    <string name="camlib_toggle_flash">Uključite način rada svjetiljke</string>
+    <string name="camlib_toggle_timer">Uključite režim tajmera</string>
+    <string name="camlib_shutter_sound">Zvuk zatvarača</string>
+    <string name="camlib_photo">Fotografija</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Koristite dugmad za jačinu zvuka kao okidač</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Okrenite fotografije prednje kamere horizontalno</string>
+    <string name="camlib_save_photo_metadata">Sačuvajte exif metapodatke fotografije</string>
+    <string name="camlib_photo_compression_quality">Kvalitet kompresije fotografija</string>
+    <string name="camlib_shutter">Zatvaraj</string>
+
+</resources>

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Capture mode</string>
     <string name="camlib_maximize_quality">Maximize quality</string>
     <string name="camlib_minimize_latency">Minimize latency</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Cameră indisponibilă</string>
     <string name="camlib_camera_open_error">A apărut o eroare la accesarea camerei</string>
     <string name="camlib_save_error_internal_storage">A apărut o eroare, folderul de salvare a fost schimbat în memoria internă</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">Modul Nu deranjați este activat. Vă rugăm să-l dezactivați și să încercați din nou</string>
     <string name="camlib_photo_capture_failed">Captură foto eșuată</string>
     <string name="camlib_video_capture_insufficient_storage_error">Înregistrarea video a eșuat din cauza stocării insuficiente</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Vizualizați ultimul suport media capturat</string>
     <string name="camlib_toggle_camera">Comutarea camerei față/spate</string>
     <string name="camlib_toggle_flash">Comutatarea modului lanternă</string>
     <string name="camlib_toggle_timer">Toggle the timer mode</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Sunetul de declanșare</string>
     <string name="camlib_photo">Foto</string>
     <string name="camlib_video">Video</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Salvați metadatele exif ale fotografiilor</string>
     <string name="camlib_photo_compression_quality">Calitatea comprimării fotografiilor</string>
     <string name="camlib_shutter">Declanșator</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

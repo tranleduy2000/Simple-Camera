@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">ಸರಿ</string>
+    <string name="camlib_close">ಮುಚ್ಚಿ</string>
+    <string name="camlib_back">ಹಿಂದೆ</string>
+    <string name="camlib_out_of_memory_error">ಮೆಮೊರಿ ದೋಷದಿಂದ ಹೊರಗಿದೆ</string>
+    <string name="camlib_error">ದೋಷ: %s</string>
+    <string name="camlib_open_with">ಇದರೊಂದಿಗೆ ತೆರೆಯಿರಿ</string>
+    <string name="camlib_no_app_found">ಯಾವುದೇ ಮಾನ್ಯವಾದ ಅಪ್ಲಿಕೇಶನ್ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="camlib_no_camera_permissions">ಕ್ಯಾಮರಾ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
+    <string name="camlib_no_audio_permissions">ಆಡಿಯೋ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
+    <string name="camlib_could_not_create_file">ಫೈಲ್ %s ಅನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+    <string name="camlib_unknown_error_occurred">ಅಜ್ಞಾತ ದೋಷ ಸಂಭವಿಸಿದೆ</string>
+    <string name="camlib_resolution">ರೆಸಲ್ಯೂಶನ್</string>
+    <string name="camlib_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="camlib_language">ಭಾಷೆ</string>
+    <string name="camlib_other">ಇತರೆ</string>
+
+</resources>

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Capture mode</string>
     <string name="camlib_maximize_quality">Maximize quality</string>
     <string name="camlib_minimize_latency">Minimize latency</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Câmara indisponível</string>
     <string name="camlib_camera_open_error">Ocorreu um erro ao aceder à câmara</string>
     <string name="camlib_save_error_internal_storage">Falha. A pasta para guardar ficheiros foi alterada para o armazenamento interno</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">"Do Not Disturb" mode is enabled. Please disable and try again</string>
     <string name="camlib_photo_capture_failed">A captura da foto falhou</string>
     <string name="camlib_video_capture_insufficient_storage_error">Captura de video falhou por não ter espaço suficiente</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">View last captured media</string>
     <string name="camlib_toggle_camera">Toggle front/back camera</string>
     <string name="camlib_toggle_flash">Toggle the flashlight mode</string>
     <string name="camlib_toggle_timer">Toggle the timer mode</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Som do obturador</string>
     <string name="camlib_photo">Foto</string>
     <string name="camlib_video">Vídeo</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Guardar dados exif das fotos</string>
     <string name="camlib_photo_compression_quality">Qualidade da compressão</string>
     <string name="camlib_shutter">Obturador</string>
-    <!--
-        Não encontrou todas as cadeias a traduzir? Existem mais algumas em:
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Режим снимања</string>
     <string name="camlib_maximize_quality">Максимизирајте квалитет</string>
     <string name="camlib_minimize_latency">Минимизирајте кашњење</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Камера није доступна</string>
     <string name="camlib_camera_open_error">Дошло је до грешке при приступу камери</string>
     <string name="camlib_save_error_internal_storage">Дошло је до грешке, фасцикла за чување је промењена у интерну меморију</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">Режим Не узнемиравај је омогућен. Молимо онемогућите и покушајте поново</string>
     <string name="camlib_photo_capture_failed">Снимање фотографије није успело</string>
     <string name="camlib_video_capture_insufficient_storage_error">Снимање видеа није успело због недовољне меморије</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Погледајте последње снимљене медије</string>
     <string name="camlib_toggle_camera">Укључите предњу/задњу камеру</string>
     <string name="camlib_toggle_flash">Укључите режим батеријске лампе</string>
     <string name="camlib_toggle_timer">Toggle the timer mode</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Звук затварача</string>
     <string name="camlib_photo">Фотографија</string>
     <string name="camlib_video">Видео</string>
@@ -32,4 +27,5 @@
     <string name="camlib_save_photo_metadata">Сачувајте екиф метаподатке фотографије</string>
     <string name="camlib_photo_compression_quality">Квалитет компресије фотографија</string>
     <string name="camlib_shutter">Затварач</string>
+
 </resources>

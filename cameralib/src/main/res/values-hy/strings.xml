@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">Նկարահանման ռեժիմ</string>
+    <string name="camlib_maximize_quality">Առավելագույնի հասցնել որակը</string>
+    <string name="camlib_minimize_latency">Նվազագույնի հասցնել հետաձգումը</string>
+    <string name="camlib_camera_unavailable">Տեսախցիկը անհասանելի է</string>
+    <string name="camlib_camera_open_error">Տեսախցիկ մուտք գործելիս սխալ է տեղի ունեցել</string>
+    <string name="camlib_save_error_internal_storage">Սխալ է տեղի ունեցել, պահելու թղթապանակը փոխվել է ներքին պահեստի</string>
+    <string name="camlib_camera_switch_error">Չհաջողվեց փոխել տեսախցիկը</string>
+    <string name="camlib_photo_not_saved">Լուսանկարը չհաջողվեց պահպանել</string>
+    <string name="camlib_video_recording_failed">Տեսանյութի ձայնագրումը ձախողվեց, փորձեք օգտագործել այլ լուծում</string>
+    <string name="camlib_camera_in_use_error">Տեսախցիկը օգտագործվում է մեկ այլ հավելվածի կողմից, խնդրում ենք փակել հավելվածը և նորից փորձել</string>
+    <string name="camlib_camera_configure_error">Սխալ է տեղի ունեցել տեսախցիկի կազմաձևման ժամանակ</string>
+    <string name="camlib_camera_disabled_by_admin_error">Տեսախցիկը անջատված է ադմինիստրատորի կողմից</string>
+    <string name="camlib_camera_dnd_error">«Չանհանգստացնել» ռեժիմը միացված է: Խնդրում ենք անջատել և նորից փորձել</string>
+    <string name="camlib_photo_capture_failed">Չհաջողվեց լուսանկարել</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Տեսագրումը ձախողվեց անբավարար պահեստի պատճառով</string>
+    <string name="camlib_view_last_media">Դիտեք վերջին նկարահանված լրատվամիջոցները</string>
+    <string name="camlib_toggle_camera">Միացնել առջևի/հետևի տեսախցիկը</string>
+    <string name="camlib_toggle_flash">Միացնել լապտերի ռեժիմը</string>
+    <string name="camlib_toggle_timer">Միացնել ժամաչափի ռեժիմը</string>
+    <string name="camlib_shutter_sound">Կափարիչի ձայնը</string>
+    <string name="camlib_photo">Լուսանկարը</string>
+    <string name="camlib_video">Տեսանյութ</string>
+    <string name="camlib_volume_buttons_as_shutter">Օգտագործեք ձայնի կոճակները որպես փակիչ</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Շրջեք առջևի տեսախցիկի լուսանկարները հորիզոնական</string>
+    <string name="camlib_save_photo_metadata">Պահպանեք լուսանկարների exif մետատվյալները</string>
+    <string name="camlib_photo_compression_quality">Լուսանկարների սեղմման որակը</string>
+    <string name="camlib_shutter">Փեղկ</string>
+
+</resources>

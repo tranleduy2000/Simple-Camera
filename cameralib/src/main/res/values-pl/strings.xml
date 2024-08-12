@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Tryb przechwytywania</string>
     <string name="camlib_maximize_quality">Maksymalizuj jakość</string>
     <string name="camlib_minimize_latency">Minimalizuj opóźnienie</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Aparat niedostępny</string>
     <string name="camlib_camera_open_error">Nie udało się uzyskać dostępu do aparatu</string>
     <string name="camlib_save_error_internal_storage">Wystąpił błąd. Folder zapisu został zmieniony na pamięć wewnętrzną.</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">Tryb Nie przeszkadzać jest włączony. Wyłącz go i spróbuj ponownie.</string>
     <string name="camlib_photo_capture_failed">Nie udało się zrobić zdjęcia</string>
     <string name="camlib_video_capture_insufficient_storage_error">Nagrywanie wideo nie powiodło się z powodu niewystarczającej ilości miejsca</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Wyświetl ostatnio zrobiony plik</string>
     <string name="camlib_toggle_camera">Przełącz między przednim a tylnym aparatem</string>
     <string name="camlib_toggle_flash">Przełącz na tryb lampy błyskowej</string>
     <string name="camlib_toggle_timer">Przełącz na tryb samowyzwalacza</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Dźwięk migawki</string>
     <string name="camlib_photo">Zdjęcie</string>
     <string name="camlib_video">Wideo</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Zapisuj metadane EXIF w zdjęciach</string>
     <string name="camlib_photo_compression_quality">Jakość kompresji zdjęć</string>
     <string name="camlib_shutter">Migawka</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

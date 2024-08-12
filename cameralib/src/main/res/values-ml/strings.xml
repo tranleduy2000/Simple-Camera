@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Capture mode</string>
     <string name="camlib_maximize_quality">Maximize quality</string>
     <string name="camlib_minimize_latency">Minimize latency</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">ക്യാമറ ലഭ്യമല്ല</string>
     <string name="camlib_camera_open_error">ക്യാമറ ആക്‌സസ് ചെയ്യുന്നതിൽ ഒരു പിശക് സംഭവിച്ചു</string>
     <string name="camlib_save_error_internal_storage">ഒരു പിശക് സംഭവിച്ചു, സേവ് ഫോൾഡർ ഇന്റെർണൽ സ്റ്റോറേജിലേക്കു മാറ്റി</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">ടു നോട്ട് ഡിസ്റ്റർബ്(DND) മോഡ് സജീവമാക്കിയിരിക്കുന്നു . ദയവായി അത് പ്രവർത്തനരഹിതമാക്കി വീണ്ടും ശ്രമിക്കുക</string>
     <string name="camlib_photo_capture_failed">ഫോട്ടോ എടുക്കൽ പരാജയപ്പെട്ടു</string>
     <string name="camlib_video_capture_insufficient_storage_error">മതിയായ സ്റ്റോറേജ് ഇല്ലാത്തതിനാൽ വീഡിയോ റെക്കോർഡിംഗ് പരാജയപ്പെട്ടു</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">അവസാനം പകർത്തിയ മീഡിയ കാണുക</string>
     <string name="camlib_toggle_camera">ഫ്രണ്ട്/ബാക്ക് ക്യാമറ ടോഗിൾ ചെയ്യുക</string>
     <string name="camlib_toggle_flash">ഫ്ലാഷ്‌ലൈറ്റ് മോഡ് ടോഗിൾ ചെയ്യുക</string>
     <string name="camlib_toggle_timer">Toggle the timer mode</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">ഷട്ടർ ശബ്ദം</string>
     <string name="camlib_photo">ഫോട്ടോ</string>
     <string name="camlib_video">വീഡിയോ</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">ഫോട്ടോ exif മെറ്റാഡാറ്റ സംരക്ഷിക്കുക</string>
     <string name="camlib_photo_compression_quality">ഫോട്ടോ കംപ്രഷൻ ക്വാളിറ്റി</string>
     <string name="camlib_shutter">ഷട്ടർ</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

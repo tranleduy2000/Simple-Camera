@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Mode tangkapan</string>
     <string name="camlib_maximize_quality">Tingkatkan kualitas</string>
     <string name="camlib_minimize_latency">Kurangi latensi</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Kamera tidak tersedia</string>
     <string name="camlib_camera_open_error">Terjadi kesalahan saat mengakses kamera</string>
     <string name="camlib_save_error_internal_storage">Telah terjadi kesalahan, folder simpan berubah ke penyimpanan internal</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">Mode Jangan Ganggu diaktifkan. Silakan nonaktifkan dan coba lagi</string>
     <string name="camlib_photo_capture_failed">Gagal mengambil foto</string>
     <string name="camlib_video_capture_insufficient_storage_error">Gagal merekam video karena penyimpanan tidak cukup</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Lihat media yang terakhir kali ditangkap</string>
     <string name="camlib_toggle_camera">Ubah kamera depan/belakang</string>
     <string name="camlib_toggle_flash">Saklar mode senter</string>
     <string name="camlib_toggle_timer">Saklar mode pewaktu</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Suara rana</string>
     <string name="camlib_photo">Foto</string>
     <string name="camlib_video">Video</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Simpan metadata exif foto</string>
     <string name="camlib_photo_compression_quality">Kualitas kompresi foto</string>
     <string name="camlib_shutter">Rana</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

@@ -7,108 +7,13 @@
     <string name="camlib_error">Fel: %s</string>
     <string name="camlib_open_with">Öppna med</string>
     <string name="camlib_no_app_found">Ingen giltig app hittades</string>
-    <!-- Events -->
-    <!-- Emails -->
-    <!-- Phone numbers -->
-    <!-- View types -->
-
-
-    <!-- Blocked numbers -->
-    <!-- Favorites -->
-    <!-- Search -->
-    <!-- Filters -->
-    <!-- Permissions -->
     <string name="camlib_no_camera_permissions">Kamerabehörighet krävs</string>
     <string name="camlib_no_audio_permissions">Mikrofonbehörighet krävs</string>
-    <!-- Renaming -->
-    <!-- Copy / Move -->
     <string name="camlib_could_not_create_file">Det gick inte att skapa filen %s</string>
-    <!-- Create new -->
     <string name="camlib_unknown_error_occurred">Ett okänt fel har uppstått</string>
-    <!-- File operation conflicts -->
-    <!-- File picker -->
-
-    <!-- Are you sure you want to delete 5 items? -->
-
-
-    <!-- Are you sure you want to delete 5 contacts? -->
-
-    <!-- Storages -->
-    <!-- File properties -->
     <string name="camlib_resolution">Upplösning</string>
-    <!-- Color customization -->
-    <!-- Themes -->
-    <!-- What's new -->
-    <!-- Actionbar items -->
-    <!-- Sorting -->
-    <!-- Confirmation dialog -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-
-    <!-- Password protection -->
-    <!-- Times -->
-
-
-
-
-
-
-
-    <!-- For example: I will be there in 5 minutes -->
-
-
-
-
-
-
-
-    <!-- For example: Event reminder: 3 minutes before -->
-
-
-
-
-
-
-
-    <!-- For example: Postpone reminder by 3 minutes -->
-
-
-
-
-
-
-
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
-    <!-- Settings -->
     <string name="camlib_settings">Inställningar</string>
     <string name="camlib_language">Språk</string>
-    <!-- Setting sections -->
-    <!-- Excluding -->
-    <!-- Default tab to open -->
-    <!-- Recycle Bin -->
-
-    <!-- Import / Export -->
-    <!-- OTG devices -->
-    <!-- Dates -->
-    <!-- Short months -->
-    <!-- in January -->
-    <!-- Pro version -->
-    <!-- About -->
     <string name="camlib_other">Övrigt</string>
-    <!-- New app (do not translate anything on the 4th line) -->
-    <!-- FAQ -->
-    <!-- Contributors -->
-    <!-- Pro comparison (shown in the deprecated free apps) -->
-    <!-- Gallery Pro -->
-    <!-- Calendar Pro -->
-    <!-- Contacts Pro -->
-    <!-- Notes Pro -->
-    <!-- File Manager Pro -->
-    <!-- Draw Pro -->
-    <!-- License -->
-    <!-- Trial -->
 
-    <!-- Google Play listing -->
-    <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>

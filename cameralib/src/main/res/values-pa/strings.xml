@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">ਕੈਪਚਰ ਮੋਡ</string>
+    <string name="camlib_maximize_quality">ਵੱਧ ਤੋਂ ਵੱਧ ਗੁਣਵੱਤਾ</string>
+    <string name="camlib_minimize_latency">ਲੇਟੈਂਸੀ ਨੂੰ ਘੱਟ ਕਰੋ</string>
+    <string name="camlib_camera_unavailable">ਕੈਮਰਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <string name="camlib_camera_open_error">ਕੈਮਰੇ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਵਿੱਚ ਇੱਕ ਤਰੁੱਟੀ ਉਤਪੰਨ ਹੋਈ</string>
+    <string name="camlib_save_error_internal_storage">ਇੱਕ ਤਰੁੱਟੀ ਉਤਪੰਨ ਹੋਈ, ਸੁਰੱਖਿਅਤ ਫੋਲਡਰ ਨੂੰ ਅੰਦਰੂਨੀ ਸਟੋਰੇਜ ਵਿੱਚ ਬਦਲਿਆ ਗਿਆ</string>
+    <string name="camlib_camera_switch_error">ਕੈਮਰਾ ਬਦਲਣਾ ਅਸਫਲ ਰਿਹਾ</string>
+    <string name="camlib_photo_not_saved">ਫੋਟੋ ਨੂੰ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ</string>
+    <string name="camlib_video_recording_failed">ਵੀਡੀਓ ਰਿਕਾਰਡਿੰਗ ਅਸਫਲ ਰਹੀ, ਇੱਕ ਵੱਖਰੇ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="camlib_camera_in_use_error">ਕੈਮਰਾ ਕਿਸੇ ਹੋਰ ਐਪ ਦੁਆਰਾ ਵਰਤੋਂ ਵਿੱਚ ਹੈ, ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਨੂੰ ਬੰਦ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="camlib_camera_configure_error">ਕੈਮਰਾ ਕੌਂਫਿਗਰ ਕਰਨ ਦੌਰਾਨ ਇੱਕ ਤਰੁੱਟੀ ਉਤਪੰਨ ਹੋਈ</string>
+    <string name="camlib_camera_disabled_by_admin_error">ਪ੍ਰਸ਼ਾਸਕ ਦੁਆਰਾ ਕੈਮਰਾ ਬੰਦ ਕੀਤਾ ਗਿਆ ਹੈ</string>
+    <string name="camlib_camera_dnd_error">"ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ" ਮੋਡ ਚਾਲੂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਅਯੋਗ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="camlib_photo_capture_failed">ਫੋਟੋ ਕੈਪਚਰ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ</string>
+    <string name="camlib_video_capture_insufficient_storage_error">ਨਾਕਾਫ਼ੀ ਸਟੋਰੇਜ ਕਾਰਨ ਵੀਡੀਓ ਰਿਕਾਰਡਿੰਗ ਅਸਫਲ ਰਹੀ</string>
+    <string name="camlib_view_last_media">ਆਖਰੀ ਕੈਪਚਰ ਕੀਤਾ ਮੀਡੀਆ ਦੇਖੋ</string>
+    <string name="camlib_toggle_camera">ਫਰੰਟ/ਬੈਕ ਕੈਮਰਾ ਟੌਗਲ ਕਰੋ</string>
+    <string name="camlib_toggle_flash">ਫਲੈਸ਼ਲਾਈਟ ਮੋਡ ਨੂੰ ਟੌਗਲ ਕਰੋ</string>
+    <string name="camlib_toggle_timer">ਟਾਈਮਰ ਮੋਡ ਨੂੰ ਟੌਗਲ ਕਰੋ</string>
+    <string name="camlib_shutter_sound">ਸ਼ਟਰ ਦੀ ਆਵਾਜ਼</string>
+    <string name="camlib_photo">ਫੋਟੋ</string>
+    <string name="camlib_video">ਵੀਡੀਓ</string>
+    <string name="camlib_volume_buttons_as_shutter">ਵਾਲੀਅਮ ਬਟਨਾਂ ਨੂੰ ਸ਼ਟਰ ਵਜੋਂ ਵਰਤੋ</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">ਫਰੰਟ ਕੈਮਰਾ ਫੋਟੋਆਂ ਨੂੰ ਖਿਤਿਜੀ ਰੂਪ ਵਿੱਚ ਫਲਿੱਪ ਕਰੋ</string>
+    <string name="camlib_save_photo_metadata">ਫੋਟੋ ਐਕਸਫ ਮੈਟਾਡੇਟਾ ਸੁਰੱਖਿਅਤ ਕਰੋ</string>
+    <string name="camlib_photo_compression_quality">ਫੋਟੋ ਕੰਪਰੈਸ਼ਨ ਗੁਣਵੱਤਾ</string>
+    <string name="camlib_shutter">ਸ਼ਟਰ</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">ଠିକ ଅଛି |</string>
+    <string name="camlib_close">ବନ୍ଦ</string>
+    <string name="camlib_back">ପଛକୁ</string>
+    <string name="camlib_out_of_memory_error">ମେମୋରୀ ତ୍ରୁଟିରୁ |</string>
+    <string name="camlib_error">ତ୍ରୁଟି: %s</string>
+    <string name="camlib_open_with">ସହିତ ଖୋଲନ୍ତୁ |</string>
+    <string name="camlib_no_app_found">କ valid ଣସି ବ valid ଧ ଆପ୍ ମିଳିଲା ନାହିଁ |</string>
+    <string name="camlib_no_camera_permissions">କ୍ୟାମେରା ଅନୁମତି ଆବଶ୍ୟକ |</string>
+    <string name="camlib_no_audio_permissions">ଅଡିଓ ଅନୁମତି ଆବଶ୍ୟକ |</string>
+    <string name="camlib_could_not_create_file">%s ଫାଇଲ୍ ସୃଷ୍ଟି କରିପାରିଲା ନାହିଁ |</string>
+    <string name="camlib_unknown_error_occurred">ଏକ ଅଜ୍ଞାତ ତ୍ରୁଟି ଘଟିଗଲା |</string>
+    <string name="camlib_resolution">ସଂକଳ୍ପ</string>
+    <string name="camlib_settings">ସେଟିଂସମୂହ</string>
+    <string name="camlib_language">ଭାଷା</string>
+    <string name="camlib_other">ଅନ୍ୟମାନେ |</string>
+
+</resources>

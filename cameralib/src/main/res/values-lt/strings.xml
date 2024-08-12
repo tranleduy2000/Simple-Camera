@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Fotografavimo veiksena</string>
     <string name="camlib_maximize_quality">Pagerinti kokybę</string>
     <string name="camlib_minimize_latency">Sumažinti delsą</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Kamera neprieinama</string>
     <string name="camlib_camera_open_error">Bandant pasiekti kamerą įvyko klaida</string>
     <string name="camlib_save_error_internal_storage">Įvyko klaida, įrašymo aplankas pakeistas į vidinę atmintį</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">Yra įjungta veiksena „Netrukdyti“. Išjunkite ją ir bandykite dar kartą</string>
     <string name="camlib_photo_capture_failed">Nepavyko padaryti nuotraukos</string>
     <string name="camlib_video_capture_insufficient_storage_error">Vaizdo įrašymas dėl atminties trūkumo patyrė nesėkmę</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Rodyti paskiausiai fiksuotą mediją</string>
     <string name="camlib_toggle_camera">Perjungti priekinę/galinę kamerą</string>
     <string name="camlib_toggle_flash">Perjungti žibintuvėlio veikseną</string>
     <string name="camlib_toggle_timer">Perjungti laikmačio veikseną</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Sklendės garsas</string>
     <string name="camlib_photo">Nuotrauka</string>
     <string name="camlib_video">Vaizdo įrašas</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Įrašyti į nuotraukas EXIF metaduomenis</string>
     <string name="camlib_photo_compression_quality">Nuotraukų glaudinimo kokybė</string>
     <string name="camlib_shutter">Sklendė</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

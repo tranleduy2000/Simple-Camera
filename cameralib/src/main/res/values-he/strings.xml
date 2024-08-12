@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">מצב לכידה</string>
+    <string name="camlib_maximize_quality">מקסימום איכות</string>
+    <string name="camlib_minimize_latency">צמצם זמן אחזור</string>
+    <string name="camlib_camera_unavailable">המצלמה לא זמינה</string>
+    <string name="camlib_camera_open_error">אירעה שגיאה בגישה למצלמה</string>
+    <string name="camlib_save_error_internal_storage">אירעה שגיאה, תיקיית השמירה שונתה לאחסון פנימי</string>
+    <string name="camlib_camera_switch_error">החלפת מצלמה נכשלה</string>
+    <string name="camlib_photo_not_saved">לא ניתן היה לשמור את התמונה</string>
+    <string name="camlib_video_recording_failed">הקלטת הווידאו נכשלה, נסה להשתמש ברזולוציה אחרת</string>
+    <string name="camlib_camera_in_use_error">המצלמה נמצאת בשימוש על ידי אפליקציה אחרת, אנא סגור את האפליקציה ונסה שוב</string>
+    <string name="camlib_camera_configure_error">אירעה שגיאה במהלך הגדרת המצלמה</string>
+    <string name="camlib_camera_disabled_by_admin_error">המצלמה מושבתת על ידי מנהל המערכת</string>
+    <string name="camlib_camera_dnd_error">מצב "נא לא להפריע" מופעל. אנא השבת ונסה שוב</string>
+    <string name="camlib_photo_capture_failed">לכידת התמונה נכשלה</string>
+    <string name="camlib_video_capture_insufficient_storage_error">הקלטת הווידאו נכשלה עקב אחסון לא מספיק</string>
+    <string name="camlib_view_last_media">צפה במדיה שצולמה לאחרונה</string>
+    <string name="camlib_toggle_camera">החלף בין מצלמה קדמית/אחורית</string>
+    <string name="camlib_toggle_flash">החלף את מצב הפנס</string>
+    <string name="camlib_toggle_timer">החלף את מצב הטיימר</string>
+    <string name="camlib_shutter_sound">צליל תריס</string>
+    <string name="camlib_photo">תַצלוּם</string>
+    <string name="camlib_video">וִידֵאוֹ</string>
+    <string name="camlib_volume_buttons_as_shutter">השתמש בלחצני עוצמת הקול בתור תריס</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">הפוך את תמונות המצלמה הקדמית אופקית</string>
+    <string name="camlib_save_photo_metadata">שמור מטא נתונים של Exif של תמונה</string>
+    <string name="camlib_photo_compression_quality">איכות דחיסת תמונה</string>
+    <string name="camlib_shutter">תְרִיס</string>
+
+</resources>

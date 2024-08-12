@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Način snimanja</string>
     <string name="camlib_maximize_quality">Maksimiraj kvalitetu</string>
     <string name="camlib_minimize_latency">Minimiziraj latenciju</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Kamera nije dostupna</string>
     <string name="camlib_camera_open_error">Dogodila se greška prilikom pristupanja kameri</string>
     <string name="camlib_save_error_internal_storage">Dogodila se greška, mapa za spremanje promijenjena je u interno spremište</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">Modus „Ne smetaj” je aktiviran. Deaktiviraj ga i pokušaj ponovo</string>
     <string name="camlib_photo_capture_failed">Snimanje fotografije nije uspjelo</string>
     <string name="camlib_video_capture_insufficient_storage_error">Snimanje videa nije uspjelo zbog nedovoljne memorije</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Pogledaj zadnje snimljeni medij</string>
     <string name="camlib_toggle_camera">Uklj./Isklj. prednju/stražnju kameru</string>
     <string name="camlib_toggle_flash">Uklj./Isklj. modus svjetiljke</string>
     <string name="camlib_toggle_timer">Uklj./Isklj. modus timera</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Zvuk otvora objektiva</string>
     <string name="camlib_photo">Foto</string>
     <string name="camlib_video">Video</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Spremi exif metapodatke fotografije</string>
     <string name="camlib_photo_compression_quality">Kvaliteta kompresije fotografije</string>
     <string name="camlib_shutter">Otvor objektiva</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

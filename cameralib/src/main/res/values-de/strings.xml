@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Aufnahmemodus</string>
     <string name="camlib_maximize_quality">Qualität maximieren</string>
     <string name="camlib_minimize_latency">Latenz minimieren</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Kamera nicht verfügbar</string>
     <string name="camlib_camera_open_error">Beim Zugriff auf die Kamera ist ein Fehler aufgetreten</string>
     <string name="camlib_save_error_internal_storage">Es ist ein Fehler aufgetreten, weil der Speicherordner in den internen Speicher geändert wurde</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">Der „Bitte nicht stören“-Modus ist aktiviert. Bitte deaktivieren Sie ihn und versuchen Sie es erneut</string>
     <string name="camlib_photo_capture_failed">Fotoaufnahme fehlgeschlagen</string>
     <string name="camlib_video_capture_insufficient_storage_error">Videoaufzeichnung aufgrund unzureichender Speicherkapazität fehlgeschlagen</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Zuletzt erfasste Medien anzeigen</string>
     <string name="camlib_toggle_camera">Zwischen Front- und Rückkamera umschalten</string>
     <string name="camlib_toggle_flash">Taschenlampenmodus umschalten</string>
     <string name="camlib_toggle_timer">Timermodus umschalten</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Auslöseton</string>
     <string name="camlib_photo">Foto</string>
     <string name="camlib_video">Video</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Exif-Metadaten in Fotos speichern</string>
     <string name="camlib_photo_compression_quality">Fotokomprimierungsqualität</string>
     <string name="camlib_shutter">Verschluss</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

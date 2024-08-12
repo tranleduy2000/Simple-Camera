@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">କ୍ୟାପଚର ମୋଡ୍ |</string>
+    <string name="camlib_maximize_quality">ଗୁଣବତ୍ତା ବୃଦ୍ଧି କରନ୍ତୁ |</string>
+    <string name="camlib_minimize_latency">ବିଳମ୍ବତାକୁ କମ୍ କରନ୍ତୁ |</string>
+    <string name="camlib_camera_unavailable">କ୍ୟାମେରା ଉପଲବ୍ଧ ନାହିଁ |</string>
+    <string name="camlib_camera_open_error">କ୍ୟାମେରା ପ୍ରବେଶ କରିବାରେ ଏକ ତ୍ରୁଟି ଘଟିଗଲା |</string>
+    <string name="camlib_save_error_internal_storage">ଏକ ତ୍ରୁଟି ଘଟିଲା, ଆଭ୍ୟନ୍ତରୀଣ ଷ୍ଟୋରେଜକୁ ପରିବର୍ତ୍ତିତ ଫୋଲ୍ଡର |</string>
+    <string name="camlib_camera_switch_error">କ୍ୟାମେରା ସୁଇଚ୍ ବିଫଳ ହେଲା |</string>
+    <string name="camlib_photo_not_saved">ଫଟୋ ସେଭ୍ ହୋଇପାରିଲା ନାହିଁ |</string>
+    <string name="camlib_video_recording_failed">ଭିଡିଓ ରେକର୍ଡିଂ ବିଫଳ ହୋଇଛି, ଏକ ଭିନ୍ନ ରେଜୋଲୁସନ ବ୍ୟବହାର କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ |</string>
+    <string name="camlib_camera_in_use_error">କ୍ୟାମେରା ଅନ୍ୟ ଏକ ଆପ୍ ଦ୍ୱାରା ବ୍ୟବହୃତ ହେଉଛି, ଦୟାକରି ଆପ୍ ବନ୍ଦ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ |</string>
+    <string name="camlib_camera_configure_error">କ୍ୟାମେରା ବିନ୍ୟାସ କରିବା ସମୟରେ ଏକ ତ୍ରୁଟି ଘଟିଗଲା |</string>
+    <string name="camlib_camera_disabled_by_admin_error">ଆଡମିନି ଦ୍ୱାରା କ୍ୟାମେରା ଅକ୍ଷମ ହୋଇଛି |</string>
+    <string name="camlib_camera_dnd_error">"ବିଚଳିତ କର ନାହିଁ" ମୋଡ୍ ସକ୍ଷମ ହୋଇଛି | ଦୟାକରି ଅକ୍ଷମ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ |</string>
+    <string name="camlib_photo_capture_failed">ଫଟୋ କ୍ୟାପଚର ବିଫଳ ହେଲା |</string>
+    <string name="camlib_video_capture_insufficient_storage_error">ପର୍ଯ୍ୟାପ୍ତ ସଂରକ୍ଷଣ ହେତୁ ଭିଡିଓ ରେକର୍ଡିଂ ବିଫଳ ହେଲା |</string>
+    <string name="camlib_view_last_media">ଶେଷ ଧରାଯାଇଥିବା ମିଡିଆ ଦେଖନ୍ତୁ |</string>
+    <string name="camlib_toggle_camera">ଆଗ / ପଛ କ୍ୟାମେରା ଟୋଗଲ୍ କରନ୍ତୁ |</string>
+    <string name="camlib_toggle_flash">ଫ୍ଲାସ୍ ଲାଇଟ୍ ମୋଡ୍ ଟୋଗଲ୍ କରନ୍ତୁ |</string>
+    <string name="camlib_toggle_timer">ଟାଇମର୍ ମୋଡ୍ ଟୋଗଲ୍ କରନ୍ତୁ |</string>
+    <string name="camlib_shutter_sound">ଶଟର ଧ୍ୱନି |</string>
+    <string name="camlib_photo">ଫଟୋ</string>
+    <string name="camlib_video">ଭିଡିଓ</string>
+    <string name="camlib_volume_buttons_as_shutter">ସଟର ଭାବରେ ଭଲ୍ୟୁମ୍ ବଟନ୍ ବ୍ୟବହାର କରନ୍ତୁ |</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">ଭୂସମାନ୍ତରାଳରେ ସାମ୍ନା କ୍ୟାମେରା ଫଟୋ ଫ୍ଲିପ୍ କରନ୍ତୁ |</string>
+    <string name="camlib_save_photo_metadata">ଫଟୋ exif ମେଟାଡାଟା ସେଭ୍ କରନ୍ତୁ |</string>
+    <string name="camlib_photo_compression_quality">ଫଟୋ ସଙ୍କୋଚନ ଗୁଣ |</string>
+    <string name="camlib_shutter">ଶଟର୍</string>
+
+</resources>

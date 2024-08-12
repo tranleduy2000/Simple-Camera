@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Modo de captura</string>
     <string name="camlib_maximize_quality">Maximizar a qualidade</string>
     <string name="camlib_minimize_latency">Minimizar a latência</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Câmera indisponível</string>
     <string name="camlib_camera_open_error">Ocorreu um erro ao acessar a câmera</string>
     <string name="camlib_save_error_internal_storage">Erro! A pasta para guardar arquivos foi alterada para o armazenamento interno</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">O modo Não perturbe está ativado. Desative e tente novamente</string>
     <string name="camlib_photo_capture_failed">Erro ao tirar foto</string>
     <string name="camlib_video_capture_insufficient_storage_error">Erro ao gravar vídeo devido a armazenamento insuficiente</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Exibir a última mídia capturada</string>
     <string name="camlib_toggle_camera">Alternar câmera frontal/traseira</string>
     <string name="camlib_toggle_flash">Alternar o modo lanterna</string>
     <string name="camlib_toggle_timer">Alternar o modo de temporizador</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Som do obturador</string>
     <string name="camlib_photo">Foto</string>
     <string name="camlib_video">Vídeo</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Salvar metadados exif da foto</string>
     <string name="camlib_photo_compression_quality">Qualidade de compresão de imagem</string>
     <string name="camlib_shutter">Obturador</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

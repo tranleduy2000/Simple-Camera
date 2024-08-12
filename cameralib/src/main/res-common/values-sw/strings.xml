@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">Sawa</string>
+    <string name="camlib_close">Funga</string>
+    <string name="camlib_back">Nyuma</string>
+    <string name="camlib_out_of_memory_error">Hitilafu ya kumbukumbu</string>
+    <string name="camlib_error">Hitilafu: %s</string>
+    <string name="camlib_open_with">Fungua na</string>
+    <string name="camlib_no_app_found">Hakuna programu halali iliyopatikana</string>
+    <string name="camlib_no_camera_permissions">Ruhusa ya kamera inahitajika</string>
+    <string name="camlib_no_audio_permissions">Ruhusa ya sauti inahitajika</string>
+    <string name="camlib_could_not_create_file">Haikuweza kuunda faili %s</string>
+    <string name="camlib_unknown_error_occurred">Hitilafu isiyojulikana imetokea</string>
+    <string name="camlib_resolution">Azimio</string>
+    <string name="camlib_settings">Mipangilio</string>
+    <string name="camlib_language">Lugha</string>
+    <string name="camlib_other">Nyingine</string>
+
+</resources>

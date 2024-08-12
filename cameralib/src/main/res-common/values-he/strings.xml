@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">בְּסֵדֶר</string>
+    <string name="camlib_close">לִסְגוֹר</string>
+    <string name="camlib_back">בְּחֲזָרָה</string>
+    <string name="camlib_out_of_memory_error">שגיאת זיכרון חסר</string>
+    <string name="camlib_error">שגיאה: %s</string>
+    <string name="camlib_open_with">פתח עם</string>
+    <string name="camlib_no_app_found">לא נמצאה אפליקציה חוקית</string>
+    <string name="camlib_no_camera_permissions">נדרשת הרשאת מצלמה</string>
+    <string name="camlib_no_audio_permissions">נדרשת הרשאת שמע</string>
+    <string name="camlib_could_not_create_file">לא ניתן ליצור את הקובץ %s</string>
+    <string name="camlib_unknown_error_occurred">אירעה שגיאה לא ידועה</string>
+    <string name="camlib_resolution">הַחְלָטָה</string>
+    <string name="camlib_settings">הגדרות</string>
+    <string name="camlib_language">שָׂפָה</string>
+    <string name="camlib_other">אַחֵר</string>
+
+</resources>

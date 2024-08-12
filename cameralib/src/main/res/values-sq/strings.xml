@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">Modaliteti i kapjes</string>
+    <string name="camlib_maximize_quality">Maksimizoni cilësinë</string>
+    <string name="camlib_minimize_latency">Minimizoni vonesën</string>
+    <string name="camlib_camera_unavailable">Kamera nuk ofrohet</string>
+    <string name="camlib_camera_open_error">Ndodhi një gabim gjatë qasjes në kamerë</string>
+    <string name="camlib_save_error_internal_storage">Ndodhi një gabim, ruajtja e dosjes u ndryshua në memorie të brendshme</string>
+    <string name="camlib_camera_switch_error">Ndërrimi i kamerës dështoi</string>
+    <string name="camlib_photo_not_saved">Fotografia nuk mund të ruhej</string>
+    <string name="camlib_video_recording_failed">Regjistrimi i videos dështoi, provoni të përdorni një rezolucion tjetër</string>
+    <string name="camlib_camera_in_use_error">Kamera është në përdorim nga një aplikacion tjetër, mbylle aplikacionin dhe provo sërish</string>
+    <string name="camlib_camera_configure_error">Ndodhi një gabim gjatë konfigurimit të kamerës</string>
+    <string name="camlib_camera_disabled_by_admin_error">Kamera është çaktivizuar nga administratori</string>
+    <string name="camlib_camera_dnd_error">Modaliteti "Mos shqetëso" është aktivizuar. Ju lutemi çaktivizoni dhe provoni përsëri</string>
+    <string name="camlib_photo_capture_failed">Regjistrimi i fotografisë dështoi</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Regjistrimi i videos dështoi për shkak të ruajtjes së pamjaftueshme</string>
+    <string name="camlib_view_last_media">Shiko median e fundit të kapur</string>
+    <string name="camlib_toggle_camera">Ndrysho kamerën e përparme/të pasme</string>
+    <string name="camlib_toggle_flash">Ndrysho modalitetin e elektrik dore</string>
+    <string name="camlib_toggle_timer">Ndrysho modalitetin e kohëmatësit</string>
+    <string name="camlib_shutter_sound">Tingulli i grilave</string>
+    <string name="camlib_photo">Foto</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Përdorni butonat e volumit si diafragmë</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Kthejini fotot e kamerës së përparme horizontalisht</string>
+    <string name="camlib_save_photo_metadata">Ruani të dhënat meta exif të fotografisë</string>
+    <string name="camlib_photo_compression_quality">Cilësia e kompresimit të fotografive</string>
+    <string name="camlib_shutter">Grila</string>
+
+</resources>

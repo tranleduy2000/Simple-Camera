@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Režim snímání</string>
     <string name="camlib_maximize_quality">Maximalizovat kvalitu</string>
     <string name="camlib_minimize_latency">Minimalizovat zpoždění</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Fotoaparát není dostupný</string>
     <string name="camlib_camera_open_error">Při přístupu k fotoaparátu došlo k chybě</string>
     <string name="camlib_save_error_internal_storage">Došlo k chybě, složka pro uložení byla změněna na interní úložiště</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">Je povolený režim Nerušit. Prosím, zakažte jej a zkuste to znovu</string>
     <string name="camlib_photo_capture_failed">Pořízení fotografie selhalo</string>
     <string name="camlib_video_capture_insufficient_storage_error">Nahrávání videa selhalo kvůli nedostatečnému místu v úložišti</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Zobrazit poslední pořízený snímek</string>
     <string name="camlib_toggle_camera">Přepnout přední/zadní fotoaparát</string>
     <string name="camlib_toggle_flash">Přepnout režim blesku</string>
     <string name="camlib_toggle_timer">Přepnout režim časovače</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Zvuk závěrky</string>
     <string name="camlib_photo">Fotografie</string>
     <string name="camlib_video">Videa</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Ukládat exif metadata fotografií</string>
     <string name="camlib_photo_compression_quality">Úroveň komprese fotografií</string>
     <string name="camlib_shutter">Spoušť</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

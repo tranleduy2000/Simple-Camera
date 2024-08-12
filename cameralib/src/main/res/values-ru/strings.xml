@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="camlib_capture_mode">Режим съёмки</string>
     <string name="camlib_maximize_quality">Максимальное качество</string>
     <string name="camlib_minimize_latency">Минимальная задержка</string>
-    <!-- Errors -->
     <string name="camlib_camera_unavailable">Камера недоступна</string>
     <string name="camlib_camera_open_error">Невозможно получить доступ к камере</string>
     <string name="camlib_save_error_internal_storage">Произошла ошибка, так как место для сохранения изменено на внутреннюю память</string>
@@ -17,13 +15,10 @@
     <string name="camlib_camera_dnd_error">Включён режим \"Не беспокоить\", отключите и повторите попытку</string>
     <string name="camlib_photo_capture_failed">Не удалось сделать снимок</string>
     <string name="camlib_video_capture_insufficient_storage_error">Запись видео не удалась из-за нехватки памяти</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="camlib_view_last_media">Просмотр последнего снимка</string>
     <string name="camlib_toggle_camera">Переключить переднюю/заднюю камеру</string>
     <string name="camlib_toggle_flash">Переключить режим фонарика</string>
     <string name="camlib_toggle_timer">Переключить режим таймера</string>
-    <!-- FAQ -->
-    <!-- Settings -->
     <string name="camlib_shutter_sound">Звук затвора</string>
     <string name="camlib_photo">Фото</string>
     <string name="camlib_video">Видео</string>
@@ -32,8 +27,5 @@
     <string name="camlib_save_photo_metadata">Сохранять в фото данные EXIF</string>
     <string name="camlib_photo_compression_quality">Качество фото после сжатия</string>
     <string name="camlib_shutter">Затвор</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

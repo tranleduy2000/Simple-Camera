@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">ठीक है</string>
+    <string name="camlib_close">बंद करना</string>
+    <string name="camlib_back">पीछे</string>
+    <string name="camlib_out_of_memory_error">बाहर स्मृति त्रुटि</string>
+    <string name="camlib_error">त्रुटि: %s</string>
+    <string name="camlib_open_with">के साथ खोलें</string>
+    <string name="camlib_no_app_found">कोई वैध ऐप नहीं मिला</string>
+    <string name="camlib_no_camera_permissions">कैमरा अनुमति आवश्यक है</string>
+    <string name="camlib_no_audio_permissions">ऑडियो अनुमति आवश्यक है</string>
+    <string name="camlib_could_not_create_file">फ़ाइल %s नहीं बनाई जा सकी</string>
+    <string name="camlib_unknown_error_occurred">एक अज्ञात त्रुटि हुई</string>
+    <string name="camlib_resolution">संकल्प</string>
+    <string name="camlib_settings">सेटिंग्स</string>
+    <string name="camlib_language">भाषा</string>
+    <string name="camlib_other">अन्य</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">Hali ya kunasa</string>
+    <string name="camlib_maximize_quality">Ongeza ubora</string>
+    <string name="camlib_minimize_latency">Punguza muda wa kusubiri</string>
+    <string name="camlib_camera_unavailable">Kamera haipatikani</string>
+    <string name="camlib_camera_open_error">Hitilafu imetokea wakati wa kufikia kamera</string>
+    <string name="camlib_save_error_internal_storage">Hitilafu imetokea, hifadhi ya folda ilibadilishwa kuwa hifadhi ya ndani</string>
+    <string name="camlib_camera_switch_error">Kubadilisha kamera kumeshindwa</string>
+    <string name="camlib_photo_not_saved">Picha haikuweza kuhifadhiwa</string>
+    <string name="camlib_video_recording_failed">Imeshindwa kurekodi video, jaribu kutumia mwonekano tofauti</string>
+    <string name="camlib_camera_in_use_error">Kamera inatumiwa na programu nyingine, tafadhali funga programu na ujaribu tena</string>
+    <string name="camlib_camera_configure_error">Hitilafu ilitokea wakati wa kusanidi kamera</string>
+    <string name="camlib_camera_disabled_by_admin_error">Kamera imezimwa na msimamizi</string>
+    <string name="camlib_camera_dnd_error">Hali ya "Usisumbue" imewashwa. Tafadhali zima na ujaribu tena</string>
+    <string name="camlib_photo_capture_failed">Imeshindwa kupiga picha</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Kurekodi video kumeshindwa kwa sababu ya hifadhi isiyotosha</string>
+    <string name="camlib_view_last_media">Tazama maudhui ya mwisho yaliyonaswa</string>
+    <string name="camlib_toggle_camera">Geuza kamera ya mbele/nyuma</string>
+    <string name="camlib_toggle_flash">Geuza hali ya tochi</string>
+    <string name="camlib_toggle_timer">Geuza hali ya kipima muda</string>
+    <string name="camlib_shutter_sound">Sauti ya shutter</string>
+    <string name="camlib_photo">Picha</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Tumia vitufe vya sauti kama shutter</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Geuza picha za kamera ya mbele kwa mlalo</string>
+    <string name="camlib_save_photo_metadata">Hifadhi metadata ya exif ya picha</string>
+    <string name="camlib_photo_compression_quality">Ubora wa ukandamizaji wa picha</string>
+    <string name="camlib_shutter">Shutter</string>
+
+</resources>

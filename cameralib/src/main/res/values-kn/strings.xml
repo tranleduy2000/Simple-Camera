@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">ಕ್ಯಾಪ್ಚರ್ ಮೋಡ್</string>
+    <string name="camlib_maximize_quality">ಗುಣಮಟ್ಟವನ್ನು ಗರಿಷ್ಠಗೊಳಿಸಿ</string>
+    <string name="camlib_minimize_latency">ಸುಪ್ತತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಿ</string>
+    <string name="camlib_camera_unavailable">ಕ್ಯಾಮರಾ ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="camlib_camera_open_error">ಕ್ಯಾಮರಾವನ್ನು ಪ್ರವೇಶಿಸುವಲ್ಲಿ ದೋಷ ಸಂಭವಿಸಿದೆ</string>
+    <string name="camlib_save_error_internal_storage">ದೋಷ ಸಂಭವಿಸಿದೆ, ಫೋಲ್ಡರ್ ಅನ್ನು ಉಳಿಸಿ ಆಂತರಿಕ ಸಂಗ್ರಹಣೆಗೆ ಬದಲಾಯಿಸಲಾಗಿದೆ</string>
+    <string name="camlib_camera_switch_error">ಕ್ಯಾಮರಾ ಸ್ವಿಚಿಂಗ್ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="camlib_photo_not_saved">ಫೋಟೋವನ್ನು ಉಳಿಸಲಾಗಲಿಲ್ಲ</string>
+    <string name="camlib_video_recording_failed">ವೀಡಿಯೊ ರೆಕಾರ್ಡಿಂಗ್ ವಿಫಲವಾಗಿದೆ, ಬೇರೆ ರೆಸಲ್ಯೂಶನ್ ಬಳಸಿ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="camlib_camera_in_use_error">ಮತ್ತೊಂದು ಅಪ್ಲಿಕೇಶನ್‌ನಿಂದ ಕ್ಯಾಮರಾ ಬಳಕೆಯಲ್ಲಿದೆ, ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಮುಚ್ಚಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="camlib_camera_configure_error">ಕ್ಯಾಮರಾವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ</string>
+    <string name="camlib_camera_disabled_by_admin_error">ನಿರ್ವಾಹಕರು ಕ್ಯಾಮರಾವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದಾರೆ</string>
+    <string name="camlib_camera_dnd_error">"ಅಡಚಣೆ ಮಾಡಬೇಡಿ" ಮೋಡ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="camlib_photo_capture_failed">ಫೋಟೋ ಸೆರೆಹಿಡಿಯಲು ವಿಫಲವಾಗಿದೆ</string>
+    <string name="camlib_video_capture_insufficient_storage_error">ಸಾಕಷ್ಟು ಸಂಗ್ರಹಣೆ ಇಲ್ಲದ ಕಾರಣ ವೀಡಿಯೊ ರೆಕಾರ್ಡಿಂಗ್ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="camlib_view_last_media">ಕೊನೆಯದಾಗಿ ಸೆರೆಹಿಡಿಯಲಾದ ಮಾಧ್ಯಮವನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="camlib_toggle_camera">ಮುಂಭಾಗ/ಹಿಂದಿನ ಕ್ಯಾಮರಾವನ್ನು ಟಾಗಲ್ ಮಾಡಿ</string>
+    <string name="camlib_toggle_flash">ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್ ಮೋಡ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡಿ</string>
+    <string name="camlib_toggle_timer">ಟೈಮರ್ ಮೋಡ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡಿ</string>
+    <string name="camlib_shutter_sound">ಶಟರ್ ಧ್ವನಿ</string>
+    <string name="camlib_photo">ಫೋಟೋ</string>
+    <string name="camlib_video">ವೀಡಿಯೊ</string>
+    <string name="camlib_volume_buttons_as_shutter">ವಾಲ್ಯೂಮ್ ಬಟನ್‌ಗಳನ್ನು ಶಟರ್ ಆಗಿ ಬಳಸಿ</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">ಮುಂಭಾಗದ ಕ್ಯಾಮರಾ ಫೋಟೋಗಳನ್ನು ಅಡ್ಡಲಾಗಿ ಫ್ಲಿಪ್ ಮಾಡಿ</string>
+    <string name="camlib_save_photo_metadata">ಫೋಟೋ ಎಕ್ಸಿಫ್ ಮೆಟಾಡೇಟಾವನ್ನು ಉಳಿಸಿ</string>
+    <string name="camlib_photo_compression_quality">ಫೋಟೋ ಕಂಪ್ರೆಷನ್ ಗುಣಮಟ್ಟ</string>
+    <string name="camlib_shutter">ಶಟರ್</string>
+
+</resources>

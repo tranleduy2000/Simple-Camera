@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">ຕົກລົງ</string>
+    <string name="camlib_close">ປິດ</string>
+    <string name="camlib_back">ກັບຄືນໄປບ່ອນ</string>
+    <string name="camlib_out_of_memory_error">ຂາດຄວາມຊົງຈໍາ</string>
+    <string name="camlib_error">ຜິດພາດ: %s</string>
+    <string name="camlib_open_with">ເປີດດ້ວຍ</string>
+    <string name="camlib_no_app_found">ບໍ່ພົບແອັບຯທີ່ຖືກຕ້ອງ</string>
+    <string name="camlib_no_camera_permissions">ຕ້ອງມີການອະນຸຍາດກ້ອງຖ່າຍຮູບ</string>
+    <string name="camlib_no_audio_permissions">ຕ້ອງມີການອະນຸຍາດສຽງ</string>
+    <string name="camlib_could_not_create_file">ບໍ່ສາມາດສ້າງໄຟລ໌ %s ໄດ້</string>
+    <string name="camlib_unknown_error_occurred">ເກີດຄວາມຜິດພາດທີ່ບໍ່ຮູ້ຈັກຂຶ້ນ</string>
+    <string name="camlib_resolution">ຄວາມລະອຽດ</string>
+    <string name="camlib_settings">ການຕັ້ງຄ່າ</string>
+    <string name="camlib_language">ພາສາ</string>
+    <string name="camlib_other">ອື່ນໆ</string>
+
+</resources>

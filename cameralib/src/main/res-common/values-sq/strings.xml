@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">OK</string>
+    <string name="camlib_close">Mbylle</string>
+    <string name="camlib_back">Mbrapa</string>
+    <string name="camlib_out_of_memory_error">Gabim jashtë kujtesës</string>
+    <string name="camlib_error">Gabim: %s</string>
+    <string name="camlib_open_with">Hap me</string>
+    <string name="camlib_no_app_found">Nuk u gjet asnjë aplikacion i vlefshëm</string>
+    <string name="camlib_no_camera_permissions">Kërkohet leja e kamerës</string>
+    <string name="camlib_no_audio_permissions">Kërkohet leje audio</string>
+    <string name="camlib_could_not_create_file">Skedari %s nuk mund të krijohej</string>
+    <string name="camlib_unknown_error_occurred">Ndodhi një gabim i panjohur</string>
+    <string name="camlib_resolution">Rezolucioni</string>
+    <string name="camlib_settings">Cilësimet</string>
+    <string name="camlib_language">Gjuha</string>
+    <string name="camlib_other">Të tjera</string>
+
+</resources>

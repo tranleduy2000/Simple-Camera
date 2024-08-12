@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">좋아요</string>
+    <string name="camlib_close">닫다</string>
+    <string name="camlib_back">뒤쪽에</string>
+    <string name="camlib_out_of_memory_error">메모리 부족 오류</string>
+    <string name="camlib_error">오류: %s</string>
+    <string name="camlib_open_with">로 열기</string>
+    <string name="camlib_no_app_found">유효한 앱을 찾을 수 없습니다.</string>
+    <string name="camlib_no_camera_permissions">카메라 권한이 필요합니다</string>
+    <string name="camlib_no_audio_permissions">오디오 허가가 필요합니다</string>
+    <string name="camlib_could_not_create_file">파일 %s을(를) 생성할 수 없습니다.</string>
+    <string name="camlib_unknown_error_occurred">알 수 없는 오류가 발생했습니다.</string>
+    <string name="camlib_resolution">해결</string>
+    <string name="camlib_settings">설정</string>
+    <string name="camlib_language">언어</string>
+    <string name="camlib_other">다른</string>
+
+</resources>

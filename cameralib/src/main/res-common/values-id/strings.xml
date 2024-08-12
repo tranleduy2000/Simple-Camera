@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_ok">OKE</string>
+    <string name="camlib_close">Menutup</string>
+    <string name="camlib_back">Kembali</string>
+    <string name="camlib_out_of_memory_error">Kesalahan kehabisan memori</string>
+    <string name="camlib_error">Kesalahan: %s</string>
+    <string name="camlib_open_with">Buka dengan</string>
+    <string name="camlib_no_app_found">Tidak ditemukan aplikasi yang valid</string>
+    <string name="camlib_no_camera_permissions">Diperlukan izin kamera</string>
+    <string name="camlib_no_audio_permissions">Diperlukan izin audio</string>
+    <string name="camlib_could_not_create_file">Tidak dapat membuat file %s</string>
+    <string name="camlib_unknown_error_occurred">Terjadi kesalahan yang tidak diketahui</string>
+    <string name="camlib_resolution">Resolusi</string>
+    <string name="camlib_settings">Pengaturan</string>
+    <string name="camlib_language">Bahasa</string>
+    <string name="camlib_other">Lainnya</string>
+
+</resources>

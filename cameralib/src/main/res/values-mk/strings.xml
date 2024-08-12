@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camlib_capture_mode">Режим на снимање</string>
+    <string name="camlib_maximize_quality">Максимизирајте го квалитетот</string>
+    <string name="camlib_minimize_latency">Минимизирајте ја латентноста</string>
+    <string name="camlib_camera_unavailable">Камерата е недостапна</string>
+    <string name="camlib_camera_open_error">Настана грешка при пристапот до камерата</string>
+    <string name="camlib_save_error_internal_storage">Настана грешка, папката зачувување е сменета во внатрешна меморија</string>
+    <string name="camlib_camera_switch_error">Префрлувањето на камерата не успеа</string>
+    <string name="camlib_photo_not_saved">Фотографијата не можеше да се зачува</string>
+    <string name="camlib_video_recording_failed">Снимањето видео не успеа, обидете се да користите друга резолуција</string>
+    <string name="camlib_camera_in_use_error">Камерата се користи од друга апликација, затворете ја апликацијата и обидете се повторно</string>
+    <string name="camlib_camera_configure_error">Настана грешка при конфигурирањето на камерата</string>
+    <string name="camlib_camera_disabled_by_admin_error">Камерата е оневозможена од администраторот</string>
+    <string name="camlib_camera_dnd_error">Режимот „Не вознемирувај“ е овозможен. Ве молиме оневозможете и обидете се повторно</string>
+    <string name="camlib_photo_capture_failed">Фотографирањето не успеа</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Снимањето видео не успеа поради недоволно складирање</string>
+    <string name="camlib_view_last_media">Погледнете ги последните снимени медиуми</string>
+    <string name="camlib_toggle_camera">Вклучете ја предната/задната камера</string>
+    <string name="camlib_toggle_flash">Вклучете го режимот на фенерче</string>
+    <string name="camlib_toggle_timer">Вклучете го режимот на тајмер</string>
+    <string name="camlib_shutter_sound">Звук на блендата</string>
+    <string name="camlib_photo">Фотографија</string>
+    <string name="camlib_video">Видео</string>
+    <string name="camlib_volume_buttons_as_shutter">Користете ги копчињата за јачина на звук како бленда</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Превртете ги фотографиите од предната камера хоризонтално</string>
+    <string name="camlib_save_photo_metadata">Зачувајте ги метаподатоците за exif на фотографијата</string>
+    <string name="camlib_photo_compression_quality">Квалитет на компресија на фотографии</string>
+    <string name="camlib_shutter">Бленда</string>
+
+</resources>
