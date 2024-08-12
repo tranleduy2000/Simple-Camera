@@ -98,13 +98,14 @@
         </com.google.android.material.tabs.TabLayout>
     </RelativeLayout>
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/video_rec_curr_timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/camlib_smaller_margin"
         android:textColor="@android:color/white"
+        android:textSize="40sp"
         android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@id/shutter"
         app:layout_constraintEnd_toEndOf="parent"
