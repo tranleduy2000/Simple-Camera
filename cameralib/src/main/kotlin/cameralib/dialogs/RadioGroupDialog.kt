@@ -7,7 +7,7 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import androidx.appcompat.app.AlertDialog
 import cameralib.R
-import cameralib.databinding.DialogRadioGroupBinding
+import cameralib.databinding.CamlibDialogRadioGroupBinding
 import cameralib.extensions.onGlobalLayout
 import cameralib.models.RadioItem
 import getAlertDialogBuilder
@@ -22,10 +22,10 @@ class RadioGroupDialog(
     private var selectedItemId = -1
 
     init {
-        val view = DialogRadioGroupBinding.inflate(activity.layoutInflater, null, false)
+        val view = CamlibDialogRadioGroupBinding.inflate(activity.layoutInflater, null, false)
         view.dialogRadioGroup.apply {
             for (i in 0 until items.size) {
-                val radioButton = (activity.layoutInflater.inflate(R.layout.radio_button, null) as RadioButton).apply {
+                val radioButton = (activity.layoutInflater.inflate(R.layout.camlib_radio_button, null) as RadioButton).apply {
                     text = items[i].title
                     isChecked = items[i].id == checkedItemId
                     id = i

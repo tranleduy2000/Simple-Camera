@@ -32,15 +32,15 @@
 
         <include
             android:id="@+id/layout_top"
-            layout="@layout/layout_top" />
+            layout="@layout/camlib_layout_top" />
 
         <include
             android:id="@+id/layout_flash"
-            layout="@layout/layout_flash" />
+            layout="@layout/camlib_layout_flash" />
 
         <include
             android:id="@+id/layout_timer"
-            layout="@layout/layout_timer" />
+            layout="@layout/camlib_layout_timer" />
 
     </FrameLayout>
 
@@ -119,7 +119,7 @@
         android:layout_height="@dimen/icon_size"
         android:contentDescription="@string/toggle_camera"
         android:padding="@dimen/normal_margin"
-        android:src="@drawable/ic_camera_front_vector"
+        android:src="@drawable/camlib_ic_camera_front_vector"
         app:layout_constraintBottom_toBottomOf="@id/shutter"
         app:layout_constraintEnd_toStartOf="@id/shutter"
         app:layout_constraintHorizontal_chainStyle="spread"

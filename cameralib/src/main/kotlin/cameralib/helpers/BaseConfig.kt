@@ -25,30 +25,6 @@ open class BaseConfig(val context: Context) {
         get() = prefs.getInt(LAST_VERSION, 0)
         set(lastVersion) = prefs.edit().putInt(LAST_VERSION, lastVersion).apply()
 
-    var primaryAndroidDataTreeUri: String
-        get() = prefs.getString(PRIMARY_ANDROID_DATA_TREE_URI, "")!!
-        set(uri) = prefs.edit().putString(PRIMARY_ANDROID_DATA_TREE_URI, uri).apply()
-
-    var sdAndroidDataTreeUri: String
-        get() = prefs.getString(SD_ANDROID_DATA_TREE_URI, "")!!
-        set(uri) = prefs.edit().putString(SD_ANDROID_DATA_TREE_URI, uri).apply()
-
-    var otgAndroidDataTreeUri: String
-        get() = prefs.getString(OTG_ANDROID_DATA_TREE_URI, "")!!
-        set(uri) = prefs.edit().putString(OTG_ANDROID_DATA_TREE_URI, uri).apply()
-
-    var primaryAndroidObbTreeUri: String
-        get() = prefs.getString(PRIMARY_ANDROID_OBB_TREE_URI, "")!!
-        set(uri) = prefs.edit().putString(PRIMARY_ANDROID_OBB_TREE_URI, uri).apply()
-
-    var sdAndroidObbTreeUri: String
-        get() = prefs.getString(SD_ANDROID_OBB_TREE_URI, "")!!
-        set(uri) = prefs.edit().putString(SD_ANDROID_OBB_TREE_URI, uri).apply()
-
-    var otgAndroidObbTreeUri: String
-        get() = prefs.getString(OTG_ANDROID_OBB_TREE_URI, "")!!
-        set(uri) = prefs.edit().putString(OTG_ANDROID_OBB_TREE_URI, uri).apply()
-
     var sdTreeUri: String
         get() = prefs.getString(SD_TREE_URI, "")!!
         set(uri) = prefs.edit().putString(SD_TREE_URI, uri).apply()
@@ -89,76 +65,6 @@ open class BaseConfig(val context: Context) {
     val accentColor: Int
         get() =  context.getColorAttr(com.google.android.material.R.attr.colorPrimary)
 
-//
-//    var lastHandledShortcutColor: Int
-//        get() = prefs.getInt(LAST_HANDLED_SHORTCUT_COLOR, 1)
-//        set(lastHandledShortcutColor) = prefs.edit().putInt(LAST_HANDLED_SHORTCUT_COLOR, lastHandledShortcutColor).apply()
-//
-//    var appIconColor: Int
-//        get() = prefs.getInt(APP_ICON_COLOR, context.resources.getColor(R.color.default_app_icon_color))
-//        set(appIconColor) {
-//            isUsingModifiedAppIcon = appIconColor != context.resources.getColor(R.color.color_primary)
-//            prefs.edit().putInt(APP_ICON_COLOR, appIconColor).apply()
-//        }
-
-//    var lastIconColor: Int
-//        get() = prefs.getInt(LAST_ICON_COLOR, context.resources.getColor(R.color.color_primary))
-//        set(lastIconColor) = prefs.edit().putInt(LAST_ICON_COLOR, lastIconColor).apply()
-
-//    var customTextColor: Int
-//        get() = prefs.getInt(CUSTOM_TEXT_COLOR, textColor)
-//        set(customTextColor) = prefs.edit().putInt(CUSTOM_TEXT_COLOR, customTextColor).apply()
-//
-//    var customBackgroundColor: Int
-//        get() = prefs.getInt(CUSTOM_BACKGROUND_COLOR, backgroundColor)
-//        set(customBackgroundColor) = prefs.edit().putInt(CUSTOM_BACKGROUND_COLOR, customBackgroundColor).apply()
-//
-//    var customPrimaryColor: Int
-//        get() = prefs.getInt(CUSTOM_PRIMARY_COLOR, primaryColor)
-//        set(customPrimaryColor) = prefs.edit().putInt(CUSTOM_PRIMARY_COLOR, customPrimaryColor).apply()
-
-//    var customAccentColor: Int
-//        get() = prefs.getInt(CUSTOM_ACCENT_COLOR, accentColor)
-//        set(customAccentColor) = prefs.edit().putInt(CUSTOM_ACCENT_COLOR, customAccentColor).apply()
-
-//    var customAppIconColor: Int
-//        get() = prefs.getInt(CUSTOM_APP_ICON_COLOR, appIconColor)
-//        set(customAppIconColor) = prefs.edit().putInt(CUSTOM_APP_ICON_COLOR, customAppIconColor).apply()
-
-//    var widgetBgColor: Int
-//        get() = prefs.getInt(WIDGET_BG_COLOR, context.resources.getColor(R.color.default_widget_bg_color))
-//        set(widgetBgColor) = prefs.edit().putInt(WIDGET_BG_COLOR, widgetBgColor).apply()
-//
-//    var widgetTextColor: Int
-//        get() = prefs.getInt(WIDGET_TEXT_COLOR, context.resources.getColor(R.color.default_widget_text_color))
-//        set(widgetTextColor) = prefs.edit().putInt(WIDGET_TEXT_COLOR, widgetTextColor).apply()
-
-    // hidden folder visibility protection
-    var isHiddenPasswordProtectionOn: Boolean
-        get() = prefs.getBoolean(PASSWORD_PROTECTION, false)
-        set(isHiddenPasswordProtectionOn) = prefs.edit().putBoolean(PASSWORD_PROTECTION, isHiddenPasswordProtectionOn).apply()
-
-    var hiddenPasswordHash: String
-        get() = prefs.getString(PASSWORD_HASH, "")!!
-        set(hiddenPasswordHash) = prefs.edit().putString(PASSWORD_HASH, hiddenPasswordHash).apply()
-
-//    var hiddenProtectionType: Int
-//        get() = prefs.getInt(PROTECTION_TYPE, PROTECTION_PATTERN)
-//        set(hiddenProtectionType) = prefs.edit().putInt(PROTECTION_TYPE, hiddenProtectionType).apply()
-
-    // whole app launch protection
-    var isAppPasswordProtectionOn: Boolean
-        get() = prefs.getBoolean(APP_PASSWORD_PROTECTION, false)
-        set(isAppPasswordProtectionOn) = prefs.edit().putBoolean(APP_PASSWORD_PROTECTION, isAppPasswordProtectionOn).apply()
-
-    var appPasswordHash: String
-        get() = prefs.getString(APP_PASSWORD_HASH, "")!!
-        set(appPasswordHash) = prefs.edit().putString(APP_PASSWORD_HASH, appPasswordHash).apply()
-
-//    var appProtectionType: Int
-//        get() = prefs.getInt(APP_PROTECTION_TYPE, PROTECTION_PATTERN)
-//        set(appProtectionType) = prefs.edit().putInt(APP_PROTECTION_TYPE, appProtectionType).apply()
-
     // file delete and move protection
     var isDeletePasswordProtectionOn: Boolean
         get() = prefs.getBoolean(DELETE_PASSWORD_PROTECTION, false)
@@ -167,31 +73,6 @@ open class BaseConfig(val context: Context) {
     var deletePasswordHash: String
         get() = prefs.getString(DELETE_PASSWORD_HASH, "")!!
         set(deletePasswordHash) = prefs.edit().putString(DELETE_PASSWORD_HASH, deletePasswordHash).apply()
-
-//    var deleteProtectionType: Int
-//        get() = prefs.getInt(DELETE_PROTECTION_TYPE, PROTECTION_PATTERN)
-//        set(deleteProtectionType) = prefs.edit().putInt(DELETE_PROTECTION_TYPE, deleteProtectionType).apply()
-
-    // folder locking
-    fun addFolderProtection(path: String, hash: String, type: Int) {
-        prefs.edit()
-            .putString("$PROTECTED_FOLDER_HASH$path", hash)
-            .putInt("$PROTECTED_FOLDER_TYPE$path", type)
-            .apply()
-    }
-
-    fun removeFolderProtection(path: String) {
-        prefs.edit()
-            .remove("$PROTECTED_FOLDER_HASH$path")
-            .remove("$PROTECTED_FOLDER_TYPE$path")
-            .apply()
-    }
-
-//    fun isFolderProtected(path: String) = getFolderProtectionType(path) != PROTECTION_NONE
-//
-//    fun getFolderProtectionHash(path: String) = prefs.getString("$PROTECTED_FOLDER_HASH$path", "") ?: ""
-//
-//    fun getFolderProtectionType(path: String) = prefs.getInt("$PROTECTED_FOLDER_TYPE$path", PROTECTION_NONE)
 
     var lastCopyPath: String
         get() = prefs.getString(LAST_COPY_PATH, "")!!
@@ -211,23 +92,6 @@ open class BaseConfig(val context: Context) {
     var wasUseEnglishToggled: Boolean
         get() = prefs.getBoolean(WAS_USE_ENGLISH_TOGGLED, false)
         set(wasUseEnglishToggled) = prefs.edit().putBoolean(WAS_USE_ENGLISH_TOGGLED, wasUseEnglishToggled).apply()
-
-    var wasSharedThemeEverActivated: Boolean
-        get() = prefs.getBoolean(WAS_SHARED_THEME_EVER_ACTIVATED, false)
-        set(wasSharedThemeEverActivated) = prefs.edit().putBoolean(WAS_SHARED_THEME_EVER_ACTIVATED, wasSharedThemeEverActivated).apply()
-
-    var isUsingSharedTheme: Boolean
-        get() = prefs.getBoolean(IS_USING_SHARED_THEME, false)
-        set(isUsingSharedTheme) = prefs.edit().putBoolean(IS_USING_SHARED_THEME, isUsingSharedTheme).apply()
-
-    // used by Simple Thank You, stop using shared Shared Theme if it has been changed in it
-    var shouldUseSharedTheme: Boolean
-        get() = prefs.getBoolean(SHOULD_USE_SHARED_THEME, false)
-        set(shouldUseSharedTheme) = prefs.edit().putBoolean(SHOULD_USE_SHARED_THEME, shouldUseSharedTheme).apply()
-
-    var isUsingAutoTheme: Boolean
-        get() = prefs.getBoolean(IS_USING_AUTO_THEME, false)
-        set(isUsingAutoTheme) = prefs.edit().putBoolean(IS_USING_AUTO_THEME, isUsingAutoTheme).apply()
 
     var isUsingSystemTheme: Boolean
         get() = prefs.getBoolean(IS_USING_SYSTEM_THEME, isSPlus())

@@ -5,13 +5,10 @@ import android.app.Activity
 import android.content.ContentResolver
 import android.content.ContentUris
 import android.content.Context
-import android.content.Intent
 import android.content.pm.PackageManager
-import android.content.res.Configuration
 import android.database.Cursor
 import android.graphics.Point
 import android.net.Uri
-import android.os.Build
 import android.os.Environment
 import android.os.Handler
 import android.os.Looper
@@ -21,11 +18,9 @@ import android.provider.MediaStore.Audio
 import android.provider.MediaStore.Files
 import android.provider.MediaStore.Images
 import android.provider.MediaStore.Video
-import android.provider.Settings
 import android.util.TypedValue
 import android.view.WindowManager
 import android.widget.Toast
-import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import androidx.core.os.bundleOf
@@ -33,7 +28,6 @@ import androidx.documentfile.provider.DocumentFile
 import androidx.exifinterface.media.ExifInterface
 import cameralib.R
 import cameralib.helpers.*
-
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -246,21 +240,9 @@ private fun isDownloadsDocument(uri: Uri) = uri.authority == "com.android.provid
 private fun isExternalStorageDocument(uri: Uri) = uri.authority == "com.android.externalstorage.documents"
 
 
-@RequiresApi(Build.VERSION_CODES.N)
 fun Context.saveImageRotation(path: String, degrees: Int): Boolean {
-    if (!needsStupidWritePermissions(path)) {
-        saveExifRotation(ExifInterface(path), degrees)
-        return true
-    } else if (isNougatPlus()) {
-        val documentFile = getSomeDocumentFile(path)
-        if (documentFile != null) {
-            val parcelFileDescriptor = contentResolver.openFileDescriptor(documentFile.uri, "rw")
-            val fileDescriptor = parcelFileDescriptor!!.fileDescriptor
-            saveExifRotation(ExifInterface(fileDescriptor), degrees)
-            return true
-        }
-    }
-    return false
+    saveExifRotation(ExifInterface(path), degrees)
+    return true
 }
 
 fun Context.saveExifRotation(exif: ExifInterface, degrees: Int) {
@@ -375,18 +357,6 @@ private fun Context.queryCursorDesc(
 
 fun Context.ensurePublicUri(path: String, applicationId: String): Uri? {
     return when {
-//        hasProperStoredAndroidTreeUri(path) && isRestrictedSAFOnlyRoot(path) -> {
-//            getAndroidSAFUri(path)
-//        }
-//
-//        hasProperStoredDocumentUriSdk30(path) && isAccessibleWithSAFSdk30(path) -> {
-//            createDocumentUriUsingFirstParentTreeUri(path)
-//        }
-//
-//        isPathOnOTG(path) -> {
-//            getDocumentFile(path)?.uri
-//        }
-
         else -> {
             val uri = Uri.parse(path)
             if (uri.scheme == "content") {
@@ -397,15 +367,6 @@ fun Context.ensurePublicUri(path: String, applicationId: String): Uri? {
                 getFilePublicUri(file, applicationId)
             }
         }
-    }
-}
-
-fun Context.ensurePublicUri(uri: Uri, applicationId: String): Uri {
-    return if (uri.scheme == "content") {
-        uri
-    } else {
-        val file = File(uri.path)
-        getFilePublicUri(file, applicationId)
     }
 }
 
@@ -487,27 +448,9 @@ val Context.navigationBarSize: Point
         else -> Point()
     }
 
-val Context.portrait get() = resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT
 val Context.navigationBarOnSide: Boolean get() = usableScreenSize.x < realScreenSize.x && usableScreenSize.x > usableScreenSize.y
 val Context.navigationBarOnBottom: Boolean get() = usableScreenSize.y < realScreenSize.y
 val Context.navigationBarHeight: Int get() = if (navigationBarOnBottom && navigationBarSize.y != usableScreenSize.y) navigationBarSize.y else 0
-val Context.navigationBarWidth: Int get() = if (navigationBarOnSide) navigationBarSize.x else 0
-
-
-
-fun Context.openDeviceSettings() {
-    val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
-        data = Uri.fromParts("package", packageName, null)
-    }
-
-    try {
-        startActivity(intent)
-    } catch (e: Exception) {
-        showErrorToast(e)
-    }
-}
-
-
 
 
 fun Context.isUsingGestureNavigation(): Boolean {

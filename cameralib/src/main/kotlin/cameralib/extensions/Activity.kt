@@ -15,7 +15,7 @@ import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.WindowInsetsCompat
 import cameralib.R
-import cameralib.databinding.DialogTitleBinding
+import cameralib.databinding.CamlibDialogTitleBinding
 import cameralib.extensions.*
 import cameralib.helpers.REAL_FILE_PATH
 import cameralib.helpers.ensureBackgroundThread
@@ -154,9 +154,9 @@ fun Activity.setupDialogStuff(
             callback?.invoke(this)
         }
     } else {
-        var title: DialogTitleBinding? = null
+        var title: CamlibDialogTitleBinding? = null
         if (titleId != 0 || titleText.isNotEmpty()) {
-            title = DialogTitleBinding.inflate(layoutInflater, null, false)
+            title = CamlibDialogTitleBinding.inflate(layoutInflater, null, false)
             title.dialogTitleTextview.apply {
                 if (titleText.isNotEmpty()) {
                     text = titleText

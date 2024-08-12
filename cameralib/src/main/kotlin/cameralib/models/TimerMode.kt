@@ -19,10 +19,10 @@ enum class TimerMode(val millisInFuture: Long) {
 
     fun getTimerModeDrawableRes(): Int {
         return when (this) {
-            OFF -> R.drawable.ic_timer_off_vector
-            TIMER_3 -> R.drawable.ic_timer_3_vector
-            TIMER_5 -> R.drawable.ic_timer_5_vector
-            TIMER_10 -> R.drawable.ic_timer_10_vector
+            OFF -> R.drawable.camlib_ic_timer_off_vector
+            TIMER_3 -> R.drawable.camlib_ic_timer_3_vector
+            TIMER_5 -> R.drawable.camlib_ic_timer_5_vector
+            TIMER_10 -> R.drawable.camlib_ic_timer_10_vector
         }
     }
 }

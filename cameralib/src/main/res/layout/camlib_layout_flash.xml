@@ -2,7 +2,7 @@
 <com.google.android.material.button.MaterialButtonToggleGroup xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/timer_toggle_group"
+    android:id="@+id/flash_toggle_group"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:visibility="gone"
@@ -11,35 +11,35 @@
     tools:visibility="visible">
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/timer_off"
-        style="@style/Widget.App.Button.OutlineButton.IconOnly"
+        android:id="@+id/flash_off"
+        style="@style/CamlibWidget.App.Button.OutlineButton.IconOnly"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        app:icon="@drawable/ic_timer_off_vector" />
+        app:icon="@drawable/camlib_ic_flash_off_vector" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/timer_3s"
-        style="@style/Widget.App.Button.OutlineButton.IconOnly"
+        android:id="@+id/flash_auto"
+        style="@style/CamlibWidget.App.Button.OutlineButton.IconOnly"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        app:icon="@drawable/ic_timer_3_vector" />
+        app:icon="@drawable/camlib_ic_flash_auto_vector" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/timer_5s"
-        style="@style/Widget.App.Button.OutlineButton.IconOnly"
+        android:id="@+id/flash_on"
+        style="@style/CamlibWidget.App.Button.OutlineButton.IconOnly"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        app:icon="@drawable/ic_timer_5_vector" />
+        app:icon="@drawable/camlib_ic_flash_on_vector" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/timer_10_s"
-        style="@style/Widget.App.Button.OutlineButton.IconOnly"
+        android:id="@+id/flash_always_on"
+        style="@style/CamlibWidget.App.Button.OutlineButton.IconOnly"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        app:icon="@drawable/ic_timer_10_vector" />
+        app:icon="@drawable/camlib_ic_flashlight_vector" />
 
 </com.google.android.material.button.MaterialButtonToggleGroup>

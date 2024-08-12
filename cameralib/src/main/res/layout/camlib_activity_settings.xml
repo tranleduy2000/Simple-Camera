@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/settings_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/settings" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/settings_nested_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/settings_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/settings_shutter_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/settings_sound_holder"
+                    style="@style/CamlibSettingsHolderCheckboxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/settings_sound"
+                        style="@style/CamlibSettingsCheckboxStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shutter_sound" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/settings_volume_buttons_as_shutter_holder"
+                    style="@style/CamlibSettingsHolderCheckboxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/settings_volume_buttons_as_shutter"
+                        style="@style/CamlibSettingsCheckboxStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/volume_buttons_as_shutter" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/settings_saving_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/settings_save_photo_metadata_holder"
+                    style="@style/CamlibSettingsHolderCheckboxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/settings_save_photo_metadata"
+                        style="@style/CamlibSettingsCheckboxStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/save_photo_metadata" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/settings_flip_photos_holder"
+                    style="@style/CamlibSettingsHolderCheckboxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/settings_flip_photos"
+                        style="@style/CamlibSettingsCheckboxStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/flip_front_camera_photos_horizontally" />
+
+                </RelativeLayout>
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp" />
+
+                <RelativeLayout
+                    android:id="@+id/settings_photo_quality_holder"
+                    style="@style/CamlibSettingsHolderTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/settings_photo_quality_label"
+                        style="@style/CamlibSettingsTextLabelStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/photo_compression_quality" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/settings_photo_quality"
+                        style="@style/CamlibSettingsTextValueStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/settings_photo_quality_label"
+                        tools:text="80%" />
+
+                </RelativeLayout>
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp" />
+
+                <RelativeLayout
+                    android:id="@+id/settings_capture_mode_holder"
+                    style="@style/CamlibSettingsHolderTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/settings_capture_mode_label"
+                        style="@style/CamlibSettingsTextLabelStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/capture_mode" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/settings_capture_mode"
+                        style="@style/CamlibSettingsTextValueStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/settings_capture_mode_label"
+                        tools:text="@string/minimize_latency" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
