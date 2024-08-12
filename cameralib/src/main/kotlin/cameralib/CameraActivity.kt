@@ -209,16 +209,16 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
         return super.onKeyUp(keyCode, event)
     }
 
-    private fun hideIntentButtons() = binding.apply {
-        cameraModeHolder.beGone()
-        layoutTop.settings.beGone()
-        lastPhotoVideoPreview.beInvisible()
-    }
+//    private fun hideIntentButtons() = binding.apply {
+//        cameraModeHolder.beGone()
+//        layoutTop.settings.beGone()
+//        lastPhotoVideoPreview.beInvisible()
+//    }
 
     private fun tryInitCamera() {
         handlePermission(PERMISSION_CAMERA) { grantedCameraPermission ->
             if (grantedCameraPermission) {
-                handleStoragePermission {
+                /*handleStoragePermission*/ run {
                     val isInPhotoMode = isInPhotoMode()
                     if (isInPhotoMode) {
                         initializeCamera(true)
@@ -252,18 +252,18 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
         }
     }
 
-    private fun handleStoragePermission(callback: (granted: Boolean) -> Unit) {
-        if (isTiramisuPlus()) {
-            val mediaPermissionIds = mutableListOf(PERMISSION_READ_MEDIA_IMAGES, PERMISSION_READ_MEDIA_VIDEO)
-            if (isUpsideDownCakePlus()) {
-                mediaPermissionIds.add(PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED)
-            }
-
-            handlePartialMediaPermissions(permissionIds = mediaPermissionIds, callback = callback)
-        } else {
-            handlePermission(PERMISSION_WRITE_STORAGE, callback)
-        }
-    }
+//    private fun handleStoragePermission(callback: (granted: Boolean) -> Unit) {
+//        if (isTiramisuPlus()) {
+//            val mediaPermissionIds = mutableListOf(PERMISSION_READ_MEDIA_IMAGES, PERMISSION_READ_MEDIA_VIDEO)
+//            if (isUpsideDownCakePlus()) {
+//                mediaPermissionIds.add(PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED)
+//            }
+//
+//            handlePartialMediaPermissions(permissionIds = mediaPermissionIds, callback = callback)
+//        } else {
+//            handlePermission(PERMISSION_WRITE_STORAGE, callback)
+//        }
+//    }
 
     private fun isThirdPartyIntent() = isVideoCaptureIntent() || isImageCaptureIntent()
 
@@ -553,25 +553,29 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
 
     private fun hasPhotoModePermissions(): Boolean {
         return if (isTiramisuPlus()) {
-            var hasMediaPermission = hasPermission(PERMISSION_READ_MEDIA_IMAGES) || hasPermission(PERMISSION_READ_MEDIA_VIDEO)
-            if (isUpsideDownCakePlus()) {
-                hasMediaPermission = hasMediaPermission || hasPermission(PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED)
-            }
-            hasMediaPermission && hasPermission(PERMISSION_CAMERA)
+            //  var hasMediaPermission = hasPermission(PERMISSION_READ_MEDIA_IMAGES) || hasPermission(PERMISSION_READ_MEDIA_VIDEO)
+            //  if (isUpsideDownCakePlus()) {
+            //      hasMediaPermission = hasMediaPermission || hasPermission(PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED)
+            //  }
+            //  hasMediaPermission &&
+            hasPermission(PERMISSION_CAMERA)
         } else {
-            hasPermission(PERMISSION_WRITE_STORAGE) && hasPermission(PERMISSION_CAMERA)
+            //hasPermission(PERMISSION_WRITE_STORAGE) &&
+            hasPermission(PERMISSION_CAMERA)
         }
     }
 
     private fun hasVideoModePermissions(): Boolean {
         return if (isTiramisuPlus()) {
-            var hasMediaPermission = hasPermission(PERMISSION_READ_MEDIA_VIDEO)
-            if (isUpsideDownCakePlus()) {
-                hasMediaPermission = hasMediaPermission || hasPermission(PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED)
-            }
-            hasMediaPermission && hasPermission(PERMISSION_CAMERA) && hasPermission(PERMISSION_RECORD_AUDIO)
+            //var hasMediaPermission = hasPermission(PERMISSION_READ_MEDIA_VIDEO)
+            //if (isUpsideDownCakePlus()) {
+            //    hasMediaPermission = hasMediaPermission || hasPermission(PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED)
+            //}
+            // hasMediaPermission &&
+            hasPermission(PERMISSION_CAMERA) && hasPermission(PERMISSION_RECORD_AUDIO)
         } else {
-            hasPermission(PERMISSION_WRITE_STORAGE) && hasPermission(PERMISSION_CAMERA) && hasPermission(PERMISSION_RECORD_AUDIO)
+            //hasPermission(PERMISSION_WRITE_STORAGE) &&
+            hasPermission(PERMISSION_CAMERA) && hasPermission(PERMISSION_RECORD_AUDIO)
         }
     }
 

@@ -11,8 +11,6 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.app.ActivityCompat
 import androidx.core.view.WindowInsetsCompat
 import cameralib.extensions.*
-import cameralib.helpers.PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED
-import cameralib.helpers.isUpsideDownCakePlus
 import hideKeyboard
 import onApplyWindowInsets
 
@@ -92,26 +90,26 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
-    fun handlePartialMediaPermissions(permissionIds: Collection<Int>, force: Boolean = false, callback: (granted: Boolean) -> Unit) {
-        actionOnPermission = null
-        if (isUpsideDownCakePlus()) {
-            if (hasPermission(PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED) && !force) {
-                callback(true)
-            } else {
-                isAskingPermissions = true
-                actionOnPermission = callback
-                ActivityCompat.requestPermissions(this, permissionIds.map { getPermissionString(it) }.toTypedArray(), GENERIC_PERM_HANDLER)
-            }
-        } else {
-            if (hasAllPermissions(permissionIds)) {
-                callback(true)
-            } else {
-                isAskingPermissions = true
-                actionOnPermission = callback
-                ActivityCompat.requestPermissions(this, permissionIds.map { getPermissionString(it) }.toTypedArray(), GENERIC_PERM_HANDLER)
-            }
-        }
-    }
+//    fun handlePartialMediaPermissions(permissionIds: Collection<Int>, force: Boolean = false, callback: (granted: Boolean) -> Unit) {
+//        actionOnPermission = null
+//        if (isUpsideDownCakePlus()) {
+//            if (hasPermission(PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED) && !force) {
+//                callback(true)
+//            } else {
+//                isAskingPermissions = true
+//                actionOnPermission = callback
+//                ActivityCompat.requestPermissions(this, permissionIds.map { getPermissionString(it) }.toTypedArray(), GENERIC_PERM_HANDLER)
+//            }
+//        } else {
+//            if (hasAllPermissions(permissionIds)) {
+//                callback(true)
+//            } else {
+//                isAskingPermissions = true
+//                actionOnPermission = callback
+//                ActivityCompat.requestPermissions(this, permissionIds.map { getPermissionString(it) }.toTypedArray(), GENERIC_PERM_HANDLER)
+//            }
+//        }
+//    }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
