@@ -63,12 +63,12 @@ class ShadowDrawable(context: Context, private val drawable: Drawable, @StyleRes
             }
         }
         if (styleResId != 0) {
-            val obtainStyledAttributes = context.obtainStyledAttributes(styleResId, R.styleable.ShadowDrawable)
+            val obtainStyledAttributes = context.obtainStyledAttributes(styleResId, R.styleable.CamlibShadowDrawable)
             shadowColor =
-                obtainStyledAttributes.getColor(R.styleable.ShadowDrawable_android_shadowColor, ContextCompat.getColor(context, R.color.md_grey_400_dark))
-            shadowDx = obtainStyledAttributes.getFloat(R.styleable.ShadowDrawable_android_shadowDx, 0f).toInt()
-            shadowDy = obtainStyledAttributes.getFloat(R.styleable.ShadowDrawable_android_shadowDy, 0f).toInt()
-            val shadowRadius = obtainStyledAttributes.getFloat(R.styleable.ShadowDrawable_android_shadowRadius, 0.0f).coerceAtLeast(0.0f)
+                obtainStyledAttributes.getColor(R.styleable.CamlibShadowDrawable_android_shadowColor, ContextCompat.getColor(context, R.color.camlib_md_grey_400_dark))
+            shadowDx = obtainStyledAttributes.getFloat(R.styleable.CamlibShadowDrawable_android_shadowDx, 0f).toInt()
+            shadowDy = obtainStyledAttributes.getFloat(R.styleable.CamlibShadowDrawable_android_shadowDy, 0f).toInt()
+            val shadowRadius = obtainStyledAttributes.getFloat(R.styleable.CamlibShadowDrawable_android_shadowRadius, 0.0f).coerceAtLeast(0.0f)
             shadowRadiusCeiling = ceil(shadowRadius).toInt()
             val alpha = Color.alpha(shadowColor)
             if (shadowRadius > 0.0f && alpha > 0) {

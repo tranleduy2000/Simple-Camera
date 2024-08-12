@@ -24,7 +24,6 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import androidx.core.os.bundleOf
-import androidx.documentfile.provider.DocumentFile
 import androidx.exifinterface.media.ExifInterface
 import cameralib.R
 import cameralib.helpers.*
@@ -156,17 +155,7 @@ fun Context.getColorAttr(attr: Int): Int {
 
 fun Context.getSharedPrefs() = getSharedPreferences(PREFS_KEY, Context.MODE_PRIVATE)
 
-// no need to use DocumentFile if an SD card is set as the default storage
-fun Context.needsStupidWritePermissions(path: String) = !isRPlus() && (isPathOnSD(path) || isPathOnOTG(path)) && !isSDCardSetAsDefaultStorage()
-
 val Context.baseConfig: BaseConfig get() = BaseConfig.newInstance(this)
-val Context.sdCardPath: String get() = baseConfig.sdCardPath
-val Context.internalStoragePath: String get() = baseConfig.internalStoragePath
-val Context.otgPath: String get() = baseConfig.OTGPath
-
-fun Context.isPathOnSD(path: String) = sdCardPath.isNotEmpty() && path.startsWith(sdCardPath)
-
-fun Context.isPathOnOTG(path: String) = otgPath.isNotEmpty() && path.startsWith(otgPath)
 
 fun Context.getTimeFormat() = if (baseConfig.use24HourFormat) TIME_FORMAT_24 else TIME_FORMAT_12
 
@@ -250,71 +239,6 @@ fun Context.saveExifRotation(exif: ExifInterface, degrees: Int) {
     val orientationDegrees = (orientation.degreesFromOrientation() + degrees) % 360
     exif.setAttribute(ExifInterface.TAG_ORIENTATION, orientationDegrees.orientationFromDegrees())
     exif.saveAttributes()
-}
-
-fun Context.getSomeDocumentFile(path: String) = getFastDocumentFile(path) ?: getDocumentFile(path)
-
-
-fun Context.getFastDocumentFile(path: String): DocumentFile? {
-    if (isPathOnOTG(path)) {
-        return getOTGFastDocumentFile(path)
-    }
-
-    if (baseConfig.sdCardPath.isEmpty()) {
-        return null
-    }
-
-    val relativePath = Uri.encode(path.substring(baseConfig.sdCardPath.length).trim('/'))
-    val externalPathPart = baseConfig.sdCardPath.split("/").lastOrNull(String::isNotEmpty)?.trim('/') ?: return null
-    val fullUri = "${baseConfig.sdTreeUri}/document/$externalPathPart%3A$relativePath"
-    return DocumentFile.fromSingleUri(this, Uri.parse(fullUri))
-}
-
-fun Context.getDocumentFile(path: String): DocumentFile? {
-    val isOTG = isPathOnOTG(path)
-    var relativePath = path.substring(if (isOTG) otgPath.length else sdCardPath.length)
-    if (relativePath.startsWith(File.separator)) {
-        relativePath = relativePath.substring(1)
-    }
-
-    return try {
-        val treeUri = Uri.parse(if (isOTG) baseConfig.OTGTreeUri else baseConfig.sdTreeUri)
-        var document = DocumentFile.fromTreeUri(applicationContext, treeUri)
-        val parts = relativePath.split("/").filter { it.isNotEmpty() }
-        for (part in parts) {
-            document = document?.findFile(part)
-        }
-        document
-    } catch (ignored: Exception) {
-        null
-    }
-}
-
-
-fun Context.getOTGFastDocumentFile(path: String, otgPathToUse: String? = null): DocumentFile? {
-    if (baseConfig.OTGTreeUri.isEmpty()) {
-        return null
-    }
-
-    val otgPath = otgPathToUse ?: baseConfig.OTGPath
-    if (baseConfig.OTGPartition.isEmpty()) {
-        baseConfig.OTGPartition = baseConfig.OTGTreeUri.removeSuffix("%3A").substringAfterLast('/').trimEnd('/')
-        updateOTGPathFromPartition()
-    }
-
-    val relativePath = Uri.encode(path.substring(otgPath.length).trim('/'))
-    val fullUri = "${baseConfig.OTGTreeUri}/document/${baseConfig.OTGPartition}%3A$relativePath"
-    return DocumentFile.fromSingleUri(this, Uri.parse(fullUri))
-}
-
-
-fun Context.updateOTGPathFromPartition() {
-    val otgPath = "/storage/${baseConfig.OTGPartition}"
-    baseConfig.OTGPath = if (getOTGFastDocumentFile(otgPath, otgPath)?.exists() == true) {
-        "/storage/${baseConfig.OTGPartition}"
-    } else {
-        "/mnt/media_rw/${baseConfig.OTGPartition}"
-    }
 }
 
 

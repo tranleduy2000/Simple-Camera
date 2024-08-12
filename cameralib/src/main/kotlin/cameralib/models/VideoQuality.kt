@@ -56,18 +56,18 @@ enum class VideoQuality(val width: Int, val height: Int) {
 
     @DrawableRes
     fun getImageResId(): Int = when (this) {
-        UHD -> R.drawable.ic_video_uhd_vector
-        FHD -> R.drawable.ic_video_fhd_vector
-        HD -> R.drawable.ic_video_hd_vector
-        SD -> R.drawable.ic_video_sd_vector
+        UHD -> R.drawable.camlib_ic_video_uhd_vector
+        FHD -> R.drawable.camlib_ic_video_fhd_vector
+        HD -> R.drawable.camlib_ic_video_hd_vector
+        SD -> R.drawable.camlib_ic_video_sd_vector
     }
 
     @IdRes
     fun getButtonId(): Int = when (this) {
-        UHD -> R.id.video_uhd
-        FHD -> R.id.video_fhd
-        HD -> R.id.video_hd
-        SD -> R.id.video_sd
+        UHD -> R.id.camlib_video_uhd
+        FHD -> R.id.camlib_video_fhd
+        HD -> R.id.camlib_video_hd
+        SD -> R.id.camlib_video_sd
     }
 
     fun toResolutionOption(): ResolutionOption {

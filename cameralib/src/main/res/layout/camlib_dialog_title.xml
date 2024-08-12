@@ -4,8 +4,8 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:fontFamily="sans-serif-light"
-    android:paddingStart="@dimen/bigger_margin"
-    android:paddingTop="@dimen/activity_margin"
-    android:paddingEnd="@dimen/activity_margin"
-    android:textSize="@dimen/actionbar_text_size"
+    android:paddingStart="@dimen/camlib_bigger_margin"
+    android:paddingTop="@dimen/camlib_activity_margin"
+    android:paddingEnd="@dimen/camlib_activity_margin"
+    android:textSize="@dimen/camlib_actionbar_text_size"
     android:textStyle="bold" />

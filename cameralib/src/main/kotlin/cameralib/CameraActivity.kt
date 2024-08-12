@@ -225,13 +225,9 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
                                 initializeCamera(false)
                             } else {
                                 toast(R.string.no_audio_permissions)
-                                if (isThirdPartyIntent()) {
-                                    finish()
-                                } else {
-                                    // re-initialize in photo mode
-                                    config.initPhotoMode = true
-                                    tryInitCamera()
-                                }
+                                // re-initialize in photo mode
+                                config.initPhotoMode = true
+                                tryInitCamera()
                             }
                         }
                     }
@@ -298,7 +294,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
                 topMargin = safeInsetTop
             }
 
-            val marginBottom = safeInsetBottom + navigationBarHeight + resources.getDimensionPixelSize(R.dimen.bigger_margin)
+            val marginBottom = safeInsetBottom + navigationBarHeight + resources.getDimensionPixelSize(R.dimen.camlib_bigger_margin)
 
             binding.shutter.updateLayoutParams<ViewGroup.MarginLayoutParams> {
                 bottomMargin = marginBottom
@@ -505,7 +501,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
 
     override fun onInitPhotoMode() {
         binding.apply {
-            shutter.setImageResource(R.drawable.ic_shutter_animated)
+            shutter.setImageResource(R.drawable.camlib_ic_shutter_animated)
             layoutTop.toggleTimer.beVisible()
             layoutTop.toggleTimer.fadeIn()
         }
@@ -515,7 +511,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
 
     override fun onInitVideoMode() {
         binding.apply {
-            shutter.setImageResource(R.drawable.ic_video_rec_animated)
+            shutter.setImageResource(R.drawable.camlib_ic_video_rec_animated)
             layoutTop.toggleTimer.fadeOut()
             layoutTop.toggleTimer.beGone()
         }
@@ -638,7 +634,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
     }
 
     override fun onChangeCamera(frontCamera: Boolean) {
-        binding.toggleCamera.setImageResource(if (frontCamera) R.drawable.ic_camera_rear_vector else R.drawable.camlib_ic_camera_front_vector)
+        binding.toggleCamera.setImageResource(if (frontCamera) R.drawable.camlib_ic_camera_rear_vector else R.drawable.camlib_ic_camera_front_vector)
     }
 
     override fun onPhotoCaptureStart() {
@@ -833,7 +829,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
         val fadeTransition = Fade()
         return TransitionSet().apply {
             addTransition(fadeTransition)
-            this.duration = resources.getInteger(R.integer.icon_anim_duration).toLong()
+            this.duration = resources.getInteger(R.integer.camlib_icon_anim_duration).toLong()
         }
     }
 
@@ -853,7 +849,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
     private fun setButtonColors(button: MaterialButton) {
         val primaryColor = getProperPrimaryColor()
         val states = arrayOf(intArrayOf(-android.R.attr.state_checked), intArrayOf(android.R.attr.state_checked))
-        val iconColors = intArrayOf(ContextCompat.getColor(this, R.color.md_grey_white), primaryColor)
+        val iconColors = intArrayOf(ContextCompat.getColor(this, R.color.camlib_md_grey_white), primaryColor)
         button.iconTint = ColorStateList(states, iconColors)
     }
 
@@ -875,7 +871,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
 
     private fun scheduleTimer(timerMode: TimerMode) {
         hideViewsOnTimerStart()
-        binding.shutter.setImageState(intArrayOf(R.attr.state_timer_cancel), true)
+        binding.shutter.setImageState(intArrayOf(R.attr.camlib_state_timer_cancel), true)
         binding.timerText.beVisible()
         var playSound = true
         countDownTimer = object : CountDownTimer(timerMode.millisInFuture, 1000) {
@@ -913,7 +909,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
         }
 
         timerText.beGone()
-        shutter.setImageState(intArrayOf(-R.attr.state_timer_cancel), true)
+        shutter.setImageState(intArrayOf(-R.attr.camlib_state_timer_cancel), true)
     }
 
 }

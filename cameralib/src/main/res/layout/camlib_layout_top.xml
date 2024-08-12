@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:contentDescription="@string/toggle_timer"
-        android:padding="@dimen/normal_margin"
+        android:padding="@dimen/camlib_normal_margin"
         app:icon="@drawable/camlib_ic_timer_off_vector" />
 
     <com.google.android.material.button.MaterialButton
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:contentDescription="@string/toggle_flash"
-        android:padding="@dimen/normal_margin"
+        android:padding="@dimen/camlib_normal_margin"
         app:icon="@drawable/camlib_ic_flash_off_vector" />
 
     <com.google.android.material.button.MaterialButton
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:contentDescription="@string/resolution"
-        android:padding="@dimen/normal_margin"
+        android:padding="@dimen/camlib_normal_margin"
         tools:icon="@drawable/camlib_ic_photo_4x3_vector" />
 
     <com.google.android.material.button.MaterialButton
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:contentDescription="@string/settings"
-        android:padding="@dimen/normal_margin"
+        android:padding="@dimen/camlib_normal_margin"
         app:icon="@drawable/camlib_ic_settings_vector" />
 
 </LinearLayout>

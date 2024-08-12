@@ -50,11 +50,3 @@ fun View.isInvisible() = visibility == View.INVISIBLE
 fun View.isGone() = visibility == View.GONE
 
 fun View.performHapticFeedback() = performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY, HapticFeedbackConstants.FLAG_IGNORE_GLOBAL_SETTING)
-
-//fun View.setupViewBackground(context: Context) {
-//    background = if (context.baseConfig.isUsingSystemTheme) {
-//        resources.getDrawable(R.drawable.selector_clickable_you)
-//    } else {
-//        resources.getDrawable(R.drawable.selector_clickable)
-//    }
-//}

@@ -178,9 +178,6 @@ class MediaOutputHelper(
 
     private fun canWriteToFilePath(path: String): Boolean {
         return when {
-//            activity.isRestrictedSAFOnlyRoot(path) -> activity.hasProperStoredAndroidTreeUri(path)
-//            activity.needsStupidWritePermissions(path) -> activity.hasProperStoredTreeUri(false)
-//            activity.isAccessibleWithSAFSdk30(path) -> activity.hasProperStoredFirstParentUri(path)
             else -> File(path).canWrite()
         }
     }
@@ -188,42 +185,6 @@ class MediaOutputHelper(
     private fun getUriForFilePath(path: String): Uri? {
         val targetFile = File(path)
         return when {
-//            activity.isRestrictedSAFOnlyRoot(path) -> activity.getAndroidSAFUri(path)
-//            activity.needsStupidWritePermissions(path) -> {
-//                targetFile.parentFile?.let { parentFile ->
-//                    val documentFile =
-//                        if (activity.getDoesFilePathExist(parentFile.absolutePath)) {
-//                            activity.getDocumentFile(parentFile.path)
-//                        } else {
-//                            val parentDocumentFile = parentFile.parent?.let {
-//                                activity.getDocumentFile(it)
-//                            }
-//                            parentDocumentFile?.createDirectory(parentFile.name)
-//                                ?: activity.getDocumentFile(parentFile.absolutePath)
-//                        }
-//
-//                    if (documentFile == null) {
-//                        return Uri.fromFile(targetFile)
-//                    }
-//
-//                    try {
-//                        if (activity.getDoesFilePathExist(path)) {
-//                            activity.createDocumentUriFromRootTree(path)
-//                        } else {
-//                            documentFile.createFile(path.getMimeType(), path.getFilenameFromPath())?.uri
-//                        }
-//                    } catch (e: Exception) {
-//                        null
-//                    }
-//                }
-//            }
-//            activity.isAccessibleWithSAFSdk30(path) -> {
-//                try {
-//                    activity.createDocumentUriUsingFirstParentTreeUri(path)
-//                } catch (e: Exception) {
-//                    null
-//                } ?: Uri.fromFile(targetFile)
-//            }
             else -> return Uri.fromFile(targetFile)
         }
     }

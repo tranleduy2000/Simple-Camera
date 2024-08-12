@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
-    android:drawable="@drawable/ic_video_rec_vector">
+    android:drawable="@drawable/camlib_ic_shutter_vector">
 
-    <target android:name="inner_big">
+    <target android:name="inner">
         <aapt:attr name="android:animation">
             <set>
                 <objectAnimator
-                    android:duration="@integer/icon_anim_duration"
+                    android:duration="@integer/camlib_icon_anim_duration"
                     android:interpolator="@android:anim/accelerate_interpolator"
                     android:propertyName="scaleX"
-                    android:valueFrom="1"
-                    android:valueTo="0.9"
+                    android:valueFrom="0.9"
+                    android:valueTo="1"
                     android:valueType="floatType" />
                 <objectAnimator
-                    android:duration="@integer/icon_anim_duration"
+                    android:duration="@integer/camlib_icon_anim_duration"
                     android:interpolator="@android:anim/accelerate_interpolator"
                     android:propertyName="scaleY"
-                    android:valueFrom="1"
-                    android:valueTo="0.9"
+                    android:valueFrom="0.9"
+                    android:valueTo="1"
                     android:valueType="floatType" />
             </set>
         </aapt:attr>

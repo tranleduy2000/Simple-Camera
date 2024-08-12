@@ -26,7 +26,6 @@ class CameraXInitializer(private val activity: AppCompatActivity) {
             mediaOutputHelper,
             cameraErrorHandler,
             listener,
-            isThirdPartyIntent = isThirdPartyIntent,
             initInPhotoMode = initInPhotoMode,
         )
     }

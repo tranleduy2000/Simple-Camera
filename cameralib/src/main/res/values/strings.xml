@@ -24,9 +24,6 @@
     <string name="toggle_flash">Toggle the flashlight mode</string>
     <string name="toggle_timer">Toggle the timer mode</string>
 
-    <!-- FAQ -->
-
-    <!-- Settings -->
     <string name="shutter_sound">Shutter sound</string>
     <string name="photo">Photo</string>
     <string name="video">Video</string>
@@ -35,23 +32,5 @@
     <string name="save_photo_metadata">Save photo exif metadata</string>
     <string name="photo_compression_quality">Photo compression quality</string>
     <string name="shutter">Shutter</string>
-<!--    <string name="error">Error: %s</string>-->
-<!--    <string name="out_of_memory_error">Out of memory error</string>-->
-<!--    <string name="could_not_create_file">Could not create file %s</string>-->
-<!--    <string name="other">Other</string>-->
-<!--    <string name="no_camera_permissions">Camera permission is required</string>-->
-<!--    <string name="no_audio_permissions">Audio permission is required</string>-->
-<!--    <string name="settings">Settings</string>-->
-<!--    <string name="language">Language</string>-->
-<!--    <string name="ok">OK</string>-->
-<!--    <string name="close">Close</string>-->
-<!--    <string name="back">Back</string>-->
-<!--    <string name="no_app_found">No valid app found</string>-->
-<!--    <string name="open_with">Open with</string>-->
-<!--    <string name="unknown_error_occurred">An unknown error occurred</string>-->
-<!--    <string name="resolution">Resolution</string>-->
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
+
 </resources>

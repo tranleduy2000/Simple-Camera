@@ -21,8 +21,8 @@ class MediaActionSound(private val context: Context) {
         val FOCUS_COMPLETE = MediaSound.ManufacturerSound("camera_focus.ogg")
         val START_VIDEO_RECORDING = MediaSound.ManufacturerSound("VideoRecord.ogg")
         val STOP_VIDEO_RECORDING = MediaSound.ManufacturerSound("VideoStop.ogg")
-        val TIMER_COUNTDOWN = MediaSound.RawResSound(R.raw.beep)
-        val TIMER_COUNTDOWN_2_SECONDS = MediaSound.RawResSound(R.raw.beep_2_secs)
+        val TIMER_COUNTDOWN = MediaSound.RawResSound(R.raw.camlib_beep)
+        val TIMER_COUNTDOWN_2_SECONDS = MediaSound.RawResSound(R.raw.camlib_beep_2_secs)
 
         private const val NUM_MEDIA_SOUND_STREAMS = 1
         private val SOUND_DIRS = arrayOf("/product/media/audio/ui/", "/system/media/audio/ui/")

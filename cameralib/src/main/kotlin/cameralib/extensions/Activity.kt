@@ -189,7 +189,7 @@ fun Activity.setupDialogStuff(
             val bgDrawable = when {
                // isBlackAndWhiteTheme() -> resources.getDrawable(R.drawable.black_dialog_background, theme)
                // baseConfig.isUsingSystemTheme -> resources.getDrawable(R.drawable.dialog_you_background, theme)
-                else -> resources.getColoredDrawableWithColor(R.drawable.dialog_bg, baseConfig.backgroundColor)
+                else -> resources.getColoredDrawableWithColor(R.drawable.camlib_dialog_bg, baseConfig.backgroundColor)
             }
 
             window?.setBackgroundDrawable(bgDrawable)

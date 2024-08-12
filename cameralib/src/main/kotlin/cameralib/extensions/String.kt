@@ -23,48 +23,6 @@ fun String.getFilenameFromPath() = substring(lastIndexOf("/") + 1)
 
 fun String.getFilenameExtension() = substring(lastIndexOf(".") + 1)
 
-fun String.getBasePath(context: Context): String {
-    return when {
-        startsWith(context.internalStoragePath) -> context.internalStoragePath
-        context.isPathOnSD(this) -> context.sdCardPath
-        context.isPathOnOTG(this) -> context.otgPath
-        else -> "/"
-    }
-}
-
-fun String.getFirstParentDirName(context: Context, level: Int): String? {
-    val basePath = getBasePath(context)
-    val startIndex = basePath.length + 1
-    return if (length > startIndex) {
-        val pathWithoutBasePath = substring(startIndex)
-        val pathSegments = pathWithoutBasePath.split("/")
-        if (level < pathSegments.size) {
-            pathSegments.slice(0..level).joinToString("/")
-        } else {
-            null
-        }
-    } else {
-        null
-    }
-}
-
-fun String.getFirstParentPath(context: Context, level: Int): String {
-    val basePath = getBasePath(context)
-    val startIndex = basePath.length + 1
-    return if (length > startIndex) {
-        val pathWithoutBasePath = substring(basePath.length + 1)
-        val pathSegments = pathWithoutBasePath.split("/")
-        val firstParentPath = if (level < pathSegments.size) {
-            pathSegments.slice(0..level).joinToString("/")
-        } else {
-            pathWithoutBasePath
-        }
-        "$basePath/$firstParentPath"
-    } else {
-        basePath
-    }
-}
-
 fun String.isAValidFilename(): Boolean {
     val ILLEGAL_CHARACTERS = charArrayOf('/', '\n', '\r', '\t', '\u0000', '`', '?', '*', '\\', '<', '>', '|', '\"', ':')
     ILLEGAL_CHARACTERS.forEach {
@@ -73,9 +31,6 @@ fun String.isAValidFilename(): Boolean {
     }
     return true
 }
-
-fun String.getOTGPublicPath(context: Context) =
-    "${context.baseConfig.OTGTreeUri}/document/${context.baseConfig.OTGPartition}%3A${substring(context.baseConfig.OTGPath.length).replace("/", "%2F")}"
 
 fun String.isMediaFile() = isImageFast() || isVideoFast() || isGif() || isRawFast() || isSvg() || isPortrait()
 
@@ -147,16 +102,6 @@ fun String.getImageResolution(context: Context): Point? {
         Point(options.outWidth, options.outHeight)
     } else {
         null
-    }
-}
-
-fun String.getPublicUri(context: Context) = context.getDocumentFile(this)?.uri ?: ""
-
-fun String.substringTo(cnt: Int): String {
-    return if (isEmpty()) {
-        ""
-    } else {
-        substring(0, Math.min(length, cnt))
     }
 }
 

@@ -57,7 +57,7 @@
         android:id="@+id/bottom_overlay"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/overlay_color"
+        android:background="@color/camlib_overlay_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +67,7 @@
         android:id="@+id/camera_mode_holder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/medium_margin"
+        android:paddingTop="@dimen/camlib_medium_margin"
         app:layout_constraintBottom_toTopOf="@id/shutter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -76,14 +76,14 @@
             android:id="@+id/camera_mode_tab"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/big_margin"
+            android:layout_marginBottom="@dimen/camlib_big_margin"
             android:background="@android:color/transparent"
-            app:tabBackground="@drawable/tab_indicator"
+            app:tabBackground="@drawable/camlib_tab_indicator"
             app:tabIndicator="@null"
             app:tabMode="auto"
             app:tabRippleColor="@null"
-            app:tabSelectedTextColor="@color/md_grey_600_dark"
-            app:tabTextColor="@color/md_grey_white">
+            app:tabSelectedTextColor="@color/camlib_md_grey_600_dark"
+            app:tabTextColor="@color/camlib_md_grey_white">
 
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
@@ -103,7 +103,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/smaller_margin"
+        android:layout_marginBottom="@dimen/camlib_smaller_margin"
         android:textColor="@android:color/white"
         android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@id/shutter"
@@ -115,10 +115,10 @@
 
     <ImageView
         android:id="@+id/toggle_camera"
-        android:layout_width="@dimen/icon_size"
-        android:layout_height="@dimen/icon_size"
+        android:layout_width="@dimen/camlib_icon_size"
+        android:layout_height="@dimen/camlib_icon_size"
         android:contentDescription="@string/toggle_camera"
-        android:padding="@dimen/normal_margin"
+        android:padding="@dimen/camlib_normal_margin"
         android:src="@drawable/camlib_ic_camera_front_vector"
         app:layout_constraintBottom_toBottomOf="@id/shutter"
         app:layout_constraintEnd_toStartOf="@id/shutter"
@@ -128,11 +128,11 @@
 
     <ImageView
         android:id="@+id/shutter"
-        android:layout_width="@dimen/large_icon_size"
-        android:layout_height="@dimen/large_icon_size"
-        android:layout_marginBottom="@dimen/big_margin"
+        android:layout_width="@dimen/camlib_large_icon_size"
+        android:layout_height="@dimen/camlib_large_icon_size"
+        android:layout_marginBottom="@dimen/camlib_big_margin"
         android:contentDescription="@string/shutter"
-        android:src="@drawable/ic_shutter_animated"
+        android:src="@drawable/camlib_ic_shutter_animated"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -140,10 +140,10 @@
 
     <ImageView
         android:id="@+id/last_photo_video_preview"
-        android:layout_width="@dimen/icon_size"
-        android:layout_height="@dimen/icon_size"
+        android:layout_width="@dimen/camlib_icon_size"
+        android:layout_height="@dimen/camlib_icon_size"
         android:contentDescription="@string/view_last_media"
-        android:padding="@dimen/medium_margin"
+        android:padding="@dimen/camlib_medium_margin"
         app:layout_constraintBottom_toBottomOf="@id/shutter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/shutter"

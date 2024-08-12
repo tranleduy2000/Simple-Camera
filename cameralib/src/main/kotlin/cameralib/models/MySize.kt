@@ -68,19 +68,19 @@ data class MySize(val width: Int, val height: Int, val isFullScreen: Boolean = f
 
     @DrawableRes
     fun getImageResId(): Int = when {
-        isFullScreen -> R.drawable.ic_photo_full_vector
-        isSixteenToNine() -> R.drawable.ic_photo_16x9_vector
+        isFullScreen -> R.drawable.camlib_ic_photo_full_vector
+        isSixteenToNine() -> R.drawable.camlib_ic_photo_16x9_vector
         isFourToThree() -> R.drawable.camlib_ic_photo_4x3_vector
-        isSquare() -> R.drawable.ic_photo_1x1_vector
+        isSquare() -> R.drawable.camlib_ic_photo_1x1_vector
         else -> throw UnsupportedOperationException("This size $this is not supported")
     }
 
     @IdRes
     fun getButtonId(): Int = when {
-        isFullScreen -> R.id.photo_full
-        isSixteenToNine() -> R.id.photo_16x9
-        isFourToThree() -> R.id.photo_4x3
-        isSquare() -> R.id.photo_1x1
+        isFullScreen -> R.id.camlib_photo_full
+        isSixteenToNine() -> R.id.camlib_photo_16x9
+        isFourToThree() -> R.id.camlib_photo_4x3
+        isSquare() -> R.id.camlib_photo_1x1
         else -> throw UnsupportedOperationException("This size $this is not supported")
     }
 

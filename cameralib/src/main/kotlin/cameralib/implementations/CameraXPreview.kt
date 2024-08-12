@@ -40,7 +40,6 @@ class CameraXPreview(
     private val mediaOutputHelper: MediaOutputHelper,
     private val cameraErrorHandler: CameraErrorHandler,
     private val listener: CameraXPreviewListener,
-    private val isThirdPartyIntent: Boolean,
     initInPhotoMode: Boolean,
 ) : MyPreview, DefaultLifecycleObserver {
 
@@ -86,9 +85,7 @@ class CameraXPreview(
     private val photoModeRunnable = Runnable {
         if (imageCapture == null) {
             isPhotoCapture = true
-            if (!isThirdPartyIntent) { // we don't want to store the state for 3rd party intents
-                config.initPhotoMode = true
-            }
+            config.initPhotoMode = true
             startCamera()
         } else {
             listener.onInitPhotoMode()
@@ -97,9 +94,7 @@ class CameraXPreview(
     private val videoModeRunnable = Runnable {
         if (videoCapture == null) {
             isPhotoCapture = false
-            if (!isThirdPartyIntent) { // we don't want to store the state for 3rd party intents
-                config.initPhotoMode = false
-            }
+            config.initPhotoMode = false
             startCamera()
         } else {
             listener.onInitVideoMode()

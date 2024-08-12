@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/camlib_small_margin"
+        android:top="@dimen/camlib_small_margin">
+        <shape>
+            <corners android:radius="@dimen/camlib_material_button_corner_radius" />
+            <solid android:color="@color/camlib_tab_color" />
+        </shape>
+    </item>
+</layer-list>

@@ -6,39 +6,39 @@
         <item name="iconPadding">0dp</item>
         <item name="iconGravity">textStart</item>
         <item name="cornerRadius">0dp</item>
-        <item name="iconSize">@dimen/toggle_icon_size</item>
+        <item name="iconSize">@dimen/camlib_toggle_icon_size</item>
         <item name="backgroundTint">@android:color/transparent</item>
         <item name="android:backgroundTint">@android:color/transparent</item>
         <item name="android:insetTop">0dp</item>
         <item name="android:insetBottom">0dp</item>
-        <item name="android:minWidth">@dimen/icon_size</item>
-        <item name="android:minHeight">@dimen/icon_size</item>
+        <item name="android:minWidth">@dimen/camlib_icon_size</item>
+        <item name="android:minHeight">@dimen/camlib_icon_size</item>
     </style>
 
     <style name="CamlibTopIconShadow">
-        <item name="android:shadowColor">@color/md_grey_200_dark</item>
+        <item name="android:shadowColor">@color/camlib_md_grey_200_dark</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">2</item>
         <item name="android:shadowRadius">10</item>
     </style>
 
     <style name="CamlibMaterialSectionLabelStyle">
-        <item name="android:layout_marginStart">@dimen/label_start_margin</item>
-        <item name="android:paddingTop">@dimen/big_margin</item>
-        <item name="android:paddingBottom">@dimen/medium_margin</item>
+        <item name="android:layout_marginStart">@dimen/camlib_label_start_margin</item>
+        <item name="android:paddingTop">@dimen/camlib_big_margin</item>
+        <item name="android:paddingBottom">@dimen/camlib_medium_margin</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textAppearance">@style/TextAppearance.Material3.BodyLarge</item>
     </style>
 
     <style name="CamlibSettingsSectionLabelStyle" parent="@style/CamlibMaterialSectionLabelStyle">
-        <item name="android:layout_marginStart">@dimen/settings_label_start_margin</item>
+        <item name="android:layout_marginStart">@dimen/camlib_settings_label_start_margin</item>
     </style>
 
     <style name="CamlibSettingsHolderTextViewStyle">
-        <item name="android:paddingStart">@dimen/settings_label_start_margin</item>
-        <item name="android:paddingTop">@dimen/activity_margin</item>
-        <item name="android:paddingEnd">@dimen/settings_label_start_margin</item>
-        <item name="android:paddingBottom">@dimen/activity_margin</item>
+        <item name="android:paddingStart">@dimen/camlib_settings_label_start_margin</item>
+        <item name="android:paddingTop">@dimen/camlib_activity_margin</item>
+        <item name="android:paddingEnd">@dimen/camlib_settings_label_start_margin</item>
+        <item name="android:paddingBottom">@dimen/camlib_activity_margin</item>
         <item name="android:background">?selectableItemBackground</item>
     </style>
 
@@ -51,10 +51,10 @@
     </style>
 
     <style name="CamlibSettingsHolderCheckboxStyle">
-        <item name="android:paddingStart">@dimen/settings_label_start_margin</item>
-        <item name="android:paddingTop">@dimen/medium_margin</item>
-        <item name="android:paddingEnd">@dimen/settings_label_start_margin</item>
-        <item name="android:paddingBottom">@dimen/medium_margin</item>
+        <item name="android:paddingStart">@dimen/camlib_settings_label_start_margin</item>
+        <item name="android:paddingTop">@dimen/camlib_medium_margin</item>
+        <item name="android:paddingEnd">@dimen/camlib_settings_label_start_margin</item>
+        <item name="android:paddingBottom">@dimen/camlib_medium_margin</item>
         <item name="android:background">?selectableItemBackground</item>
     </style>
 
