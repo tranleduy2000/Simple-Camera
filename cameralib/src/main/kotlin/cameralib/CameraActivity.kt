@@ -467,7 +467,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
     private fun showLastMediaPreview() {
         if (mPreviewUri != null) {
             val path = applicationContext.getRealPathFromURI(mPreviewUri!!) ?: mPreviewUri!!.toString()
-            openPathIntent(path, false, packageName)
+            openPathIntent(path, false)
         }
     }
 
@@ -519,15 +519,15 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
     }
 
     private fun setupPreviewImage(isPhoto: Boolean) {
-        val uri = if (isPhoto) MediaStore.Images.Media.EXTERNAL_CONTENT_URI else MediaStore.Video.Media.EXTERNAL_CONTENT_URI
-        val lastMediaId = getLatestMediaId(uri)
-        if (lastMediaId == 0L) {
-            return
-        }
+        // val uri = if (isPhoto) MediaStore.Images.Media.EXTERNAL_CONTENT_URI else MediaStore.Video.Media.EXTERNAL_CONTENT_URI
+        // val lastMediaId = getLatestMediaId(uri)
+        // if (lastMediaId == 0L) {
+        //     return
+        // }
 
-        mPreviewUri = Uri.withAppendedPath(uri, lastMediaId.toString())
+        // mPreviewUri = Uri.withAppendedPath(uri, lastMediaId.toString())
 
-        loadLastTakenMedia(mPreviewUri)
+        // loadLastTakenMedia(mPreviewUri)
     }
 
     private fun loadLastTakenMedia(uri: Uri?) {

@@ -7,8 +7,13 @@ import cameralib.models.TimerMode
 
 class Config(context: Context) : BaseConfig(context) {
     companion object {
+        const val FILE_PROVIDER_AUTHORITY = "Camlib.FILE_PROVIDER_AUTHORITY";
+
         fun newInstance(context: Context) = Config(context)
     }
+
+    private val defaultFileProviderAuthority: String = "${context.packageName}.fileprovider";
+    var fileProviderAuthority: String = prefs.getString(FILE_PROVIDER_AUTHORITY, defaultFileProviderAuthority) ?: defaultFileProviderAuthority;
 
     var isSoundEnabled: Boolean
         get() = prefs.getBoolean(SOUND, true)

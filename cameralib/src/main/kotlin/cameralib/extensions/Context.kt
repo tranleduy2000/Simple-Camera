@@ -25,6 +25,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import androidx.core.os.bundleOf
 import androidx.exifinterface.media.ExifInterface
+import cameralib.BuildConfig
 import cameralib.R
 import cameralib.helpers.*
 import java.io.File
@@ -89,6 +90,9 @@ fun Context.showErrorToast(msg: String, length: Int = Toast.LENGTH_LONG) {
 }
 
 fun Context.showErrorToast(exception: Exception, length: Int = Toast.LENGTH_LONG) {
+    if (BuildConfig.DEBUG) {
+        exception.printStackTrace()
+    }
     showErrorToast(exception.toString(), length)
 }
 
@@ -257,7 +261,7 @@ private fun Context.queryCursorDesc(
 }
 
 
-fun Context.ensurePublicUri(path: String, applicationId: String): Uri? {
+fun Context.ensurePublicUri(path: String, fileProviderAuthority: String): Uri? {
     return when {
         else -> {
             val uri = Uri.parse(path)
@@ -266,13 +270,13 @@ fun Context.ensurePublicUri(path: String, applicationId: String): Uri? {
             } else {
                 val newPath = if (uri.toString().startsWith("/")) uri.toString() else uri.path
                 val file = File(newPath)
-                getFilePublicUri(file, applicationId)
+                getFilePublicUri(file, fileProviderAuthority)
             }
         }
     }
 }
 
-fun Context.getFilePublicUri(file: File, applicationId: String): Uri {
+fun Context.getFilePublicUri(file: File, fileProviderAuthority: String): Uri {
     // for images/videos/gifs try getting a media content uri first, like content://media/external/images/media/438
     // if media content uri is null, get our custom uri like content://com.simplemobiletools.gallery.provider/external_files/emulated/0/DCIM/IMG_20171104_233915.jpg
     var uri = if (file.isMediaFile()) {
@@ -282,7 +286,7 @@ fun Context.getFilePublicUri(file: File, applicationId: String): Uri {
     }
 
     if (uri == null) {
-        uri = FileProvider.getUriForFile(this, "$applicationId.provider", file)
+        uri = FileProvider.getUriForFile(this, fileProviderAuthority, file)
     }
 
     return uri!!

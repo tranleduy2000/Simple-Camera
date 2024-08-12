@@ -54,12 +54,11 @@ fun Activity.hideKeyboard(view: View) {
 fun Activity.openPathIntent(
     path: String,
     forceChooser: Boolean,
-    applicationId: String,
     forceMimeType: String = "",
     extras: HashMap<String, Boolean> = HashMap()
 ) {
     ensureBackgroundThread {
-        val newUri = getFinalUriFromPath(path, applicationId) ?: return@ensureBackgroundThread
+        val newUri = getFinalUriFromPath(path) ?: return@ensureBackgroundThread
         val mimeType = if (forceMimeType.isNotEmpty()) forceMimeType else getUriMimeType(path, newUri)
         Intent().apply {
             action = Intent.ACTION_VIEW
@@ -90,9 +89,9 @@ fun Activity.openPathIntent(
     }
 }
 
-fun Activity.getFinalUriFromPath(path: String, applicationId: String): Uri? {
+fun Activity.getFinalUriFromPath(path: String): Uri? {
     val uri = try {
-        ensurePublicUri(path, applicationId)
+        ensurePublicUri(path, this.config.fileProviderAuthority)
     } catch (e: Exception) {
         showErrorToast(e)
         return null
@@ -129,11 +128,6 @@ fun Activity.setupDialogStuff(
     val textColor = getProperTextColor()
     val backgroundColor = getProperBackgroundColor()
     val primaryColor = getProperPrimaryColor()
-//    if (view is ViewGroup) {
-//        updateTextColors(view)
-//    } else if (view is MyTextView) {
-//        view.setColors(textColor, primaryColor, backgroundColor)
-//    }
 
     if (dialog is MaterialAlertDialogBuilder) {
         dialog.create().apply {
