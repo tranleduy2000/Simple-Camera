@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">OK</string>
-    <string name="close">Close</string>
-    <string name="back">Back</string>
-    <string name="out_of_memory_error">Out of memory error</string>
-    <string name="error">Error: %s</string>
-    <string name="open_with">Open with</string>
-    <string name="no_app_found">No valid app found</string>
+    <string name="camlib_ok">OK</string>
+    <string name="camlib_close">Close</string>
+    <string name="camlib_back">Back</string>
+    <string name="camlib_out_of_memory_error">Out of memory error</string>
+    <string name="camlib_error">Error: %s</string>
+    <string name="camlib_open_with">Open with</string>
+    <string name="camlib_no_app_found">No valid app found</string>
 
     <!-- Events -->
 
@@ -25,16 +25,16 @@
     <!-- Filters -->
 
     <!-- Permissions -->
-    <string name="no_camera_permissions">Camera permission is required</string>
-    <string name="no_audio_permissions">Audio permission is required</string>
+    <string name="camlib_no_camera_permissions">Camera permission is required</string>
+    <string name="camlib_no_audio_permissions">Audio permission is required</string>
 
     <!-- Renaming -->
 
     <!-- Copy / Move -->
-    <string name="could_not_create_file">Could not create file %s</string>
+    <string name="camlib_could_not_create_file">Could not create file %s</string>
 
     <!-- Create new -->
-    <string name="unknown_error_occurred">An unknown error occurred</string>
+    <string name="camlib_unknown_error_occurred">An unknown error occurred</string>
 
     <!-- File operation conflicts -->
 
@@ -47,7 +47,7 @@
     <!-- Storages -->
 
     <!-- File properties -->
-    <string name="resolution">Resolution</string>
+    <string name="camlib_resolution">Resolution</string>
 
     <!-- Color customization -->
 
@@ -78,8 +78,8 @@
     <!-- Alarms -->
 
     <!-- Settings -->
-    <string name="settings">Settings</string>
-    <string name="language">Language</string>
+    <string name="camlib_settings">Settings</string>
+    <string name="camlib_language">Language</string>
 
     <!-- Setting sections -->
 
@@ -101,7 +101,7 @@
     <!-- Pro version -->
 
     <!-- About -->
-    <string name="other">Other</string>
+    <string name="camlib_other">Other</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
 

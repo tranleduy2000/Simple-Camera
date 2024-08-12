@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Kamera</string>
-    <string name="capture_mode">Način snimanja</string>
-    <string name="maximize_quality">Maksimiraj kvalitetu</string>
-    <string name="minimize_latency">Minimiziraj latenciju</string>
+
+    <string name="camlib_capture_mode">Način snimanja</string>
+    <string name="camlib_maximize_quality">Maksimiraj kvalitetu</string>
+    <string name="camlib_minimize_latency">Minimiziraj latenciju</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Kamera nije dostupna</string>
-    <string name="camera_open_error">Dogodila se greška prilikom pristupanja kameri</string>
-    <string name="save_error_internal_storage">Dogodila se greška, mapa za spremanje promijenjena je u interno spremište</string>
-    <string name="camera_switch_error">Mijenjanje kamere nije uspjelo</string>
-    <string name="photo_not_saved">Fotografija se nije mogla spremiti</string>
-    <string name="video_recording_failed">Snimanje videa nije uspjelo, pokušaj koristiti jednu drugu rezoluciju</string>
-    <string name="camera_in_use_error">Jedna druga aplikacija koristi kameru, zatvori aplikaciju i pokušaj ponovo</string>
-    <string name="camera_configure_error">Dogodila se greška prilikom konfiguriranja kamere</string>
-    <string name="camera_disabled_by_admin_error">Administrator je deaktivirao kameru</string>
-    <string name="camera_dnd_error">Modus „Ne smetaj” je aktiviran. Deaktiviraj ga i pokušaj ponovo</string>
-    <string name="photo_capture_failed">Snimanje fotografije nije uspjelo</string>
-    <string name="video_capture_insufficient_storage_error">Snimanje videa nije uspjelo zbog nedovoljne memorije</string>
+    <string name="camlib_camera_unavailable">Kamera nije dostupna</string>
+    <string name="camlib_camera_open_error">Dogodila se greška prilikom pristupanja kameri</string>
+    <string name="camlib_save_error_internal_storage">Dogodila se greška, mapa za spremanje promijenjena je u interno spremište</string>
+    <string name="camlib_camera_switch_error">Mijenjanje kamere nije uspjelo</string>
+    <string name="camlib_photo_not_saved">Fotografija se nije mogla spremiti</string>
+    <string name="camlib_video_recording_failed">Snimanje videa nije uspjelo, pokušaj koristiti jednu drugu rezoluciju</string>
+    <string name="camlib_camera_in_use_error">Jedna druga aplikacija koristi kameru, zatvori aplikaciju i pokušaj ponovo</string>
+    <string name="camlib_camera_configure_error">Dogodila se greška prilikom konfiguriranja kamere</string>
+    <string name="camlib_camera_disabled_by_admin_error">Administrator je deaktivirao kameru</string>
+    <string name="camlib_camera_dnd_error">Modus „Ne smetaj” je aktiviran. Deaktiviraj ga i pokušaj ponovo</string>
+    <string name="camlib_photo_capture_failed">Snimanje fotografije nije uspjelo</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Snimanje videa nije uspjelo zbog nedovoljne memorije</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Pogledaj zadnje snimljeni medij</string>
-    <string name="toggle_camera">Uklj./Isklj. prednju/stražnju kameru</string>
-    <string name="toggle_flash">Uklj./Isklj. modus svjetiljke</string>
-    <string name="toggle_timer">Uklj./Isklj. modus timera</string>
+    <string name="camlib_view_last_media">Pogledaj zadnje snimljeni medij</string>
+    <string name="camlib_toggle_camera">Uklj./Isklj. prednju/stražnju kameru</string>
+    <string name="camlib_toggle_flash">Uklj./Isklj. modus svjetiljke</string>
+    <string name="camlib_toggle_timer">Uklj./Isklj. modus timera</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Zvuk otvora objektiva</string>
-    <string name="photo">Foto</string>
-    <string name="video">Video</string>
-    <string name="volume_buttons_as_shutter">Koristi gumbe za glasnoću kao otvor objektiva</string>
-    <string name="flip_front_camera_photos_horizontally">Preokreni slike prednje kamere vodoravno</string>
-    <string name="save_photo_metadata">Spremi exif metapodatke fotografije</string>
-    <string name="photo_compression_quality">Kvaliteta kompresije fotografije</string>
-    <string name="shutter">Otvor objektiva</string>
+    <string name="camlib_shutter_sound">Zvuk otvora objektiva</string>
+    <string name="camlib_photo">Foto</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Koristi gumbe za glasnoću kao otvor objektiva</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Preokreni slike prednje kamere vodoravno</string>
+    <string name="camlib_save_photo_metadata">Spremi exif metapodatke fotografije</string>
+    <string name="camlib_photo_compression_quality">Kvaliteta kompresije fotografije</string>
+    <string name="camlib_shutter">Otvor objektiva</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

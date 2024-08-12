@@ -1,60 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">OK</string>
-    <string name="close">Κλείσιμο</string>
-    <string name="back">Πίσω</string>
-    <string name="out_of_memory_error">Σφάλμα Έλλειψη μνήμης</string>
-    <string name="error">Σφάλμα: %s</string>
-    <string name="open_with">Άνοιγμα με</string>
-    <string name="no_app_found">Δεν βρέθηκε έγκυρη εφαρμογή</string>
+    <string name="camlib_ok">OK</string>
+    <string name="camlib_close">Κλείσιμο</string>
+    <string name="camlib_back">Πίσω</string>
+    <string name="camlib_out_of_memory_error">Σφάλμα Έλλειψη μνήμης</string>
+    <string name="camlib_error">Σφάλμα: %s</string>
+    <string name="camlib_open_with">Άνοιγμα με</string>
+    <string name="camlib_no_app_found">Δεν βρέθηκε έγκυρη εφαρμογή</string>
 
     <!-- Events -->
     <!-- Emails -->
     <!-- Phone numbers -->
     <!-- View types -->
-    <plurals name="column_counts">
-        <item quantity="one">%d στήλη</item>
-        <item quantity="other">%d στήλες</item>
-    </plurals>
-    <plurals name="row_counts">
-        <item quantity="one">%d σειρά</item>
-        <item quantity="other">%d σειρές</item>
-    </plurals>
+
+
     <!-- Blocked numbers -->
     <!-- Favorites -->
     <!-- Search -->
     <!-- Filters -->
     <!-- Permissions -->
-    <string name="no_camera_permissions">Απαιτείται άδεια Κάμερας</string>
-    <string name="no_audio_permissions">Απαιτείται άδεια Ήχου</string>
+    <string name="camlib_no_camera_permissions">Απαιτείται άδεια Κάμερας</string>
+    <string name="camlib_no_audio_permissions">Απαιτείται άδεια Ήχου</string>
     <!-- Renaming -->
     <!-- Copy / Move -->
-    <string name="could_not_create_file">Αδύνατη η δημιουργία του αρχείου %s</string>
+    <string name="camlib_could_not_create_file">Αδύνατη η δημιουργία του αρχείου %s</string>
     <!-- Create new -->
-    <string name="unknown_error_occurred">Παρουσιάστηκε άγνωστο σφάλμα</string>
+    <string name="camlib_unknown_error_occurred">Παρουσιάστηκε άγνωστο σφάλμα</string>
     <!-- File operation conflicts -->
     <!-- File picker -->
-    <plurals name="items">
-        <item quantity="one">%d στοιχείο</item>
-        <item quantity="other">%d στοιχεία</item>
-    </plurals>
+
     <!-- Are you sure you want to delete 5 items? -->
-    <plurals name="delete_items">
-        <item quantity="one">%d στοιχείο</item>
-        <item quantity="other">%d στοιχεία</item>
-    </plurals>
-    <plurals name="deleting_items">
-        <item quantity="one">Διαγραφή %d στοιχείο</item>
-        <item quantity="other">Διαγραφή %d στοιχεία</item>
-    </plurals>
+
+
     <!-- Are you sure you want to delete 5 contacts? -->
-    <plurals name="delete_contacts">
-        <item quantity="one">%d επαφή</item>
-        <item quantity="other">%d επαφές</item>
-    </plurals>
+
     <!-- Storages -->
     <!-- File properties -->
-    <string name="resolution">Ανάλυση</string>
+    <string name="camlib_resolution">Ανάλυση</string>
     <!-- Color customization -->
     <!-- Themes -->
     <!-- What's new -->
@@ -63,140 +45,50 @@
     <!-- Confirmation dialog -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-    <plurals name="delete_warning">
-        <item quantity="one">Προειδοποίηση: Διαγράφετε %d φάκελο</item>
-        <item quantity="other">Προειδοποίηση: Διαγράφετε %d φακέλους</item>
-    </plurals>
+
     <!-- Password protection -->
     <!-- Times -->
-    <plurals name="seconds">
-        <item quantity="one">%d δευτ.</item>
-        <item quantity="other">%d δευτ.</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="one">%d λεπτό</item>
-        <item quantity="other">%d λεπτά</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="one">%d ώρα</item>
-        <item quantity="other">%d ώρες</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="one">%d ημέρα</item>
-        <item quantity="other">%d ημέρες</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="one">%d εβδομάδα</item>
-        <item quantity="other">%d εβδομάδες</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="one">%d μήνα</item>
-        <item quantity="other">%d μήνες</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="one">%d χρόνο</item>
-        <item quantity="other">%d χρόνια</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: I will be there in 5 minutes -->
-    <plurals name="in_seconds">
-        <item quantity="one">σε %d δευτ.</item>
-        <item quantity="other">σε %d δευτ.</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="one">σε %d λεπτό</item>
-        <item quantity="other">σε %d λεπτά</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="one">σε %d ώρα</item>
-        <item quantity="other">σε %d ώρες</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="one">%d ημέρα</item>
-        <item quantity="other">%d ημέρες</item>
-    </plurals>
-    <plurals name="in_weeks">
-        <item quantity="one">%d εβδομάδα</item>
-        <item quantity="other">%d εβδομάδες</item>
-    </plurals>
-    <plurals name="in_months">
-        <item quantity="one">%d μήνας</item>
-        <item quantity="other">%d μήνες</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="one">%d έτος</item>
-        <item quantity="other">%d έτη</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Event reminder: 3 minutes before -->
-    <plurals name="seconds_before">
-        <item quantity="one">%d δευτ. πρίν</item>
-        <item quantity="other">%d δευτ. πρίν</item>
-    </plurals>
-    <plurals name="minutes_before">
-        <item quantity="one">%d λεπτό πρίν</item>
-        <item quantity="other">%d λεπτά πρίν</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="one">%d ώρα πρίν</item>
-        <item quantity="other">%d ώρες πρίν</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="one">%d ημέρα πρίν</item>
-        <item quantity="other">%d ημέρες πρίν</item>
-    </plurals>
-    <plurals name="weeks_before">
-        <item quantity="one">πρίν %d εβδομάδα</item>
-        <item quantity="other">πρίν %d εβδομάδες</item>
-    </plurals>
-    <plurals name="months_before">
-        <item quantity="one">%d μήνα πρίν</item>
-        <item quantity="other">%d μήνες πρίν</item>
-    </plurals>
-    <plurals name="years_before">
-        <item quantity="one">%d έτος πρίν</item>
-        <item quantity="other">%d έτη πρίν</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Postpone reminder by 3 minutes -->
-    <plurals name="by_seconds">
-        <item quantity="one">αναβολή %d δευτ.</item>
-        <item quantity="other">αναβολή %d δευτ.</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="one">αναβολή %d λεπτό</item>
-        <item quantity="other">αναβολή %d λεπτά</item>
-    </plurals>
-    <plurals name="by_hours">
-        <item quantity="one">αναβολή %d ώρα</item>
-        <item quantity="other">αναβολή %d ώρες</item>
-    </plurals>
-    <plurals name="by_days">
-        <item quantity="one">%d ημέρα</item>
-        <item quantity="other">%d ημέρες</item>
-    </plurals>
-    <plurals name="by_weeks">
-        <item quantity="one">%d εβδομάδα</item>
-        <item quantity="other">%d εβδομάδες</item>
-    </plurals>
-    <plurals name="by_months">
-        <item quantity="one">%d μήνα</item>
-        <item quantity="other">%d μήνες</item>
-    </plurals>
-    <plurals name="by_years">
-        <item quantity="one">%d έτος</item>
-        <item quantity="other">%d έτη</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
     <!-- Settings -->
-    <string name="settings">Ρυθμίσεις</string>
-    <string name="language">Γλώσσα</string>
+    <string name="camlib_settings">Ρυθμίσεις</string>
+    <string name="camlib_language">Γλώσσα</string>
     <!-- Setting sections -->
     <!-- Excluding -->
     <!-- Default tab to open -->
     <!-- Recycle Bin -->
-    <plurals name="moving_items_into_bin">
-        <item quantity="one">Μετακινήθηκε %d στοιχείο στον Κάδο</item>
-        <item quantity="other">Μετακινήθηκαν %d στοιχεία στον Κάδο</item>
-    </plurals>
+
     <!-- Import / Export -->
     <!-- OTG devices -->
     <!-- Dates -->
@@ -204,7 +96,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
-    <string name="other">Άλλα</string>
+    <string name="camlib_other">Άλλα</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- Contributors -->
@@ -217,10 +109,7 @@
     <!-- Draw Pro -->
     <!-- License -->
     <!-- Trial -->
-    <plurals name="trial_expires_days">
-        <item quantity="one">Η δοκιμή σας λήγει σε %d ημέρα.</item>
-        <item quantity="other">Η δοκιμή σας λήγει σε %d ημέρες.</item>
-    </plurals>
+
     <!-- Google Play listing -->
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>

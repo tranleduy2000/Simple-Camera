@@ -1,59 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">சரி</string>
-    <string name="close">Close</string>
-    <string name="back">Back</string>
-    <string name="out_of_memory_error">நினைவக பிழை இல்லை</string>
-    <string name="error">Error: %s</string>
-    <string name="open_with">இதனுடன் திற</string>
-    <string name="no_app_found">சரியான செயலி ஏதுமில்லை</string>
+    <string name="camlib_ok">சரி</string>
+    <string name="camlib_close">Close</string>
+    <string name="camlib_back">Back</string>
+    <string name="camlib_out_of_memory_error">நினைவக பிழை இல்லை</string>
+    <string name="camlib_error">Error: %s</string>
+    <string name="camlib_open_with">இதனுடன் திற</string>
+    <string name="camlib_no_app_found">சரியான செயலி ஏதுமில்லை</string>
     <!-- Events -->
     <!-- Emails -->
     <!-- Phone numbers -->
     <!-- View types -->
-    <plurals name="column_counts">
-        <item quantity="one">%d column</item>
-        <item quantity="other">%d columns</item>
-    </plurals>
-    <plurals name="row_counts">
-        <item quantity="one">%d row</item>
-        <item quantity="other">%d rows</item>
-    </plurals>
+
+
     <!-- Blocked numbers -->
     <!-- Favorites -->
     <!-- Search -->
     <!-- Filters -->
     <!-- Permissions -->
-    <string name="no_camera_permissions">கேமரா அனுமதி தேவை</string>
-    <string name="no_audio_permissions">ஆடியோ அனுமதி தேவை</string>
+    <string name="camlib_no_camera_permissions">கேமரா அனுமதி தேவை</string>
+    <string name="camlib_no_audio_permissions">ஆடியோ அனுமதி தேவை</string>
     <!-- Renaming -->
     <!-- Copy / Move -->
-    <string name="could_not_create_file">Could not create file %s</string>
+    <string name="camlib_could_not_create_file">Could not create file %s</string>
     <!-- Create new -->
-    <string name="unknown_error_occurred">ஓர் அறியா பிழை ஏற்பட்டது</string>
+    <string name="camlib_unknown_error_occurred">ஓர் அறியா பிழை ஏற்பட்டது</string>
     <!-- File operation conflicts -->
     <!-- File picker -->
-    <plurals name="items">
-        <item quantity="one">%d உருப்படி</item>
-        <item quantity="other">%d உருப்படிகள்</item>
-    </plurals>
+
     <!-- Are you sure you want to delete 5 items? -->
-    <plurals name="delete_items">
-        <item quantity="one">%d உருப்படி</item>
-        <item quantity="other">%d உருப்படிகள்</item>
-    </plurals>
-    <plurals name="deleting_items">
-        <item quantity="one">%d உருப்படியை அழிக்கிறது</item>
-        <item quantity="other">%d உருப்படிகளை அழிக்கிறது</item>
-    </plurals>
+
+
     <!-- Are you sure you want to delete 5 contacts? -->
-    <plurals name="delete_contacts">
-        <item quantity="one">%d தொடர்பு</item>
-        <item quantity="other">%d தொடர்புகள்</item>
-    </plurals>
+
     <!-- Storages -->
     <!-- File properties -->
-    <string name="resolution">Resolution</string>
+    <string name="camlib_resolution">Resolution</string>
     <!-- Color customization -->
     <!-- Themes -->
     <!-- What's new -->
@@ -62,140 +44,50 @@
     <!-- Confirmation dialog -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-    <plurals name="delete_warning">
-        <item quantity="one">எச்சரிக்கை: %d கோப்புறையை அழிக்கிறீர்கள்</item>
-        <item quantity="other">எச்சரிக்கை: %d கோப்புறைகளை அழிக்கிறீர்கள்</item>
-    </plurals>
+
     <!-- Password protection -->
     <!-- Times -->
-    <plurals name="seconds">
-        <item quantity="one">%d விநாடி</item>
-        <item quantity="other">%d விநாடிகள்</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="one">%d நிமிடம்</item>
-        <item quantity="other">%d நிமிடங்கள்</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="one">%d மணிநேரம்</item>
-        <item quantity="other">%d மணிநேரங்கள்</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="one">%d நாள்</item>
-        <item quantity="other">%d நாட்கள்</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="one">%d வாரம்</item>
-        <item quantity="other">%d வாரங்கள்</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="one">%d மாதம்</item>
-        <item quantity="other">%d மாதங்கள்</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="one">%d ஆண்டு</item>
-        <item quantity="other">%d ஆண்டுகள்</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: I will be there in 5 minutes -->
-    <plurals name="in_seconds">
-        <item quantity="one">%d second</item>
-        <item quantity="other">%d seconds</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="one">%d minute</item>
-        <item quantity="other">%d minutes</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="one">%d hour</item>
-        <item quantity="other">%d hours</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="one">%d day</item>
-        <item quantity="other">%d days</item>
-    </plurals>
-    <plurals name="in_weeks">
-        <item quantity="one">%d week</item>
-        <item quantity="other">%d weeks</item>
-    </plurals>
-    <plurals name="in_months">
-        <item quantity="one">%d month</item>
-        <item quantity="other">%d months</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="one">%d year</item>
-        <item quantity="other">%d years</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Event reminder: 3 minutes before -->
-    <plurals name="seconds_before">
-        <item quantity="one">%d second before</item>
-        <item quantity="other">%d seconds before</item>
-    </plurals>
-    <plurals name="minutes_before">
-        <item quantity="one">%d minute before</item>
-        <item quantity="other">%d minutes before</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="one">%d hour before</item>
-        <item quantity="other">%d hours before</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="one">%d day before</item>
-        <item quantity="other">%d days before</item>
-    </plurals>
-    <plurals name="weeks_before">
-        <item quantity="one">%d week before</item>
-        <item quantity="other">%d weeks before</item>
-    </plurals>
-    <plurals name="months_before">
-        <item quantity="one">%d month before</item>
-        <item quantity="other">%d months before</item>
-    </plurals>
-    <plurals name="years_before">
-        <item quantity="one">%d year before</item>
-        <item quantity="other">%d years before</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Postpone reminder by 3 minutes -->
-    <plurals name="by_seconds">
-        <item quantity="one">%d second</item>
-        <item quantity="other">%d seconds</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="one">%d minute</item>
-        <item quantity="other">%d minutes</item>
-    </plurals>
-    <plurals name="by_hours">
-        <item quantity="one">%d hour</item>
-        <item quantity="other">%d hours</item>
-    </plurals>
-    <plurals name="by_days">
-        <item quantity="one">%d day</item>
-        <item quantity="other">%d days</item>
-    </plurals>
-    <plurals name="by_weeks">
-        <item quantity="one">%d week</item>
-        <item quantity="other">%d weeks</item>
-    </plurals>
-    <plurals name="by_months">
-        <item quantity="one">%d month</item>
-        <item quantity="other">%d months</item>
-    </plurals>
-    <plurals name="by_years">
-        <item quantity="one">%d year</item>
-        <item quantity="other">%d years</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
     <!-- Settings -->
-    <string name="settings">அமைப்புகள்</string>
-    <string name="language">Language</string>
+    <string name="camlib_settings">அமைப்புகள்</string>
+    <string name="camlib_language">Language</string>
     <!-- Setting sections -->
     <!-- Excluding -->
     <!-- Default tab to open -->
     <!-- Recycle Bin -->
-    <plurals name="moving_items_into_bin">
-        <item quantity="one">%d உருப்படியை மறுசுழற்சி தொட்டிக்குள் நகர்த்துகிறது</item>
-        <item quantity="other">%d உருப்படிகளை மறுசுழற்சி தொட்டிக்குள் நகர்த்துகிறது</item>
-    </plurals>
+
     <!-- Import / Export -->
     <!-- OTG devices -->
     <!-- Dates -->
@@ -203,7 +95,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
-    <string name="other">Other</string>
+    <string name="camlib_other">Other</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- Contributors -->
@@ -216,10 +108,7 @@
     <!-- Draw Pro -->
     <!-- License -->
     <!-- Trial -->
-    <plurals name="trial_expires_days">
-        <item quantity="one">Your trial expires in %d day.</item>
-        <item quantity="other">Your trial expires in %d days.</item>
-    </plurals>
+
     <!-- Google Play listing -->
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>

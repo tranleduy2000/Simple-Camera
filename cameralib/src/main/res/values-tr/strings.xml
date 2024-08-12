@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Kamera</string>
-    <string name="capture_mode">Çekim modu</string>
-    <string name="maximize_quality">Kaliteyi en üst düzeye çıkar</string>
-    <string name="minimize_latency">Gecikmeyi en aza indir</string>
+
+    <string name="camlib_capture_mode">Çekim modu</string>
+    <string name="camlib_maximize_quality">Kaliteyi en üst düzeye çıkar</string>
+    <string name="camlib_minimize_latency">Gecikmeyi en aza indir</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Kamera kullanılamıyor</string>
-    <string name="camera_open_error">Kameraya erişilemedi</string>
-    <string name="save_error_internal_storage">Depolama klasörü dahili depolama olarak değiştiği için bir hata oluştu</string>
-    <string name="camera_switch_error">Kamera değiştirilemedi</string>
-    <string name="photo_not_saved">Fotoğraf kaydedilemedi</string>
-    <string name="video_recording_failed">Video kaydı başarısız oldu, farklı bir çözünürlük kullanmayı deneyin</string>
-    <string name="camera_in_use_error">Kamera başka bir uygulama tarafından kullanılıyor, lütfen uygulamayı kapatın ve tekrar deneyin</string>
-    <string name="camera_configure_error">Kamera yapılandırılırken bir hata oluştu</string>
-    <string name="camera_disabled_by_admin_error">Kamera yönetici tarafından devre dışı bırakıldı</string>
-    <string name="camera_dnd_error">Rahatsız Etmeyin modu etkinleştirildi. Lütfen devre dışı bırakın ve tekrar deneyin</string>
-    <string name="photo_capture_failed">Fotoğraf çekimi başarısız oldu</string>
-    <string name="video_capture_insufficient_storage_error">Yetersiz depolama alanı nedeniyle video kaydı başarısız oldu</string>
+    <string name="camlib_camera_unavailable">Kamera kullanılamıyor</string>
+    <string name="camlib_camera_open_error">Kameraya erişilemedi</string>
+    <string name="camlib_save_error_internal_storage">Depolama klasörü dahili depolama olarak değiştiği için bir hata oluştu</string>
+    <string name="camlib_camera_switch_error">Kamera değiştirilemedi</string>
+    <string name="camlib_photo_not_saved">Fotoğraf kaydedilemedi</string>
+    <string name="camlib_video_recording_failed">Video kaydı başarısız oldu, farklı bir çözünürlük kullanmayı deneyin</string>
+    <string name="camlib_camera_in_use_error">Kamera başka bir uygulama tarafından kullanılıyor, lütfen uygulamayı kapatın ve tekrar deneyin</string>
+    <string name="camlib_camera_configure_error">Kamera yapılandırılırken bir hata oluştu</string>
+    <string name="camlib_camera_disabled_by_admin_error">Kamera yönetici tarafından devre dışı bırakıldı</string>
+    <string name="camlib_camera_dnd_error">Rahatsız Etmeyin modu etkinleştirildi. Lütfen devre dışı bırakın ve tekrar deneyin</string>
+    <string name="camlib_photo_capture_failed">Fotoğraf çekimi başarısız oldu</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Yetersiz depolama alanı nedeniyle video kaydı başarısız oldu</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Son çekilen medyayı görüntüle</string>
-    <string name="toggle_camera">Ön/arka kamerayı değiştir</string>
-    <string name="toggle_flash">El feneri modunu değiştir</string>
-    <string name="toggle_timer">Zamanlayıcı modunu değiştir</string>
+    <string name="camlib_view_last_media">Son çekilen medyayı görüntüle</string>
+    <string name="camlib_toggle_camera">Ön/arka kamerayı değiştir</string>
+    <string name="camlib_toggle_flash">El feneri modunu değiştir</string>
+    <string name="camlib_toggle_timer">Zamanlayıcı modunu değiştir</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Deklanşör sesi</string>
-    <string name="photo">Fotoğraf</string>
-    <string name="video">Video</string>
-    <string name="volume_buttons_as_shutter">Ses tuşlarını deklanşör olarak kullan</string>
-    <string name="flip_front_camera_photos_horizontally">Ön kamera fotoğraflarını yatay olarak çevir</string>
-    <string name="save_photo_metadata">Fotoğraflara Exif meta verilerini kaydet</string>
-    <string name="photo_compression_quality">Fotoğraf sıkıştırma kalitesi</string>
-    <string name="shutter">Deklanşör</string>
+    <string name="camlib_shutter_sound">Deklanşör sesi</string>
+    <string name="camlib_photo">Fotoğraf</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Ses tuşlarını deklanşör olarak kullan</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Ön kamera fotoğraflarını yatay olarak çevir</string>
+    <string name="camlib_save_photo_metadata">Fotoğraflara Exif meta verilerini kaydet</string>
+    <string name="camlib_photo_compression_quality">Fotoğraf sıkıştırma kalitesi</string>
+    <string name="camlib_shutter">Deklanşör</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

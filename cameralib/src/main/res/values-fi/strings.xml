@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Kamera</string>
-    <string name="capture_mode">Kaappaustila</string>
-    <string name="maximize_quality">Paras mahdollinen laatu</string>
-    <string name="minimize_latency">Paras mahdollinen nopeus</string>
+
+    <string name="camlib_capture_mode">Kaappaustila</string>
+    <string name="camlib_maximize_quality">Paras mahdollinen laatu</string>
+    <string name="camlib_minimize_latency">Paras mahdollinen nopeus</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Kamera ei ole käytettävissä</string>
-    <string name="camera_open_error">Kameraa ei saatu käyttöön</string>
-    <string name="save_error_internal_storage">Tapahtui virhe, tallennuskansio muutettiin sisäiseksi tallennustilaksi</string>
-    <string name="camera_switch_error">Kameran vaihtaminen epäonnistui</string>
-    <string name="photo_not_saved">Valokuvaa ei voitu tallentaa</string>
-    <string name="video_recording_failed">Videon tallennus epäonnistui. Yritä käyttää toista resoluutiota</string>
-    <string name="camera_in_use_error">Kamera on toisen sovelluksen käytössä. Sulje kyseinen sovellus ja yritä uudelleen</string>
-    <string name="camera_configure_error">Kameran konfiguroinnissa tapahtui virhe</string>
-    <string name="camera_disabled_by_admin_error">Ylläpito on poistanut kameran käytöstä</string>
-    <string name="camera_dnd_error">Älä häiritse -tila on käytössä. Poista se käytöstä ja yritä uudelleen</string>
-    <string name="photo_capture_failed">Valokuvien ottaminen epäonnistui</string>
-    <string name="video_capture_insufficient_storage_error">Videon tallennus epäonnistui riittämättömän tallennustilan vuoksi</string>
+    <string name="camlib_camera_unavailable">Kamera ei ole käytettävissä</string>
+    <string name="camlib_camera_open_error">Kameraa ei saatu käyttöön</string>
+    <string name="camlib_save_error_internal_storage">Tapahtui virhe, tallennuskansio muutettiin sisäiseksi tallennustilaksi</string>
+    <string name="camlib_camera_switch_error">Kameran vaihtaminen epäonnistui</string>
+    <string name="camlib_photo_not_saved">Valokuvaa ei voitu tallentaa</string>
+    <string name="camlib_video_recording_failed">Videon tallennus epäonnistui. Yritä käyttää toista resoluutiota</string>
+    <string name="camlib_camera_in_use_error">Kamera on toisen sovelluksen käytössä. Sulje kyseinen sovellus ja yritä uudelleen</string>
+    <string name="camlib_camera_configure_error">Kameran konfiguroinnissa tapahtui virhe</string>
+    <string name="camlib_camera_disabled_by_admin_error">Ylläpito on poistanut kameran käytöstä</string>
+    <string name="camlib_camera_dnd_error">Älä häiritse -tila on käytössä. Poista se käytöstä ja yritä uudelleen</string>
+    <string name="camlib_photo_capture_failed">Valokuvien ottaminen epäonnistui</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Videon tallennus epäonnistui riittämättömän tallennustilan vuoksi</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Näytä viimeksi kaapattu media</string>
-    <string name="toggle_camera">Vaihda etu-/takakameraa</string>
-    <string name="toggle_flash">Vaihda taskulampputilaa</string>
-    <string name="toggle_timer">Kytke ajastimen tila</string>
+    <string name="camlib_view_last_media">Näytä viimeksi kaapattu media</string>
+    <string name="camlib_toggle_camera">Vaihda etu-/takakameraa</string>
+    <string name="camlib_toggle_flash">Vaihda taskulampputilaa</string>
+    <string name="camlib_toggle_timer">Kytke ajastimen tila</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Suljinääni</string>
-    <string name="photo">Valokuva</string>
-    <string name="video">Video</string>
-    <string name="volume_buttons_as_shutter">Käytä äänenvoimakkuuspainikkeita laukaisimina</string>
-    <string name="flip_front_camera_photos_horizontally">Käännä etukameran valokuvat vaakasuunnassa</string>
-    <string name="save_photo_metadata">Tallenna valokuvien Exif-metatiedot</string>
-    <string name="photo_compression_quality">Valokuvien pakkauslaatu</string>
-    <string name="shutter">Suljin</string>
+    <string name="camlib_shutter_sound">Suljinääni</string>
+    <string name="camlib_photo">Valokuva</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Käytä äänenvoimakkuuspainikkeita laukaisimina</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Käännä etukameran valokuvat vaakasuunnassa</string>
+    <string name="camlib_save_photo_metadata">Tallenna valokuvien Exif-metatiedot</string>
+    <string name="camlib_photo_compression_quality">Valokuvien pakkauslaatu</string>
+    <string name="camlib_shutter">Suljin</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

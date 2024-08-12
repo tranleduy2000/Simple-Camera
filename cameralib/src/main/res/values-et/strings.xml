@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Kaamera</string>
-    <string name="capture_mode">Pildistamisrežiim</string>
-    <string name="maximize_quality">Eelista parimat kvaliteeti</string>
-    <string name="minimize_latency">Eelista väiksemat viivitust</string>
+
+    <string name="camlib_capture_mode">Pildistamisrežiim</string>
+    <string name="camlib_maximize_quality">Eelista parimat kvaliteeti</string>
+    <string name="camlib_minimize_latency">Eelista väiksemat viivitust</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Kaamera pole kasutatav</string>
-    <string name="camera_open_error">Kaameraühenduse loomisel tekkis viga</string>
-    <string name="save_error_internal_storage">Tekkis viga ja salvestamise kaust asub nüüd sisemälus</string>
-    <string name="camera_switch_error">Kaamera vahetamine ei õnnestunud</string>
-    <string name="photo_not_saved">Foto salvestamine ei õnnestunud</string>
-    <string name="video_recording_failed">Video salvestamine ei õnnestunud, proovi kasutada muud resolutsiooni</string>
-    <string name="camera_in_use_error">Kaamerat kasutab üks teine rakendus, palun sulge see ja proovi uuesti</string>
-    <string name="camera_configure_error">Kaamera seadistamisel tekkis viga</string>
-    <string name="camera_disabled_by_admin_error">Nutiseadme haldaja on kaamera välja lülitanud</string>
-    <string name="camera_dnd_error">„Ära häiri“ režiim on sisse lülitatud. Palun lülita see välja ja proovi uuesti</string>
-    <string name="photo_capture_failed">Foto jäädvustamine ei õnnestunud</string>
-    <string name="video_capture_insufficient_storage_error">Video salvestamine ei õnnestunud ebapiisava salvestusruumi tõttu</string>
+    <string name="camlib_camera_unavailable">Kaamera pole kasutatav</string>
+    <string name="camlib_camera_open_error">Kaameraühenduse loomisel tekkis viga</string>
+    <string name="camlib_save_error_internal_storage">Tekkis viga ja salvestamise kaust asub nüüd sisemälus</string>
+    <string name="camlib_camera_switch_error">Kaamera vahetamine ei õnnestunud</string>
+    <string name="camlib_photo_not_saved">Foto salvestamine ei õnnestunud</string>
+    <string name="camlib_video_recording_failed">Video salvestamine ei õnnestunud, proovi kasutada muud resolutsiooni</string>
+    <string name="camlib_camera_in_use_error">Kaamerat kasutab üks teine rakendus, palun sulge see ja proovi uuesti</string>
+    <string name="camlib_camera_configure_error">Kaamera seadistamisel tekkis viga</string>
+    <string name="camlib_camera_disabled_by_admin_error">Nutiseadme haldaja on kaamera välja lülitanud</string>
+    <string name="camlib_camera_dnd_error">„Ära häiri“ režiim on sisse lülitatud. Palun lülita see välja ja proovi uuesti</string>
+    <string name="camlib_photo_capture_failed">Foto jäädvustamine ei õnnestunud</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Video salvestamine ei õnnestunud ebapiisava salvestusruumi tõttu</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Vaata viimast salvestatud meediat</string>
-    <string name="toggle_camera">Vaheta ees- ja tagakaamera</string>
-    <string name="toggle_flash">Lülita taskulambi režiim sisse ja välja</string>
-    <string name="toggle_timer">Lülita taimerirežiim sisse ja välja</string>
+    <string name="camlib_view_last_media">Vaata viimast salvestatud meediat</string>
+    <string name="camlib_toggle_camera">Vaheta ees- ja tagakaamera</string>
+    <string name="camlib_toggle_flash">Lülita taskulambi režiim sisse ja välja</string>
+    <string name="camlib_toggle_timer">Lülita taimerirežiim sisse ja välja</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Katiku heli</string>
-    <string name="photo">Foto</string>
-    <string name="video">Video</string>
-    <string name="volume_buttons_as_shutter">Kasuta helinuppe päästikuna</string>
-    <string name="flip_front_camera_photos_horizontally">Pööra eeskaamera pilt horisontaalselt</string>
-    <string name="save_photo_metadata">Salvesta fotofaili EXIF-metateave</string>
-    <string name="photo_compression_quality">Fotode pakkimise tase</string>
-    <string name="shutter">Katik</string>
+    <string name="camlib_shutter_sound">Katiku heli</string>
+    <string name="camlib_photo">Foto</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Kasuta helinuppe päästikuna</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Pööra eeskaamera pilt horisontaalselt</string>
+    <string name="camlib_save_photo_metadata">Salvesta fotofaili EXIF-metateave</string>
+    <string name="camlib_photo_compression_quality">Fotode pakkimise tase</string>
+    <string name="camlib_shutter">Katik</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Kamera</string>
-    <string name="capture_mode">Capture mode</string>
-    <string name="maximize_quality">Maximize quality</string>
-    <string name="minimize_latency">Minimize latency</string>
+
+    <string name="camlib_capture_mode">Capture mode</string>
+    <string name="camlib_maximize_quality">Maximize quality</string>
+    <string name="camlib_minimize_latency">Minimize latency</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Kamera utilgjengelig</string>
-    <string name="camera_open_error">Fikk ikke tilgang til kameraet</string>
-    <string name="save_error_internal_storage">En feil oppstod fordi lagringsmappen ble endret til internlager</string>
-    <string name="camera_switch_error">Kunne ikke bytte kamera</string>
-    <string name="photo_not_saved">Kunne ikke lagre bildet</string>
-    <string name="video_recording_failed">Videoopptak mislyktes. Prøv å bruke en annen oppløsning.</string>
-    <string name="camera_in_use_error">Kameraet er i bruk av en annen app, lukk appen og prøv igjen</string>
-    <string name="camera_configure_error">Det oppstod en feil under innstilling av kameraet</string>
-    <string name="camera_disabled_by_admin_error">Kameraet er deaktivert av administratoren</string>
-    <string name="camera_dnd_error">Ikke forstyrr-modus er aktivert. Deaktiver og prøv på nytt</string>
-    <string name="photo_capture_failed">Kunne ikke ta bilde</string>
-    <string name="video_capture_insufficient_storage_error">Videoinnspilling mislyktes på grunn av utilstrekkelig lagring</string>
+    <string name="camlib_camera_unavailable">Kamera utilgjengelig</string>
+    <string name="camlib_camera_open_error">Fikk ikke tilgang til kameraet</string>
+    <string name="camlib_save_error_internal_storage">En feil oppstod fordi lagringsmappen ble endret til internlager</string>
+    <string name="camlib_camera_switch_error">Kunne ikke bytte kamera</string>
+    <string name="camlib_photo_not_saved">Kunne ikke lagre bildet</string>
+    <string name="camlib_video_recording_failed">Videoopptak mislyktes. Prøv å bruke en annen oppløsning.</string>
+    <string name="camlib_camera_in_use_error">Kameraet er i bruk av en annen app, lukk appen og prøv igjen</string>
+    <string name="camlib_camera_configure_error">Det oppstod en feil under innstilling av kameraet</string>
+    <string name="camlib_camera_disabled_by_admin_error">Kameraet er deaktivert av administratoren</string>
+    <string name="camlib_camera_dnd_error">Ikke forstyrr-modus er aktivert. Deaktiver og prøv på nytt</string>
+    <string name="camlib_photo_capture_failed">Kunne ikke ta bilde</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Videoinnspilling mislyktes på grunn av utilstrekkelig lagring</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Vis medier som ble tatt sist</string>
-    <string name="toggle_camera">Veksle mellom front-/bakkamera</string>
-    <string name="toggle_flash">Aktivere/deaktivere lommelykt modus</string>
-    <string name="toggle_timer">Toggle the timer mode</string>
+    <string name="camlib_view_last_media">Vis medier som ble tatt sist</string>
+    <string name="camlib_toggle_camera">Veksle mellom front-/bakkamera</string>
+    <string name="camlib_toggle_flash">Aktivere/deaktivere lommelykt modus</string>
+    <string name="camlib_toggle_timer">Toggle the timer mode</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Lukkerlyd</string>
-    <string name="photo">Bilde</string>
-    <string name="video">Video</string>
-    <string name="volume_buttons_as_shutter">Bruk lydstyrkeknapper som lukker</string>
-    <string name="flip_front_camera_photos_horizontally">Vend frontkamerabilder vannrett</string>
-    <string name="save_photo_metadata">Lagre Exif-metadata i bilder</string>
-    <string name="photo_compression_quality">Bildekompresjonskvalitet</string>
-    <string name="shutter">Lukker</string>
+    <string name="camlib_shutter_sound">Lukkerlyd</string>
+    <string name="camlib_photo">Bilde</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Bruk lydstyrkeknapper som lukker</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Vend frontkamerabilder vannrett</string>
+    <string name="camlib_save_photo_metadata">Lagre Exif-metadata i bilder</string>
+    <string name="camlib_photo_compression_quality">Bildekompresjonskvalitet</string>
+    <string name="camlib_shutter">Lukker</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

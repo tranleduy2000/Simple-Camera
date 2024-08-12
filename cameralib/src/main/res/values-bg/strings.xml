@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Камера</string>
-    <string name="capture_mode">Capture mode</string>
-    <string name="maximize_quality">Maximize quality</string>
-    <string name="minimize_latency">Minimize latency</string>
+
+    <string name="camlib_capture_mode">Capture mode</string>
+    <string name="camlib_maximize_quality">Maximize quality</string>
+    <string name="camlib_minimize_latency">Minimize latency</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Камерата не е налична</string>
-    <string name="camera_open_error">Възникна грешка при достъпа до камерата</string>
-    <string name="save_error_internal_storage">Възникна грешка, папката за запис се премести във вътрешната памет</string>
-    <string name="camera_switch_error">Превключването на камерата не бе успешно</string>
-    <string name="photo_not_saved">Снимката не можа да бъде записана</string>
-    <string name="video_recording_failed">Видеозаписът бе неуспешен, опитайте различна резолюция</string>
-    <string name="camera_in_use_error">Камерата се използва от друго приложение, моля, затворете приложението и опитайте отново</string>
-    <string name="camera_configure_error">Възникна грешка при конфигурирането на камерата</string>
-    <string name="camera_disabled_by_admin_error">Камерата е деактивирана от администратора</string>
-    <string name="camera_dnd_error">Режим \"Не безпокойте\" е активен. Моля, деактивирайте и опитайте пак</string>
-    <string name="photo_capture_failed">Заснемането на снимка е неуспешно</string>
-    <string name="video_capture_insufficient_storage_error">Записът на видео е неуспешен поради недостатъчно място за съхранение</string>
+    <string name="camlib_camera_unavailable">Камерата не е налична</string>
+    <string name="camlib_camera_open_error">Възникна грешка при достъпа до камерата</string>
+    <string name="camlib_save_error_internal_storage">Възникна грешка, папката за запис се премести във вътрешната памет</string>
+    <string name="camlib_camera_switch_error">Превключването на камерата не бе успешно</string>
+    <string name="camlib_photo_not_saved">Снимката не можа да бъде записана</string>
+    <string name="camlib_video_recording_failed">Видеозаписът бе неуспешен, опитайте различна резолюция</string>
+    <string name="camlib_camera_in_use_error">Камерата се използва от друго приложение, моля, затворете приложението и опитайте отново</string>
+    <string name="camlib_camera_configure_error">Възникна грешка при конфигурирането на камерата</string>
+    <string name="camlib_camera_disabled_by_admin_error">Камерата е деактивирана от администратора</string>
+    <string name="camlib_camera_dnd_error">Режим \"Не безпокойте\" е активен. Моля, деактивирайте и опитайте пак</string>
+    <string name="camlib_photo_capture_failed">Заснемането на снимка е неуспешно</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Записът на видео е неуспешен поради недостатъчно място за съхранение</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Преглед на последно заснети медии</string>
-    <string name="toggle_camera">Превключване на предна/задна камера</string>
-    <string name="toggle_flash">Превключване на режим фенерче</string>
-    <string name="toggle_timer">Toggle the timer mode</string>
+    <string name="camlib_view_last_media">Преглед на последно заснети медии</string>
+    <string name="camlib_toggle_camera">Превключване на предна/задна камера</string>
+    <string name="camlib_toggle_flash">Превключване на режим фенерче</string>
+    <string name="camlib_toggle_timer">Toggle the timer mode</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Звук от затвора</string>
-    <string name="photo">Снимка</string>
-    <string name="video">Видео</string>
-    <string name="volume_buttons_as_shutter">Използване на бутоните за сила на звука като затвор</string>
-    <string name="flip_front_camera_photos_horizontally">Обръщане на снимки от предната камера хоризонтално</string>
-    <string name="save_photo_metadata">Запазване на снимкови exif метаданни</string>
-    <string name="photo_compression_quality">Ниво на компресия на снимките</string>
-    <string name="shutter">Затвор</string>
+    <string name="camlib_shutter_sound">Звук от затвора</string>
+    <string name="camlib_photo">Снимка</string>
+    <string name="camlib_video">Видео</string>
+    <string name="camlib_volume_buttons_as_shutter">Използване на бутоните за сила на звука като затвор</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Обръщане на снимки от предната камера хоризонтално</string>
+    <string name="camlib_save_photo_metadata">Запазване на снимкови exif метаданни</string>
+    <string name="camlib_photo_compression_quality">Ниво на компресия на снимките</string>
+    <string name="camlib_shutter">Затвор</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

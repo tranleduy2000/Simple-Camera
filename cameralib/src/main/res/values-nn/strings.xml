@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Kamera</string>
-    <string name="capture_mode">Opptaksmodus</string>
-    <string name="maximize_quality">Best kvalitet</string>
-    <string name="minimize_latency">Stuttast ventetid</string>
+
+    <string name="camlib_capture_mode">Opptaksmodus</string>
+    <string name="camlib_maximize_quality">Best kvalitet</string>
+    <string name="camlib_minimize_latency">Stuttast ventetid</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Kameraet er utilgjengeleg</string>
-    <string name="camera_open_error">Fekk ikkje tilgjenge til kameraet</string>
-    <string name="save_error_internal_storage">Det hende eit mistak, gøymemappa brigda til det indre gøymet</string>
-    <string name="camera_switch_error">Kunne ikkje byta kamera</string>
-    <string name="photo_not_saved">Kunne ikkje gøyma biletet</string>
-    <string name="video_recording_failed">Kunne ikkje ta opp video, røyn å nytt ei anna oppløysing</string>
-    <string name="camera_in_use_error">Kameraet vert nytta av ein anna app. Lat att appen og røyn att</string>
-    <string name="camera_configure_error">Kunne ikkje setja opp kameraet</string>
-    <string name="camera_disabled_by_admin_error">Styraren har slege av kameraet</string>
-    <string name="camera_dnd_error">Ikkje uroe-modusen er slegen på. Slå han av og røyn att</string>
-    <string name="photo_capture_failed">Kunne ikkje ta biletet</string>
-    <string name="video_capture_insufficient_storage_error">Det er for lite ledig rom til å ta opp videoar</string>
+    <string name="camlib_camera_unavailable">Kameraet er utilgjengeleg</string>
+    <string name="camlib_camera_open_error">Fekk ikkje tilgjenge til kameraet</string>
+    <string name="camlib_save_error_internal_storage">Det hende eit mistak, gøymemappa brigda til det indre gøymet</string>
+    <string name="camlib_camera_switch_error">Kunne ikkje byta kamera</string>
+    <string name="camlib_photo_not_saved">Kunne ikkje gøyma biletet</string>
+    <string name="camlib_video_recording_failed">Kunne ikkje ta opp video, røyn å nytt ei anna oppløysing</string>
+    <string name="camlib_camera_in_use_error">Kameraet vert nytta av ein anna app. Lat att appen og røyn att</string>
+    <string name="camlib_camera_configure_error">Kunne ikkje setja opp kameraet</string>
+    <string name="camlib_camera_disabled_by_admin_error">Styraren har slege av kameraet</string>
+    <string name="camlib_camera_dnd_error">Ikkje uroe-modusen er slegen på. Slå han av og røyn att</string>
+    <string name="camlib_photo_capture_failed">Kunne ikkje ta biletet</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Det er for lite ledig rom til å ta opp videoar</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Vis sist tekne medium</string>
-    <string name="toggle_camera">Byt mellom kameraet føre/bak</string>
-    <string name="toggle_flash">Vel ljosmodus</string>
-    <string name="toggle_timer">Still tidsnedteljinga</string>
+    <string name="camlib_view_last_media">Vis sist tekne medium</string>
+    <string name="camlib_toggle_camera">Byt mellom kameraet føre/bak</string>
+    <string name="camlib_toggle_flash">Vel ljosmodus</string>
+    <string name="camlib_toggle_timer">Still tidsnedteljinga</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Opptaksljod</string>
-    <string name="photo">Bilete</string>
-    <string name="video">Video</string>
-    <string name="volume_buttons_as_shutter">Tak opp med ljodstyrkeknappane</string>
-    <string name="flip_front_camera_photos_horizontally">Vend bilete ifrå kameraet føre vassrett</string>
-    <string name="save_photo_metadata">Gøym Exif-metadata i bilete</string>
-    <string name="photo_compression_quality">Biletekvalitet (Merk: høgre % tek au meir rom)</string>
-    <string name="shutter">Opptak</string>
+    <string name="camlib_shutter_sound">Opptaksljod</string>
+    <string name="camlib_photo">Bilete</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Tak opp med ljodstyrkeknappane</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Vend bilete ifrå kameraet føre vassrett</string>
+    <string name="camlib_save_photo_metadata">Gøym Exif-metadata i bilete</string>
+    <string name="camlib_photo_compression_quality">Biletekvalitet (Merk: høgre % tek au meir rom)</string>
+    <string name="camlib_shutter">Opptak</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

@@ -270,8 +270,8 @@ val DARK_GREY = 0xFF333333.toInt()
 
 // possible icons at the top left corner
 enum class NavigationIcon(@StringRes val accessibilityResId: Int) {
-    Cross(R.string.close),
-    Arrow(R.string.back),
+    Cross(R.string.camlib_close),
+    Arrow(R.string.camlib_back),
     None(0)
 }
 

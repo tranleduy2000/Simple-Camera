@@ -1,83 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">موافق</string>
-    <string name="close">اغلاق</string>
-    <string name="back">العودة</string>
-    <string name="out_of_memory_error">خطأ في نفاد الذاكرة</string>
-    <string name="error">خطأ: %s</string>
-    <string name="open_with">فتح باستخدام</string>
-    <string name="no_app_found">لم يتم العثور على تطبيق صالح</string>
-    <!-- Events -->
-    <!-- Emails -->
-    <!-- Phone numbers -->
-    <!-- View types -->
-    <plurals name="column_counts">
-        <item quantity="zero">%d عمود</item>
-        <item quantity="one">%d عمود</item>
-        <item quantity="two">%d عمودان</item>
-        <item quantity="few">%d أعمدة</item>
-        <item quantity="many">%d أعمدة</item>
-        <item quantity="other">%d أعمدة</item>
-    </plurals>
-    <plurals name="row_counts">
-        <item quantity="zero">صف %d</item>
-        <item quantity="one">صف %d</item>
-        <item quantity="two">صفوف %d</item>
-        <item quantity="few">صفوف %d</item>
-        <item quantity="many">صفوف %d</item>
-        <item quantity="other">صفوف %d</item>
-    </plurals>
+    <string name="camlib_ok">موافق</string>
+    <string name="camlib_close">اغلاق</string>
+    <string name="camlib_back">العودة</string>
+    <string name="camlib_out_of_memory_error">خطأ في نفاد الذاكرة</string>
+    <string name="camlib_error">خطأ: %s</string>
+    <string name="camlib_open_with">فتح باستخدام</string>
+    <string name="camlib_no_app_found">لم يتم العثور على تطبيق صالح</string>
+
+
+
     <!-- Blocked numbers -->
     <!-- Favorites -->
     <!-- Search -->
     <!-- Filters -->
     <!-- Permissions -->
-    <string name="no_camera_permissions">مطلوب إذن الكاميرا</string>
-    <string name="no_audio_permissions">مطلوب إذن الصوت</string>
+    <string name="camlib_no_camera_permissions">مطلوب إذن الكاميرا</string>
+    <string name="camlib_no_audio_permissions">مطلوب إذن الصوت</string>
     <!-- Renaming -->
     <!-- Copy / Move -->
-    <string name="could_not_create_file">يتعذر إنشاء الملف %s</string>
+    <string name="camlib_could_not_create_file">يتعذر إنشاء الملف %s</string>
     <!-- Create new -->
-    <string name="unknown_error_occurred">حدث خطأ غير معروف</string>
+    <string name="camlib_unknown_error_occurred">حدث خطأ غير معروف</string>
     <!-- File operation conflicts -->
     <!-- File picker -->
-    <plurals name="items">
-        <item quantity="zero">%d عنصر</item>
-        <item quantity="one">%d عنصر</item>
-        <item quantity="two">%d عنصر</item>
-        <item quantity="few">%d عنصر</item>
-        <item quantity="many">%d عناصر</item>
-        <item quantity="other">%d عنصر</item>
-    </plurals>
+
     <!-- Are you sure you want to delete 5 items? -->
-    <plurals name="delete_items">
-        <item quantity="zero">%d مادة</item>
-        <item quantity="one">%d مادة</item>
-        <item quantity="two">%d مادتان</item>
-        <item quantity="few">%d مواد</item>
-        <item quantity="many">%d مواد</item>
-        <item quantity="other">%d مواد</item>
-    </plurals>
-    <plurals name="deleting_items">
-        <item quantity="zero">حذف %d المادة</item>
-        <item quantity="one">حذف %d المادة</item>
-        <item quantity="two">حذف %d المادتان</item>
-        <item quantity="few">حذف %d المواد</item>
-        <item quantity="many">حذف %d المواد</item>
-        <item quantity="other">حذف %d المواد</item>
-    </plurals>
+
+
     <!-- Are you sure you want to delete 5 contacts? -->
-    <plurals name="delete_contacts">
-        <item quantity="zero">%d جهة الاتصال</item>
-        <item quantity="one">%d جهة الاتصال</item>
-        <item quantity="two">%d جهة الاتصال</item>
-        <item quantity="few">%d جهات الاتصال</item>
-        <item quantity="many">%d جهة الاتصال</item>
-        <item quantity="other">%d جهة الاتصال</item>
-    </plurals>
+
     <!-- Storages -->
     <!-- File properties -->
-    <string name="resolution">الدقة</string>
+    <string name="camlib_resolution">الدقة</string>
     <!-- Color customization -->
     <!-- Themes -->
     <!-- What's new -->
@@ -86,260 +41,50 @@
     <!-- Confirmation dialog -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-    <plurals name="delete_warning">
-        <item quantity="zero">تحذير: أنت تحذف %d مجلد</item>
-        <item quantity="one">تحذير: أنت تحذف %d مجلد</item>
-        <item quantity="two">تحذير: أنت تحذف %d مجلدان</item>
-        <item quantity="few">تحذير: أنت تحذف %d مجلدات</item>
-        <item quantity="many">تحذير: أنت تحذف %d مجلد</item>
-        <item quantity="other">تحذير: أنت تحذف %d مجلد</item>
-    </plurals>
+
     <!-- Password protection -->
     <!-- Times -->
-    <plurals name="seconds">
-        <item quantity="zero">%d ثانية</item>
-        <item quantity="one">%d ثانية</item>
-        <item quantity="two">%d ثانيتان</item>
-        <item quantity="few">%d ثواني</item>
-        <item quantity="many">%d ثانية</item>
-        <item quantity="other">%d ثانية</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="zero">%d دقيقة</item>
-        <item quantity="one">%d دقيقة</item>
-        <item quantity="two">%d دقيقتان</item>
-        <item quantity="few">%d دقائق</item>
-        <item quantity="many">%d دقيقة</item>
-        <item quantity="other">%d دقيقة</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="zero">%d ساعة</item>
-        <item quantity="one">%d ساعة</item>
-        <item quantity="two">%d ساعتان</item>
-        <item quantity="few">%d ساعات</item>
-        <item quantity="many">%d ساعة</item>
-        <item quantity="other">%d ساعة</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="zero">%d يوم</item>
-        <item quantity="one">%d يوم</item>
-        <item quantity="two">%d يومان</item>
-        <item quantity="few">%d أيام</item>
-        <item quantity="many">%d يوم</item>
-        <item quantity="other">%d يوم</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="zero">%d أسبوع</item>
-        <item quantity="one">%d أسبوع</item>
-        <item quantity="two">%d أسبوع</item>
-        <item quantity="few">%d أسابيع</item>
-        <item quantity="many">%d أسابيع</item>
-        <item quantity="other">%d أسبوع</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="zero">%d شهر</item>
-        <item quantity="one">%d شهر</item>
-        <item quantity="two">%d شهر</item>
-        <item quantity="few">%d أشهر</item>
-        <item quantity="many">%d أشهر</item>
-        <item quantity="other">%d شهر</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="zero">%d سنة</item>
-        <item quantity="one">%d سنة</item>
-        <item quantity="two">%d سنة</item>
-        <item quantity="few">%d سنوات</item>
-        <item quantity="many">%d سنوات</item>
-        <item quantity="other">%d سنة</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: I will be there in 5 minutes -->
-    <plurals name="in_seconds">
-        <item quantity="zero">%d ثانية</item>
-        <item quantity="one">%d ثانية</item>
-        <item quantity="two">%d ثانية</item>
-        <item quantity="few">%d ثوان</item>
-        <item quantity="many">%d ثوان</item>
-        <item quantity="other">%d ثانية</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="zero">%d دقيقة</item>
-        <item quantity="one">%d دقيقة</item>
-        <item quantity="two">%d دقيقة</item>
-        <item quantity="few">%d دقائق</item>
-        <item quantity="many">%d دقائق</item>
-        <item quantity="other">%d دقيقة</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="zero">%d ساعة</item>
-        <item quantity="one">%d ساعة</item>
-        <item quantity="two">%d ساعة</item>
-        <item quantity="few">%d ساعات</item>
-        <item quantity="many">%d ساعات</item>
-        <item quantity="other">%d ساعة</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="zero">%d يوم</item>
-        <item quantity="one">%d يوم</item>
-        <item quantity="two">%d يوم</item>
-        <item quantity="few">%dايام</item>
-        <item quantity="many">%d ايام</item>
-        <item quantity="other">%d يوم</item>
-    </plurals>
-    <plurals name="in_weeks">
-        <item quantity="zero">%d أسبوع</item>
-        <item quantity="one">%d أسبوع</item>
-        <item quantity="two">%d أسبوع</item>
-        <item quantity="few">%d أسابيع</item>
-        <item quantity="many">%d أسابيع</item>
-        <item quantity="other">%d أسبوع</item>
-    </plurals>
-    <plurals name="in_months">
-        <item quantity="zero">%d شهر</item>
-        <item quantity="one">%d شهر</item>
-        <item quantity="two">%d شهر</item>
-        <item quantity="few">%d أشهر</item>
-        <item quantity="many">%d شهر</item>
-        <item quantity="other">%d شهر</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="zero">%d سنة</item>
-        <item quantity="one">%d سنة</item>
-        <item quantity="two">%d سنة</item>
-        <item quantity="few">%d سنوات</item>
-        <item quantity="many">%d سنين</item>
-        <item quantity="other">%d سنة</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Event reminder: 3 minutes before -->
-    <plurals name="seconds_before">
-        <item quantity="zero">%d ثانية قبل</item>
-        <item quantity="one">%d ثانية قبل</item>
-        <item quantity="two">%d ثانية قبل</item>
-        <item quantity="few">%d ثوان قبل</item>
-        <item quantity="many">%d ثوان قبل</item>
-        <item quantity="other">%d ثانية قبل</item>
-    </plurals>
-    <plurals name="minutes_before">
-        <item quantity="zero">%d دقيقة قبل</item>
-        <item quantity="one">%d دقيقة قبل</item>
-        <item quantity="two">%d دقيقة قبل</item>
-        <item quantity="few">%d دقائق قبل</item>
-        <item quantity="many">%d دقيقة قبل</item>
-        <item quantity="other">%d دقيقة قبل</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="zero">%d ساعة قبل</item>
-        <item quantity="one">%d ساعة قبل</item>
-        <item quantity="two">%d ساعة قبل</item>
-        <item quantity="few">%d ساعانت قبل</item>
-        <item quantity="many">%d ساعة قبل</item>
-        <item quantity="other">%d ساعة قبل</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="zero">%d قبل يوم</item>
-        <item quantity="one">%d قبل يوم</item>
-        <item quantity="two">%d قبل يوم</item>
-        <item quantity="few">%d قبل ايام</item>
-        <item quantity="many">%d قبل ايام</item>
-        <item quantity="other">%d قبل يوم</item>
-    </plurals>
-    <plurals name="weeks_before">
-        <item quantity="zero">%d قبل أسبوع</item>
-        <item quantity="one">%d قبل أسبوع</item>
-        <item quantity="two">%d قبل أسبوع</item>
-        <item quantity="few">%d قبل أسابيع</item>
-        <item quantity="many">%d قبل أسابيع</item>
-        <item quantity="other">%d قبل أسبوع</item>
-    </plurals>
-    <plurals name="months_before">
-        <item quantity="zero">%d قبل شهر</item>
-        <item quantity="one">%d قبل شهر</item>
-        <item quantity="two">%d قبل شهر</item>
-        <item quantity="few">%d قبل أشهر</item>
-        <item quantity="many">%d قبل شهر</item>
-        <item quantity="other">%d قبل شهر</item>
-    </plurals>
-    <plurals name="years_before">
-        <item quantity="zero">%d قبل سنة</item>
-        <item quantity="one">%d قبل سنة</item>
-        <item quantity="two">%d قبل سنتان</item>
-        <item quantity="few">%d قبل سنين</item>
-        <item quantity="many">%d قبل سنوات</item>
-        <item quantity="other">%d قبل اعوام</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Postpone reminder by 3 minutes -->
-    <plurals name="by_seconds">
-        <item quantity="zero">%d ثانية</item>
-        <item quantity="one">%d ثانية</item>
-        <item quantity="two">%d ثانية</item>
-        <item quantity="few">%d ثوان</item>
-        <item quantity="many">%d ثوان</item>
-        <item quantity="other">%d ثانية</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="zero">%d دقيقة</item>
-        <item quantity="one">%d دقيقة</item>
-        <item quantity="two">%d دقيقة</item>
-        <item quantity="few">%d دقائق</item>
-        <item quantity="many">%d دقائق</item>
-        <item quantity="other">%d دقيقة</item>
-    </plurals>
-    <plurals name="by_hours">
-        <item quantity="zero">%d ساعة</item>
-        <item quantity="one">%d ساعة</item>
-        <item quantity="two">%d ساعة</item>
-        <item quantity="few">%d ساعات</item>
-        <item quantity="many">%d ساعات</item>
-        <item quantity="other">%d ساعة</item>
-    </plurals>
-    <plurals name="by_days">
-        <item quantity="zero">%d يوم</item>
-        <item quantity="one">%d يوم</item>
-        <item quantity="two">%d يوم</item>
-        <item quantity="few">%d ايام</item>
-        <item quantity="many">%d ايام</item>
-        <item quantity="other">%d ايام</item>
-    </plurals>
-    <plurals name="by_weeks">
-        <item quantity="zero">%d أسبوع</item>
-        <item quantity="one">%d أسبوع</item>
-        <item quantity="two">%d أسبوع</item>
-        <item quantity="few">%d أسابيع</item>
-        <item quantity="many">%d أسابيع</item>
-        <item quantity="other">%d أسبوع</item>
-    </plurals>
-    <plurals name="by_months">
-        <item quantity="zero">%d شهر</item>
-        <item quantity="one">%d شهر</item>
-        <item quantity="two">%d شهر</item>
-        <item quantity="few">%d أشهر</item>
-        <item quantity="many">%d أشهر</item>
-        <item quantity="other">%d شهر</item>
-    </plurals>
-    <plurals name="by_years">
-        <item quantity="zero">%d سنة</item>
-        <item quantity="one">%d سنة</item>
-        <item quantity="two">%d سنة</item>
-        <item quantity="few">%d سنوات</item>
-        <item quantity="many">%d سنة</item>
-        <item quantity="other">%d سنة</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
     <!-- Settings -->
-    <string name="settings">الإعدادات</string>
-    <string name="language">اللغة</string>
+    <string name="camlib_settings">الإعدادات</string>
+    <string name="camlib_language">اللغة</string>
     <!-- Setting sections -->
     <!-- Excluding -->
     <!-- Default tab to open -->
     <!-- Recycle Bin -->
-    <plurals name="moving_items_into_bin">
-        <item quantity="zero">نقل عنصر %d إلى سلة المحذوفات</item>
-        <item quantity="one">نقل عنصر %d إلى سلة المحذوفات</item>
-        <item quantity="two">نقل عنصر %d إلى سلة المحذوفات</item>
-        <item quantity="few">نقل عناصر %d إلى سلة المحذوفات</item>
-        <item quantity="many">نقل عناصر %d إلى سلة المحذوفات</item>
-        <item quantity="other">نقل عنصر %d إلى سلة المحذوفات</item>
-    </plurals>
+
     <!-- Import / Export -->
     <!-- OTG devices -->
     <!-- Dates -->
@@ -347,7 +92,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
-    <string name="other">Other</string>
+    <string name="camlib_other">Other</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- Contributors -->
@@ -360,14 +105,7 @@
     <!-- Draw Pro -->
     <!-- License -->
     <!-- Trial -->
-    <plurals name="trial_expires_days">
-        <item quantity="zero">تنتهي صلاحية الإصدار التجريبي في اليوم %d.</item>
-        <item quantity="one">تنتهي صلاحية الإصدار التجريبي في اليوم %d.</item>
-        <item quantity="two">تنتهي صلاحية الإصدار التجريبي في اليوم %d.</item>
-        <item quantity="few">تنتهي صلاحية الإصدار التجريبي في %d ايام.</item>
-        <item quantity="many">تنتهي صلاحية الإصدار التجريبي في %d ايام.</item>
-        <item quantity="other">تنتهي صلاحية الإصدار التجريبي في اليوم %d.</item>
-    </plurals>
+
     <!-- Google Play listing -->
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>

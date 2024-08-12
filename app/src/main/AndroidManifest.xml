@@ -44,7 +44,7 @@
         <activity
             android:name="cameralib.CameraSettingsActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/settings">
+            android:label="@string/camlib_settings">
 
         </activity>
 

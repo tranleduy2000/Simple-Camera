@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">相機</string>
-    <string name="capture_mode">拍攝模式</string>
-    <string name="maximize_quality">極致畫質</string>
-    <string name="minimize_latency">最短延遲</string>
+
+    <string name="camlib_capture_mode">拍攝模式</string>
+    <string name="camlib_maximize_quality">極致畫質</string>
+    <string name="camlib_minimize_latency">最短延遲</string>
     <!-- Errors -->
-    <string name="camera_unavailable">相機無法使用</string>
-    <string name="camera_open_error">開啟相機發生錯誤</string>
-    <string name="save_error_internal_storage">發生錯誤，儲存資料夾改為內部儲存空間</string>
-    <string name="camera_switch_error">切換拍照模式失敗</string>
-    <string name="photo_not_saved">相片無法儲存</string>
-    <string name="video_recording_failed">影片錄製失敗，試著使用不同的解析度</string>
-    <string name="camera_in_use_error">其他程式正在使用相機，請將那個程式關閉後再試一次</string>
-    <string name="camera_configure_error">配置相機時出錯</string>
-    <string name="camera_disabled_by_admin_error">相機已由管理者停用</string>
-    <string name="camera_dnd_error">零打擾模式已啟用，請將其停用後再試一次</string>
-    <string name="photo_capture_failed">拍照失敗</string>
-    <string name="video_capture_insufficient_storage_error">儲存空間不足，錄影失敗</string>
+    <string name="camlib_camera_unavailable">相機無法使用</string>
+    <string name="camlib_camera_open_error">開啟相機發生錯誤</string>
+    <string name="camlib_save_error_internal_storage">發生錯誤，儲存資料夾改為內部儲存空間</string>
+    <string name="camlib_camera_switch_error">切換拍照模式失敗</string>
+    <string name="camlib_photo_not_saved">相片無法儲存</string>
+    <string name="camlib_video_recording_failed">影片錄製失敗，試著使用不同的解析度</string>
+    <string name="camlib_camera_in_use_error">其他程式正在使用相機，請將那個程式關閉後再試一次</string>
+    <string name="camlib_camera_configure_error">配置相機時出錯</string>
+    <string name="camlib_camera_disabled_by_admin_error">相機已由管理者停用</string>
+    <string name="camlib_camera_dnd_error">零打擾模式已啟用，請將其停用後再試一次</string>
+    <string name="camlib_photo_capture_failed">拍照失敗</string>
+    <string name="camlib_video_capture_insufficient_storage_error">儲存空間不足，錄影失敗</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">View last captured media</string>
-    <string name="toggle_camera">Toggle front/back camera</string>
-    <string name="toggle_flash">Toggle the flashlight mode</string>
-    <string name="toggle_timer">Toggle the timer mode</string>
+    <string name="camlib_view_last_media">View last captured media</string>
+    <string name="camlib_toggle_camera">Toggle front/back camera</string>
+    <string name="camlib_toggle_flash">Toggle the flashlight mode</string>
+    <string name="camlib_toggle_timer">Toggle the timer mode</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">快門聲音</string>
-    <string name="photo">相片</string>
-    <string name="video">影片</string>
-    <string name="volume_buttons_as_shutter">使用音量鍵作為快門</string>
-    <string name="flip_front_camera_photos_horizontally">水平翻轉前相機相片</string>
-    <string name="save_photo_metadata">儲存相片EXIF資訊</string>
-    <string name="photo_compression_quality">相片壓縮品質</string>
-    <string name="shutter">快門</string>
+    <string name="camlib_shutter_sound">快門聲音</string>
+    <string name="camlib_photo">相片</string>
+    <string name="camlib_video">影片</string>
+    <string name="camlib_volume_buttons_as_shutter">使用音量鍵作為快門</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">水平翻轉前相機相片</string>
+    <string name="camlib_save_photo_metadata">儲存相片EXIF資訊</string>
+    <string name="camlib_photo_compression_quality">相片壓縮品質</string>
+    <string name="camlib_shutter">快門</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

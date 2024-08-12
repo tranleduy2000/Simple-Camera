@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Câmera</string>
-    <string name="capture_mode">Modo de captura</string>
-    <string name="maximize_quality">Maximizar qualidade</string>
-    <string name="minimize_latency">Minimizar latência</string>
+
+    <string name="camlib_capture_mode">Modo de captura</string>
+    <string name="camlib_maximize_quality">Maximizar qualidade</string>
+    <string name="camlib_minimize_latency">Minimizar latência</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Câmera indisponível</string>
-    <string name="camera_open_error">Ocorreu um erro ao aceder à câmera</string>
-    <string name="save_error_internal_storage">Erro! A pasta para guardar ficheiros foi alterada para o armazenamento interno</string>
-    <string name="camera_switch_error">Falha ao mudar de câmera</string>
-    <string name="photo_not_saved">Não foi possível guardar a foto</string>
-    <string name="video_recording_failed">Falha ao gravar o vídeo. Tente alterar a resolução</string>
-    <string name="camera_in_use_error">A câmera está a ser utilizada por outra aplicação. Feche essa aplicação e tente novamente</string>
-    <string name="camera_configure_error">Ocorreu um erro ao configurar a câmera</string>
-    <string name="camera_disabled_by_admin_error">A câmera foi desativada pelo administrador</string>
-    <string name="camera_dnd_error">O modo Não perturbar está ativado. Desative e tente novamente</string>
-    <string name="photo_capture_failed">Falha ao capturar a foto</string>
-    <string name="video_capture_insufficient_storage_error">A gravação do vídeo falhou porque não existe espaço livre disponível</string>
+    <string name="camlib_camera_unavailable">Câmera indisponível</string>
+    <string name="camlib_camera_open_error">Ocorreu um erro ao aceder à câmera</string>
+    <string name="camlib_save_error_internal_storage">Erro! A pasta para guardar ficheiros foi alterada para o armazenamento interno</string>
+    <string name="camlib_camera_switch_error">Falha ao mudar de câmera</string>
+    <string name="camlib_photo_not_saved">Não foi possível guardar a foto</string>
+    <string name="camlib_video_recording_failed">Falha ao gravar o vídeo. Tente alterar a resolução</string>
+    <string name="camlib_camera_in_use_error">A câmera está a ser utilizada por outra aplicação. Feche essa aplicação e tente novamente</string>
+    <string name="camlib_camera_configure_error">Ocorreu um erro ao configurar a câmera</string>
+    <string name="camlib_camera_disabled_by_admin_error">A câmera foi desativada pelo administrador</string>
+    <string name="camlib_camera_dnd_error">O modo Não perturbar está ativado. Desative e tente novamente</string>
+    <string name="camlib_photo_capture_failed">Falha ao capturar a foto</string>
+    <string name="camlib_video_capture_insufficient_storage_error">A gravação do vídeo falhou porque não existe espaço livre disponível</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Ver último ficheiro capturado</string>
-    <string name="toggle_camera">Comutar câmera frontal/retaguarda</string>
-    <string name="toggle_flash">Comutar modo de flash</string>
-    <string name="toggle_timer">Comutar modo temporizador</string>
+    <string name="camlib_view_last_media">Ver último ficheiro capturado</string>
+    <string name="camlib_toggle_camera">Comutar câmera frontal/retaguarda</string>
+    <string name="camlib_toggle_flash">Comutar modo de flash</string>
+    <string name="camlib_toggle_timer">Comutar modo temporizador</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Som do obturador</string>
-    <string name="photo">Foto</string>
-    <string name="video">Vídeo</string>
-    <string name="volume_buttons_as_shutter">Usar botões de volume para tirar fotos</string>
-    <string name="flip_front_camera_photos_horizontally">Rodar fotos da câmera frontal horizontalmente</string>
-    <string name="save_photo_metadata">Guardar dados exif com a foto</string>
-    <string name="photo_compression_quality">Qualidade de compressão da foto</string>
-    <string name="shutter">Obturador</string>
+    <string name="camlib_shutter_sound">Som do obturador</string>
+    <string name="camlib_photo">Foto</string>
+    <string name="camlib_video">Vídeo</string>
+    <string name="camlib_volume_buttons_as_shutter">Usar botões de volume para tirar fotos</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Rodar fotos da câmera frontal horizontalmente</string>
+    <string name="camlib_save_photo_metadata">Guardar dados exif com a foto</string>
+    <string name="camlib_photo_compression_quality">Qualidade de compressão da foto</string>
+    <string name="camlib_shutter">Obturador</string>
     <!--
         Não encontrou todas as cadeias a traduzir? Existem mais algumas em:
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

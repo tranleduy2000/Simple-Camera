@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Κάμερα</string>
-    <string name="capture_mode">Λειτουργία καταγραφής</string>
-    <string name="maximize_quality">Μέγιστη ποιότητα</string>
-    <string name="minimize_latency">Ελαχιστοποίηση καθυστέρησης</string>
+
+    <string name="camlib_capture_mode">Λειτουργία καταγραφής</string>
+    <string name="camlib_maximize_quality">Μέγιστη ποιότητα</string>
+    <string name="camlib_minimize_latency">Ελαχιστοποίηση καθυστέρησης</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Μη διαθέσιμη κάμερα</string>
-    <string name="camera_open_error">Παρουσιάστηκε σφάλμα κατά την πρόσβαση στην κάμερα</string>
-    <string name="save_error_internal_storage">Παρουσιάστηκε σφάλμα, η αποθήκευση του φακέλου άλλαξε σε εσωτερικό χώρο αποθήκευσης</string>
-    <string name="camera_switch_error">Η εναλλαγή κάμερας απέτυχε</string>
-    <string name="photo_not_saved">Δεν ήταν δυνατή η αποθήκευση της φωτογραφίας</string>
-    <string name="video_recording_failed">Η εγγραφή βίντεο απέτυχε, δοκιμάστε να χρησιμοποιήσετε διαφορετική ανάλυση</string>
-    <string name="camera_in_use_error">Η κάμερα χρησιμοποιείται από άλλη εφαρμογή, κλείστε την εφαρμογή και δοκιμάστε ξανά.</string>
-    <string name="camera_configure_error">Προέκυψε σφάλμα κατά τη διαμόρφωση της κάμερας</string>
-    <string name="camera_disabled_by_admin_error">Η κάμερα είναι απενεργοποιημένη από τον διαχειριστή</string>
-    <string name="camera_dnd_error">"Η λειτουργία \"Μην ενοχλείτε\" είναι ενεργοποιημένη. Παρακαλώ απενεργοποιήστε και δοκιμάστε ξανά</string>
-    <string name="photo_capture_failed">Αποτυχία λήψης φωτογραφιών</string>
-    <string name="video_capture_insufficient_storage_error">Η εγγραφή βίντεο απέτυχε λόγω ανεπαρκούς αποθηκευτικού χώρου</string>
+    <string name="camlib_camera_unavailable">Μη διαθέσιμη κάμερα</string>
+    <string name="camlib_camera_open_error">Παρουσιάστηκε σφάλμα κατά την πρόσβαση στην κάμερα</string>
+    <string name="camlib_save_error_internal_storage">Παρουσιάστηκε σφάλμα, η αποθήκευση του φακέλου άλλαξε σε εσωτερικό χώρο αποθήκευσης</string>
+    <string name="camlib_camera_switch_error">Η εναλλαγή κάμερας απέτυχε</string>
+    <string name="camlib_photo_not_saved">Δεν ήταν δυνατή η αποθήκευση της φωτογραφίας</string>
+    <string name="camlib_video_recording_failed">Η εγγραφή βίντεο απέτυχε, δοκιμάστε να χρησιμοποιήσετε διαφορετική ανάλυση</string>
+    <string name="camlib_camera_in_use_error">Η κάμερα χρησιμοποιείται από άλλη εφαρμογή, κλείστε την εφαρμογή και δοκιμάστε ξανά.</string>
+    <string name="camlib_camera_configure_error">Προέκυψε σφάλμα κατά τη διαμόρφωση της κάμερας</string>
+    <string name="camlib_camera_disabled_by_admin_error">Η κάμερα είναι απενεργοποιημένη από τον διαχειριστή</string>
+    <string name="camlib_camera_dnd_error">"Η λειτουργία \"Μην ενοχλείτε\" είναι ενεργοποιημένη. Παρακαλώ απενεργοποιήστε και δοκιμάστε ξανά</string>
+    <string name="camlib_photo_capture_failed">Αποτυχία λήψης φωτογραφιών</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Η εγγραφή βίντεο απέτυχε λόγω ανεπαρκούς αποθηκευτικού χώρου</string>
 
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Προβολή των τελευταίων αποθηκευμένων πολυμέσων</string>
-    <string name="toggle_camera">Εναλλαγή εμπρός/πίσω κάμερας</string>
-    <string name="toggle_flash">Εναλλαγή λειτουργίας φακού</string>
-    <string name="toggle_timer">Εναλλαγή λειτουργίας χρονοδιακόπτη</string>
+    <string name="camlib_view_last_media">Προβολή των τελευταίων αποθηκευμένων πολυμέσων</string>
+    <string name="camlib_toggle_camera">Εναλλαγή εμπρός/πίσω κάμερας</string>
+    <string name="camlib_toggle_flash">Εναλλαγή λειτουργίας φακού</string>
+    <string name="camlib_toggle_timer">Εναλλαγή λειτουργίας χρονοδιακόπτη</string>
 
     <!-- FAQ -->
 
     <!-- Settings -->
-    <string name="shutter_sound">Ήχος κλείστρου</string>
-    <string name="photo">Φωτογραφία</string>
-    <string name="video">Βίντεο</string>
-    <string name="volume_buttons_as_shutter">Χρήση κουμπιών έντασης ως κλείστρο</string>
-    <string name="flip_front_camera_photos_horizontally">Οριζόντια αναστροφή φωτογραφιών εμπρός κάμερας</string>
-    <string name="save_photo_metadata">Αποθήκευση μεταδεδομένων exif φωτογραφίας</string>
-    <string name="photo_compression_quality">Ποιότητα συμπίεσης φωτογραφιών</string>
-    <string name="shutter">Κλείστρο</string>
+    <string name="camlib_shutter_sound">Ήχος κλείστρου</string>
+    <string name="camlib_photo">Φωτογραφία</string>
+    <string name="camlib_video">Βίντεο</string>
+    <string name="camlib_volume_buttons_as_shutter">Χρήση κουμπιών έντασης ως κλείστρο</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Οριζόντια αναστροφή φωτογραφιών εμπρός κάμερας</string>
+    <string name="camlib_save_photo_metadata">Αποθήκευση μεταδεδομένων exif φωτογραφίας</string>
+    <string name="camlib_photo_compression_quality">Ποιότητα συμπίεσης φωτογραφιών</string>
+    <string name="camlib_shutter">Κλείστρο</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

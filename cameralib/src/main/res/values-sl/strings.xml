@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Kamera</string>
-    <string name="capture_mode">Način slikanja</string>
-    <string name="maximize_quality">Povečanje kakovosti</string>
-    <string name="minimize_latency">Zmanjšanje zakasnitve</string>
+
+    <string name="camlib_capture_mode">Način slikanja</string>
+    <string name="camlib_maximize_quality">Povečanje kakovosti</string>
+    <string name="camlib_minimize_latency">Zmanjšanje zakasnitve</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Kamera ni na razpolago</string>
-    <string name="camera_open_error">Prišlo je do napake pri dostopu do kamere</string>
-    <string name="save_error_internal_storage">Prišlo je do napake, mapa za shranjevanje se je spremenila v notranji pomnilnik</string>
-    <string name="camera_switch_error">Ni uspel preklop kamere</string>
-    <string name="photo_not_saved">Ni bilo mogoče shraniti fotografije</string>
-    <string name="video_recording_failed">P oskusite uporabiti drugo ločljivost, ker snemanje videoposnetka ni uspelo</string>
-    <string name="camera_in_use_error">Kamero uporablja druga aplikacija, zato zaprite aplikacijo in poskusite znova</string>
-    <string name="camera_configure_error">Do napake je prišlo med konfiguriranjem kamere</string>
-    <string name="camera_disabled_by_admin_error">Kamero je onemogočil upravitelj</string>
-    <string name="camera_dnd_error">Omogočen je način Ne moti. Prosimo, da ga onemogočite in poskusite znova</string>
-    <string name="photo_capture_failed">Ni uspel zajem fotografije</string>
-    <string name="video_capture_insufficient_storage_error">Ni uspelo snemanje videoposnetka zaradi nezadostne količine pomnilnika</string>
+    <string name="camlib_camera_unavailable">Kamera ni na razpolago</string>
+    <string name="camlib_camera_open_error">Prišlo je do napake pri dostopu do kamere</string>
+    <string name="camlib_save_error_internal_storage">Prišlo je do napake, mapa za shranjevanje se je spremenila v notranji pomnilnik</string>
+    <string name="camlib_camera_switch_error">Ni uspel preklop kamere</string>
+    <string name="camlib_photo_not_saved">Ni bilo mogoče shraniti fotografije</string>
+    <string name="camlib_video_recording_failed">P oskusite uporabiti drugo ločljivost, ker snemanje videoposnetka ni uspelo</string>
+    <string name="camlib_camera_in_use_error">Kamero uporablja druga aplikacija, zato zaprite aplikacijo in poskusite znova</string>
+    <string name="camlib_camera_configure_error">Do napake je prišlo med konfiguriranjem kamere</string>
+    <string name="camlib_camera_disabled_by_admin_error">Kamero je onemogočil upravitelj</string>
+    <string name="camlib_camera_dnd_error">Omogočen je način Ne moti. Prosimo, da ga onemogočite in poskusite znova</string>
+    <string name="camlib_photo_capture_failed">Ni uspel zajem fotografije</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Ni uspelo snemanje videoposnetka zaradi nezadostne količine pomnilnika</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Oglejte si najnovejše zajete medije</string>
-    <string name="toggle_camera">Preklopite med sprednjo in zadnjo kamero</string>
-    <string name="toggle_flash">Preklopite načina svetilke</string>
-    <string name="toggle_timer">Toggle the timer mode</string>
+    <string name="camlib_view_last_media">Oglejte si najnovejše zajete medije</string>
+    <string name="camlib_toggle_camera">Preklopite med sprednjo in zadnjo kamero</string>
+    <string name="camlib_toggle_flash">Preklopite načina svetilke</string>
+    <string name="camlib_toggle_timer">Toggle the timer mode</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Zvok zaklopa</string>
-    <string name="photo">Fotografija</string>
-    <string name="video">Videoposnetek</string>
-    <string name="volume_buttons_as_shutter">Gumbi za glasnost se uporabijo kot zaklop</string>
-    <string name="flip_front_camera_photos_horizontally">Obrnite fotografije sprednje kamere vodoravno</string>
-    <string name="save_photo_metadata">Shranite exif metapodatke fotografije</string>
-    <string name="photo_compression_quality">Kakovost stiskanja fotografij</string>
-    <string name="shutter">Zaklopka</string>
+    <string name="camlib_shutter_sound">Zvok zaklopa</string>
+    <string name="camlib_photo">Fotografija</string>
+    <string name="camlib_video">Videoposnetek</string>
+    <string name="camlib_volume_buttons_as_shutter">Gumbi za glasnost se uporabijo kot zaklop</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Obrnite fotografije sprednje kamere vodoravno</string>
+    <string name="camlib_save_photo_metadata">Shranite exif metapodatke fotografije</string>
+    <string name="camlib_photo_compression_quality">Kakovost stiskanja fotografij</string>
+    <string name="camlib_shutter">Zaklopka</string>
 </resources>

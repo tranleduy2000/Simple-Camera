@@ -13,7 +13,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:contentDescription="@string/toggle_timer"
+        android:contentDescription="@string/camlib_toggle_timer"
         android:padding="@dimen/camlib_normal_margin"
         app:icon="@drawable/camlib_ic_timer_off_vector" />
 
@@ -23,7 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:contentDescription="@string/toggle_flash"
+        android:contentDescription="@string/camlib_toggle_flash"
         android:padding="@dimen/camlib_normal_margin"
         app:icon="@drawable/camlib_ic_flash_off_vector" />
 
@@ -33,7 +33,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:contentDescription="@string/resolution"
+        android:contentDescription="@string/camlib_resolution"
         android:padding="@dimen/camlib_normal_margin"
         tools:icon="@drawable/camlib_ic_photo_4x3_vector" />
 
@@ -43,7 +43,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:contentDescription="@string/settings"
+        android:contentDescription="@string/camlib_settings"
         android:padding="@dimen/camlib_normal_margin"
         app:icon="@drawable/camlib_ic_settings_vector" />
 

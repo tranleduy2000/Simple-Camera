@@ -1,59 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">Aceptar</string>
-    <string name="close">Pechar</string>
-    <string name="back">De volta</string>
-    <string name="out_of_memory_error">Erro: sen memoria</string>
-    <string name="error">Error: %s</string>
-    <string name="open_with">Abrir con</string>
-    <string name="no_app_found">Non se atopou un aplicativo válido</string>
+    <string name="camlib_ok">Aceptar</string>
+    <string name="camlib_close">Pechar</string>
+    <string name="camlib_back">De volta</string>
+    <string name="camlib_out_of_memory_error">Erro: sen memoria</string>
+    <string name="camlib_error">Error: %s</string>
+    <string name="camlib_open_with">Abrir con</string>
+    <string name="camlib_no_app_found">Non se atopou un aplicativo válido</string>
     <!-- Events -->
     <!-- Emails -->
     <!-- Phone numbers -->
     <!-- View types -->
-    <plurals name="column_counts">
-        <item quantity="one">%d columna</item>
-        <item quantity="other">%d columnas</item>
-    </plurals>
-    <plurals name="row_counts">
-        <item quantity="one">%d row</item>
-        <item quantity="other">%d rows</item>
-    </plurals>
+
+
     <!-- Blocked numbers -->
     <!-- Favorites -->
     <!-- Search -->
     <!-- Filters -->
     <!-- Permissions -->
-    <string name="no_camera_permissions">Requírese permiso da cámara</string>
-    <string name="no_audio_permissions">Requírese permiso de audio</string>
+    <string name="camlib_no_camera_permissions">Requírese permiso da cámara</string>
+    <string name="camlib_no_audio_permissions">Requírese permiso de audio</string>
     <!-- Renaming -->
     <!-- Copy / Move -->
-    <string name="could_not_create_file">Non se puido crear o ficheiro %s</string>
+    <string name="camlib_could_not_create_file">Non se puido crear o ficheiro %s</string>
     <!-- Create new -->
-    <string name="unknown_error_occurred">Ocurreu un erro descoñecido</string>
+    <string name="camlib_unknown_error_occurred">Ocurreu un erro descoñecido</string>
     <!-- File operation conflicts -->
     <!-- File picker -->
-    <plurals name="items">
-        <item quantity="one">%d elemento</item>
-        <item quantity="other">%d elementos</item>
-    </plurals>
+
     <!-- Are you sure you want to delete 5 items? -->
-    <plurals name="delete_items">
-        <item quantity="one">%d elemento</item>
-        <item quantity="other">%d elementos</item>
-    </plurals>
-    <plurals name="deleting_items">
-        <item quantity="one">Eliminando %d elemento</item>
-        <item quantity="other">Eliminando %d elementos</item>
-    </plurals>
+
+
     <!-- Are you sure you want to delete 5 contacts? -->
-    <plurals name="delete_contacts">
-        <item quantity="one">%d contacto</item>
-        <item quantity="other">%d contactos</item>
-    </plurals>
+
     <!-- Storages -->
     <!-- File properties -->
-    <string name="resolution">Resolución</string>
+    <string name="camlib_resolution">Resolución</string>
     <!-- Color customization -->
     <!-- Themes -->
     <!-- What's new -->
@@ -62,140 +44,50 @@
     <!-- Confirmation dialog -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-    <plurals name="delete_warning">
-        <item quantity="one">AVISO: vas eliminar %d cartafol</item>
-        <item quantity="other">AVISO: vas eliminar %d cartafois</item>
-    </plurals>
+
     <!-- Password protection -->
     <!-- Times -->
-    <plurals name="seconds">
-        <item quantity="one">%d segundo</item>
-        <item quantity="other">%d segundos</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="one">%d minuto</item>
-        <item quantity="other">%d minutos</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="one">%d hora</item>
-        <item quantity="other">%d horas</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="one">%d día</item>
-        <item quantity="other">%d días</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="one">%d semana</item>
-        <item quantity="other">%d semanas</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="one">%d mes</item>
-        <item quantity="other">%d meses</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="one">%d ano</item>
-        <item quantity="other">%d anos</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: I will be there in 5 minutes -->
-    <plurals name="in_seconds">
-        <item quantity="one">%d segundo</item>
-        <item quantity="other">%d segundos</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="one">%d minuto</item>
-        <item quantity="other">%d minutos</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="one">%d hora</item>
-        <item quantity="other">%d horas</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="one">%d día</item>
-        <item quantity="other">%d días</item>
-    </plurals>
-    <plurals name="in_weeks">
-        <item quantity="one">%d semana</item>
-        <item quantity="other">%d semanas</item>
-    </plurals>
-    <plurals name="in_months">
-        <item quantity="one">%d mes</item>
-        <item quantity="other">%d meses</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="one">%d ano</item>
-        <item quantity="other">%d anos</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Event reminder: 3 minutes before -->
-    <plurals name="seconds_before">
-        <item quantity="one">%d segundo antes</item>
-        <item quantity="other">%d segundos antes</item>
-    </plurals>
-    <plurals name="minutes_before">
-        <item quantity="one">%d minuto antes</item>
-        <item quantity="other">%d minutos antes</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="one">%d hora antes</item>
-        <item quantity="other">%d horas antes</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="one">%d día antes</item>
-        <item quantity="other">%d días antes</item>
-    </plurals>
-    <plurals name="weeks_before">
-        <item quantity="one">%d semana antes</item>
-        <item quantity="other">%d semanas antes</item>
-    </plurals>
-    <plurals name="months_before">
-        <item quantity="one">%d mes antes</item>
-        <item quantity="other">%d meses antes</item>
-    </plurals>
-    <plurals name="years_before">
-        <item quantity="one">%d ano antes</item>
-        <item quantity="other">%d anos antes</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Postpone reminder by 3 minutes -->
-    <plurals name="by_seconds">
-        <item quantity="one">%d segundo</item>
-        <item quantity="other">%d segundos</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="one">%d minuto</item>
-        <item quantity="other">%d minutos</item>
-    </plurals>
-    <plurals name="by_hours">
-        <item quantity="one">%d hora</item>
-        <item quantity="other">%d horas</item>
-    </plurals>
-    <plurals name="by_days">
-        <item quantity="one">%d día</item>
-        <item quantity="other">%d días</item>
-    </plurals>
-    <plurals name="by_weeks">
-        <item quantity="one">%d semana</item>
-        <item quantity="other">%d semanas</item>
-    </plurals>
-    <plurals name="by_months">
-        <item quantity="one">%d mes</item>
-        <item quantity="other">%d meses</item>
-    </plurals>
-    <plurals name="by_years">
-        <item quantity="one">%d ano</item>
-        <item quantity="other">%d anos</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
     <!-- Settings -->
-    <string name="settings">Axustes</string>
-    <string name="language">Lingua</string>
+    <string name="camlib_settings">Axustes</string>
+    <string name="camlib_language">Lingua</string>
     <!-- Setting sections -->
     <!-- Excluding -->
     <!-- Default tab to open -->
     <!-- Recycle Bin -->
-    <plurals name="moving_items_into_bin">
-        <item quantity="one">Movendo %d elemento á Papeleira</item>
-        <item quantity="other">Movendo %d elementos á Papeleira</item>
-    </plurals>
+
     <!-- Import / Export -->
     <!-- OTG devices -->
     <!-- Dates -->
@@ -203,7 +95,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
-    <string name="other">Outro</string>
+    <string name="camlib_other">Outro</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- Contributors -->
@@ -216,10 +108,7 @@
     <!-- Draw Pro -->
     <!-- License -->
     <!-- Trial -->
-    <plurals name="trial_expires_days">
-        <item quantity="one">A túa proba caduca en %d día.</item>
-        <item quantity="other">A túa proba caduca en %d días.</item>
-    </plurals>
+
     <!-- Google Play listing -->
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>

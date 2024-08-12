@@ -88,12 +88,12 @@
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/video" />
+                android:text="@string/camlib_video" />
 
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/photo" />
+                android:text="@string/camlib_photo" />
 
         </com.google.android.material.tabs.TabLayout>
     </RelativeLayout>
@@ -118,7 +118,7 @@
         android:id="@+id/toggle_camera"
         android:layout_width="@dimen/camlib_icon_size"
         android:layout_height="@dimen/camlib_icon_size"
-        android:contentDescription="@string/toggle_camera"
+        android:contentDescription="@string/camlib_toggle_camera"
         android:padding="@dimen/camlib_normal_margin"
         android:src="@drawable/camlib_ic_camera_front_vector"
         app:layout_constraintBottom_toBottomOf="@id/shutter"
@@ -132,7 +132,7 @@
         android:layout_width="@dimen/camlib_large_icon_size"
         android:layout_height="@dimen/camlib_large_icon_size"
         android:layout_marginBottom="@dimen/camlib_big_margin"
-        android:contentDescription="@string/shutter"
+        android:contentDescription="@string/camlib_shutter"
         android:src="@drawable/camlib_ic_shutter_animated"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -143,7 +143,7 @@
         android:id="@+id/last_photo_video_preview"
         android:layout_width="@dimen/camlib_icon_size"
         android:layout_height="@dimen/camlib_icon_size"
-        android:contentDescription="@string/view_last_media"
+        android:contentDescription="@string/camlib_view_last_media"
         android:padding="@dimen/camlib_medium_margin"
         app:layout_constraintBottom_toBottomOf="@id/shutter"
         app:layout_constraintEnd_toEndOf="parent"

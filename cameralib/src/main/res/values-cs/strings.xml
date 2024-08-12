@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Fotoaparát</string>
-    <string name="capture_mode">Režim snímání</string>
-    <string name="maximize_quality">Maximalizovat kvalitu</string>
-    <string name="minimize_latency">Minimalizovat zpoždění</string>
+
+    <string name="camlib_capture_mode">Režim snímání</string>
+    <string name="camlib_maximize_quality">Maximalizovat kvalitu</string>
+    <string name="camlib_minimize_latency">Minimalizovat zpoždění</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Fotoaparát není dostupný</string>
-    <string name="camera_open_error">Při přístupu k fotoaparátu došlo k chybě</string>
-    <string name="save_error_internal_storage">Došlo k chybě, složka pro uložení byla změněna na interní úložiště</string>
-    <string name="camera_switch_error">Přepínání fotoaparátu selhalo</string>
-    <string name="photo_not_saved">Fotografii se nepodařilo uložit</string>
-    <string name="video_recording_failed">Nahrávání videa selhalo, zkuste použít jiné rozlišení</string>
-    <string name="camera_in_use_error">Fotoaparát je používán jinou aplikací. Zavřete aplikaci a zkuste to znovu</string>
-    <string name="camera_configure_error">Při nastavení fotoaparátu došlo k chybě</string>
-    <string name="camera_disabled_by_admin_error">Fotoaparát je zakázán správcem</string>
-    <string name="camera_dnd_error">Je povolený režim Nerušit. Prosím, zakažte jej a zkuste to znovu</string>
-    <string name="photo_capture_failed">Pořízení fotografie selhalo</string>
-    <string name="video_capture_insufficient_storage_error">Nahrávání videa selhalo kvůli nedostatečnému místu v úložišti</string>
+    <string name="camlib_camera_unavailable">Fotoaparát není dostupný</string>
+    <string name="camlib_camera_open_error">Při přístupu k fotoaparátu došlo k chybě</string>
+    <string name="camlib_save_error_internal_storage">Došlo k chybě, složka pro uložení byla změněna na interní úložiště</string>
+    <string name="camlib_camera_switch_error">Přepínání fotoaparátu selhalo</string>
+    <string name="camlib_photo_not_saved">Fotografii se nepodařilo uložit</string>
+    <string name="camlib_video_recording_failed">Nahrávání videa selhalo, zkuste použít jiné rozlišení</string>
+    <string name="camlib_camera_in_use_error">Fotoaparát je používán jinou aplikací. Zavřete aplikaci a zkuste to znovu</string>
+    <string name="camlib_camera_configure_error">Při nastavení fotoaparátu došlo k chybě</string>
+    <string name="camlib_camera_disabled_by_admin_error">Fotoaparát je zakázán správcem</string>
+    <string name="camlib_camera_dnd_error">Je povolený režim Nerušit. Prosím, zakažte jej a zkuste to znovu</string>
+    <string name="camlib_photo_capture_failed">Pořízení fotografie selhalo</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Nahrávání videa selhalo kvůli nedostatečnému místu v úložišti</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Zobrazit poslední pořízený snímek</string>
-    <string name="toggle_camera">Přepnout přední/zadní fotoaparát</string>
-    <string name="toggle_flash">Přepnout režim blesku</string>
-    <string name="toggle_timer">Přepnout režim časovače</string>
+    <string name="camlib_view_last_media">Zobrazit poslední pořízený snímek</string>
+    <string name="camlib_toggle_camera">Přepnout přední/zadní fotoaparát</string>
+    <string name="camlib_toggle_flash">Přepnout režim blesku</string>
+    <string name="camlib_toggle_timer">Přepnout režim časovače</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Zvuk závěrky</string>
-    <string name="photo">Fotografie</string>
-    <string name="video">Videa</string>
-    <string name="volume_buttons_as_shutter">Použít tlačítka ovládání hlasitosti jako spoušť</string>
-    <string name="flip_front_camera_photos_horizontally">Snímky z předního fotoaparátu vodorovně přetočit</string>
-    <string name="save_photo_metadata">Ukládat exif metadata fotografií</string>
-    <string name="photo_compression_quality">Úroveň komprese fotografií</string>
-    <string name="shutter">Spoušť</string>
+    <string name="camlib_shutter_sound">Zvuk závěrky</string>
+    <string name="camlib_photo">Fotografie</string>
+    <string name="camlib_video">Videa</string>
+    <string name="camlib_volume_buttons_as_shutter">Použít tlačítka ovládání hlasitosti jako spoušť</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Snímky z předního fotoaparátu vodorovně přetočit</string>
+    <string name="camlib_save_photo_metadata">Ukládat exif metadata fotografií</string>
+    <string name="camlib_photo_compression_quality">Úroveň komprese fotografií</string>
+    <string name="camlib_shutter">Spoušť</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

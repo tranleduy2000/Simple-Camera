@@ -1,56 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">確定</string>
-    <string name="close">Close</string>
-    <string name="back">Back</string>
-    <string name="out_of_memory_error">記憶體不足</string>
-    <string name="error">Error: %s</string>
-    <string name="open_with">以其他應用程式開啟</string>
-    <string name="no_app_found">找不到應用程式</string>
+    <string name="camlib_ok">確定</string>
+    <string name="camlib_close">Close</string>
+    <string name="camlib_back">Back</string>
+    <string name="camlib_out_of_memory_error">記憶體不足</string>
+    <string name="camlib_error">Error: %s</string>
+    <string name="camlib_open_with">以其他應用程式開啟</string>
+    <string name="camlib_no_app_found">找不到應用程式</string>
     <!-- Events -->
     <!-- Emails -->
     <!-- Phone numbers -->
     <!-- View types -->
-    <plurals name="column_counts">
-        <item quantity="one">%d column</item>
-        <item quantity="other">%d columns</item>
-    </plurals>
-    <plurals name="row_counts">
-        <item quantity="one">%d row</item>
-        <item quantity="other">%d rows</item>
-    </plurals>
+
+
     <!-- Blocked numbers -->
     <!-- Favorites -->
     <!-- Search -->
     <!-- Filters -->
     <!-- Permissions -->
-    <string name="no_camera_permissions">相機權限是必要的</string>
-    <string name="no_audio_permissions">音訊權限是必要的</string>
+    <string name="camlib_no_camera_permissions">相機權限是必要的</string>
+    <string name="camlib_no_audio_permissions">音訊權限是必要的</string>
     <!-- Renaming -->
     <!-- Copy / Move -->
-    <string name="could_not_create_file">無法建立檔案 %s</string>
+    <string name="camlib_could_not_create_file">無法建立檔案 %s</string>
     <!-- Create new -->
-    <string name="unknown_error_occurred">發生未知的錯誤</string>
+    <string name="camlib_unknown_error_occurred">發生未知的錯誤</string>
     <!-- File operation conflicts -->
     <!-- File picker -->
-    <plurals name="items">
-        <item quantity="other">%d個項目</item>
-    </plurals>
+
     <!-- Are you sure you want to delete 5 items? -->
-    <plurals name="delete_items">
-        <item quantity="other">%d個項目</item>
-    </plurals>
-    <plurals name="deleting_items">
-        <item quantity="other">%d個項目刪除中</item>
-    </plurals>
+
+
     <!-- Are you sure you want to delete 5 contacts? -->
-    <plurals name="delete_contacts">
-        <item quantity="one">%d個聯絡人</item>
-        <item quantity="other">%d個聯絡人</item>
-    </plurals>
+
     <!-- Storages -->
     <!-- File properties -->
-    <string name="resolution">解析度</string>
+    <string name="camlib_resolution">解析度</string>
     <!-- Color customization -->
     <!-- Themes -->
     <!-- What's new -->
@@ -59,110 +44,50 @@
     <!-- Confirmation dialog -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into Recycle Bin? -->
-    <plurals name="delete_warning">
-        <item quantity="other">注意: 你正在刪除%d個資料夾</item>
-    </plurals>
+
     <!-- Password protection -->
     <!-- Times -->
-    <plurals name="seconds">
-        <item quantity="other">%d秒鐘</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="other">%d分鐘</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="other">%d小時</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="other">%d天</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="other">%d週</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="other">%d個月</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="other">%d年</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: I will be there in 5 minutes -->
-    <plurals name="in_seconds">
-        <item quantity="other">%d秒鐘內</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="other">%d分鐘內</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="other">%d小時內</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="other">%d天內</item>
-    </plurals>
-    <plurals name="in_weeks">
-        <item quantity="other">%d週內</item>
-    </plurals>
-    <plurals name="in_months">
-        <item quantity="other">%d個月內</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="other">%d年內</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Event reminder: 3 minutes before -->
-    <plurals name="seconds_before">
-        <item quantity="other">%d秒鐘前</item>
-    </plurals>
-    <plurals name="minutes_before">
-        <item quantity="other">%d分鐘前</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="other">%d小時前</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="other">%d天前</item>
-    </plurals>
-    <plurals name="weeks_before">
-        <item quantity="other">%d週前</item>
-    </plurals>
-    <plurals name="months_before">
-        <item quantity="other">%d個月前</item>
-    </plurals>
-    <plurals name="years_before">
-        <item quantity="other">%d年前</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Postpone reminder by 3 minutes -->
-    <plurals name="by_seconds">
-        <item quantity="other">%d秒鐘</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="other">%d分鐘</item>
-    </plurals>
-    <plurals name="by_hours">
-        <item quantity="other">%d小時</item>
-    </plurals>
-    <plurals name="by_days">
-        <item quantity="other">%d天</item>
-    </plurals>
-    <plurals name="by_weeks">
-        <item quantity="other">%d週</item>
-    </plurals>
-    <plurals name="by_months">
-        <item quantity="other">%d個月</item>
-    </plurals>
-    <plurals name="by_years">
-        <item quantity="other">%d年</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
     <!-- Settings -->
-    <string name="settings">設定</string>
-    <string name="language">Language</string>
+    <string name="camlib_settings">設定</string>
+    <string name="camlib_language">Language</string>
     <!-- Setting sections -->
     <!-- Excluding -->
     <!-- Default tab to open -->
     <!-- Recycle Bin -->
-    <plurals name="moving_items_into_bin">
-        <item quantity="other">正在移動%d個項目進回收桶</item>
-    </plurals>
+
     <!-- Import / Export -->
     <!-- OTG devices -->
     <!-- Dates -->
@@ -170,7 +95,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
-    <string name="other">Other</string>
+    <string name="camlib_other">Other</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- Contributors -->
@@ -183,10 +108,7 @@
     <!-- Draw Pro -->
     <!-- License -->
     <!-- Trial -->
-    <plurals name="trial_expires_days">
-        <item quantity="one">Your trial expires in %d day.</item>
-        <item quantity="other">Your trial expires in %d days.</item>
-    </plurals>
+
     <!-- Google Play listing -->
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>

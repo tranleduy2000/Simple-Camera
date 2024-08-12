@@ -77,11 +77,11 @@ fun Activity.openPathIntent(
             putExtra(REAL_FILE_PATH, path)
 
             try {
-                val chooser = Intent.createChooser(this, getString(R.string.open_with))
+                val chooser = Intent.createChooser(this, getString(R.string.camlib_open_with))
                 startActivity(if (forceChooser) chooser else this)
             } catch (e: ActivityNotFoundException) {
                 if (!tryGenericMimeType(this, mimeType, newUri)) {
-                    toast(R.string.no_app_found)
+                    toast(R.string.camlib_no_app_found)
                 }
             } catch (e: Exception) {
                 showErrorToast(e)
@@ -99,7 +99,7 @@ fun Activity.getFinalUriFromPath(path: String, applicationId: String): Uri? {
     }
 
     if (uri == null) {
-        toast(R.string.unknown_error_occurred)
+        toast(R.string.camlib_unknown_error_occurred)
         return null
     }
 

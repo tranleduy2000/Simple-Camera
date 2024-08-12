@@ -1,64 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">Gerai</string>
-    <string name="close">Close</string>
-    <string name="back">Atgal</string>
-    <string name="out_of_memory_error">Klaida: trūksta atminties</string>
-    <string name="error">Error: %s</string>
-    <string name="open_with">Atverti naudojant</string>
-    <string name="no_app_found">Nerasta jokios tinkamos programėlės</string>
+    <string name="camlib_ok">Gerai</string>
+    <string name="camlib_close">Close</string>
+    <string name="camlib_back">Atgal</string>
+    <string name="camlib_out_of_memory_error">Klaida: trūksta atminties</string>
+    <string name="camlib_error">Error: %s</string>
+    <string name="camlib_open_with">Atverti naudojant</string>
+    <string name="camlib_no_app_found">Nerasta jokios tinkamos programėlės</string>
     <!-- Events -->
     <!-- Emails -->
     <!-- Phone numbers -->
     <!-- View types -->
-    <plurals name="column_counts">
-        <item quantity="one">%d stulpelis</item>
-        <item quantity="few">%d stulpeliai</item>
-        <item quantity="other">%d stulpelių</item>
-    </plurals>
-    <plurals name="row_counts">
-        <item quantity="one">%d row</item>
-        <item quantity="other">%d rows</item>
-    </plurals>
+
+
     <!-- Blocked numbers -->
     <!-- Favorites -->
     <!-- Search -->
     <!-- Filters -->
     <!-- Permissions -->
-    <string name="no_camera_permissions">Yra reikalingas fotoaparato leidimas</string>
-    <string name="no_audio_permissions">Yra reikalingas garso leidimas</string>
+    <string name="camlib_no_camera_permissions">Yra reikalingas fotoaparato leidimas</string>
+    <string name="camlib_no_audio_permissions">Yra reikalingas garso leidimas</string>
     <!-- Renaming -->
     <!-- Copy / Move -->
-    <string name="could_not_create_file">Nepavyko sukurti failo %s</string>
+    <string name="camlib_could_not_create_file">Nepavyko sukurti failo %s</string>
     <!-- Create new -->
-    <string name="unknown_error_occurred">Įvyko nežinoma klaida</string>
+    <string name="camlib_unknown_error_occurred">Įvyko nežinoma klaida</string>
     <!-- File operation conflicts -->
     <!-- File picker -->
-    <plurals name="items">
-        <item quantity="one">%d elementas</item>
-        <item quantity="few">%d elementai</item>
-        <item quantity="other">%d elementų</item>
-    </plurals>
+
     <!-- Are you sure you want to delete 5 items? -->
-    <plurals name="delete_items">
-        <item quantity="one">%d elementą</item>
-        <item quantity="few">%d elementus</item>
-        <item quantity="other">%d elementų</item>
-    </plurals>
-    <plurals name="deleting_items">
-        <item quantity="one">Ištrinamas %d elementas</item>
-        <item quantity="few">Ištrinami %d elementai</item>
-        <item quantity="other">Ištrinama %d elementų</item>
-    </plurals>
+
+
     <!-- Are you sure you want to delete 5 contacts? -->
-    <plurals name="delete_contacts">
-        <item quantity="one">%d adresatas</item>
-        <item quantity="few">%d adresatai</item>
-        <item quantity="other">%d adresatų</item>
-    </plurals>
+
     <!-- Storages -->
     <!-- File properties -->
-    <string name="resolution">Raiška</string>
+    <string name="camlib_resolution">Raiška</string>
     <!-- Color customization -->
     <!-- Themes -->
     <!-- What's new -->
@@ -67,170 +44,50 @@
     <!-- Confirmation dialog -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-    <plurals name="delete_warning">
-        <item quantity="one">ĮSPĖJIMAS: Jūs ištrinate %d aplanką</item>
-        <item quantity="few">ĮSPĖJIMAS: Jūs ištrinate %d aplankus</item>
-        <item quantity="other">ĮSPĖJIMAS: Jūs ištrinate %d aplankų</item>
-    </plurals>
+
     <!-- Password protection -->
     <!-- Times -->
-    <plurals name="seconds">
-        <item quantity="one">%d sekundė</item>
-        <item quantity="few">%d sekundės</item>
-        <item quantity="other">%d sekundžių</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="one">%d minutė</item>
-        <item quantity="few">%d minutės</item>
-        <item quantity="other">%d minučių</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="one">%d valanda</item>
-        <item quantity="few">%d valandos</item>
-        <item quantity="other">%d valandų</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="one">%d diena</item>
-        <item quantity="few">%d dienos</item>
-        <item quantity="other">%d dienų</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="one">%d savaitė</item>
-        <item quantity="few">%d savaitės</item>
-        <item quantity="other">%d savaičių</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="one">%d mėnuo</item>
-        <item quantity="few">%d mėnesiai</item>
-        <item quantity="other">%d mėnesių</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="one">%d metai</item>
-        <item quantity="few">%d metai</item>
-        <item quantity="other">%d metų</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: I will be there in 5 minutes -->
-    <plurals name="in_seconds">
-        <item quantity="one">%d sekundės</item>
-        <item quantity="few">%d sekundžių</item>
-        <item quantity="other">%d sekundžių</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="one">%d minutės</item>
-        <item quantity="few">%d minučių</item>
-        <item quantity="other">%d minučių</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="one">%d valandos</item>
-        <item quantity="few">%d valandų</item>
-        <item quantity="other">%d valandų</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="one">%d dienos</item>
-        <item quantity="few">%d dienų</item>
-        <item quantity="other">%d dienų</item>
-    </plurals>
-    <plurals name="in_weeks">
-        <item quantity="one">%d savaitės</item>
-        <item quantity="few">%d savaičių</item>
-        <item quantity="other">%d savaičių</item>
-    </plurals>
-    <plurals name="in_months">
-        <item quantity="one">%d mėnesio</item>
-        <item quantity="few">%d mėnesių</item>
-        <item quantity="other">%d mėnesių</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="one">%d metų</item>
-        <item quantity="few">%d metų</item>
-        <item quantity="other">%d metų</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Event reminder: 3 minutes before -->
-    <plurals name="seconds_before">
-        <item quantity="one">%d sekundę prieš įvykį</item>
-        <item quantity="few">%d sekundes prieš įvykį</item>
-        <item quantity="other">%d sekundžių prieš įvykį</item>
-    </plurals>
-    <plurals name="minutes_before">
-        <item quantity="one">%d minutę prieš įvykį</item>
-        <item quantity="few">%d minutes prieš įvykį</item>
-        <item quantity="other">%d minučių prieš įvykį</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="one">%d valandą prieš įvykį</item>
-        <item quantity="few">%d valandas prieš įvykį</item>
-        <item quantity="other">%d valandų prieš įvykį</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="one">%d dieną prieš įvykį</item>
-        <item quantity="few">%d dienas prieš įvykį</item>
-        <item quantity="other">%d dienų prieš įvykį</item>
-    </plurals>
-    <plurals name="weeks_before">
-        <item quantity="one">%d savaitę prieš įvykį</item>
-        <item quantity="few">%d savaites prieš įvykį</item>
-        <item quantity="other">%d savaičių prieš įvykį</item>
-    </plurals>
-    <plurals name="months_before">
-        <item quantity="one">%d mėnesį prieš įvykį</item>
-        <item quantity="few">%d mėnesius prieš įvykį</item>
-        <item quantity="other">%d mėnesių prieš įvykį</item>
-    </plurals>
-    <plurals name="years_before">
-        <item quantity="one">%d metus prieš įvykį</item>
-        <item quantity="few">%d metus prieš įvykį</item>
-        <item quantity="other">%d metų prieš įvykį</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Postpone reminder by 3 minutes -->
-    <plurals name="by_seconds">
-        <item quantity="one">%d sekundei</item>
-        <item quantity="few">%d sekundėms</item>
-        <item quantity="other">%d sekundžių</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="one">%d minutei</item>
-        <item quantity="few">%d minutėms</item>
-        <item quantity="other">%d minučių</item>
-    </plurals>
-    <plurals name="by_hours">
-        <item quantity="one">%d valandai</item>
-        <item quantity="few">%d valandoms</item>
-        <item quantity="other">%d valandų</item>
-    </plurals>
-    <plurals name="by_days">
-        <item quantity="one">%d dienai</item>
-        <item quantity="few">%d dienoms</item>
-        <item quantity="other">%d dienų</item>
-    </plurals>
-    <plurals name="by_weeks">
-        <item quantity="one">%d savaitei</item>
-        <item quantity="few">%d savaitėms</item>
-        <item quantity="other">%d savaičių</item>
-    </plurals>
-    <plurals name="by_months">
-        <item quantity="one">%d mėnesiui</item>
-        <item quantity="few">%d mėnesiams</item>
-        <item quantity="other">%d mėnesių</item>
-    </plurals>
-    <plurals name="by_years">
-        <item quantity="one">%d metams</item>
-        <item quantity="few">%d metams</item>
-        <item quantity="other">%d metų</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
     <!-- Settings -->
-    <string name="settings">Nustatymai</string>
-    <string name="language">Language</string>
+    <string name="camlib_settings">Nustatymai</string>
+    <string name="camlib_language">Language</string>
     <!-- Setting sections -->
     <!-- Excluding -->
     <!-- Default tab to open -->
     <!-- Recycle Bin -->
-    <plurals name="moving_items_into_bin">
-        <item quantity="one">Perkeliamas %d elementas į šiukšlinę</item>
-        <item quantity="few">Perkeliami %d elementai į šiukšlinę</item>
-        <item quantity="other">Perkeliama %d elementų į šiukšlinę</item>
-    </plurals>
+
     <!-- Import / Export -->
     <!-- OTG devices -->
     <!-- Dates -->
@@ -238,7 +95,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
-    <string name="other">Kita</string>
+    <string name="camlib_other">Kita</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- Contributors -->
@@ -251,10 +108,7 @@
     <!-- Draw Pro -->
     <!-- License -->
     <!-- Trial -->
-    <plurals name="trial_expires_days">
-        <item quantity="one">Your trial expires in %d day.</item>
-        <item quantity="other">Your trial expires in %d days.</item>
-    </plurals>
+
     <!-- Google Play listing -->
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>

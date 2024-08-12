@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Kamera</string>
-    <string name="capture_mode">Fotografavimo veiksena</string>
-    <string name="maximize_quality">Pagerinti kokybę</string>
-    <string name="minimize_latency">Sumažinti delsą</string>
+
+    <string name="camlib_capture_mode">Fotografavimo veiksena</string>
+    <string name="camlib_maximize_quality">Pagerinti kokybę</string>
+    <string name="camlib_minimize_latency">Sumažinti delsą</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Kamera neprieinama</string>
-    <string name="camera_open_error">Bandant pasiekti kamerą įvyko klaida</string>
-    <string name="save_error_internal_storage">Įvyko klaida, įrašymo aplankas pakeistas į vidinę atmintį</string>
-    <string name="camera_switch_error">Nepavyko perjungti kameros</string>
-    <string name="photo_not_saved">Nepavyko įrašyti nuotraukos</string>
-    <string name="video_recording_failed">Nepavyko įrašinėti vaizdo įrašo, pabandykite naudoti kitą raišką</string>
-    <string name="camera_in_use_error">Kamerą naudoja kita programėlė, užverkite programėlę ir bandykite dar kartą</string>
-    <string name="camera_configure_error">Konfigūruojant kamerą įvyko klaida</string>
-    <string name="camera_disabled_by_admin_error">Administratorius yra išjungęs kamerą</string>
-    <string name="camera_dnd_error">Yra įjungta veiksena „Netrukdyti“. Išjunkite ją ir bandykite dar kartą</string>
-    <string name="photo_capture_failed">Nepavyko padaryti nuotraukos</string>
-    <string name="video_capture_insufficient_storage_error">Vaizdo įrašymas dėl atminties trūkumo patyrė nesėkmę</string>
+    <string name="camlib_camera_unavailable">Kamera neprieinama</string>
+    <string name="camlib_camera_open_error">Bandant pasiekti kamerą įvyko klaida</string>
+    <string name="camlib_save_error_internal_storage">Įvyko klaida, įrašymo aplankas pakeistas į vidinę atmintį</string>
+    <string name="camlib_camera_switch_error">Nepavyko perjungti kameros</string>
+    <string name="camlib_photo_not_saved">Nepavyko įrašyti nuotraukos</string>
+    <string name="camlib_video_recording_failed">Nepavyko įrašinėti vaizdo įrašo, pabandykite naudoti kitą raišką</string>
+    <string name="camlib_camera_in_use_error">Kamerą naudoja kita programėlė, užverkite programėlę ir bandykite dar kartą</string>
+    <string name="camlib_camera_configure_error">Konfigūruojant kamerą įvyko klaida</string>
+    <string name="camlib_camera_disabled_by_admin_error">Administratorius yra išjungęs kamerą</string>
+    <string name="camlib_camera_dnd_error">Yra įjungta veiksena „Netrukdyti“. Išjunkite ją ir bandykite dar kartą</string>
+    <string name="camlib_photo_capture_failed">Nepavyko padaryti nuotraukos</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Vaizdo įrašymas dėl atminties trūkumo patyrė nesėkmę</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Rodyti paskiausiai fiksuotą mediją</string>
-    <string name="toggle_camera">Perjungti priekinę/galinę kamerą</string>
-    <string name="toggle_flash">Perjungti žibintuvėlio veikseną</string>
-    <string name="toggle_timer">Perjungti laikmačio veikseną</string>
+    <string name="camlib_view_last_media">Rodyti paskiausiai fiksuotą mediją</string>
+    <string name="camlib_toggle_camera">Perjungti priekinę/galinę kamerą</string>
+    <string name="camlib_toggle_flash">Perjungti žibintuvėlio veikseną</string>
+    <string name="camlib_toggle_timer">Perjungti laikmačio veikseną</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Sklendės garsas</string>
-    <string name="photo">Nuotrauka</string>
-    <string name="video">Vaizdo įrašas</string>
-    <string name="volume_buttons_as_shutter">Naudoti garso mygtukus kaip fotografavimo mygtuką</string>
-    <string name="flip_front_camera_photos_horizontally">Apversti priekinės kameros nuotraukas horizontaliai</string>
-    <string name="save_photo_metadata">Įrašyti į nuotraukas EXIF metaduomenis</string>
-    <string name="photo_compression_quality">Nuotraukų glaudinimo kokybė</string>
-    <string name="shutter">Sklendė</string>
+    <string name="camlib_shutter_sound">Sklendės garsas</string>
+    <string name="camlib_photo">Nuotrauka</string>
+    <string name="camlib_video">Vaizdo įrašas</string>
+    <string name="camlib_volume_buttons_as_shutter">Naudoti garso mygtukus kaip fotografavimo mygtuką</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Apversti priekinės kameros nuotraukas horizontaliai</string>
+    <string name="camlib_save_photo_metadata">Įrašyti į nuotraukas EXIF metaduomenis</string>
+    <string name="camlib_photo_compression_quality">Nuotraukų glaudinimo kokybė</string>
+    <string name="camlib_shutter">Sklendė</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

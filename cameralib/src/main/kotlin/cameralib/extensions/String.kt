@@ -90,11 +90,7 @@ fun String.getParentPath() = removeSuffix("/${getFilenameFromPath()}")
 fun String.getImageResolution(context: Context): Point? {
     val options = BitmapFactory.Options()
     options.inJustDecodeBounds = true
-//    if (context.isRestrictedSAFOnlyRoot(this)) {
-//        BitmapFactory.decodeStream(context.contentResolver.openInputStream(context.getAndroidSAFUri(this)), null, options)
-//    } else {
-        BitmapFactory.decodeFile(this, options)
-//    }
+    BitmapFactory.decodeFile(this, options)
 
     val width = options.outWidth
     val height = options.outHeight

@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Камера</string>
-    <string name="capture_mode">Режим снимања</string>
-    <string name="maximize_quality">Максимизирајте квалитет</string>
-    <string name="minimize_latency">Минимизирајте кашњење</string>
+
+    <string name="camlib_capture_mode">Режим снимања</string>
+    <string name="camlib_maximize_quality">Максимизирајте квалитет</string>
+    <string name="camlib_minimize_latency">Минимизирајте кашњење</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Камера није доступна</string>
-    <string name="camera_open_error">Дошло је до грешке при приступу камери</string>
-    <string name="save_error_internal_storage">Дошло је до грешке, фасцикла за чување је промењена у интерну меморију</string>
-    <string name="camera_switch_error">Промена камере није успела</string>
-    <string name="photo_not_saved">Није могуће сачувати фотографију</string>
-    <string name="video_recording_failed">Снимање видеа није успело, покушајте да користите другу резолуцију</string>
-    <string name="camera_in_use_error">Камера користи друга апликација, затворите апликацију и покушајте поново</string>
-    <string name="camera_configure_error">Дошло је до грешке при конфигурисању камере</string>
-    <string name="camera_disabled_by_admin_error">Камера је онемогућена од стране администратора</string>
-    <string name="camera_dnd_error">Режим Не узнемиравај је омогућен. Молимо онемогућите и покушајте поново</string>
-    <string name="photo_capture_failed">Снимање фотографије није успело</string>
-    <string name="video_capture_insufficient_storage_error">Снимање видеа није успело због недовољне меморије</string>
+    <string name="camlib_camera_unavailable">Камера није доступна</string>
+    <string name="camlib_camera_open_error">Дошло је до грешке при приступу камери</string>
+    <string name="camlib_save_error_internal_storage">Дошло је до грешке, фасцикла за чување је промењена у интерну меморију</string>
+    <string name="camlib_camera_switch_error">Промена камере није успела</string>
+    <string name="camlib_photo_not_saved">Није могуће сачувати фотографију</string>
+    <string name="camlib_video_recording_failed">Снимање видеа није успело, покушајте да користите другу резолуцију</string>
+    <string name="camlib_camera_in_use_error">Камера користи друга апликација, затворите апликацију и покушајте поново</string>
+    <string name="camlib_camera_configure_error">Дошло је до грешке при конфигурисању камере</string>
+    <string name="camlib_camera_disabled_by_admin_error">Камера је онемогућена од стране администратора</string>
+    <string name="camlib_camera_dnd_error">Режим Не узнемиравај је омогућен. Молимо онемогућите и покушајте поново</string>
+    <string name="camlib_photo_capture_failed">Снимање фотографије није успело</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Снимање видеа није успело због недовољне меморије</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Погледајте последње снимљене медије</string>
-    <string name="toggle_camera">Укључите предњу/задњу камеру</string>
-    <string name="toggle_flash">Укључите режим батеријске лампе</string>
-    <string name="toggle_timer">Toggle the timer mode</string>
+    <string name="camlib_view_last_media">Погледајте последње снимљене медије</string>
+    <string name="camlib_toggle_camera">Укључите предњу/задњу камеру</string>
+    <string name="camlib_toggle_flash">Укључите режим батеријске лампе</string>
+    <string name="camlib_toggle_timer">Toggle the timer mode</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Звук затварача</string>
-    <string name="photo">Фотографија</string>
-    <string name="video">Видео</string>
-    <string name="volume_buttons_as_shutter">Користите дугмад за јачину звука као затварач</string>
-    <string name="flip_front_camera_photos_horizontally">Окрените фотографије предње камере хоризонтално</string>
-    <string name="save_photo_metadata">Сачувајте екиф метаподатке фотографије</string>
-    <string name="photo_compression_quality">Квалитет компресије фотографија</string>
-    <string name="shutter">Затварач</string>
+    <string name="camlib_shutter_sound">Звук затварача</string>
+    <string name="camlib_photo">Фотографија</string>
+    <string name="camlib_video">Видео</string>
+    <string name="camlib_volume_buttons_as_shutter">Користите дугмад за јачину звука као затварач</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Окрените фотографије предње камере хоризонтално</string>
+    <string name="camlib_save_photo_metadata">Сачувајте екиф метаподатке фотографије</string>
+    <string name="camlib_photo_compression_quality">Квалитет компресије фотографија</string>
+    <string name="camlib_shutter">Затварач</string>
 </resources>

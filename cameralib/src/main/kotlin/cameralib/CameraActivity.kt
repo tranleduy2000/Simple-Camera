@@ -71,7 +71,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
                         else -> throw IllegalStateException("Unsupported tab position ${tab.position}")
                     }
                 } else {
-                    toast(R.string.no_audio_permissions)
+                    toast(R.string.camlib_no_audio_permissions)
                     selectPhotoTab()
                     if (isVideoCaptureIntent()) {
                         finish()
@@ -224,7 +224,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
                             if (grantedRecordAudioPermission) {
                                 initializeCamera(false)
                             } else {
-                                toast(R.string.no_audio_permissions)
+                                toast(R.string.camlib_no_audio_permissions)
                                 // re-initialize in photo mode
                                 config.initPhotoMode = true
                                 tryInitCamera()
@@ -233,7 +233,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
                     }
                 }
             } else {
-                toast(R.string.no_camera_permissions)
+                toast(R.string.camlib_no_camera_permissions)
                 finish()
             }
         }
@@ -335,7 +335,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
     }
 
     private fun initFlashModeTransitionNames() = binding.layoutFlash.apply {
-        val baseName = getString(R.string.toggle_flash)
+        val baseName = getString(R.string.camlib_toggle_flash)
         flashAuto.transitionName = "$baseName$FLASH_AUTO"
         flashOff.transitionName = "$baseName$FLASH_OFF"
         flashOn.transitionName = "$baseName$FLASH_ON"
@@ -343,7 +343,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
     }
 
     private fun initTimerModeTransitionNames() = binding.layoutTimer.apply {
-        val baseName = getString(R.string.toggle_timer)
+        val baseName = getString(R.string.camlib_toggle_timer)
         timerOff.transitionName = "$baseName${TimerMode.OFF.name}"
         timer3s.transitionName = "$baseName${TimerMode.TIMER_3.name}"
         timer5s.transitionName = "$baseName${TimerMode.TIMER_5.name}"
@@ -411,7 +411,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
 
     private fun setTimerModeIcon(timerMode: TimerMode) = binding.layoutTop.toggleTimer.apply {
         setShadowIcon(timerMode.getTimerModeDrawableRes())
-        transitionName = "${getString(R.string.toggle_timer)}${timerMode.name}"
+        transitionName = "${getString(R.string.camlib_toggle_timer)}${timerMode.name}"
     }
 
     @SuppressLint("ClickableViewAccessibility")
@@ -699,7 +699,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
                 else -> R.drawable.camlib_ic_flashlight_vector
             }
             toggleFlash.setShadowIcon(flashDrawable)
-            toggleFlash.transitionName = "${getString(R.string.toggle_flash)}$flashMode"
+            toggleFlash.transitionName = "${getString(R.string.camlib_toggle_flash)}$flashMode"
         }
     }
 

@@ -1,71 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">OK</string>
-    <string name="close">Закрити</string>
-    <string name="back">Назад</string>
-    <string name="out_of_memory_error">Недостатньо пам\'яті</string>
-    <string name="error">Помилка: %s</string>
-    <string name="open_with">Відкрити за допомогою</string>
-    <string name="no_app_found">Не знайдено допустимих додатків</string>
+    <string name="camlib_ok">OK</string>
+    <string name="camlib_close">Закрити</string>
+    <string name="camlib_back">Назад</string>
+    <string name="camlib_out_of_memory_error">Недостатньо пам\'яті</string>
+    <string name="camlib_error">Помилка: %s</string>
+    <string name="camlib_open_with">Відкрити за допомогою</string>
+    <string name="camlib_no_app_found">Не знайдено допустимих додатків</string>
     <!-- Events -->
     <!-- Emails -->
     <!-- Phone numbers -->
     <!-- View types -->
-    <plurals name="column_counts">
-        <item quantity="one">%d стовпець</item>
-        <item quantity="few">%d стовпці</item>
-        <item quantity="many">%d стовпців</item>
-        <item quantity="other">%d стовпців</item>
-    </plurals>
-    <plurals name="row_counts">
-        <item quantity="one">%d рядок</item>
-        <item quantity="few">%d рядки</item>
-        <item quantity="many">%d рядків</item>
-        <item quantity="other">%d рядків</item>
-    </plurals>
+
+
     <!-- Blocked numbers -->
     <!-- Favorites -->
     <!-- Search -->
     <!-- Filters -->
     <!-- Permissions -->
-    <string name="no_camera_permissions">Необхідний дозвіл на доступ до камери</string>
-    <string name="no_audio_permissions">Необхідний дозвіл на доступ до аудіо</string>
+    <string name="camlib_no_camera_permissions">Необхідний дозвіл на доступ до камери</string>
+    <string name="camlib_no_audio_permissions">Необхідний дозвіл на доступ до аудіо</string>
     <!-- Renaming -->
     <!-- Copy / Move -->
-    <string name="could_not_create_file">Не вдалося створити файл %s</string>
+    <string name="camlib_could_not_create_file">Не вдалося створити файл %s</string>
     <!-- Create new -->
-    <string name="unknown_error_occurred">Сталася невідома помилка</string>
+    <string name="camlib_unknown_error_occurred">Сталася невідома помилка</string>
     <!-- File operation conflicts -->
     <!-- File picker -->
-    <plurals name="items">
-        <item quantity="one">%d елемент</item>
-        <item quantity="few">%d елемента</item>
-        <item quantity="many">%d елементів</item>
-        <item quantity="other">%d елементів</item>
-    </plurals>
+
     <!-- Are you sure you want to delete 5 items? -->
-    <plurals name="delete_items">
-        <item quantity="one">%d елемент</item>
-        <item quantity="few">%d елемента</item>
-        <item quantity="many">%d елементів</item>
-        <item quantity="other">%d елементів</item>
-    </plurals>
-    <plurals name="deleting_items">
-        <item quantity="one">Видалення %d елементу</item>
-        <item quantity="few">Видалення %d елементів</item>
-        <item quantity="many">Видалення %d елементів</item>
-        <item quantity="other">Видалення %d елементів</item>
-    </plurals>
+
+
     <!-- Are you sure you want to delete 5 contacts? -->
-    <plurals name="delete_contacts">
-        <item quantity="one">%d контакт</item>
-        <item quantity="few">%d контакти</item>
-        <item quantity="many">%d контактів</item>
-        <item quantity="other">%d контактів</item>
-    </plurals>
+
     <!-- Storages -->
     <!-- File properties -->
-    <string name="resolution">Роздільна здатність</string>
+    <string name="camlib_resolution">Роздільна здатність</string>
     <!-- Color customization -->
     <!-- Themes -->
     <!-- What's new -->
@@ -74,200 +44,50 @@
     <!-- Confirmation dialog -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-    <plurals name="delete_warning">
-        <item quantity="one">УВАГА: Ви видаляєте %d теку</item>
-        <item quantity="few">УВАГА: Ви видаляєте %d теки</item>
-        <item quantity="many">УВАГА: Ви видаляєте %d тек</item>
-        <item quantity="other">УВАГА: Ви видаляєте %d тек</item>
-    </plurals>
+
     <!-- Password protection -->
     <!-- Times -->
-    <plurals name="seconds">
-        <item quantity="one">%d секунда</item>
-        <item quantity="few">%d секунди</item>
-        <item quantity="many">%d секунд</item>
-        <item quantity="other">%d секунд</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="one">%d хвилина</item>
-        <item quantity="few">%d хвилини</item>
-        <item quantity="many">%d хвилин</item>
-        <item quantity="other">%d хвилин</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="one">%d година</item>
-        <item quantity="few">%d години</item>
-        <item quantity="many">%d годин</item>
-        <item quantity="other">%d годин</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="one">%d день</item>
-        <item quantity="few">%d дні</item>
-        <item quantity="many">%d днів</item>
-        <item quantity="other">%d днів</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="one">%d тиждень</item>
-        <item quantity="few">%d тижні</item>
-        <item quantity="many">%d тижнів</item>
-        <item quantity="other">%d тижнів</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="one">%d місяць</item>
-        <item quantity="few">%d місяці</item>
-        <item quantity="many">%d місяців</item>
-        <item quantity="other">%d місяців</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="one">%d рік</item>
-        <item quantity="few">%d роки</item>
-        <item quantity="many">%d років</item>
-        <item quantity="other">%d років</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: I will be there in 5 minutes -->
-    <plurals name="in_seconds">
-        <item quantity="one">%d секунду</item>
-        <item quantity="few">%d секунди</item>
-        <item quantity="many">%d секунд</item>
-        <item quantity="other">%d секунд</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="one">%d хвилину</item>
-        <item quantity="few">%d хвилини</item>
-        <item quantity="many">%d хвилин</item>
-        <item quantity="other">%d хвилин</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="one">%d годину</item>
-        <item quantity="few">%d години</item>
-        <item quantity="many">%d годин</item>
-        <item quantity="other">%d годин</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="one">%d день</item>
-        <item quantity="few">%d дні</item>
-        <item quantity="many">%d днів</item>
-        <item quantity="other">%d днів</item>
-    </plurals>
-    <plurals name="in_weeks">
-        <item quantity="one">%d тиждень</item>
-        <item quantity="few">%d тижні</item>
-        <item quantity="many">%d тижнів</item>
-        <item quantity="other">%d тижнів</item>
-    </plurals>
-    <plurals name="in_months">
-        <item quantity="one">%d місяць</item>
-        <item quantity="few">%d місяці</item>
-        <item quantity="many">%d місяців</item>
-        <item quantity="other">%d місяців</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="one">%d рік</item>
-        <item quantity="few">%d роки</item>
-        <item quantity="many">%d років</item>
-        <item quantity="other">%d років</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Event reminder: 3 minutes before -->
-    <plurals name="seconds_before">
-        <item quantity="one">за %d секунду</item>
-        <item quantity="few">за %d секунди</item>
-        <item quantity="many">за %d секунд</item>
-        <item quantity="other">за %d секунд</item>
-    </plurals>
-    <plurals name="minutes_before">
-        <item quantity="one">за %d хвилину</item>
-        <item quantity="few">за %d хвилини</item>
-        <item quantity="many">за %d хвилин</item>
-        <item quantity="other">за %d хвилин</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="one">за %d годину</item>
-        <item quantity="few">за %d години</item>
-        <item quantity="many">за %d годин</item>
-        <item quantity="other">за %d годин</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="one">за %d день</item>
-        <item quantity="few">за %d дні</item>
-        <item quantity="many">за %d днів</item>
-        <item quantity="other">за %d днів</item>
-    </plurals>
-    <plurals name="weeks_before">
-        <item quantity="one">за %d тиждень</item>
-        <item quantity="few">за %d тижні</item>
-        <item quantity="many">за %d тижнів</item>
-        <item quantity="other">за %d тижнів</item>
-    </plurals>
-    <plurals name="months_before">
-        <item quantity="one">за %d місяць</item>
-        <item quantity="few">за %d місяці</item>
-        <item quantity="many">за %d місяців</item>
-        <item quantity="other">за %d місяців</item>
-    </plurals>
-    <plurals name="years_before">
-        <item quantity="one">за %d рік</item>
-        <item quantity="few">за %d роки</item>
-        <item quantity="many">за %d років</item>
-        <item quantity="other">за %d років</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Postpone reminder by 3 minutes -->
-    <plurals name="by_seconds">
-        <item quantity="one">%d секунду</item>
-        <item quantity="few">%d секунди</item>
-        <item quantity="many">%d секунд</item>
-        <item quantity="other">%d секунд</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="one">%d хвилину</item>
-        <item quantity="few">%d хвилини</item>
-        <item quantity="many">%d хвилин</item>
-        <item quantity="other">%d хвилин</item>
-    </plurals>
-    <plurals name="by_hours">
-        <item quantity="one">%d годину</item>
-        <item quantity="few">%d години</item>
-        <item quantity="many">%d годин</item>
-        <item quantity="other">%d годин</item>
-    </plurals>
-    <plurals name="by_days">
-        <item quantity="one">%d день</item>
-        <item quantity="few">%d дні</item>
-        <item quantity="many">%d днів</item>
-        <item quantity="other">%d днів</item>
-    </plurals>
-    <plurals name="by_weeks">
-        <item quantity="one">%d тиждень</item>
-        <item quantity="few">%d тижні</item>
-        <item quantity="many">%d тижнів</item>
-        <item quantity="other">%d тижнів</item>
-    </plurals>
-    <plurals name="by_months">
-        <item quantity="one">%d місяць</item>
-        <item quantity="few">%d місяці</item>
-        <item quantity="many">%d місяців</item>
-        <item quantity="other">%d місяців</item>
-    </plurals>
-    <plurals name="by_years">
-        <item quantity="one">%d рік</item>
-        <item quantity="few">%d роки</item>
-        <item quantity="many">%d років</item>
-        <item quantity="other">%d років</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
     <!-- Settings -->
-    <string name="settings">Налаштування</string>
-    <string name="language">Мова</string>
+    <string name="camlib_settings">Налаштування</string>
+    <string name="camlib_language">Мова</string>
     <!-- Setting sections -->
     <!-- Excluding -->
     <!-- Default tab to open -->
     <!-- Recycle Bin -->
-    <plurals name="moving_items_into_bin">
-        <item quantity="one">Переміщення %d елемента в Кошик</item>
-        <item quantity="few">Переміщення %d елементів у Кошик</item>
-        <item quantity="many">Переміщення %d елементів у Кошик</item>
-        <item quantity="other">Переміщення %d елементів у Кошик</item>
-    </plurals>
+
     <!-- Import / Export -->
     <!-- OTG devices -->
     <!-- Dates -->
@@ -275,7 +95,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
-    <string name="other">Інше</string>
+    <string name="camlib_other">Інше</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- Contributors -->
@@ -288,12 +108,7 @@
     <!-- Draw Pro -->
     <!-- License -->
     <!-- Trial -->
-    <plurals name="trial_expires_days">
-        <item quantity="one">Термін дії пробного періоду закінчується через %d день.</item>
-        <item quantity="few">Термін дії пробного періоду закінчується через %d дні.</item>
-        <item quantity="many">Термін дії пробного періоду закінчується через %d днів.</item>
-        <item quantity="other">Термін дії пробного періоду закінчується через %d днів.</item>
-    </plurals>
+
     <!-- Google Play listing -->
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>

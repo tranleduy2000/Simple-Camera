@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Camera</string>
-    <string name="capture_mode">Opnamemodus</string>
-    <string name="maximize_quality">Kwaliteit maximaliseren</string>
-    <string name="minimize_latency">Vertraging minimaliseren</string>
+
+    <string name="camlib_capture_mode">Opnamemodus</string>
+    <string name="camlib_maximize_quality">Kwaliteit maximaliseren</string>
+    <string name="camlib_minimize_latency">Vertraging minimaliseren</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Camera niet beschikbaar</string>
-    <string name="camera_open_error">Fout opgetreden bij toegang verkrijgen tot de camera</string>
-    <string name="save_error_internal_storage">Er is een fout opgetreden, de doelmap is gewijzigd naar interne opslag</string>
-    <string name="camera_switch_error">Schakelen van camera is mislukt</string>
-    <string name="photo_not_saved">Foto kon niet worden opgeslagen</string>
-    <string name="video_recording_failed">Video-opname is mislukt, probeer nogmaals met een andere resolutie</string>
-    <string name="camera_in_use_error">De camera wordt gebruikt door een andere app. Sluit die app en probeer het nog eens.</string>
-    <string name="camera_configure_error">Er is een fout opgetreden bij het configureren van de camera</string>
-    <string name="camera_disabled_by_admin_error">De camera is uitgeschakeld door de beheerder</string>
-    <string name="camera_dnd_error">De modus \"Niet storen\" is ingeschakeld. Schakel deze uit en probeer het nog eens.</string>
-    <string name="photo_capture_failed">Foto-opname mislukt</string>
-    <string name="video_capture_insufficient_storage_error">Video-opname mislukt door onvoldoende opslag</string>
+    <string name="camlib_camera_unavailable">Camera niet beschikbaar</string>
+    <string name="camlib_camera_open_error">Fout opgetreden bij toegang verkrijgen tot de camera</string>
+    <string name="camlib_save_error_internal_storage">Er is een fout opgetreden, de doelmap is gewijzigd naar interne opslag</string>
+    <string name="camlib_camera_switch_error">Schakelen van camera is mislukt</string>
+    <string name="camlib_photo_not_saved">Foto kon niet worden opgeslagen</string>
+    <string name="camlib_video_recording_failed">Video-opname is mislukt, probeer nogmaals met een andere resolutie</string>
+    <string name="camlib_camera_in_use_error">De camera wordt gebruikt door een andere app. Sluit die app en probeer het nog eens.</string>
+    <string name="camlib_camera_configure_error">Er is een fout opgetreden bij het configureren van de camera</string>
+    <string name="camlib_camera_disabled_by_admin_error">De camera is uitgeschakeld door de beheerder</string>
+    <string name="camlib_camera_dnd_error">De modus \"Niet storen\" is ingeschakeld. Schakel deze uit en probeer het nog eens.</string>
+    <string name="camlib_photo_capture_failed">Foto-opname mislukt</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Video-opname mislukt door onvoldoende opslag</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Laatste opname bekijken</string>
-    <string name="toggle_camera">Camera voor/achter</string>
-    <string name="toggle_flash">Zaklampmodus wisselen</string>
-    <string name="toggle_timer">Timermodus wijzigen</string>
+    <string name="camlib_view_last_media">Laatste opname bekijken</string>
+    <string name="camlib_toggle_camera">Camera voor/achter</string>
+    <string name="camlib_toggle_flash">Zaklampmodus wisselen</string>
+    <string name="camlib_toggle_timer">Timermodus wijzigen</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Sluitergeluid</string>
-    <string name="photo">Foto</string>
-    <string name="video">Video</string>
-    <string name="volume_buttons_as_shutter">Volumeknoppen als sluiterknop gebruiken</string>
-    <string name="flip_front_camera_photos_horizontally">Foto\'s van camera voorop horizontaal spiegelen</string>
-    <string name="save_photo_metadata">EXIF-metadata in foto\'s opslaan</string>
-    <string name="photo_compression_quality">Kwaliteit foto\'s</string>
-    <string name="shutter">Sluiter</string>
+    <string name="camlib_shutter_sound">Sluitergeluid</string>
+    <string name="camlib_photo">Foto</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Volumeknoppen als sluiterknop gebruiken</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Foto\'s van camera voorop horizontaal spiegelen</string>
+    <string name="camlib_save_photo_metadata">EXIF-metadata in foto\'s opslaan</string>
+    <string name="camlib_photo_compression_quality">Kwaliteit foto\'s</string>
+    <string name="camlib_shutter">Sluiter</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

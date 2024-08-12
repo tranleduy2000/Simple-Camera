@@ -133,7 +133,7 @@ class CameraXPreview(
                 bindCameraUseCases()
                 setupCameraObservers()
             } catch (e: Exception) {
-                val errorMessage = if (switching) R.string.camera_switch_error else R.string.camera_open_error
+                val errorMessage = if (switching) R.string.camlib_camera_switch_error else R.string.camlib_camera_open_error
                 activity.toast(errorMessage)
             }
         }, mainExecutor)
@@ -459,7 +459,7 @@ class CameraXPreview(
 
     override fun tryTakePicture() {
         if (imageCapture == null) {
-            activity.toast(R.string.camera_open_error)
+            activity.toast(R.string.camlib_camera_open_error)
             return
         }
 
@@ -558,7 +558,7 @@ class CameraXPreview(
     @SuppressLint("MissingPermission", "NewApi")
     private fun startRecording() {
         if (videoCapture == null) {
-            activity.toast(R.string.camera_open_error)
+            activity.toast(R.string.camlib_camera_open_error)
             return
         }
 

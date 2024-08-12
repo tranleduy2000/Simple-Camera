@@ -85,7 +85,7 @@ fun Context.getPermissionString(id: Int) = when (id) {
 
 
 fun Context.showErrorToast(msg: String, length: Int = Toast.LENGTH_LONG) {
-    toast(String.format(getString(R.string.error), msg), length)
+    toast(String.format(getString(R.string.camlib_error), msg), length)
 }
 
 fun Context.showErrorToast(exception: Exception, length: Int = Toast.LENGTH_LONG) {

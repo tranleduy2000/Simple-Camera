@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Kamera</string>
-    <string name="capture_mode">Tagningsläge</string>
-    <string name="maximize_quality">Maximera kvalitet</string>
-    <string name="minimize_latency">Minimera fördröjning</string>
+
+    <string name="camlib_capture_mode">Tagningsläge</string>
+    <string name="camlib_maximize_quality">Maximera kvalitet</string>
+    <string name="camlib_minimize_latency">Minimera fördröjning</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Kameran är inte tillgänglig</string>
-    <string name="camera_open_error">Ett fel uppstod vid åtkomst till kameran</string>
-    <string name="save_error_internal_storage">Ett fel uppstod, sparmappen ändrades till det interna lagringsutrymmet</string>
-    <string name="camera_switch_error">Byte av kamera misslyckades</string>
-    <string name="photo_not_saved">Fotot kunde inte sparas</string>
-    <string name="video_recording_failed">Videoinspelningen misslyckades, prova med en annan upplösning</string>
-    <string name="camera_in_use_error">Kameran används av en annan app, stäng appen och försök igen</string>
-    <string name="camera_configure_error">Ett fel inträffade när kameran konfigurerades</string>
-    <string name="camera_disabled_by_admin_error">Kameran är inaktiverad av administratören</string>
-    <string name="camera_dnd_error">Läget Stör ej är aktiverat. Inaktivera det och försök igen</string>
-    <string name="photo_capture_failed">Det gick inte att ta bilder</string>
-    <string name="video_capture_insufficient_storage_error">Videoinspelningen misslyckades på grund av otillräckligt lagringsutrymme</string>
+    <string name="camlib_camera_unavailable">Kameran är inte tillgänglig</string>
+    <string name="camlib_camera_open_error">Ett fel uppstod vid åtkomst till kameran</string>
+    <string name="camlib_save_error_internal_storage">Ett fel uppstod, sparmappen ändrades till det interna lagringsutrymmet</string>
+    <string name="camlib_camera_switch_error">Byte av kamera misslyckades</string>
+    <string name="camlib_photo_not_saved">Fotot kunde inte sparas</string>
+    <string name="camlib_video_recording_failed">Videoinspelningen misslyckades, prova med en annan upplösning</string>
+    <string name="camlib_camera_in_use_error">Kameran används av en annan app, stäng appen och försök igen</string>
+    <string name="camlib_camera_configure_error">Ett fel inträffade när kameran konfigurerades</string>
+    <string name="camlib_camera_disabled_by_admin_error">Kameran är inaktiverad av administratören</string>
+    <string name="camlib_camera_dnd_error">Läget Stör ej är aktiverat. Inaktivera det och försök igen</string>
+    <string name="camlib_photo_capture_failed">Det gick inte att ta bilder</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Videoinspelningen misslyckades på grund av otillräckligt lagringsutrymme</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Visa senast sparade media</string>
-    <string name="toggle_camera">Växla mellan främre/bakre kamera</string>
-    <string name="toggle_flash">Växla mellan ficklampans lägen</string>
-    <string name="toggle_timer">Växla mellan timerlägena</string>
+    <string name="camlib_view_last_media">Visa senast sparade media</string>
+    <string name="camlib_toggle_camera">Växla mellan främre/bakre kamera</string>
+    <string name="camlib_toggle_flash">Växla mellan ficklampans lägen</string>
+    <string name="camlib_toggle_timer">Växla mellan timerlägena</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Slutarljud</string>
-    <string name="photo">Foto</string>
-    <string name="video">Video</string>
-    <string name="volume_buttons_as_shutter">Använd volymknapparna som slutare</string>
-    <string name="flip_front_camera_photos_horizontally">Vänd främre kamerans foton horisontellt</string>
-    <string name="save_photo_metadata">Spara fotonas Exif-metadata</string>
-    <string name="photo_compression_quality">Fotokomprimeringskvalitet</string>
-    <string name="shutter">Slutare</string>
+    <string name="camlib_shutter_sound">Slutarljud</string>
+    <string name="camlib_photo">Foto</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Använd volymknapparna som slutare</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Vänd främre kamerans foton horisontellt</string>
+    <string name="camlib_save_photo_metadata">Spara fotonas Exif-metadata</string>
+    <string name="camlib_photo_compression_quality">Fotokomprimeringskvalitet</string>
+    <string name="camlib_shutter">Slutare</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

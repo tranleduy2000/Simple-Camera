@@ -14,7 +14,7 @@
             android:id="@+id/settings_toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:title="@string/settings" />
+            app:title="@string/camlib_settings" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -53,7 +53,7 @@
                         style="@style/CamlibSettingsCheckboxStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/shutter_sound" />
+                        android:text="@string/camlib_shutter_sound" />
 
                 </RelativeLayout>
 
@@ -68,7 +68,7 @@
                         style="@style/CamlibSettingsCheckboxStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/volume_buttons_as_shutter" />
+                        android:text="@string/camlib_volume_buttons_as_shutter" />
 
                 </RelativeLayout>
             </LinearLayout>
@@ -90,7 +90,7 @@
                         style="@style/CamlibSettingsCheckboxStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/save_photo_metadata" />
+                        android:text="@string/camlib_save_photo_metadata" />
 
                 </RelativeLayout>
 
@@ -105,7 +105,7 @@
                         style="@style/CamlibSettingsCheckboxStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/flip_front_camera_photos_horizontally" />
+                        android:text="@string/camlib_flip_front_camera_photos_horizontally" />
 
                 </RelativeLayout>
 
@@ -124,7 +124,7 @@
                         style="@style/CamlibSettingsTextLabelStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/photo_compression_quality" />
+                        android:text="@string/camlib_photo_compression_quality" />
 
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/settings_photo_quality"
@@ -151,7 +151,7 @@
                         style="@style/CamlibSettingsTextLabelStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/capture_mode" />
+                        android:text="@string/camlib_capture_mode" />
 
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/settings_capture_mode"
@@ -159,7 +159,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/settings_capture_mode_label"
-                        tools:text="@string/minimize_latency" />
+                        tools:text="@string/camlib_minimize_latency" />
 
                 </RelativeLayout>
             </LinearLayout>

@@ -1,67 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">OK</string>
-    <string name="close">Закрыть</string>
-    <string name="back">Назад</string>
-    <string name="out_of_memory_error">Память переполнена</string>
-    <string name="error">Ошибка: %s</string>
-    <string name="open_with">Открыть в…</string>
-    <string name="no_app_found">Приложение не найдено</string>
+    <string name="camlib_ok">OK</string>
+    <string name="camlib_close">Закрыть</string>
+    <string name="camlib_back">Назад</string>
+    <string name="camlib_out_of_memory_error">Память переполнена</string>
+    <string name="camlib_error">Ошибка: %s</string>
+    <string name="camlib_open_with">Открыть в…</string>
+    <string name="camlib_no_app_found">Приложение не найдено</string>
     <!-- Events -->
     <!-- Emails -->
     <!-- Phone numbers -->
     <!-- View types -->
-    <plurals name="column_counts">
-        <item quantity="one">%d колонка</item>
-        <item quantity="few">%d колонки</item>
-        <item quantity="many">%d колонок</item>
-        <item quantity="other">%d колонок</item>
-    </plurals>
-    <plurals name="row_counts">
-        <item quantity="one">%d строка</item>
-        <item quantity="few">%d строки</item>
-        <item quantity="many">%d строк</item>
-        <item quantity="other">%d строк</item>
-    </plurals>
+
+
     <!-- Blocked numbers -->
     <!-- Favorites -->
     <!-- Search -->
     <!-- Filters -->
     <!-- Permissions -->
-    <string name="no_camera_permissions">Требуется разрешение для доступа к камере</string>
-    <string name="no_audio_permissions">Требуется разрешение для доступа аудиосистеме</string>
+    <string name="camlib_no_camera_permissions">Требуется разрешение для доступа к камере</string>
+    <string name="camlib_no_audio_permissions">Требуется разрешение для доступа аудиосистеме</string>
     <!-- Renaming -->
     <!-- Copy / Move -->
-    <string name="could_not_create_file">Невозможно создать файл \"%s\"</string>
+    <string name="camlib_could_not_create_file">Невозможно создать файл \"%s\"</string>
     <!-- Create new -->
-    <string name="unknown_error_occurred">Произошла неизвестная ошибка</string>
+    <string name="camlib_unknown_error_occurred">Произошла неизвестная ошибка</string>
     <!-- File operation conflicts -->
     <!-- File picker -->
-    <plurals name="items">
-        <item quantity="one">%d элемент</item>
-        <item quantity="few">%d элемента</item>
-        <item quantity="many">%d элементов</item>
-    </plurals>
+
     <!-- Are you sure you want to delete 5 items? -->
-    <plurals name="delete_items">
-        <item quantity="one">%d элемент</item>
-        <item quantity="few">%d элемента</item>
-        <item quantity="many">%d элементов</item>
-    </plurals>
-    <plurals name="deleting_items">
-        <item quantity="one">Удаление %d элемента</item>
-        <item quantity="few">Удаление %d элементов</item>
-        <item quantity="many">Удаление %d элементов</item>
-    </plurals>
+
+
     <!-- Are you sure you want to delete 5 contacts? -->
-    <plurals name="delete_contacts">
-        <item quantity="one">%d контакт</item>
-        <item quantity="few">%d контакта</item>
-        <item quantity="many">%d контактов</item>
-    </plurals>
+
     <!-- Storages -->
     <!-- File properties -->
-    <string name="resolution">Разрешение</string>
+    <string name="camlib_resolution">Разрешение</string>
     <!-- Color customization -->
     <!-- Themes -->
     <!-- What's new -->
@@ -70,170 +44,50 @@
     <!-- Confirmation dialog -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-    <plurals name="delete_warning">
-        <item quantity="one">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папку</item>
-        <item quantity="few">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папки</item>
-        <item quantity="many">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папок</item>
-    </plurals>
+
     <!-- Password protection -->
     <!-- Times -->
-    <plurals name="seconds">
-        <item quantity="one">%d секунда</item>
-        <item quantity="few">%d секунды</item>
-        <item quantity="many">%d секунд</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="one">%d минута</item>
-        <item quantity="few">%d минуты</item>
-        <item quantity="many">%d минут</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="one">%d час</item>
-        <item quantity="few">%d часа</item>
-        <item quantity="many">%d часов</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="one">%d день</item>
-        <item quantity="few">%d дня</item>
-        <item quantity="many">%d дней</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="one">%d неделя</item>
-        <item quantity="few">%d недели</item>
-        <item quantity="many">%d недель</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="one">%d месяц</item>
-        <item quantity="few">%d месяца</item>
-        <item quantity="many">%d месяцев</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="one">%d год</item>
-        <item quantity="few">%d года</item>
-        <item quantity="many">%d лет</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: I will be there in 5 minutes -->
-    <plurals name="in_seconds">
-        <item quantity="one">%d секунду</item>
-        <item quantity="few">%d секунды</item>
-        <item quantity="many">%d секунд</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="one">%d минуту</item>
-        <item quantity="few">%d минуты</item>
-        <item quantity="many">%d минут</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="one">%d час</item>
-        <item quantity="few">%d часа</item>
-        <item quantity="many">%d часов</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="one">%d день</item>
-        <item quantity="few">%d дня</item>
-        <item quantity="many">%d дней</item>
-    </plurals>
-    <plurals name="in_weeks">
-        <item quantity="one">%d неделю</item>
-        <item quantity="few">%d недели</item>
-        <item quantity="many">%d недель</item>
-    </plurals>
-    <plurals name="in_months">
-        <item quantity="one">%d месяц</item>
-        <item quantity="few">%d месяца</item>
-        <item quantity="many">%d месяцев</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="one">%d год</item>
-        <item quantity="few">%d года</item>
-        <item quantity="many">%d лет</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Event reminder: 3 minutes before -->
-    <plurals name="seconds_before">
-        <item quantity="one">%d секунда до события</item>
-        <item quantity="few">%d секунды до события</item>
-        <item quantity="many">%d секунд до события</item>
-    </plurals>
-    <plurals name="minutes_before">
-        <item quantity="one">%d минута до события</item>
-        <item quantity="few">%d минуты до события</item>
-        <item quantity="many">%d минут до события</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="one">%d час до события</item>
-        <item quantity="few">%d часа до события</item>
-        <item quantity="many">%d часов до события</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="one">%d день до события</item>
-        <item quantity="few">%d дня до события</item>
-        <item quantity="many">%d дней до события</item>
-    </plurals>
-    <plurals name="weeks_before">
-        <item quantity="one">%d неделя до события</item>
-        <item quantity="few">%d недели до события</item>
-        <item quantity="many">%d недель до события</item>
-    </plurals>
-    <plurals name="months_before">
-        <item quantity="one">%d месяц до события</item>
-        <item quantity="few">%d месяца до события</item>
-        <item quantity="many">%d месяцев до события</item>
-    </plurals>
-    <plurals name="years_before">
-        <item quantity="one">%d год до события</item>
-        <item quantity="few">%d года до события</item>
-        <item quantity="many">%d лет до события</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Postpone reminder by 3 minutes -->
-    <plurals name="by_seconds">
-        <item quantity="one">%d секунду</item>
-        <item quantity="few">%d секунды</item>
-        <item quantity="many">%d секунд</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="one">%d минуту</item>
-        <item quantity="few">%d минуты</item>
-        <item quantity="many">%d минут</item>
-    </plurals>
-    <plurals name="by_hours">
-        <item quantity="one">%d час</item>
-        <item quantity="few">%d часа</item>
-        <item quantity="many">%d часов</item>
-    </plurals>
-    <plurals name="by_days">
-        <item quantity="one">%d день</item>
-        <item quantity="few">%d дня</item>
-        <item quantity="many">%d дней</item>
-    </plurals>
-    <plurals name="by_weeks">
-        <item quantity="one">%d неделю</item>
-        <item quantity="few">%d недели</item>
-        <item quantity="many">%d недель</item>
-    </plurals>
-    <plurals name="by_months">
-        <item quantity="one">%d месяц</item>
-        <item quantity="few">%d месяца</item>
-        <item quantity="many">%d месяцев</item>
-    </plurals>
-    <plurals name="by_years">
-        <item quantity="one">%d год</item>
-        <item quantity="few">%d года</item>
-        <item quantity="many">%d лет</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
     <!-- Settings -->
-    <string name="settings">Настройки</string>
-    <string name="language">Язык</string>
+    <string name="camlib_settings">Настройки</string>
+    <string name="camlib_language">Язык</string>
     <!-- Setting sections -->
     <!-- Excluding -->
     <!-- Default tab to open -->
     <!-- Recycle Bin -->
-    <plurals name="moving_items_into_bin">
-        <item quantity="one">%d элемент перемещается в корзину</item>
-        <item quantity="few">%d элемента перемещаются в корзину</item>
-        <item quantity="many">%d элементов перемещаются в корзину</item>
-    </plurals>
+
     <!-- Import / Export -->
     <!-- OTG devices -->
     <!-- Dates -->
@@ -241,7 +95,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
-    <string name="other">Другое</string>
+    <string name="camlib_other">Другое</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- Contributors -->
@@ -254,12 +108,7 @@
     <!-- Draw Pro -->
     <!-- License -->
     <!-- Trial -->
-    <plurals name="trial_expires_days">
-        <item quantity="one">Пробный период истекает через %d день.</item>
-        <item quantity="few">Пробный период истекает через %d дня.</item>
-        <item quantity="many">Пробный период истекает через %d дней.</item>
-        <item quantity="other">Пробный период истекает через %d дней.</item>
-    </plurals>
+
     <!-- Google Play listing -->
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>

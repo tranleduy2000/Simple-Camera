@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Cameră</string>
-    <string name="capture_mode">Capture mode</string>
-    <string name="maximize_quality">Maximize quality</string>
-    <string name="minimize_latency">Minimize latency</string>
+
+    <string name="camlib_capture_mode">Capture mode</string>
+    <string name="camlib_maximize_quality">Maximize quality</string>
+    <string name="camlib_minimize_latency">Minimize latency</string>
     <!-- Errors -->
-    <string name="camera_unavailable">Cameră indisponibilă</string>
-    <string name="camera_open_error">A apărut o eroare la accesarea camerei</string>
-    <string name="save_error_internal_storage">A apărut o eroare, folderul de salvare a fost schimbat în memoria internă</string>
-    <string name="camera_switch_error">Schimbarea camerei a eșuat</string>
-    <string name="photo_not_saved">Fotografia nu a putut fi salvată</string>
-    <string name="video_recording_failed">Înregistrarea video a eșuat, încercați să utilizați o rezoluție diferită</string>
-    <string name="camera_in_use_error">Camera este utilizată de o altă aplicație, vă rugăm să închideți aplicația și să încercați din nou</string>
-    <string name="camera_configure_error">A apărut o eroare în timpul configurării camerei</string>
-    <string name="camera_disabled_by_admin_error">Camera este dezactivată de către administrator</string>
-    <string name="camera_dnd_error">Modul Nu deranjați este activat. Vă rugăm să-l dezactivați și să încercați din nou</string>
-    <string name="photo_capture_failed">Captură foto eșuată</string>
-    <string name="video_capture_insufficient_storage_error">Înregistrarea video a eșuat din cauza stocării insuficiente</string>
+    <string name="camlib_camera_unavailable">Cameră indisponibilă</string>
+    <string name="camlib_camera_open_error">A apărut o eroare la accesarea camerei</string>
+    <string name="camlib_save_error_internal_storage">A apărut o eroare, folderul de salvare a fost schimbat în memoria internă</string>
+    <string name="camlib_camera_switch_error">Schimbarea camerei a eșuat</string>
+    <string name="camlib_photo_not_saved">Fotografia nu a putut fi salvată</string>
+    <string name="camlib_video_recording_failed">Înregistrarea video a eșuat, încercați să utilizați o rezoluție diferită</string>
+    <string name="camlib_camera_in_use_error">Camera este utilizată de o altă aplicație, vă rugăm să închideți aplicația și să încercați din nou</string>
+    <string name="camlib_camera_configure_error">A apărut o eroare în timpul configurării camerei</string>
+    <string name="camlib_camera_disabled_by_admin_error">Camera este dezactivată de către administrator</string>
+    <string name="camlib_camera_dnd_error">Modul Nu deranjați este activat. Vă rugăm să-l dezactivați și să încercați din nou</string>
+    <string name="camlib_photo_capture_failed">Captură foto eșuată</string>
+    <string name="camlib_video_capture_insufficient_storage_error">Înregistrarea video a eșuat din cauza stocării insuficiente</string>
     <!-- Camera Screen Icons Content Description -->
-    <string name="view_last_media">Vizualizați ultimul suport media capturat</string>
-    <string name="toggle_camera">Comutarea camerei față/spate</string>
-    <string name="toggle_flash">Comutatarea modului lanternă</string>
-    <string name="toggle_timer">Toggle the timer mode</string>
+    <string name="camlib_view_last_media">Vizualizați ultimul suport media capturat</string>
+    <string name="camlib_toggle_camera">Comutarea camerei față/spate</string>
+    <string name="camlib_toggle_flash">Comutatarea modului lanternă</string>
+    <string name="camlib_toggle_timer">Toggle the timer mode</string>
     <!-- FAQ -->
     <!-- Settings -->
-    <string name="shutter_sound">Sunetul de declanșare</string>
-    <string name="photo">Foto</string>
-    <string name="video">Video</string>
-    <string name="volume_buttons_as_shutter">Utilizați butoanele de volum ca declanșator</string>
-    <string name="flip_front_camera_photos_horizontally">Întoarceți fotografiile cu camera frontală pe orizontală</string>
-    <string name="save_photo_metadata">Salvați metadatele exif ale fotografiilor</string>
-    <string name="photo_compression_quality">Calitatea comprimării fotografiilor</string>
-    <string name="shutter">Declanșator</string>
+    <string name="camlib_shutter_sound">Sunetul de declanșare</string>
+    <string name="camlib_photo">Foto</string>
+    <string name="camlib_video">Video</string>
+    <string name="camlib_volume_buttons_as_shutter">Utilizați butoanele de volum ca declanșator</string>
+    <string name="camlib_flip_front_camera_photos_horizontally">Întoarceți fotografiile cu camera frontală pe orizontală</string>
+    <string name="camlib_save_photo_metadata">Salvați metadatele exif ale fotografiilor</string>
+    <string name="camlib_photo_compression_quality">Calitatea comprimării fotografiilor</string>
+    <string name="camlib_shutter">Declanșator</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

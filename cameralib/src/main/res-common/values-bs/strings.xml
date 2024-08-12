@@ -1,64 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">U redu</string>
-    <string name="close">Zatvori</string>
-    <string name="back">Nazad</string>
-    <string name="out_of_memory_error">Greška, nema slobodnog prostora</string>
-    <string name="error">Greška: %s</string>
-    <string name="open_with">Otvori sa</string>
-    <string name="no_app_found">Nema odgovarajuće aplikacije</string>
+    <string name="camlib_ok">U redu</string>
+    <string name="camlib_close">Zatvori</string>
+    <string name="camlib_back">Nazad</string>
+    <string name="camlib_out_of_memory_error">Greška, nema slobodnog prostora</string>
+    <string name="camlib_error">Greška: %s</string>
+    <string name="camlib_open_with">Otvori sa</string>
+    <string name="camlib_no_app_found">Nema odgovarajuće aplikacije</string>
     <!-- Events -->
     <!-- Emails -->
     <!-- Phone numbers -->
     <!-- View types -->
-    <plurals name="column_counts">
-        <item quantity="one">%d kolona</item>
-        <item quantity="few">%d kolona</item>
-        <item quantity="other">%d kolona</item>
-    </plurals>
-    <plurals name="row_counts">
-        <item quantity="one">%d red</item>
-        <item quantity="other">%d redova</item>
-    </plurals>
+
+
     <!-- Blocked numbers -->
     <!-- Favorites -->
     <!-- Search -->
     <!-- Filters -->
     <!-- Permissions -->
-    <string name="no_camera_permissions">Potrebno je dopuštenje za kameru</string>
-    <string name="no_audio_permissions">Potrebno je dopuštenje za zvuk</string>
+    <string name="camlib_no_camera_permissions">Potrebno je dopuštenje za kameru</string>
+    <string name="camlib_no_audio_permissions">Potrebno je dopuštenje za zvuk</string>
     <!-- Renaming -->
     <!-- Copy / Move -->
-    <string name="could_not_create_file">Nije moguće stvoriti datoteku %s</string>
+    <string name="camlib_could_not_create_file">Nije moguće stvoriti datoteku %s</string>
     <!-- Create new -->
-    <string name="unknown_error_occurred">Nepoznata greška se dogodila</string>
+    <string name="camlib_unknown_error_occurred">Nepoznata greška se dogodila</string>
     <!-- File operation conflicts -->
     <!-- File picker -->
-    <plurals name="items">
-        <item quantity="one">%d stavka</item>
-        <item quantity="few">%d stavke</item>
-        <item quantity="other">%d stavki</item>
-    </plurals>
+
     <!-- Are you sure you want to delete 5 items? -->
-    <plurals name="delete_items">
-        <item quantity="one">%d stavka</item>
-        <item quantity="few">%d stavke</item>
-        <item quantity="other">%d stavki</item>
-    </plurals>
-    <plurals name="deleting_items">
-        <item quantity="one">Brisanje %d stavke</item>
-        <item quantity="few">Brisanje %d stavki</item>
-        <item quantity="other">Brisanje %d stavki</item>
-    </plurals>
+
+
     <!-- Are you sure you want to delete 5 contacts? -->
-    <plurals name="delete_contacts">
-        <item quantity="one">%d kontakt</item>
-        <item quantity="few">%d kontakta</item>
-        <item quantity="other">%d kontakta</item>
-    </plurals>
+
     <!-- Storages -->
     <!-- File properties -->
-    <string name="resolution">Rezolucija</string>
+    <string name="camlib_resolution">Rezolucija</string>
     <!-- Color customization -->
     <!-- Themes -->
     <!-- What's new -->
@@ -67,170 +44,50 @@
     <!-- Confirmation dialog -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-    <plurals name="delete_warning">
-        <item quantity="one">UPOZORENJE: Brišeš %d mapu</item>
-        <item quantity="few">UPOZORENJE: Brišeš %d mape</item>
-        <item quantity="other">UPOZORENJE: Brišeš %d mapa</item>
-    </plurals>
+
     <!-- Password protection -->
     <!-- Times -->
-    <plurals name="seconds">
-        <item quantity="one">%d sekunda</item>
-        <item quantity="few">%d sekunde</item>
-        <item quantity="other">%d sekundi</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="one">%d minuta</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="other">%d minuta</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="one">%d sat</item>
-        <item quantity="few">%d sata</item>
-        <item quantity="other">%d sati</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="one">%d dan</item>
-        <item quantity="few">%d dana</item>
-        <item quantity="other">%d dana</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="one">%d sedmica</item>
-        <item quantity="few">%d sedmice</item>
-        <item quantity="other">%d sedmica</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="one">%d mjesec</item>
-        <item quantity="few">%d mjeseca</item>
-        <item quantity="other">%d mjeseci</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="one">%d godina</item>
-        <item quantity="few">%d godine</item>
-        <item quantity="other">%d godina</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: I will be there in 5 minutes -->
-    <plurals name="in_seconds">
-        <item quantity="one">%d sekundu</item>
-        <item quantity="few">%d sekunde</item>
-        <item quantity="other">%d sekundi</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="one">%d minutu</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="other">%d minuta</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="one">%d sat</item>
-        <item quantity="few">%d sata</item>
-        <item quantity="other">%d sati</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="one">%d dan</item>
-        <item quantity="few">%d dana</item>
-        <item quantity="other">%d dana</item>
-    </plurals>
-    <plurals name="in_weeks">
-        <item quantity="one">%d sedmicu</item>
-        <item quantity="few">%d sedmice</item>
-        <item quantity="other">%d sedmica</item>
-    </plurals>
-    <plurals name="in_months">
-        <item quantity="one">%d mjesec</item>
-        <item quantity="few">%d mjeseca</item>
-        <item quantity="other">%d mjeseci</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="one">%d godinu</item>
-        <item quantity="few">%d godine</item>
-        <item quantity="other">%d godina</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Event reminder: 3 minutes before -->
-    <plurals name="seconds_before">
-        <item quantity="one">%d sekunda prije</item>
-        <item quantity="few">%d sekunde prije</item>
-        <item quantity="other">%d sekundi prije</item>
-    </plurals>
-    <plurals name="minutes_before">
-        <item quantity="one">%d minuta prije</item>
-        <item quantity="few">%d minute prije</item>
-        <item quantity="other">%d minuta prije</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="one">%d sat prije</item>
-        <item quantity="few">%d sata prije</item>
-        <item quantity="other">%d sati prije</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="one">%d dan prije</item>
-        <item quantity="few">%d dana prije</item>
-        <item quantity="other">%d dana prije</item>
-    </plurals>
-    <plurals name="weeks_before">
-        <item quantity="one">%d sedmica prije</item>
-        <item quantity="few">%d sedmice prije</item>
-        <item quantity="other">%d sedmica prije</item>
-    </plurals>
-    <plurals name="months_before">
-        <item quantity="one">%d mjesec prije</item>
-        <item quantity="few">%d mjeseca prije</item>
-        <item quantity="other">%d mjeseci prije</item>
-    </plurals>
-    <plurals name="years_before">
-        <item quantity="one">%d godina prije</item>
-        <item quantity="few">%d godine prije</item>
-        <item quantity="other">%d godina prije</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Postpone reminder by 3 minutes -->
-    <plurals name="by_seconds">
-        <item quantity="one">%d sekundu</item>
-        <item quantity="few">%d sekunde</item>
-        <item quantity="other">%d sekundi</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="one">%d minuta</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="other">%d minuta</item>
-    </plurals>
-    <plurals name="by_hours">
-        <item quantity="one">%d sat</item>
-        <item quantity="few">%d sata</item>
-        <item quantity="other">%d sati</item>
-    </plurals>
-    <plurals name="by_days">
-        <item quantity="one">%d dan</item>
-        <item quantity="few">%d dana</item>
-        <item quantity="other">%d dana</item>
-    </plurals>
-    <plurals name="by_weeks">
-        <item quantity="one">%d sedmicu</item>
-        <item quantity="few">%d sedmice</item>
-        <item quantity="other">%d sedmica</item>
-    </plurals>
-    <plurals name="by_months">
-        <item quantity="one">%d mjesec</item>
-        <item quantity="few">%d mjeseca</item>
-        <item quantity="other">%d mjeseci</item>
-    </plurals>
-    <plurals name="by_years">
-        <item quantity="one">%d godina</item>
-        <item quantity="few">%d godine</item>
-        <item quantity="other">%d godina</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
     <!-- Settings -->
-    <string name="settings">Postavke</string>
-    <string name="language">Jezik</string>
+    <string name="camlib_settings">Postavke</string>
+    <string name="camlib_language">Jezik</string>
     <!-- Setting sections -->
     <!-- Excluding -->
     <!-- Default tab to open -->
     <!-- Recycle Bin -->
-    <plurals name="moving_items_into_bin">
-        <item quantity="one">%d stavka se premješta u koš za smeće</item>
-        <item quantity="few">%d stavke se premještaju u koš za smeće</item>
-        <item quantity="other">%d stavki se premještaju u koš za smeće</item>
-    </plurals>
+
     <!-- Import / Export -->
     <!-- OTG devices -->
     <!-- Dates -->
@@ -238,7 +95,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
-    <string name="other">Ostalo</string>
+    <string name="camlib_other">Ostalo</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- Contributors -->
@@ -251,11 +108,7 @@
     <!-- Draw Pro -->
     <!-- License -->
     <!-- Trial -->
-    <plurals name="trial_expires_days">
-        <item quantity="one">Tvoj probni period ističe za %d dan.</item>
-        <item quantity="few">Tvoj probni period ističe za %d dana.</item>
-        <item quantity="other">Tvoj probni period ističe za %d dana.</item>
-    </plurals>
+
     <!-- Google Play listing -->
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>

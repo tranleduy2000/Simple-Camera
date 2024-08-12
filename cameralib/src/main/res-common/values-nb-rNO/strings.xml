@@ -1,59 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">OK</string>
-    <string name="close">Lukk</string>
-    <string name="back">Tilbake</string>
-    <string name="out_of_memory_error">Feil: Tomt for minne</string>
-    <string name="error">Error: %s</string>
-    <string name="open_with">Åpne med</string>
-    <string name="no_app_found">Ingen gyldig app funnet</string>
+    <string name="camlib_ok">OK</string>
+    <string name="camlib_close">Lukk</string>
+    <string name="camlib_back">Tilbake</string>
+    <string name="camlib_out_of_memory_error">Feil: Tomt for minne</string>
+    <string name="camlib_error">Error: %s</string>
+    <string name="camlib_open_with">Åpne med</string>
+    <string name="camlib_no_app_found">Ingen gyldig app funnet</string>
     <!-- Events -->
     <!-- Emails -->
     <!-- Phone numbers -->
     <!-- View types -->
-    <plurals name="column_counts">
-        <item quantity="one">%d column</item>
-        <item quantity="other">%d columns</item>
-    </plurals>
-    <plurals name="row_counts">
-        <item quantity="one">%d row</item>
-        <item quantity="other">%d rows</item>
-    </plurals>
+
+
     <!-- Blocked numbers -->
     <!-- Favorites -->
     <!-- Search -->
     <!-- Filters -->
     <!-- Permissions -->
-    <string name="no_camera_permissions">Tillatelse for kamera kreves</string>
-    <string name="no_audio_permissions">Tillatelse for lyd kreves</string>
+    <string name="camlib_no_camera_permissions">Tillatelse for kamera kreves</string>
+    <string name="camlib_no_audio_permissions">Tillatelse for lyd kreves</string>
     <!-- Renaming -->
     <!-- Copy / Move -->
-    <string name="could_not_create_file">Kunne ikke opprette filen %s</string>
+    <string name="camlib_could_not_create_file">Kunne ikke opprette filen %s</string>
     <!-- Create new -->
-    <string name="unknown_error_occurred">En ukjent feil oppstod</string>
+    <string name="camlib_unknown_error_occurred">En ukjent feil oppstod</string>
     <!-- File operation conflicts -->
     <!-- File picker -->
-    <plurals name="items">
-        <item quantity="one">%d element</item>
-        <item quantity="other">%d elementer</item>
-    </plurals>
+
     <!-- Are you sure you want to delete 5 items? -->
-    <plurals name="delete_items">
-        <item quantity="one">%d element</item>
-        <item quantity="other">%d elementer</item>
-    </plurals>
-    <plurals name="deleting_items">
-        <item quantity="one">Sletter %d element</item>
-        <item quantity="other">Sletter %d elementer</item>
-    </plurals>
+
+
     <!-- Are you sure you want to delete 5 contacts? -->
-    <plurals name="delete_contacts">
-        <item quantity="one">%d contact</item>
-        <item quantity="other">%d contacts</item>
-    </plurals>
+
     <!-- Storages -->
     <!-- File properties -->
-    <string name="resolution">Oppløsning</string>
+    <string name="camlib_resolution">Oppløsning</string>
     <!-- Color customization -->
     <!-- Themes -->
     <!-- What's new -->
@@ -62,140 +44,50 @@
     <!-- Confirmation dialog -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-    <plurals name="delete_warning">
-        <item quantity="one">ADVARSEL: Du sletter %d mappe</item>
-        <item quantity="other">ADVARSEL: Du sletter %d mapper</item>
-    </plurals>
+
     <!-- Password protection -->
     <!-- Times -->
-    <plurals name="seconds">
-        <item quantity="one">%d sekund</item>
-        <item quantity="other">%d sekunder</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="one">%d minutt</item>
-        <item quantity="other">%d minutter</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="one">%d time</item>
-        <item quantity="other">%d timer</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="one">%d dag</item>
-        <item quantity="other">%d dager</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="one">%d uke</item>
-        <item quantity="other">%d uker</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="one">%d måned</item>
-        <item quantity="other">%d måneder</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="one">%d år</item>
-        <item quantity="other">%d år</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: I will be there in 5 minutes -->
-    <plurals name="in_seconds">
-        <item quantity="one">%d sekund</item>
-        <item quantity="other">%d sekunder</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="one">%d minutt</item>
-        <item quantity="other">%d minutter</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="one">%d time</item>
-        <item quantity="other">%d timer</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="one">%d dag</item>
-        <item quantity="other">%d dager</item>
-    </plurals>
-    <plurals name="in_weeks">
-        <item quantity="one">%d uke</item>
-        <item quantity="other">%d uker</item>
-    </plurals>
-    <plurals name="in_months">
-        <item quantity="one">%d måned</item>
-        <item quantity="other">%d måneder</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="one">%d år</item>
-        <item quantity="other">%d år</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Event reminder: 3 minutes before -->
-    <plurals name="seconds_before">
-        <item quantity="one">%d sekund før</item>
-        <item quantity="other">%d sekunder før</item>
-    </plurals>
-    <plurals name="minutes_before">
-        <item quantity="one">%d minutt før</item>
-        <item quantity="other">%d minutter før</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="one">%d time før</item>
-        <item quantity="other">%d timer før</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="one">%d dag før</item>
-        <item quantity="other">%d dager før</item>
-    </plurals>
-    <plurals name="weeks_before">
-        <item quantity="one">%d uke før</item>
-        <item quantity="other">%d uker før</item>
-    </plurals>
-    <plurals name="months_before">
-        <item quantity="one">%d måned før</item>
-        <item quantity="other">%d måneder før</item>
-    </plurals>
-    <plurals name="years_before">
-        <item quantity="one">%d år før</item>
-        <item quantity="other">%d år før</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Postpone reminder by 3 minutes -->
-    <plurals name="by_seconds">
-        <item quantity="one">%d sekund</item>
-        <item quantity="other">%d sekunder</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="one">%d minutt</item>
-        <item quantity="other">%d minutter</item>
-    </plurals>
-    <plurals name="by_hours">
-        <item quantity="one">%d time</item>
-        <item quantity="other">%d timer</item>
-    </plurals>
-    <plurals name="by_days">
-        <item quantity="one">%d dag</item>
-        <item quantity="other">%d dager</item>
-    </plurals>
-    <plurals name="by_weeks">
-        <item quantity="one">%d uke</item>
-        <item quantity="other">%d uker</item>
-    </plurals>
-    <plurals name="by_months">
-        <item quantity="one">%d måned</item>
-        <item quantity="other">%d måneder</item>
-    </plurals>
-    <plurals name="by_years">
-        <item quantity="one">%d år</item>
-        <item quantity="other">%d år</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
     <!-- Settings -->
-    <string name="settings">Innstillinger</string>
-    <string name="language">Language</string>
+    <string name="camlib_settings">Innstillinger</string>
+    <string name="camlib_language">Language</string>
     <!-- Setting sections -->
     <!-- Excluding -->
     <!-- Default tab to open -->
     <!-- Recycle Bin -->
-    <plurals name="moving_items_into_bin">
-        <item quantity="one">Flytter %d element til papirkurven</item>
-        <item quantity="other">Flytter %d elementer til papirkurven</item>
-    </plurals>
+
     <!-- Import / Export -->
     <!-- OTG devices -->
     <!-- Dates -->
@@ -203,7 +95,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
-    <string name="other">Annet</string>
+    <string name="camlib_other">Annet</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- Contributors -->
@@ -216,10 +108,7 @@
     <!-- Draw Pro -->
     <!-- License -->
     <!-- Trial -->
-    <plurals name="trial_expires_days">
-        <item quantity="one">Your trial expires in %d day.</item>
-        <item quantity="other">Your trial expires in %d days.</item>
-    </plurals>
+
     <!-- Google Play listing -->
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>

@@ -1,59 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">تایید</string>
-    <string name="close">بستن</string>
-    <string name="back">بازگشت</string>
-    <string name="out_of_memory_error">خطای خروج از حافظه</string>
-    <string name="error">Error: %s</string>
-    <string name="open_with">بازکردن با</string>
-    <string name="no_app_found">برنامهٔ معتبری پیدا نشد</string>
+    <string name="camlib_ok">تایید</string>
+    <string name="camlib_close">بستن</string>
+    <string name="camlib_back">بازگشت</string>
+    <string name="camlib_out_of_memory_error">خطای خروج از حافظه</string>
+    <string name="camlib_error">Error: %s</string>
+    <string name="camlib_open_with">بازکردن با</string>
+    <string name="camlib_no_app_found">برنامهٔ معتبری پیدا نشد</string>
     <!-- Events -->
     <!-- Emails -->
     <!-- Phone numbers -->
     <!-- View types -->
-    <plurals name="column_counts">
-        <item quantity="one">%d column</item>
-        <item quantity="other">%d columns</item>
-    </plurals>
-    <plurals name="row_counts">
-        <item quantity="one">%d row</item>
-        <item quantity="other">%d rows</item>
-    </plurals>
+
+
     <!-- Blocked numbers -->
     <!-- Favorites -->
     <!-- Search -->
     <!-- Filters -->
     <!-- Permissions -->
-    <string name="no_camera_permissions">مجوز دوربین مورد نیاز است</string>
-    <string name="no_audio_permissions">مجوز صدا مورد نیاز است</string>
+    <string name="camlib_no_camera_permissions">مجوز دوربین مورد نیاز است</string>
+    <string name="camlib_no_audio_permissions">مجوز صدا مورد نیاز است</string>
     <!-- Renaming -->
     <!-- Copy / Move -->
-    <string name="could_not_create_file">Could not create file %s</string>
+    <string name="camlib_could_not_create_file">Could not create file %s</string>
     <!-- Create new -->
-    <string name="unknown_error_occurred">An unknown error occurred</string>
+    <string name="camlib_unknown_error_occurred">An unknown error occurred</string>
     <!-- File operation conflicts -->
     <!-- File picker -->
-    <plurals name="items">
-        <item quantity="one">%d مورد</item>
-        <item quantity="other">%d مورد</item>
-    </plurals>
+
     <!-- Are you sure you want to delete 5 items? -->
-    <plurals name="delete_items">
-        <item quantity="one">%d مورد</item>
-        <item quantity="other">%d مورد</item>
-    </plurals>
-    <plurals name="deleting_items">
-        <item quantity="one">درحال حذف %d مورد</item>
-        <item quantity="other">درحال حذف %d مورد</item>
-    </plurals>
+
+
     <!-- Are you sure you want to delete 5 contacts? -->
-    <plurals name="delete_contacts">
-        <item quantity="one">%d مخاطب</item>
-        <item quantity="other">%d مخاطب</item>
-    </plurals>
+
     <!-- Storages -->
     <!-- File properties -->
-    <string name="resolution">وضوح</string>
+    <string name="camlib_resolution">وضوح</string>
     <!-- Color customization -->
     <!-- Themes -->
     <!-- What's new -->
@@ -62,140 +44,50 @@
     <!-- Confirmation dialog -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-    <plurals name="delete_warning">
-        <item quantity="one">WARNING: You are deleting %d folder</item>
-        <item quantity="other">WARNING: You are deleting %d folders</item>
-    </plurals>
+
     <!-- Password protection -->
     <!-- Times -->
-    <plurals name="seconds">
-        <item quantity="one">%d ثانیه</item>
-        <item quantity="other">%d ثانیه</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="one">%d دقیقه</item>
-        <item quantity="other">%d دقیقه</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="one">%d ساعت</item>
-        <item quantity="other">%d ساعت</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="one">%d روز</item>
-        <item quantity="other">%d روز</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="one">%d هفته</item>
-        <item quantity="other">%d هفته</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="one">%d ماه</item>
-        <item quantity="other">%d ماه</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="one">%d سال</item>
-        <item quantity="other">%d سال</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: I will be there in 5 minutes -->
-    <plurals name="in_seconds">
-        <item quantity="one">%d ثانیه</item>
-        <item quantity="other">%d ثانیه</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="one">%d دقیقه</item>
-        <item quantity="other">%d دقیقه</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="one">%d ساعت</item>
-        <item quantity="other">%d ساعت</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="one">%d روز</item>
-        <item quantity="other">%d روز</item>
-    </plurals>
-    <plurals name="in_weeks">
-        <item quantity="one">%d هفته</item>
-        <item quantity="other">%d هفته</item>
-    </plurals>
-    <plurals name="in_months">
-        <item quantity="one">%d ماه</item>
-        <item quantity="other">%d ماه</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="one">%d سال</item>
-        <item quantity="other">%d سال</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Event reminder: 3 minutes before -->
-    <plurals name="seconds_before">
-        <item quantity="one">%d ثانیه پیش</item>
-        <item quantity="other">%d ثانیه پیش</item>
-    </plurals>
-    <plurals name="minutes_before">
-        <item quantity="one">%d دقیقه پیش</item>
-        <item quantity="other">%d دقیقه پیش</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="one">%d ساعت پیش</item>
-        <item quantity="other">%d ساعت پیش</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="one">%d روز پیش</item>
-        <item quantity="other">%d روز پیش</item>
-    </plurals>
-    <plurals name="weeks_before">
-        <item quantity="one">%d هفته پیش</item>
-        <item quantity="other">%d هفته پیش</item>
-    </plurals>
-    <plurals name="months_before">
-        <item quantity="one">%d ماه پیش</item>
-        <item quantity="other">%d ماه پیش</item>
-    </plurals>
-    <plurals name="years_before">
-        <item quantity="one">%d سال پیش</item>
-        <item quantity="other">%d سال پیش</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Postpone reminder by 3 minutes -->
-    <plurals name="by_seconds">
-        <item quantity="one">%d ثانیه</item>
-        <item quantity="other">%d ثانیه</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="one">%d دقیقه</item>
-        <item quantity="other">%d دقیقه</item>
-    </plurals>
-    <plurals name="by_hours">
-        <item quantity="one">%d ساعت</item>
-        <item quantity="other">%d ساعت</item>
-    </plurals>
-    <plurals name="by_days">
-        <item quantity="one">%d روز</item>
-        <item quantity="other">%d روز</item>
-    </plurals>
-    <plurals name="by_weeks">
-        <item quantity="one">%d هفته</item>
-        <item quantity="other">%d هفته</item>
-    </plurals>
-    <plurals name="by_months">
-        <item quantity="one">%d ماه</item>
-        <item quantity="other">%d ماه</item>
-    </plurals>
-    <plurals name="by_years">
-        <item quantity="one">%d سال</item>
-        <item quantity="other">%d سال</item>
-    </plurals>
+
+
+
+
+
+
+
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
     <!-- Settings -->
-    <string name="settings">تنظیمات</string>
-    <string name="language">Language</string>
+    <string name="camlib_settings">تنظیمات</string>
+    <string name="camlib_language">Language</string>
     <!-- Setting sections -->
     <!-- Excluding -->
     <!-- Default tab to open -->
     <!-- Recycle Bin -->
-    <plurals name="moving_items_into_bin">
-        <item quantity="one">Moving %d item into the Recycle Bin</item>
-        <item quantity="other">Moving %d items into the Recycle Bin</item>
-    </plurals>
+
     <!-- Import / Export -->
     <!-- OTG devices -->
     <!-- Dates -->
@@ -203,7 +95,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
-    <string name="other">سایر</string>
+    <string name="camlib_other">سایر</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- Contributors -->
@@ -216,10 +108,7 @@
     <!-- Draw Pro -->
     <!-- License -->
     <!-- Trial -->
-    <plurals name="trial_expires_days">
-        <item quantity="one">Your trial expires in %d day.</item>
-        <item quantity="other">Your trial expires in %d days.</item>
-    </plurals>
+
     <!-- Google Play listing -->
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
 </resources>
