@@ -39,7 +39,6 @@ class CameraXInitializer(private val activity: AppCompatActivity) {
             activity,
             cameraErrorHandler,
             outputUri,
-            isThirdPartyIntent,
         )
     }
 

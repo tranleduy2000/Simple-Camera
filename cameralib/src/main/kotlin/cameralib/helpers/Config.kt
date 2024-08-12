@@ -1,27 +1,14 @@
 package cameralib.helpers
 
 import android.content.Context
-import android.os.Environment
 import androidx.camera.core.CameraSelector
 import cameralib.models.CaptureMode
 import cameralib.models.TimerMode
-import java.io.File
 
 class Config(context: Context) : BaseConfig(context) {
     companion object {
         fun newInstance(context: Context) = Config(context)
     }
-
-    var savePhotosFolder: String
-        get(): String {
-            var path: String? = prefs.getString(SAVE_PHOTOS, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString())
-            if (!File(path).exists() || !File(path).isDirectory) {
-                path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString()
-                savePhotosFolder = path
-            }
-            return path!!
-        }
-        set(path) = prefs.edit().putString(SAVE_PHOTOS, path).apply()
 
     var isSoundEnabled: Boolean
         get() = prefs.getBoolean(SOUND, true)

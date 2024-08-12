@@ -34,23 +34,6 @@ import java.util.Locale
 
 val Context.config: Config get() = Config.newInstance(applicationContext)
 
-fun Context.getOutputMediaFilePath(isPhoto: Boolean): String {
-    val mediaStorageDir = File(config.savePhotosFolder)
-
-    if (!mediaStorageDir.exists()) {
-        if (!mediaStorageDir.mkdirs()) {
-            return ""
-        }
-    }
-
-    val mediaName = getRandomMediaName(isPhoto)
-    return if (isPhoto) {
-        "${mediaStorageDir.path}/$mediaName.jpg"
-    } else {
-        "${mediaStorageDir.path}/$mediaName.mp4"
-    }
-}
-
 fun Context.getOutputMediaFileName(isPhoto: Boolean): String {
     val mediaName = getRandomMediaName(isPhoto)
     return if (isPhoto) {
