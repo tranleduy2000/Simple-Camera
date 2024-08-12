@@ -5,13 +5,16 @@ import android.net.Uri
 import android.os.Environment
 import android.provider.MediaStore
 import androidx.appcompat.app.AppCompatActivity
+import cameralib.extensions.getOutputMediaFilePath
 import cameralib.extensions.getRandomMediaName
 import cameralib.models.MediaOutput
+import java.io.File
 
 class MediaOutputHelper(
     private val activity: AppCompatActivity,
     private val errorHandler: CameraErrorHandler,
-    private val outputUri: Uri?
+    private val outputUri: Uri?,
+    private val outputFolder: File?
 ) {
 
     companion object {
@@ -22,7 +25,7 @@ class MediaOutputHelper(
 
     fun getImageMediaOutput(): MediaOutput.ImageCaptureOutput {
         return try {
-            getMediaStoreOutput(isPhoto = true)
+            getFileMediaOutput(isPhoto = true) ?: getMediaStoreOutput(isPhoto = true)
         } catch (e: Exception) {
             errorHandler.showSaveToInternalStorage()
             getMediaStoreOutput(isPhoto = true)
@@ -31,15 +34,25 @@ class MediaOutputHelper(
 
     fun getVideoMediaOutput(): MediaOutput.VideoCaptureOutput {
         return try {
-            if (isOreoPlus()) {
-                getMediaStoreOutput(isPhoto = false)
-            } else {
-                getMediaStoreOutput(isPhoto = false)
-            }
+            getFileMediaOutput(isPhoto = false) ?: getMediaStoreOutput(isPhoto = false)
         } catch (e: Exception) {
             errorHandler.showSaveToInternalStorage()
             getMediaStoreOutput(isPhoto = false)
         }
+    }
+
+    private fun getFileMediaOutput(isPhoto: Boolean): MediaOutput.FileMediaOutput? {
+        val outputFolder = outputFolder ?: return null;
+        var mediaOutput: MediaOutput.FileMediaOutput? = null
+        val canWrite = outputFolder.canWrite();
+        if (canWrite) {
+            val path = activity.getOutputMediaFilePath(outputFolder, isPhoto)
+            val uri = getUriForFilePath(path)
+            if (uri != null) {
+                mediaOutput = MediaOutput.FileMediaOutput(File(path), uri)
+            }
+        }
+        return mediaOutput
     }
 
     private fun getMediaStoreOutput(isPhoto: Boolean): MediaOutput.MediaStoreOutput {
@@ -63,6 +76,12 @@ class MediaOutputHelper(
                 put(MediaStore.MediaColumns.DATA, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString())
             }
         }
+    }
+
+
+    private fun getUriForFilePath(path: String): Uri? {
+        val targetFile = File(path)
+        return Uri.fromFile(targetFile)
     }
 
 }

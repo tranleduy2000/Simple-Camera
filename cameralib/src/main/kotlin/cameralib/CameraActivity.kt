@@ -10,6 +10,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.provider.MediaStore
+import android.util.Log
 import android.view.*
 import android.widget.LinearLayout
 import androidx.constraintlayout.widget.ConstraintSet
@@ -44,6 +45,8 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
         const val VIDEO_MODE_INDEX = 0
         private const val MIN_SWIPE_DISTANCE_X = 100
         private const val TIMER_2_SECONDS = 2001
+        private const val TAG = "CameraActivity"
+
     }
 
     private val binding by viewBinding(CamlibActivityCameraBinding::inflate)
@@ -316,7 +319,6 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
             listener = this,
             mediaSoundHelper = mediaSoundHelper,
             outputUri = outputUri,
-            isThirdPartyIntent = isThirdPartyIntent,
             initInPhotoMode = isInPhotoMode,
         )
 
@@ -329,9 +331,6 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
         initFlashModeTransitionNames()
         initTimerModeTransitionNames()
 
-        if (isThirdPartyIntent) {
-            hideIntentButtons()
-        }
     }
 
     private fun initFlashModeTransitionNames() = binding.layoutFlash.apply {
@@ -661,6 +660,9 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
     }
 
     override fun onMediaSaved(uri: Uri) {
+        if (BuildConfig.DEBUG) {
+            Log.d(TAG, "onMediaSaved uri=${uri}")
+        }
         binding.layoutTop.changeResolution.isEnabled = true
         loadLastTakenMedia(uri)
         if (isImageCaptureIntent()) {

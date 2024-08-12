@@ -10,7 +10,7 @@ android {
     namespace = "cameralib.demo"
 
     defaultConfig {
-        applicationId = libs.versions.app.version.appId.get()
+        applicationId = "cameralib.demo"
         minSdk = 24
         targetSdk = 34
         versionName = "1.0"

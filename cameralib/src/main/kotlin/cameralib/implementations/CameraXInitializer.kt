@@ -3,22 +3,25 @@ package cameralib.implementations
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.view.PreviewView
+import cameralib.CameraLibConfiguration
 import cameralib.helpers.CameraErrorHandler
 import cameralib.helpers.MediaOutputHelper
 import cameralib.helpers.MediaSoundHelper
 
-class CameraXInitializer(private val activity: AppCompatActivity) {
+class CameraXInitializer(
+    private val activity: AppCompatActivity,
+    private val cameraLibConfiguration: CameraLibConfiguration = CameraLibConfiguration.fromIntent(activity.intent)
+) {
 
     fun createCameraXPreview(
         previewView: PreviewView,
         listener: CameraXPreviewListener,
         mediaSoundHelper: MediaSoundHelper,
         outputUri: Uri?,
-        isThirdPartyIntent: Boolean,
         initInPhotoMode: Boolean,
     ): CameraXPreview {
         val cameraErrorHandler = newCameraErrorHandler()
-        val mediaOutputHelper = newMediaOutputHelper(cameraErrorHandler, outputUri, isThirdPartyIntent)
+        val mediaOutputHelper = newMediaOutputHelper(cameraErrorHandler, outputUri)
         return CameraXPreview(
             activity,
             previewView,
@@ -33,12 +36,12 @@ class CameraXInitializer(private val activity: AppCompatActivity) {
     private fun newMediaOutputHelper(
         cameraErrorHandler: CameraErrorHandler,
         outputUri: Uri?,
-        isThirdPartyIntent: Boolean,
     ): MediaOutputHelper {
         return MediaOutputHelper(
             activity,
             cameraErrorHandler,
             outputUri,
+            cameraLibConfiguration.outputFolder
         )
     }
 

@@ -398,3 +398,17 @@ fun Context.getMimeTypeFromUri(uri: Uri): String {
     return mimetype
 }
 
+fun Context.getOutputMediaFilePath(mediaStorageDir: File, isPhoto: Boolean): String {
+    if (!mediaStorageDir.exists()) {
+        if (!mediaStorageDir.mkdirs()) {
+            return ""
+        }
+    }
+
+    val mediaName = getRandomMediaName(isPhoto)
+    return if (isPhoto) {
+        "${mediaStorageDir.path}/$mediaName.jpg"
+    } else {
+        "${mediaStorageDir.path}/$mediaName.mp4"
+    }
+}

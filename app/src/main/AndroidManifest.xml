@@ -29,10 +29,8 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="cameralib.CameraActivity"
-            android:exported="true"
-            android:screenOrientation="portrait"
-            android:showOnLockScreen="true">
+            android:name="cameralib.demo.MainActivity"
+            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,12 +39,6 @@
 
         </activity>
 
-        <activity
-            android:name="cameralib.CameraSettingsActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/camlib_settings">
-
-        </activity>
 
         <provider
             android:name="androidx.core.content.FileProvider"
