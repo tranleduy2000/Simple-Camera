@@ -46,7 +46,8 @@ class VideoQualityManager(
     fun getUserSelectedQuality(cameraSelector: CameraSelector): VideoQuality {
         val isFrontCamera = cameraSelector == CameraSelector.DEFAULT_FRONT_CAMERA
         val selectionIndex = mediaSizeStore.getCurrentSizeIndex(isPhotoCapture = false, isFrontCamera = isFrontCamera).coerceAtLeast(0)
-        return getSupportedQualities(cameraSelector).getOrElse(selectionIndex) { VideoQuality.HD }
+        val supportedQualities = getSupportedQualities(cameraSelector)
+        return supportedQualities.getOrElse(selectionIndex) { VideoQuality.HD }
     }
 
     fun getSupportedQualities(cameraSelector: CameraSelector): List<VideoQuality> {

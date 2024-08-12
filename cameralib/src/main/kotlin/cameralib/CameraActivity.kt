@@ -63,6 +63,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
     private var mIsHardwareShutterHandled = false
     private var mLastHandledOrientation = 0
     private var countDownTimer: CountDownTimer? = null
+    private val configuration: CameraLibConfiguration by lazy { CameraLibConfiguration.fromIntent(intent) }
 
     private val tabSelectedListener = object : TabSelectedListener {
         override fun onTabSelected(tab: TabLayout.Tab) {
@@ -243,13 +244,15 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
     }
 
     private fun isInPhotoMode(): Boolean {
-        return mPreview?.isInPhotoMode() ?: if (isVideoCaptureIntent()) {
-            false
-        } else if (isImageCaptureIntent()) {
-            true
-        } else {
-            config.initPhotoMode
-        }
+        return mPreview?.isInPhotoMode()
+            ?: if (isVideoCaptureIntent()) {
+                false
+            } else if (isImageCaptureIntent()) {
+                true
+            } else {
+                configuration.initCapturePhotoMode
+                //config.initPhotoMode
+            }
     }
 
 //    private fun handleStoragePermission(callback: (granted: Boolean) -> Unit) {
@@ -264,8 +267,6 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
 //            handlePermission(PERMISSION_WRITE_STORAGE, callback)
 //        }
 //    }
-
-    private fun isThirdPartyIntent() = isVideoCaptureIntent() || isImageCaptureIntent()
 
     private fun isImageCaptureIntent(): Boolean = intent?.action == MediaStore.ACTION_IMAGE_CAPTURE || intent?.action == MediaStore.ACTION_IMAGE_CAPTURE_SECURE
 
@@ -313,7 +314,6 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
         }
 
         val outputUri = intent.extras?.get(MediaStore.EXTRA_OUTPUT) as? Uri
-        val isThirdPartyIntent = isThirdPartyIntent()
         mPreview = CameraXInitializer(this).createCameraXPreview(
             binding.previewView,
             listener = this,
@@ -447,13 +447,13 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
     }
 
     private fun onSwipeLeft() {
-        if (!isThirdPartyIntent() && binding.cameraModeHolder.isVisible()) {
+        if (binding.cameraModeHolder.isVisible()) {
             selectPhotoTab(triggerListener = true)
         }
     }
 
     private fun onSwipeRight() {
-        if (!isThirdPartyIntent() && binding.cameraModeHolder.isVisible()) {
+        if (binding.cameraModeHolder.isVisible()) {
             selectVideoTab(triggerListener = true)
         }
     }
