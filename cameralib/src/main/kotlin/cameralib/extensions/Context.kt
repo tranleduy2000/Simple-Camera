@@ -52,10 +52,6 @@ fun getRandomMediaName(isPhoto: Boolean): String {
     }
 }
 
-fun Context.checkLocationPermission(): Boolean {
-    return hasPermission(PERMISSION_ACCESS_FINE_LOCATION) || hasPermission(PERMISSION_ACCESS_COARSE_LOCATION)
-}
-
 fun Context.hasPermission(permId: Int) = ContextCompat.checkSelfPermission(this, getPermissionString(permId)) == PackageManager.PERMISSION_GRANTED
 
 fun Context.hasAllPermissions(permIds: Collection<Int>) = permIds.all(this::hasPermission)
@@ -84,7 +80,6 @@ fun Context.getPermissionString(id: Int) = when (id) {
     PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED -> Manifest.permission.READ_MEDIA_VISUAL_USER_SELECTED
     PERMISSION_ACCESS_COARSE_LOCATION -> Manifest.permission.ACCESS_COARSE_LOCATION
     PERMISSION_ACCESS_FINE_LOCATION -> Manifest.permission.ACCESS_FINE_LOCATION
-    PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED -> Manifest.permission.READ_MEDIA_VISUAL_USER_SELECTED
     else -> ""
 }
 

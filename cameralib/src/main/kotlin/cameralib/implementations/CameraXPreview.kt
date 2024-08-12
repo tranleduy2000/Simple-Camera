@@ -113,7 +113,6 @@ class CameraXPreview(
     private var isPhotoCapture = initInPhotoMode
     private var lastRotation = 0
     private var lastCameraStartTime = 0L
-    private var simpleLocationManager: SimpleLocationManager? = null
 
     init {
         bindToLifeCycle()
@@ -345,34 +344,8 @@ class CameraXPreview(
 
     override fun onResume(owner: LifecycleOwner) {
         super.onResume(owner)
-        if (config.savePhotoVideoLocation) {
-            if (simpleLocationManager == null) {
-                simpleLocationManager = SimpleLocationManager(activity)
-            }
-            //requestLocationUpdates()
-        }
     }
 
-//    private fun requestLocationUpdates() {
-//        activity.apply {
-//            if (checkLocationPermission()) {
-//                simpleLocationManager?.requestLocationUpdates()
-//            } else {
-//                handlePermission(PERMISSION_ACCESS_FINE_LOCATION) { _ ->
-//                    if (checkLocationPermission()) {
-//                        simpleLocationManager?.requestLocationUpdates()
-//                    } else {
-//                        config.savePhotoVideoLocation = false
-//                    }
-//                }
-//            }
-//        }
-//    }
-
-    override fun onPause(owner: LifecycleOwner) {
-        super.onPause(owner)
-        simpleLocationManager?.dropLocationUpdates()
-    }
 
     override fun onStop(owner: LifecycleOwner) {
         orientationEventListener.disable()
@@ -494,9 +467,6 @@ class CameraXPreview(
 
         val metadata = Metadata().apply {
             isReversedHorizontal = isFrontCameraInUse() && config.flipPhotos
-            if (config.savePhotoVideoLocation) {
-                location = simpleLocationManager?.getLocation()
-            }
         }
 
         val mediaOutput = mediaOutputHelper.getImageMediaOutput()
@@ -597,24 +567,16 @@ class CameraXPreview(
         val recording = when (val mediaOutput = mediaOutputHelper.getVideoMediaOutput()) {
             is MediaOutput.FileDescriptorMediaOutput -> {
                 FileDescriptorOutputOptions.Builder(mediaOutput.fileDescriptor).apply {
-                    if (config.savePhotoVideoLocation) {
-                        setLocation(simpleLocationManager?.getLocation())
-                    }
                 }.build().let { videoCapture!!.output.prepareRecording(activity, it) }
             }
             is MediaOutput.FileMediaOutput -> {
                 FileOutputOptions.Builder(mediaOutput.file).apply {
-                    if (config.savePhotoVideoLocation) {
-                        setLocation(simpleLocationManager?.getLocation())
-                    }
+
                 }.build().let { videoCapture!!.output.prepareRecording(activity, it) }
             }
             is MediaOutput.MediaStoreOutput -> {
                 MediaStoreOutputOptions.Builder(contentResolver, mediaOutput.contentUri).apply {
                     setContentValues(mediaOutput.contentValues)
-                    if (config.savePhotoVideoLocation) {
-                        setLocation(simpleLocationManager?.getLocation())
-                    }
                 }.build().let { videoCapture!!.output.prepareRecording(activity, it) }
             }
         }
