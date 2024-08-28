@@ -16,6 +16,7 @@ import android.widget.LinearLayout
 import androidx.constraintlayout.widget.ConstraintSet
 import androidx.core.content.ContextCompat
 import androidx.core.view.*
+import androidx.fragment.app.FragmentActivity
 import androidx.transition.*
 import cameralib.databinding.CamlibActivityCameraBinding
 import cameralib.extensions.*
@@ -47,6 +48,7 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
         private const val TIMER_2_SECONDS = 2001
         private const val TAG = "CameraActivity"
 
+        var ON_PREVIEW_THUMB_CLICK: ((FragmentActivity, Uri) -> Unit)? = null
     }
 
     private val binding by viewBinding(CamlibActivityCameraBinding::inflate)
@@ -465,8 +467,11 @@ class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
 
 
     private fun showLastMediaPreview() {
-        if (mPreviewUri != null) {
-            val path = applicationContext.getRealPathFromURI(mPreviewUri!!) ?: mPreviewUri!!.toString()
+        val previewUri = this.mPreviewUri ?: return;
+        if (ON_PREVIEW_THUMB_CLICK != null) {
+            ON_PREVIEW_THUMB_CLICK?.invoke(this, previewUri)
+        } else {
+            val path = applicationContext.getRealPathFromURI(previewUri) ?: previewUri.toString()
             openPathIntent(path, false)
         }
     }
