@@ -40,7 +40,7 @@ import java.util.concurrent.TimeUnit
 import kotlin.math.abs
 
 class CameraActivity : BaseSimpleActivity(), CameraXPreviewListener {
-    private companion object {
+    companion object {
         const val CAPTURE_ANIMATION_DURATION = 500L
         const val PHOTO_MODE_INDEX = 1
         const val VIDEO_MODE_INDEX = 0
