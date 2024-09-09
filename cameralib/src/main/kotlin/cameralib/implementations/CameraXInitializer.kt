@@ -1,15 +1,15 @@
 package cameralib.implementations
 
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.view.PreviewView
+import androidx.fragment.app.FragmentActivity
 import cameralib.CameraLibConfiguration
 import cameralib.helpers.CameraErrorHandler
 import cameralib.helpers.MediaOutputHelper
 import cameralib.helpers.MediaSoundHelper
 
 class CameraXInitializer(
-    private val activity: AppCompatActivity,
+    private val activity: FragmentActivity,
     private val cameraLibConfiguration: CameraLibConfiguration = CameraLibConfiguration.fromIntent(activity.intent)
 ) {
 

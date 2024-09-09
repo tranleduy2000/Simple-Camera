@@ -4,14 +4,14 @@ import android.content.Context
 import android.graphics.ImageFormat
 import android.hardware.camera2.CameraCharacteristics
 import android.hardware.camera2.CameraManager
-import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.CameraSelector
+import androidx.fragment.app.FragmentActivity
 import cameralib.extensions.config
 import cameralib.extensions.showErrorToast
 import cameralib.models.CameraSelectorImageQualities
 import cameralib.models.MySize
 
-class ImageQualityManager(private val activity: AppCompatActivity) {
+class ImageQualityManager(private val activity: FragmentActivity) {
     companion object {
         private val CAMERA_LENS = arrayOf(CameraCharacteristics.LENS_FACING_FRONT, CameraCharacteristics.LENS_FACING_BACK)
     }

@@ -8,7 +8,6 @@ import android.view.View
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.coordinatorlayout.widget.CoordinatorLayout
-import androidx.core.app.ActivityCompat
 import androidx.core.view.WindowInsetsCompat
 import cameralib.extensions.*
 import hideKeyboard
@@ -79,37 +78,6 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         (mainCoordinatorLayout?.layoutParams as? FrameLayout.LayoutParams)?.topMargin = top
     }
 
-    fun handlePermission(permissionId: Int, callback: (granted: Boolean) -> Unit) {
-        actionOnPermission = null
-        if (hasPermission(permissionId)) {
-            callback(true)
-        } else {
-            isAskingPermissions = true
-            actionOnPermission = callback
-            ActivityCompat.requestPermissions(this, arrayOf(getPermissionString(permissionId)), GENERIC_PERM_HANDLER)
-        }
-    }
-
-//    fun handlePartialMediaPermissions(permissionIds: Collection<Int>, force: Boolean = false, callback: (granted: Boolean) -> Unit) {
-//        actionOnPermission = null
-//        if (isUpsideDownCakePlus()) {
-//            if (hasPermission(PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED) && !force) {
-//                callback(true)
-//            } else {
-//                isAskingPermissions = true
-//                actionOnPermission = callback
-//                ActivityCompat.requestPermissions(this, permissionIds.map { getPermissionString(it) }.toTypedArray(), GENERIC_PERM_HANDLER)
-//            }
-//        } else {
-//            if (hasAllPermissions(permissionIds)) {
-//                callback(true)
-//            } else {
-//                isAskingPermissions = true
-//                actionOnPermission = callback
-//                ActivityCompat.requestPermissions(this, permissionIds.map { getPermissionString(it) }.toTypedArray(), GENERIC_PERM_HANDLER)
-//            }
-//        }
-//    }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)

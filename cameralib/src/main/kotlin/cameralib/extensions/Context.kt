@@ -1,6 +1,5 @@
 package cameralib.extensions
 
-import android.Manifest
 import android.app.Activity
 import android.content.ContentResolver
 import android.content.ContentUris
@@ -53,37 +52,9 @@ fun getRandomMediaName(isPhoto: Boolean): String {
     }
 }
 
-fun Context.hasPermission(permId: Int) = ContextCompat.checkSelfPermission(this, getPermissionString(permId)) == PackageManager.PERMISSION_GRANTED
+fun Context.hasPermission(permId: String) = ContextCompat.checkSelfPermission(this, (permId)) == PackageManager.PERMISSION_GRANTED
 
-fun Context.hasAllPermissions(permIds: Collection<Int>) = permIds.all(this::hasPermission)
-
-fun Context.getPermissionString(id: Int) = when (id) {
-    PERMISSION_READ_STORAGE -> Manifest.permission.READ_EXTERNAL_STORAGE
-    PERMISSION_WRITE_STORAGE -> Manifest.permission.WRITE_EXTERNAL_STORAGE
-    PERMISSION_CAMERA -> Manifest.permission.CAMERA
-    PERMISSION_RECORD_AUDIO -> Manifest.permission.RECORD_AUDIO
-    PERMISSION_READ_CONTACTS -> Manifest.permission.READ_CONTACTS
-    PERMISSION_WRITE_CONTACTS -> Manifest.permission.WRITE_CONTACTS
-    PERMISSION_READ_CALENDAR -> Manifest.permission.READ_CALENDAR
-    PERMISSION_WRITE_CALENDAR -> Manifest.permission.WRITE_CALENDAR
-    PERMISSION_CALL_PHONE -> Manifest.permission.CALL_PHONE
-    PERMISSION_READ_CALL_LOG -> Manifest.permission.READ_CALL_LOG
-    PERMISSION_WRITE_CALL_LOG -> Manifest.permission.WRITE_CALL_LOG
-    PERMISSION_GET_ACCOUNTS -> Manifest.permission.GET_ACCOUNTS
-    PERMISSION_READ_SMS -> Manifest.permission.READ_SMS
-    PERMISSION_SEND_SMS -> Manifest.permission.SEND_SMS
-    PERMISSION_READ_PHONE_STATE -> Manifest.permission.READ_PHONE_STATE
-    PERMISSION_MEDIA_LOCATION -> if (isQPlus()) Manifest.permission.ACCESS_MEDIA_LOCATION else ""
-    PERMISSION_POST_NOTIFICATIONS -> Manifest.permission.POST_NOTIFICATIONS
-    PERMISSION_READ_MEDIA_IMAGES -> Manifest.permission.READ_MEDIA_IMAGES
-    PERMISSION_READ_MEDIA_VIDEO -> Manifest.permission.READ_MEDIA_VIDEO
-    PERMISSION_READ_MEDIA_AUDIO -> Manifest.permission.READ_MEDIA_AUDIO
-    PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED -> Manifest.permission.READ_MEDIA_VISUAL_USER_SELECTED
-    PERMISSION_ACCESS_COARSE_LOCATION -> Manifest.permission.ACCESS_COARSE_LOCATION
-    PERMISSION_ACCESS_FINE_LOCATION -> Manifest.permission.ACCESS_FINE_LOCATION
-    else -> ""
-}
-
+fun Context.hasAllPermissions(permIds: Collection<String>) = permIds.all(this::hasPermission)
 
 fun Context.showErrorToast(msg: String, length: Int = Toast.LENGTH_LONG) {
     toast(String.format(getString(R.string.camlib_error), msg), length)

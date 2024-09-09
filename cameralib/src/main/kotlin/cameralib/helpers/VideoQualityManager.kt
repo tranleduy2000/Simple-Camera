@@ -1,10 +1,10 @@
 package cameralib.helpers
 
-import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.CameraSelector
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.camera.video.Quality
 import androidx.camera.video.QualitySelector
+import androidx.fragment.app.FragmentActivity
 import cameralib.extensions.config
 import cameralib.extensions.showErrorToast
 import cameralib.extensions.toVideoQuality
@@ -12,7 +12,7 @@ import cameralib.models.CameraSelectorVideoQualities
 import cameralib.models.VideoQuality
 
 class VideoQualityManager(
-    private val activity: AppCompatActivity,
+    private val activity: FragmentActivity,
 ) {
     companion object {
         private val QUALITIES = listOf(Quality.UHD, Quality.FHD, Quality.HD, Quality.SD)

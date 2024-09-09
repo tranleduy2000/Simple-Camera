@@ -5,13 +5,14 @@ import android.net.Uri
 import android.os.Environment
 import android.provider.MediaStore
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.FragmentActivity
 import cameralib.extensions.getOutputMediaFilePath
 import cameralib.extensions.getRandomMediaName
 import cameralib.models.MediaOutput
 import java.io.File
 
 class MediaOutputHelper(
-    private val activity: AppCompatActivity,
+    private val activity: FragmentActivity,
     private val errorHandler: CameraErrorHandler,
     private val outputUri: Uri?,
     private val outputFolder: File?

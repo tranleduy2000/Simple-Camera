@@ -41,32 +41,6 @@ fun compensateDeviceRotation(orientation: Int) = when (orientation) {
 }
 
 
-// permissions
-const val PERMISSION_READ_STORAGE = 1
-const val PERMISSION_WRITE_STORAGE = 2
-const val PERMISSION_CAMERA = 3
-const val PERMISSION_RECORD_AUDIO = 4
-const val PERMISSION_READ_CONTACTS = 5
-const val PERMISSION_WRITE_CONTACTS = 6
-const val PERMISSION_READ_CALENDAR = 7
-const val PERMISSION_WRITE_CALENDAR = 8
-const val PERMISSION_CALL_PHONE = 9
-const val PERMISSION_READ_CALL_LOG = 10
-const val PERMISSION_WRITE_CALL_LOG = 11
-const val PERMISSION_GET_ACCOUNTS = 12
-const val PERMISSION_READ_SMS = 13
-const val PERMISSION_SEND_SMS = 14
-const val PERMISSION_READ_PHONE_STATE = 15
-const val PERMISSION_MEDIA_LOCATION = 16
-const val PERMISSION_POST_NOTIFICATIONS = 17
-const val PERMISSION_READ_MEDIA_IMAGES = 18
-const val PERMISSION_READ_MEDIA_VIDEO = 19
-const val PERMISSION_READ_MEDIA_AUDIO = 20
-const val PERMISSION_ACCESS_COARSE_LOCATION = 21
-const val PERMISSION_ACCESS_FINE_LOCATION = 22
-const val PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED = 23
-
-
 @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.Q)
 fun isQPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q
 
@@ -234,7 +208,6 @@ const val AUTO_BACKUP = "auto_backup"
 const val AUTO_BACKUP_FOLDER = "auto_backup_folder"
 const val AUTO_BACKUP_FILENAME = "auto_backup_filename"
 const val LAST_AUTO_BACKUP_TIME = "last_auto_backup_time"
-
 
 
 const val DATE_FORMAT_ONE = "dd.MM.yyyy"

@@ -2,6 +2,7 @@ package cameralib
 
 import android.content.Context
 import android.content.Intent
+import android.os.Bundle
 import java.io.File
 
 class CameraLibConfiguration(val outputFolder: File?, val initCapturePhotoMode: Boolean = true) {
@@ -11,10 +12,14 @@ class CameraLibConfiguration(val outputFolder: File?, val initCapturePhotoMode: 
         const val EXTRA_INIT_CAPTURE_PHOTO_MODE = "Camlib.EXTRA_INIT_CAPTURE_PHOTO_MODE";
 
         fun fromIntent(intent: Intent): CameraLibConfiguration {
-            val outputFolder = if (intent.hasExtra(EXTRA_OUTPUT_FOLDER)) File(intent.getStringExtra(EXTRA_OUTPUT_FOLDER)!!) else null
+            return fromBundle(intent.extras ?: Bundle())
+        }
+
+        fun fromBundle(intent: Bundle): CameraLibConfiguration {
+            val outputFolder = if (intent.containsKey(EXTRA_OUTPUT_FOLDER)) File(intent.getString(EXTRA_OUTPUT_FOLDER)!!) else null
             return CameraLibConfiguration(
                 outputFolder = outputFolder,
-                initCapturePhotoMode = intent.getBooleanExtra(EXTRA_INIT_CAPTURE_PHOTO_MODE, false)
+                initCapturePhotoMode = intent.getBoolean(EXTRA_INIT_CAPTURE_PHOTO_MODE, false)
             )
         }
     }

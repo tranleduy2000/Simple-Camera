@@ -10,7 +10,6 @@ import android.util.Rational
 import android.util.Size
 import android.view.*
 import android.view.GestureDetector.SimpleOnGestureListener
-import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.*
 import androidx.camera.core.ImageCapture.*
 import androidx.camera.lifecycle.ProcessCameraProvider
@@ -19,6 +18,7 @@ import androidx.camera.view.PreviewView
 import androidx.camera.view.PreviewView.ScaleType
 import androidx.core.content.ContextCompat
 import androidx.core.view.doOnLayout
+import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
@@ -34,7 +34,7 @@ import cameralib.models.ResolutionOption
 import com.bumptech.glide.load.ImageHeaderParser.UNKNOWN_ORIENTATION
 
 class CameraXPreview(
-    private val activity: AppCompatActivity,
+    private val activity: FragmentActivity,
     private val previewView: PreviewView,
     private val mediaSoundHelper: MediaSoundHelper,
     private val mediaOutputHelper: MediaOutputHelper,

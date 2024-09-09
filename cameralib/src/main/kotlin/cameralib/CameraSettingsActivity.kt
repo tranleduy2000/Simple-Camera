@@ -33,9 +33,8 @@ class CameraSettingsActivity : BaseSimpleActivity() {
 
     private fun setupSound() = binding.apply {
         settingsSound.isChecked = config.isSoundEnabled
-        settingsSoundHolder.setOnClickListener {
-            settingsSound.toggle()
-            config.isSoundEnabled = settingsSound.isChecked
+        settingsSound.setOnCheckedChangeListener { _, isChecked ->
+            config.isSoundEnabled = isChecked
         }
     }
 
