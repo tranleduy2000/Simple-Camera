@@ -1,5 +1,6 @@
 package cameralib
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -24,15 +25,15 @@ class CameraLibConfiguration(val outputFolder: File?, val initCapturePhotoMode: 
         }
     }
 
-    private fun writeDataToIntent(bundle: Intent) {
+    fun writeDataToIntent(bundle: Intent) {
         if (outputFolder != null) {
             bundle.putExtra(EXTRA_OUTPUT_FOLDER, outputFolder.absolutePath);
         }
         bundle.putExtra(EXTRA_INIT_CAPTURE_PHOTO_MODE, initCapturePhotoMode);
     }
 
-    fun toIntent(context: Context): Intent {
-        return Intent(context, CameraActivity::class.java).apply {
+    fun toIntent(context: Context, activityClass: Class<out Activity> = CameraActivity::class.java): Intent {
+        return Intent(context, activityClass).apply {
             this@CameraLibConfiguration.writeDataToIntent(this)
         }
     }
