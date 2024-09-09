@@ -51,7 +51,9 @@ class CameraActivity : BaseSimpleActivity() {
         window?.navigationBarColor = ContextCompat.getColor(this, android.R.color.transparent)
         window?.statusBarColor = ContextCompat.getColor(this, android.R.color.transparent)
 
-        window?.isNavigationBarContrastEnforced = false;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            window?.isNavigationBarContrastEnforced = false;
+        }
     }
 
     override fun onKeyDown(keyCode: Int, event: KeyEvent): Boolean {
