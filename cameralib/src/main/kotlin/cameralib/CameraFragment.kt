@@ -14,6 +14,8 @@ import android.provider.MediaStore
 import android.util.Log
 import android.view.*
 import android.widget.LinearLayout
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.constraintlayout.widget.ConstraintSet
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.Insets
@@ -497,9 +499,16 @@ class CameraFragment : BaseCameraFragment(), CameraXPreviewListener {
         resetViewsOnTimerFinish()
     }
 
+
+    var settingActivityCallback = {}
+
+    private var settingsLauncher: ActivityResultLauncher<Intent> = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
+        settingActivityCallback()
+    }
+
     private fun launchSettings() {
         val intent = Intent(applicationContext, CameraSettingsActivity::class.java)
-        startActivity(intent)
+        settingsLauncher.launch(intent)
     }
 
     override fun onInitPhotoMode() {

@@ -45,7 +45,12 @@ abstract class BaseCameraFragment : Fragment() {
     private var actionOnPermission: ((granted: Boolean) -> Unit)? = null
     var isAskingPermissions = false
 
+    var onPermissionRequestActivityCallback = {
+
+    }
+
     private var permissionLauncher: ActivityResultLauncher<String> = registerForActivityResult(RequestPermission()) {
+        onPermissionRequestActivityCallback()
         actionOnPermission?.invoke(it)
     }
 

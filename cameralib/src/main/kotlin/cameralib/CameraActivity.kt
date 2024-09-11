@@ -1,5 +1,6 @@
 package cameralib
 
+import android.annotation.SuppressLint
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
@@ -14,6 +15,7 @@ class CameraActivity : BaseSimpleActivity() {
 
     private var cameraFragment: CameraFragment? = null
 
+    @SuppressLint("CommitTransaction")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
