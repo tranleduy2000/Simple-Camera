@@ -123,6 +123,27 @@ class CameraFragment : BaseCameraFragment(), CameraXPreviewListener {
             toggleActionButtons(enabled = true)
             mOrientationEventListener.enable()
         }
+
+        ViewCompat.setOnApplyWindowInsetsListener(binding.viewHolder) { v, windowInsets ->
+
+            val rootWindowInsets = ViewCompat.getRootWindowInsets(v)
+            val bars: Insets? = rootWindowInsets?.getInsets(WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout())
+
+            val safeInsetTop = bars?.top ?: 0
+            val safeInsetBottom = bars?.bottom ?: 0
+
+            binding.topOptions.updateLayoutParams<ViewGroup.MarginLayoutParams> {
+                topMargin = safeInsetTop
+            }
+
+            val marginBottom = safeInsetBottom + requireContext().navigationBarHeight + resources.getDimensionPixelSize(R.dimen.camlib_bigger_margin)
+
+            binding.shutter.updateLayoutParams<ViewGroup.MarginLayoutParams> {
+                bottomMargin = marginBottom
+            }
+
+            windowInsets
+        }
     }
 
     override fun onPause() {
@@ -287,26 +308,6 @@ class CameraFragment : BaseCameraFragment(), CameraXPreviewListener {
             timerScene = Scene(topOptions, layoutTimer.timerToggleGroup)
         }
 
-        ViewCompat.setOnApplyWindowInsetsListener(binding.viewHolder) { v, windowInsets ->
-
-            val rootWindowInsets = ViewCompat.getRootWindowInsets(v)
-            val bars: Insets? = rootWindowInsets?.getInsets(WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout())
-
-            val safeInsetTop = bars?.top ?: 0
-            val safeInsetBottom = bars?.bottom ?: 0
-
-            binding.topOptions.updateLayoutParams<ViewGroup.MarginLayoutParams> {
-                topMargin = safeInsetTop
-            }
-
-            val marginBottom = safeInsetBottom + requireContext().navigationBarHeight + resources.getDimensionPixelSize(R.dimen.camlib_bigger_margin)
-
-            binding.shutter.updateLayoutParams<ViewGroup.MarginLayoutParams> {
-                bottomMargin = marginBottom
-            }
-
-            windowInsets
-        }
 
         if (isInPhotoMode) {
             selectPhotoTab()
