@@ -3,7 +3,7 @@
 
     <application>
         <activity
-            android:name=".CameraActivity"
+            android:name="cameralib.CameraActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
 
