@@ -8,6 +8,16 @@
     android:orientation="horizontal">
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/back_button"
+        style="@style/CamlibWidget.App.Button.OutlineButton.IconOnly"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="@dimen/camlib_normal_margin"
+        app:icon="@drawable/camlib_round_arrow_back_24"
+        app:iconTint="@color/camlib_camera_option_color" />
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/toggle_timer"
         style="@style/CamlibWidget.App.Button.OutlineButton.IconOnly"
         android:layout_width="0dp"

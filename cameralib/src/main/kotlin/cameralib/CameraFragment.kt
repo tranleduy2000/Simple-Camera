@@ -357,6 +357,10 @@ class CameraFragment : BaseCameraFragment(), CameraXPreviewListener {
         lastPhotoVideoPreview.setOnClickListener { showLastMediaPreview() }
 
         layoutTop.apply {
+
+            backButton.setOnClickListener { activity?.onBackPressedDispatcher?.onBackPressed() }
+            backButton.isVisible = configuration.showBackButton
+
             toggleFlash.setOnClickListener { mPreview!!.handleFlashlightClick() }
             toggleTimer.setOnClickListener {
                 val transitionSet = createTransition()
