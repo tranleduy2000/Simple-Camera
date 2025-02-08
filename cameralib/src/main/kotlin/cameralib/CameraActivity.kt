@@ -17,9 +17,10 @@ class CameraActivity : BaseSimpleActivity() {
 
     @SuppressLint("CommitTransaction")
     override fun onCreate(savedInstanceState: Bundle?) {
+        enableFullyEdgeToEdge()
+
         super.onCreate(savedInstanceState)
 
-        enableFullyEdgeToEdge()
         setContentView(R.layout.camlib_activity_camera)
 
         cameraFragment = supportFragmentManager.findFragmentByTag("CameraFragment") as? CameraFragment
