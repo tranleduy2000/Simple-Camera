@@ -23,7 +23,7 @@ class CameraActivity : BaseSimpleActivity() {
 
         setContentView(R.layout.camlib_activity_camera)
 
-        cameraFragment = supportFragmentManager.findFragmentByTag("CameraFragment") as? CameraFragment
+        cameraFragment = supportFragmentManager.findFragmentByTag("CAMERA_FRAGMENT") as? CameraFragment
             ?: CameraFragment.newInstance(intent.extras)
         supportFragmentManager.beginTransaction()
             .replace(R.id.camlib_camera_fragment, cameraFragment!!)

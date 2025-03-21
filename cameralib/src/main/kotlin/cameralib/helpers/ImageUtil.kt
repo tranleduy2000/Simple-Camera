@@ -7,7 +7,7 @@ import java.io.ByteArrayOutputStream
 import java.io.IOException
 
 /**
- * Utility class for image related operations.
+ * Utility clazz for image related operations.
  * @see androidx.camera.core.internal.utils.ImageUtil
  */
 object ImageUtil {
