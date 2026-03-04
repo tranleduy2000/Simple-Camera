@@ -16,6 +16,7 @@ import com.bumptech.glide.signature.ObjectKey
 import java.io.File
 import java.text.Normalizer
 import java.util.Locale
+import java.util.Locale.getDefault
 import java.util.regex.Pattern
 
 
@@ -61,7 +62,7 @@ fun String.isAudioSlow() = isAudioFast() || getMimeType().startsWith("audio") ||
 
 fun String.canModifyEXIF() = extensionsSupportingEXIF.any { endsWith(it, true) }
 
-fun String.getCompressionFormat() = when (getFilenameExtension().toLowerCase()) {
+fun String.getCompressionFormat() = when (getFilenameExtension().lowercase(Locale.US)) {
     "png" -> Bitmap.CompressFormat.PNG
     "webp" -> Bitmap.CompressFormat.WEBP
     else -> Bitmap.CompressFormat.JPEG
@@ -209,7 +210,7 @@ fun String.trimToComparableNumber(): String {
 }
 
 // get the contact names first letter at showing the placeholder without image
-fun String.getNameLetter() = normalizeString().toCharArray().getOrNull(0)?.toString()?.toUpperCase(Locale.getDefault()) ?: "A"
+fun String.getNameLetter() = normalizeString().toCharArray().getOrNull(0)?.toString()?.lowercase(Locale.US) ?: "A"
 
 fun String.normalizePhoneNumber() = PhoneNumberUtils.normalizeNumber(this)
 
@@ -860,7 +861,7 @@ fun String.getMimeType(): String {
         put("zip", "application/zip")
     }
 
-    return typesMap[getFilenameExtension().toLowerCase()] ?: ""
+    return typesMap[getFilenameExtension().lowercase(Locale.US)] ?: ""
 }
 
 fun String.isBlockedNumberPattern() = contains("*")
